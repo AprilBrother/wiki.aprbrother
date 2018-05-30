@@ -7,6 +7,7 @@
         "build": "gitbook build"
     },
     "dependencies": {
-        "gitbook-plugin-expandable-chapters-small": "^0.1.7"
+        "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+        "gulp": "^3.9.1"
     }
 }
