@@ -1,4 +1,4 @@
-[← APixel Main Page](/APixel "wikilink")
+[← APixel Main Page](APixel.md)
 
 ## About The Project
 

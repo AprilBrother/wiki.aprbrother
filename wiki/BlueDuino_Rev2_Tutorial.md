@@ -1,9 +1,9 @@
-[← BlueDuino Rev2 Main Page](/BlueDuino_rev2 "wikilink")
+[← BlueDuino Rev2 Main Page](BlueDuino_rev2.md)
 
 ## Hardware
 
   - [How to upgrade the firmware for cc254x
-    module](/BlueDuino_R2_How_to_upgrade_firmware_for_CC254X_module "wikilink")
+    module](BlueDuino_R2_How_to_upgrade_firmware_for_CC254X_module.md)
 
 ## Programming
 
@@ -29,7 +29,7 @@
 
   - [A DHT11 temperature/humidity logger with iOS display at
     Instructables](http://www.instructables.com/id/Arduino-BLE-TemperatureHumidity-logger-with-DHT11-/)
-  - [BLE Chat](/BlueDuino_Rev2_Chat "wikilink") A simple demo for BLE
+  - [BLE Chat](BlueDuino_Rev2_Chat.md) A simple demo for BLE
     chat.
   - [HIDKeyboard](https://github.com/AprilBrother/BlueDuino-Library/tree/master/examples/hidKeyboard)
   - [How to make a iBeacon

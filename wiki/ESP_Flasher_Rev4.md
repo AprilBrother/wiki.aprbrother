@@ -1,4 +1,4 @@
-[← ESP Flasher Main Page](/ESP_Flasher "wikilink")
+[← ESP Flasher Main Page](ESP_Flasher.md)
 
 ### What's it
 
@@ -72,6 +72,6 @@ For ESP32
 
   - [Schematic](https://github.com/AprilBrother/esp-flasher/tree/master/schematic)
   - [Setup Arduino IDE for programming ESP8266 /
-    ESP32](/ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP "wikilink")
+    ESP32](ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP.md)
   - [Driver for
     CP210X](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx)

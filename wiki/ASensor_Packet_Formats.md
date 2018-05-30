@@ -1,4 +1,4 @@
-[← ASensor Main Page](/ASensor "wikilink")
+[← ASensor Main Page](ASensor.md)
 
 ## Sensor Mode
 

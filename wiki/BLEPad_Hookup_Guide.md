@@ -1,4 +1,4 @@
-[← BLEPad Main Page](/BLEPad "wikilink")
+[← BLEPad Main Page](BLEPad.md)
 
 ## Hardware Overview
 

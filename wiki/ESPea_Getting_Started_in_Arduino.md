@@ -1,4 +1,4 @@
-[← ESPea Main Page](/ESPea "wikilink")
+[← ESPea Main Page](ESPea.md)
 
 In order to upload code to the ESP8266 and use the serial console,
 connect any data-capable micro USB cable to the ESPea and the other side

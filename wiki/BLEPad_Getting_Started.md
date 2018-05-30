@@ -1,4 +1,4 @@
-[← BLEPad Main Page](/BLEPad "wikilink")
+[← BLEPad Main Page](BLEPad.md)
 
 To program the BLEPad, connect it to the computer with a Micro-USB
 cable. Select "LilyPad Arduino USB" from the Tools \> Board menu.

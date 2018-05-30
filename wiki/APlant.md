@@ -87,6 +87,6 @@ filter "aplant" to support the sensor.
 
 ## Documents And Links
 
-  - [APlant Payload Format](/APlant_Payload_Format "wikilink")
+  - [APlant Payload Format](APlant_Payload_Format.md)
   - [Support Forum](http://bbs.aprbrother.com)
 

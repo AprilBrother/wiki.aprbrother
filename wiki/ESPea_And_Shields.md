@@ -1,18 +1,18 @@
 ## ESPea
 
-  - [ESPea](/ESPea "wikilink") - NodeMCU compatible dev board
-  - [ESPea32](/ESPea32 "wikilink") - ESP32 development board
+  - [ESPea](ESPea.md) - NodeMCU compatible dev board
+  - [ESPea32](ESPea32.md) - ESP32 development board
 
 ## Shields For ESPea
 
-  - [Micro SD Shield](/ESPea_Micro_SD_Shield "wikilink")
-  - [Lora Shield](/ESPea_Lora_Shield "wikilink")
-  - [Dual Shield](/ESPea_Dual_Shield "wikilink")
-  - [BMP280 Shield](/ESPea_BMP280_Shield "wikilink")
-  - [Relay Shield](/ESPea_Relay_Shield "wikilink")
-  - [OLED Shield](/ESPea_OLED_Shield "wikilink")
-  - [Prototype Shield](/ESPea_Prototype_Shield "wikilink")
-  - [Battery Manager Shield](/ESPea_Battery_Shield "wikilink")
+  - [Micro SD Shield](ESPea_Micro_SD_Shield.md)
+  - [Lora Shield](ESPea_Lora_Shield.md)
+  - [Dual Shield](ESPea_Dual_Shield.md)
+  - [BMP280 Shield](ESPea_BMP280_Shield.md)
+  - [Relay Shield](ESPea_Relay_Shield.md)
+  - [OLED Shield](ESPea_OLED_Shield.md)
+  - [Prototype Shield](ESPea_Prototype_Shield.md)
+  - [Battery Manager Shield](ESPea_Battery_Shield.md)
 
 ## Links
 

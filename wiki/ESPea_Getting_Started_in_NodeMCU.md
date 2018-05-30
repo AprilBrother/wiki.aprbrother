@@ -1,4 +1,4 @@
-[← ESPea Main Page](/ESPea "wikilink")
+[← ESPea Main Page](ESPea.md)
 
 ## Firmware
 

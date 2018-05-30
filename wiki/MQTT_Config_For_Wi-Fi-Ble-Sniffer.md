@@ -1,5 +1,5 @@
 [← Wireless iBeacon Receiver Main
-Page](/Wireless_iBeacon_Receiver "wikilink")
+Page](Wireless_iBeacon_Receiver.md)
 
 
 
@@ -47,5 +47,5 @@ A GUI MQTT client --
 ## How to write my own MQTT subscriber?
 
 Please check [How to write my own MQTT
-client](/How_to_write_my_own_MQTT_client "wikilink")
+client](How_to_write_my_own_MQTT_client.md)
 

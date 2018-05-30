@@ -65,6 +65,6 @@ Service UUID FFF0 -\> Characteristic FFF1
 ## Technical Documents
 
   - [How to upgrade the firmware for AprilBeacon
-    302](/How_to_upgrade_the_firmware_for_AprilBeacon_302 "wikilink")
-  - [The AT commands and configuration](/Firmware/ZeroBeacon "wikilink")
+    302](How_to_upgrade_the_firmware_for_AprilBeacon_302.md)
+  - [The AT commands and configuration](Firmware/ZeroBeacon.md)
 

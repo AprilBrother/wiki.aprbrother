@@ -17,7 +17,7 @@ board;
 
 ## Getting Started
 
-In the [Getting Started](/BLEPad_Getting_Started "wikilink") section,
+In the [Getting Started](BLEPad_Getting_Started.md) section,
 you can find all the information you need to configure your board, use
 the Arduino Software (IDE), and start to tinker with coding and
 electronics.
@@ -116,7 +116,7 @@ Mouse](https://www.arduino.cc/en/Reference/MouseKeyboard) classes.
 
   - [BLEPad Tutorial And
     Examples](https://github.com/AprilBrother/BLEPad_UART/tree/master/examples)
-  - [Hookup Guide](/BLEPad_Hookup_Guide "wikilink")
+  - [Hookup Guide](BLEPad_Hookup_Guide.md)
   - [BLEPad
     Schematic](https://github.com/AprilBrother/BLEPad/raw/master/hardware/blepad.pdf)
   - [AT commands for BLE module (written in Chinese, support peripheral

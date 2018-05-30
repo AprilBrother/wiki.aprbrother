@@ -1,4 +1,4 @@
-[← ESPea32 Main Page](/ESPea32 "wikilink")
+[← ESPea32 Main Page](ESPea32.md)
 
 ## Install USB To UART Driver
 

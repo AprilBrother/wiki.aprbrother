@@ -55,7 +55,7 @@ performance than previous ABSniffer. It can get 100+ BLE advertisement
 data per second.
 
 See more about [AT Commands For ABSniffer
-528](/AT_Commands_For_ABSniffer_528 "wikilink")
+528](AT_Commands_For_ABSniffer_528.md)
 
 ## Links
 

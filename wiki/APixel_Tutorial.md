@@ -1,3 +1,3 @@
-[← APixel Main Page](/APixel "wikilink")
+[← APixel Main Page](APixel.md)
 
-  - [AButton](/AButton "wikilink")
+  - [AButton](AButton.md)

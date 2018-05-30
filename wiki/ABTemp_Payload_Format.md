@@ -1,4 +1,4 @@
-[← ABTemp Main Page](/ABTemp "wikilink")
+[← ABTemp Main Page](ABTemp.md)
 
 ABTemp advertise sensor data with minor value in iBeacon protocol. Let's
 say you use app AprilBeacon scan a beacon with minor=25628.

@@ -1,4 +1,4 @@
-[← BlueDuino Rev2 Main Page](/BlueDuino_rev2 "wikilink")
+[← BlueDuino Rev2 Main Page](BlueDuino_rev2.md)
 
 ## Hardware Overview
 
@@ -101,5 +101,5 @@ supply to connect to it.
 ## Resources
 
   - [BlueDuino Rev2 Troubleshooting and
-    FAQ](/BlueDuino_Rev2_Troubleshooting_and_FAQ "wikilink")
+    FAQ](BlueDuino_Rev2_Troubleshooting_and_FAQ.md)
   - [Support Forum](http://bbs.aprbrother.com/c/arduino)

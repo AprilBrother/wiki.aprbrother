@@ -12,7 +12,7 @@ is based on CC2541 BLE 4.0 module.
 ## Specifications
 
   - Built‐in firmware named
-    [AprilBeacon](/Firmware/AprilBeacon "wikilink")
+    [AprilBeacon](Firmware/AprilBeacon.md)
   - Built‐in a CR2450 battery holder
   - Bluetooth Low Energy technology compatible
   - Excellent link budget (up to 97dB)

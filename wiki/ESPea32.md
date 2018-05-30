@@ -1,4 +1,4 @@
-[← ESPea Main Page](/ESPea_And_Shields "wikilink")
+[← ESPea Main Page](ESPea_And_Shields.md)
 
 ## Description
 
@@ -8,7 +8,7 @@ adds support for Bluetooth low-energy, and more I/O pins.
 
 What's difference ESPea32 with other ESP32 development board? It can be
 cut down to smaller size if you need a smaller board. The board is also
-part compatible with our [ESPea](/ESPea "wikilink") development board.
+part compatible with our [ESPea](ESPea.md) development board.
 
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/esp32-2.jpg-640.jpg">
 
@@ -77,7 +77,7 @@ default, here are the pin mappings for those interfaces:
   - [Shields for
     ESPea32](https://blog.aprbrother.com/product-tag/espea32)
   - [ESPea32 Quick
-    Start](/ESPea32_Quick_Start "wikilink")
+    Start](ESPea32_Quick_Start.md)
   - [Schematic](https://github.com/AprilBrother/ESPea32/blob/master/hardware/ESPea32-schematic.pdf)
   - [Driver for
     CP2104](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx)

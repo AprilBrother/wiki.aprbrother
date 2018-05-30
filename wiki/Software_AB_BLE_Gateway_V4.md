@@ -1,4 +1,4 @@
-[← AB BLE Gateway V4 Main Page](/AB_BLE_Gateway_V4 "wikilink")
+[← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
 ### Configure Tool
 
@@ -11,7 +11,7 @@
   - [BLE
     Viewer](http://7fvk57.com1.z0.glb.clouddn.com/ble-viewer-setup-v1.0.0.exe.zip)
     - see section [How To
-    Test](/Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test "wikilink")
+    Test](Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test.md)
 
 ### Write Your Own Client
 

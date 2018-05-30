@@ -94,9 +94,9 @@ data.
 ## Documents And Links
 
   - [How To Setup Second UUID For
-    ASensor](/How_To_Setup_Second_UUID_For_ASensor "wikilink")
+    ASensor](How_To_Setup_Second_UUID_For_ASensor.md)
   - [iOS SDK](https://github.com/AprilBrother/ABSensor-iOS-SDK)
   - [iOS read sensor data demo
     code](https://github.com/AprilBrother/iOS-ASensor-demo)
-  - [Packet Formats](/ASensor_Packet_Formats "wikilink")
+  - [Packet Formats](ASensor_Packet_Formats.md)
   - [Support Forum](http://bbs.aprbrother.com)

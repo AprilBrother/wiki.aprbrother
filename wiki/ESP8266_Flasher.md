@@ -1,4 +1,4 @@
-[← ESP Flasher Main Page](/ESP_Flasher "wikilink")
+[← ESP Flasher Main Page](ESP_Flasher.md)
 
 ### What's it
 
@@ -50,7 +50,7 @@ pins like these:
 ### Links
 
   - [Setup Arduino IDE for programming
-    esp8266](/ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP "wikilink")
+    esp8266](ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP.md)
   - [Schematic](https://github.com/AprilBrother/esp8266-flasher)
   - [Driver for
     CP2102](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx)

@@ -5,7 +5,7 @@
 ## Description
 
 It's the wiki for Cactus Micro Rev1. For [Cactus Micro
-Rev2](/Cactus_Micro_Rev2 "wikilink"), plese refer the link.
+Rev2](Cactus_Micro_Rev2.md), plese refer the link.
 
 Cactus Micro is our integrated developement board, we have mixed Arduino
 with WIFI into a single board. It is targeted for makers to develop low
@@ -29,7 +29,7 @@ ESP8266.
 Open Arduino IDE and choose board "LilyPad USB" to start playing with
 your Cactus Micro in just a few easy steps.
 
-See [Cactus Micro Tutorial](/Cactus_Micro_Tutorial "wikilink") for more
+See [Cactus Micro Tutorial](Cactus_Micro_Tutorial.md) for more
 information.
 
 ## How It Works
@@ -52,8 +52,8 @@ Forum](http://bbs.aprbrother.com/c/arduino)
   - [AT Command
     Instruction](https://github.com/AprilBrother/cactus-micro/raw/master/docs/at-espressif-instruction-set-v0.21.pdf)
   - [Schematic](https://github.com/AprilBrother/cactus-micro/blob/master/schematic/CactusMicro.pdf?raw=true)
-  - [Cactus Micro Tutorial](/Cactus_Micro_Tutorial "wikilink")
-  - [Firmware For ESP8266](/Firmware_For_ESP8266 "wikilink")
+  - [Cactus Micro Tutorial](Cactus_Micro_Tutorial.md)
+  - [Firmware For ESP8266](Firmware_For_ESP8266.md)
 
 ### Cactus Micro Pinout
 

@@ -1,4 +1,4 @@
-[← AB BLE Gateway Main Page](/AB_BLE_Gateway "wikilink")
+[← AB BLE Gateway Main Page](AB_BLE_Gateway.md)
 
 
 
@@ -62,8 +62,8 @@ existing HTTP or MQTT Server.
 
 ## Useful Links
 
-  - [Download app ABGateway](/Download_app_ABGateway "wikilink")
+  - [Download app ABGateway](Download_app_ABGateway.md)
   - [SDK](https://github.com/AprilBrother/ab-ble-gateway-sdk)
-  - [User Guide](/AB_BLE_Gateway_User_Guide "wikilink")
+  - [User Guide](AB_BLE_Gateway_User_Guide.md)
   - [Support Forum](http://bbs.aprbrother.com/c/wifi)
 

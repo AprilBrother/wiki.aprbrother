@@ -1,4 +1,4 @@
-[← AB BLE Gateway Main Page](/AB_BLE_Gateway "wikilink")
+[← AB BLE Gateway Main Page](AB_BLE_Gateway.md)
 
 ## How To OTA Update
 

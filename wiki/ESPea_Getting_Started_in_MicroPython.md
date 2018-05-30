@@ -1,4 +1,4 @@
-[← ESPea Main Page](/ESPea "wikilink")
+[← ESPea Main Page](ESPea.md)
 
 To use MicroPython with the ESP8266 you'll need to first flash it with
 the latest MicroPython firmware. Follow the official instructions to

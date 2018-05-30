@@ -1,4 +1,4 @@
-[← Cactus Micro R2 Main Page](/Cactus_Micro_Rev2 "wikilink")
+[← Cactus Micro R2 Main Page](Cactus_Micro_Rev2.md)
 
 ### Step 1. Check hardware wires
 

@@ -88,15 +88,15 @@ SPI</p></td>
 ## Documents
 
   - [Starter
-    Guide](/Cactus_Micro_Starter_Guide "wikilink")
+    Guide](Cactus_Micro_Starter_Guide.md)
   - [Schematic](https://github.com/AprilBrother/cactus-micro-r2/raw/master/schematic/cactus-micro-rev2.pdf)
-  - [Hookup Guide](/Cactus_Micro_Rev2_Hookup_Guide "wikilink")
+  - [Hookup Guide](Cactus_Micro_Rev2_Hookup_Guide.md)
   - [About ESP8266 chip](https://nurdspace.nl/ESP8266)
   - [AT Command
     Instruction](https://github.com/AprilBrother/cactus-micro/raw/b474a5558d06c6a52969db79bd7a47958c64111b/docs/at-espressif-instruction-set-v0.21.pdf)
   - [Datasheet](https://github.com/AprilBrother/cactus-micro-r2/raw/master/datasheet/ATMega32U4.pdf)
     (ATmega32U4)
   - [GitHub](https://github.com/AprilBrother/cactus-micro-r2)
-  - [Tutorials And Examples](/Cactus_Micro_R2_Tutorial "wikilink")
-  - [Firmware For ESP8266](/Firmware_For_ESP8266 "wikilink")
+  - [Tutorials And Examples](Cactus_Micro_R2_Tutorial.md)
+  - [Firmware For ESP8266](Firmware_For_ESP8266.md)
 

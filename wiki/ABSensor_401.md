@@ -68,7 +68,7 @@
 
 ## Resource For User
 
-  - [User Guide of 401](/ABSensor401_User_Guide "wikilink")
+  - [User Guide of 401](ABSensor401_User_Guide.md)
   - [iOS SDK &
     Demo](https://github.com/AprilBrother/AprilBeacon-iOS-SDK) /
     [Android SDK &

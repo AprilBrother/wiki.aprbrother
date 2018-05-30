@@ -1,4 +1,4 @@
-[← AB BLE Gateway Main Page](/AB_BLE_Gateway "wikilink")
+[← AB BLE Gateway Main Page](AB_BLE_Gateway.md)
 
   - [iOS app
     ABGateway](https://itunes.apple.com/app/abgateway/id1208888736?mt=8)

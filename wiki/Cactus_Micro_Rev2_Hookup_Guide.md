@@ -1,4 +1,4 @@
-[← Cactus Micro Rev2 Main Page](/Cactus_Micro_Rev2 "wikilink")
+[← Cactus Micro Rev2 Main Page](Cactus_Micro_Rev2.md)
 
 ## Hardware Overview
 
@@ -107,5 +107,5 @@ this signal is unregulated. Only use this if you have a clean, regulated
 ## Resources
 
   - [Cactus Micro Rev2 Troubleshooting and
-    FAQ](/Cactus_Micro_Rev2_Troubleshooting_and_FAQ "wikilink")
+    FAQ](Cactus_Micro_Rev2_Troubleshooting_and_FAQ.md)
   - [Support Forum](http://bbs.aprbrother.com/c/arduino)

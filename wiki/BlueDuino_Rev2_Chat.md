@@ -1,4 +1,4 @@
-[← BlueDuino Rev2 Tutorial Page](/BlueDuino_Rev2_Tutorial "wikilink")
+[← BlueDuino Rev2 Tutorial Page](BlueDuino_Rev2_Tutorial.md)
 
 A simple chat demo for iOS to talk to Arduino.
 

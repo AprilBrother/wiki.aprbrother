@@ -1,4 +1,4 @@
-[← ESP Flasher Main Page](/ESP_Flasher "wikilink")
+[← ESP Flasher Main Page](ESP_Flasher.md)
 
 ## Setup Arduino IDE for programming esp8266
 

@@ -1,5 +1,5 @@
 [← Wireless iBeacon Receiver Main
-Page](/Wireless_iBeacon_Receiver "wikilink")
+Page](Wireless_iBeacon_Receiver.md)
 
 ## Instruction
 
@@ -33,7 +33,7 @@ password = 12345678.
   - Access the IP with browser if the receiver connected to your
 mobile
 
-## [Configure the Wi-Fi with SmartConfig](/Configure_the_Wi-Fi_with_SmartConfig "wikilink")
+## [Configure the Wi-Fi with SmartConfig](Configure_the_Wi-Fi_with_SmartConfig.md)
 
 ## Configure the Wi-Fi by AP mode (Need open the casing)
 

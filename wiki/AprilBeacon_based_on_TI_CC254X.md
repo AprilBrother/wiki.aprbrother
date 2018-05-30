@@ -5,7 +5,7 @@
 ## Introdution
 
 [AprilBeacon based on TI
-CC254X](/AprilBeacon_based_on_TI_CC254X "wikilink")
+CC254X](AprilBeacon_based_on_TI_CC254X.md)
 
 The AprilBeacon is developed and produced including hardware and
 firmware all provide by AprilBrother LLC. It can work as a standalone
@@ -18,14 +18,14 @@ module.
 
 |                |                                         |                                                      |                                                      |                                                             |                                             |                                                             |
 | -------------- | --------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
-| Model          | 101                                     | 202                                                  | 241                                                  | 242                                                         | 227A                                        | [302](/AprilBeacon_302 "wikilink")                          |
+| Model          | 101                                     | 202                                                  | 241                                                  | 242                                                         | 227A                                        | [302](AprilBeacon_302.md)                          |
 | Image          | <http://abcdn1.qiniudn.com/101xiao.jpg> | <http://abcdn1.qiniudn.com/202.jpg>                  | <http://abcdn1.qiniudn.com/241qrxiao1.jpg>           | <http://abcdn1.qiniudn.com/241qrxiao1.jpg>                  | <http://abcdn1.qiniudn.com/227Axiao.jpg>    | <http://abcdn1.qiniudn.com/302.jpg>                         |
 | Core Chip      | CC2541                                  | CC2540                                               | CC2541                                               | CC2541                                                      | CC2540                                      | CC2540                                                      |
 | Battery        | CR2032                                  | CR2450                                               | CR2450                                               | CR2477                                                      | AAA Battery x 2                             | USB                                                         |
 | Range Effected | 10m                                     | 30m                                                  | 25m                                                  | 25m                                                         | 30m                                         | 15m                                                         |
 | Antenna        | PCB                                     | PCB                                                  | PCB                                                  | PCB                                                         | External                                    | PCB                                                         |
 | Size (mm)      | 24.8 \* 24.8 \* 7.5                     | 31 \* 31 \* 9                                        | 31 \* 31 \* 9                                        | 31 \* 31 \*11.7                                             | 66 \* 36 \* 22                              | 21.6 \* 14.3 \* 5.4                                         |
-| Firmware       | BlueBeacon                              | [AprilBeacon](/Firmware/AprilBeacon "wikilink")      | AprilBeacon                                          | AprilBeacon                                                 | AprilBeacon                                 | [ZeroBeacon](/Firmware/ZeroBeacon "wikilink")               |
+| Firmware       | BlueBeacon                              | [AprilBeacon](Firmware/AprilBeacon.md)      | AprilBeacon                                          | AprilBeacon                                                 | AprilBeacon                                 | [ZeroBeacon](Firmware/ZeroBeacon.md)               |
 | Advantages     | Small size and easy to deploy           | With certification, stable signal, with reset button | 20% power saving, With barcode, good for deployment. | 2 times the power of a CR2450 battery, longer battery life. | Longer battery life saving maintenance cost | Mini usb interface, small size, AprilBeacon name changeable |
 |  |
 
@@ -40,7 +40,7 @@ module.
 | Range Effected | 30m                                             | 30m                                     | 30m                                      |
 | Antenna        | PCB                                             | External                                | PCB                                      |
 | Size (mm)      | 26 \* 34.82 \* 9                                | 56 \* 30.5 \* 20                        | 57.6 \* 18.9 \* 7.6                      |
-| Firmware       | [AprilBeacon](/Firmware/AprilBeacon "wikilink") | AprilBeacon                             | ZeroBeacon                               |
+| Firmware       | [AprilBeacon](Firmware/AprilBeacon.md) | AprilBeacon                             | ZeroBeacon                               |
 |  |
 
 ## Specifications
@@ -91,8 +91,8 @@ only)
 ## Related Link
 
   - [Upgrade Firmware For
-    AprilBeacon](/How_To_Upgrade_Firmware "wikilink")
+    AprilBeacon](How_To_Upgrade_Firmware.md)
   - [Support Forum For April
     Beacon](http://bbs.aprbrother.com/conversations/aprilbeacon)
-  - [AprilBeacon 302](/AprilBeacon_302 "wikilink")
+  - [AprilBeacon 302](AprilBeacon_302.md)
 

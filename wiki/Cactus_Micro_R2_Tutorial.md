@@ -1,9 +1,9 @@
-[← Cactus Micro R2 Main Page](/Cactus_Micro_Rev2 "wikilink")
+[← Cactus Micro R2 Main Page](Cactus_Micro_Rev2.md)
 
 ## Hardware
 
   - [How to made Cactus Micro R2 as ESP8266
-    programmer](/How_to_made_Cactus_Micro_R2_as_ESP8266_programmer "wikilink")
+    programmer](How_to_made_Cactus_Micro_R2_as_ESP8266_programmer.md)
 
 ## Programming
 
@@ -28,7 +28,7 @@ upload [the espduino firmware](https://github.com/AprilBrother/espduino)
 to the esp8266 module.
 
 Please follow the wiki [How to made Cactus Micro R2 as ESP8266
-programmer](/How_to_made_Cactus_Micro_R2_as_ESP8266_programmer "wikilink").
+programmer](How_to_made_Cactus_Micro_R2_as_ESP8266_programmer.md).
 
   - [The following example](https://www.iotlink.net/About) in C uses the
     REST interface with a secure SSL configuration to exchange AP
@@ -36,7 +36,7 @@ programmer](/How_to_made_Cactus_Micro_R2_as_ESP8266_programmer "wikilink").
     status every 60 seconds in the IoTLink dashboard. - Click "Examples"
     at the page
   - [Tutorial Cactus Micro Rev2
-    DHT11](/Tutorial_Cactus_Micro_Rev2_DHT11 "wikilink")
+    DHT11](Tutorial_Cactus_Micro_Rev2_DHT11.md)
     (new)
   - [thingspeak.ino](https://github.com/AprilBrother/espduino/tree/master/examples/thingspeak)
     Example read DHT11 and send to

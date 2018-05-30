@@ -63,7 +63,7 @@ Service UUID FFF0 -\> Characteristic FFF1
 
 ## Related Links
 
-  - [The AT commands and configuration](/Firmware/ZeroBeacon "wikilink")
+  - [The AT commands and configuration](Firmware/ZeroBeacon.md)
 
 ## FAQ
 

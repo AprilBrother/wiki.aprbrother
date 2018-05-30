@@ -1,4 +1,4 @@
-[← ESPea Main Page](/ESPea_And_Shields "wikilink")
+[← ESPea Main Page](ESPea_And_Shields.md)
 
 ## Description
 
@@ -45,11 +45,11 @@ Lua.
 ## Getting Started
 
   - [Getting Started in
-    Arduino](/ESPea_Getting_Started_in_Arduino "wikilink")
+    Arduino](ESPea_Getting_Started_in_Arduino.md)
   - [Getting Started in
-    NodeMCU](/ESPea_Getting_Started_in_NodeMCU "wikilink")
+    NodeMCU](ESPea_Getting_Started_in_NodeMCU.md)
   - [Getting Started in
-    MicroPython](/ESPea_Getting_Started_in_MicroPython "wikilink")
+    MicroPython](ESPea_Getting_Started_in_MicroPython.md)
 
 ## Tech Documents And Driver
 

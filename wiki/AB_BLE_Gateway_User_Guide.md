@@ -1,4 +1,4 @@
-[← AB BLE Gateway Main Page](/AB_BLE_Gateway "wikilink")
+[← AB BLE Gateway Main Page](AB_BLE_Gateway.md)
 
 
 
@@ -122,7 +122,7 @@ the AP.
 
 ### Advanced
 
-  - [OTA upgrade firmware](/ABGateway_OTA "wikilink")
+  - [OTA upgrade firmware](ABGateway_OTA.md)
   - Restart device
 
 ## App ABGateway

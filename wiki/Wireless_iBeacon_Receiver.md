@@ -87,7 +87,7 @@ TODO
 
 Please refer the "How To Config" Section for more information.
 
-  - [Quickstart](/How_to_use_the_WiFi-Sniffer "wikilink") - 快速上手中文版
+  - [Quickstart](How_to_use_the_WiFi-Sniffer.md) - 快速上手中文版
 
 ### About LED Status
 
@@ -99,13 +99,13 @@ Please refer the "How To Config" Section for more information.
 ### Documents
 
   - [Update Wireless iBeacon
-    Receiver](/Wireless_iBeacon_Receiver_Update "wikilink")
-  - [Known Issues](/Wireless_iBeacon_Receiver_Known_Issues "wikilink")
-  - [Packet Format](/Wireless_iBeacon_Receiver_Packet_Format "wikilink")
+    Receiver](Wireless_iBeacon_Receiver_Update.md)
+  - [Known Issues](Wireless_iBeacon_Receiver_Known_Issues.md)
+  - [Packet Format](Wireless_iBeacon_Receiver_Packet_Format.md)
   - [Troubleshooting and
-    FAQ](/Wireless_iBeacon_Receiver_Troubleshooting_and_FAQ "wikilink")
-  - [Wi-Fi Config](/Wi-Fi_Config_For_Wi-Fi-BLE-Sniffer "wikilink")
-  - [MQTT Config](/MQTT_Config_For_Wi-Fi-Ble-Sniffer "wikilink")
+    FAQ](Wireless_iBeacon_Receiver_Troubleshooting_and_FAQ.md)
+  - [Wi-Fi Config](Wi-Fi_Config_For_Wi-Fi-BLE-Sniffer.md)
+  - [MQTT Config](MQTT_Config_For_Wi-Fi-Ble-Sniffer.md)
 
 ### Community
 

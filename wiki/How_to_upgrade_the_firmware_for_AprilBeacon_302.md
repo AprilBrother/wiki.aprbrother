@@ -16,7 +16,7 @@ if you do not want to upgrade, so, you will get a 238KB super small
 disk.
 
   - Download firmware from [the
-    page](/AprilBeacon_302#Downloads "wikilink"), you will get a .bin
+    page](AprilBeacon_302#Downloads.md), you will get a .bin
     file
   - Plug-in AprilBeacon 302 to USB
   - Send AT command "AT+UBLUP" by serial software such as

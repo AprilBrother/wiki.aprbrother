@@ -1,4 +1,4 @@
-[← BlueDuino Rev2 Main Page](/BlueDuino_rev2 "wikilink")
+[← BlueDuino Rev2 Main Page](BlueDuino_rev2.md)
 
 ## Troubleshooting
 

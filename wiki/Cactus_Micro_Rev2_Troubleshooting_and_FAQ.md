@@ -1,4 +1,4 @@
-[← Cactus Micro Rev2 Main Page](/Cactus_Micro_Rev2 "wikilink")
+[← Cactus Micro Rev2 Main Page](Cactus_Micro_Rev2.md)
 
 ## Troubleshooting
 

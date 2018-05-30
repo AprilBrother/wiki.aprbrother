@@ -1,7 +1,7 @@
 ## Description
 
-  - [BlueDuino rev2](/BlueDuino_rev2 "wikilink")
-  - [BlueDuino rev1](/BlueDuino_rev1 "wikilink")
+  - [BlueDuino rev2](BlueDuino_rev2.md)
+  - [BlueDuino rev1](BlueDuino_rev1.md)
 
 ## Firmware
 
@@ -35,12 +35,12 @@ ChangeLog](http://wiki.aprbrother.com/wiki/Firmware/ZeroBeacon#ChangeLog)了解�
   - [ZeroBeacon 2.0 for
     BlueDuino](http://abcdn1.qiniudn.com/zerobeacon-ebl-2.0.bin?attname=)
 
-See [AT Command & Configuration](/Firmware/ZeroBeacon "wikilink")
+See [AT Command & Configuration](Firmware/ZeroBeacon.md)
 
 ### ZeroKeyboard
 
 Alpha status. For HID keyboard only. See also [AT command for
-ZeroKeyboard](/Firmware_ZeroKeyboard "wikilink")
+ZeroKeyboard](Firmware_ZeroKeyboard.md)
 
   - [ZeroKeyboard 1.0](https://dn-abcdn1.qbox.me/keyboard-1.0.bin)
 

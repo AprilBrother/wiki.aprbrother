@@ -1,5 +1,5 @@
 [← Wireless iBeacon Receiver Main
-Page](/Wireless_iBeacon_Receiver "wikilink")
+Page](Wireless_iBeacon_Receiver.md)
 
 ## Description
 
@@ -25,7 +25,7 @@ upgrade.
   - Add [Microsoft Azure IoT
     hub](https://azure.microsoft.com/en-us/services/iot-hub/) support
     (alpha function), see [the
-    wiki](/Wireless_iBeacon_Receiver_With_Microsoft_Azure_IoT_hub "wikilink")
+    wiki](Wireless_iBeacon_Receiver_With_Microsoft_Azure_IoT_hub.md)
     for more information.
 
 注意：由于azure的服务器处于不在中国大陆境内，请中国用户不要使用azure这个选项

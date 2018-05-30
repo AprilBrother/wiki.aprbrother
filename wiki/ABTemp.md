@@ -42,5 +42,5 @@ advertise the temperature data with iBeacon protocol.
 
 ## Documents And Links
 
-  - [Firmware For ABTemp](/Firmware_For_ABTemp "wikilink")
-  - [ABTemp Payload Format](/ABTemp_Payload_Format "wikilink")
+  - [Firmware For ABTemp](Firmware_For_ABTemp.md)
+  - [ABTemp Payload Format](ABTemp_Payload_Format.md)

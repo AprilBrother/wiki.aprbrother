@@ -1,5 +1,5 @@
 [← Wireless iBeacon Receiver Main
-Page](/Wireless_iBeacon_Receiver "wikilink")
+Page](Wireless_iBeacon_Receiver.md)
 
 ## iBeacon Scan Mode
 

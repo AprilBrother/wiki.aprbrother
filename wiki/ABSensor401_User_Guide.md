@@ -1,4 +1,4 @@
-[← ABSensor 401 Main Page](/ABSensor_401 "wikilink")
+[← ABSensor 401 Main Page](ABSensor_401.md)
 
 ## Overview
 

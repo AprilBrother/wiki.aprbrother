@@ -1,4 +1,4 @@
-[← APlant Main Page](/APlant "wikilink")
+[← APlant Main Page](APlant.md)
 
 APlant advertise sensor data with minor value in iBeacon protocol. Let's
 say you use app AprilBeacon scan a beacon with minor=11548.

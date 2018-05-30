@@ -1,4 +1,4 @@
-[← AB BLE Gateway V3 Main Page](/AB_BLE_Gateway_V3 "wikilink")
+[← AB BLE Gateway V3 Main Page](AB_BLE_Gateway_V3.md)
 
 ## 使用步骤
 

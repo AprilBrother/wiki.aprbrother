@@ -1,4 +1,4 @@
-[← BlueDuino Rev1 Main Page](/BlueDuino_rev1 "wikilink")
+[← BlueDuino Rev1 Main Page](BlueDuino_rev1.md)
 
 ## Introduce
 

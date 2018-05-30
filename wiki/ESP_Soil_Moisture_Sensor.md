@@ -7,7 +7,7 @@ At the sensor's heart is an ESP8266 WiFi microcontroller clocked at 80
 MHz and at 3.3V logic. This microcontroller contains a Tensilica chip
 core as well as a full WiFi stack. You can program the microcontroller
 using the Arduino IDE for an easy-to-run Internet of Things core. You
-can use [ESP8266 Flasher](/ESP8266_Flasher "wikilink") that an upload
+can use [ESP8266 Flasher](ESP8266_Flasher.md) that an upload
 code at a blistering 115200 baud for fast development time. It also has
 auto-reset so no noodling with pins and reset button pressings.
 
@@ -53,7 +53,7 @@ Note:
   - tmp112 temperature sensor (I2C) x 1
   - Soil moisture sensor x 1
   - AA Battery holder x 1
-  - Pinouts compatible with [ESPea](/ESPea "wikilink")
+  - Pinouts compatible with [ESPea](ESPea.md)
   - A jumper for wire GPIO16 to RESET
   - Measures 35mm x 157mm
 
@@ -109,8 +109,8 @@ Soil moisture sensor
 ## Documents And Links
 
   - [Using Arduino
-    IDE](/ESP_Soil_Moisture_Sensor_Using_Arduino_IDE "wikilink")
-  - [F.A.Q](/ESP_Soil_Moisture_Sensor_FAQ "wikilink")
+    IDE](ESP_Soil_Moisture_Sensor_Using_Arduino_IDE.md)
+  - [F.A.Q](ESP_Soil_Moisture_Sensor_FAQ.md)
   - [Source Code And Hardware
     Files](https://github.com/AprilBrother/esp-soil-moisture-sensor)
   - [Support Forum](http://bbs.aprbrother.com/c/wifi)

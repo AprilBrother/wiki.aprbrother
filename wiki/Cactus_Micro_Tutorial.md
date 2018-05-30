@@ -1,4 +1,4 @@
-[← Cactus Micro Main Page](/Cactus_Micro "wikilink")
+[← Cactus Micro Main Page](Cactus_Micro.md)
 
 ### Hardware
 

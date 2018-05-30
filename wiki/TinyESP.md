@@ -28,5 +28,5 @@ Forum](http://bbs.aprbrother.com/conversations/wi-fi)
 
 ## Related Products
 
-  - [TinyUART](/TinyUART "wikilink") - A USB to UART converter designed
+  - [TinyUART](TinyUART.md) - A USB to UART converter designed
     for TinyESP.

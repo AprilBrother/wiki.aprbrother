@@ -47,5 +47,5 @@ Hub”。
 
 ### 文档
 
-  - [使用介绍](/AB_BLE_Gateway_V3_Use_GUIDE "wikilink")
+  - [使用介绍](AB_BLE_Gateway_V3_Use_GUIDE.md)
 

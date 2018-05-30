@@ -15,7 +15,7 @@ BeagleBone etc.
 ### Features
 
   - Simple interface - with our pre-loaded firmware name
-    [ZeroBeacon](/Firmware/ZeroBeacon "wikilink"), you could easily
+    [ZeroBeacon](Firmware/ZeroBeacon.md), you could easily
     connect to any development board or IC with UART interface.
   - Compact form factor - 17mm x 27mm this is a very popular request
     from makers using smaller Arduino boards like Arduino
@@ -54,8 +54,8 @@ The firmware is for upgrade only.
 ## Technical Documents
 
   - [How to upgrade the firmware for
-    BLEShield](/How_to_upgrade_the_firmware_for_BLEShield "wikilink")
-  - [AT Command & Configuration](/Firmware/ZeroBeacon "wikilink")
+    BLEShield](How_to_upgrade_the_firmware_for_BLEShield.md)
+  - [AT Command & Configuration](Firmware/ZeroBeacon.md)
 
 ### Quick Start for iOS
 

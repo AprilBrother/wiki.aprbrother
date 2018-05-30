@@ -1,4 +1,4 @@
-[← AB BLE Shield Main Page](/BLEShield "wikilink")
+[← AB BLE Shield Main Page](BLEShield.md)
 
   - The firmware for the BLE module can be upgrade if the device name
     for BLE module is "ZeroBeacon".

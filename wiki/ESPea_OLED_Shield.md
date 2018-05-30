@@ -1,11 +1,11 @@
-[← ESPea Main Page](/ESPea_And_Shields "wikilink")
+[← ESPea Main Page](ESPea_And_Shields.md)
 
 ## Description
 
 128x64 pixels OLED Shield with I2C. It adds a 128x64 monochrome OLED to
 ESPea main board.
 
-The OLED uses only the two I2C pins on the [ESPea](/ESPea "wikilink"),
+The OLED uses only the two I2C pins on the [ESPea](ESPea.md),
 and you can pretty much stack it with ESPea, even ones that use I2C
 since that is a shared bus.
 

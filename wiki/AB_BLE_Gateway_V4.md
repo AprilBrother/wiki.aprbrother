@@ -71,10 +71,10 @@ API.
 ## Documents And Links
 
   - [Quick Start For AB BLE Gateway
-    V4](/Quick_Start_For_AB_BLE_Gateway_V4 "wikilink")
+    V4](Quick_Start_For_AB_BLE_Gateway_V4.md)
   - [User Guide For AB BLE Gateway
-    V4](/User_Guide_For_AB_BLE_Gateway_V4 "wikilink")
-  - [FAQ](/FAQ_For_AB_BLE_Gateway_V4 "wikilink")
-  - [Software And Tools](/Software_AB_BLE_Gateway_V4 "wikilink")
+    V4](User_Guide_For_AB_BLE_Gateway_V4.md)
+  - [FAQ](FAQ_For_AB_BLE_Gateway_V4.md)
+  - [Software And Tools](Software_AB_BLE_Gateway_V4.md)
   - [Support Forum](http://bbs.aprbrother.com/c/wifi)
 

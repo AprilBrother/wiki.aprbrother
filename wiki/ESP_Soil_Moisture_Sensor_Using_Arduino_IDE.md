@@ -1,11 +1,11 @@
 [← ESP Soil Moisture Sensor Main
-Page](/ESP_Soil_Moisture_Sensor "wikilink")
+Page](ESP_Soil_Moisture_Sensor.md)
 
 ## Using Arduino IDE
 
 In order to upload code to the ESP8266 and use the serial console,
 connect any data-capable micro USB cable to [ESP8266
-Flasher](/ESP8266_Flasher "wikilink") and the other side to your
+Flasher](ESP8266_Flasher.md) and the other side to your
 computer's USB port.
 
 Note:
