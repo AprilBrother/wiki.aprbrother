@@ -107,7 +107,6 @@ gulp.task('restore-ignore', function () {
 function pruneLeftBar (dir) {
     var allPagesPattern = Path.join(dir, '**/*.html');
     var allPages = Globby.sync(allPagesPattern);
-    console.log(allPages);
     for (var i = 0; i < allPages.length; ++i) {
         var path = allPages[i];
         var content = Fs.readFileSync(path, 'utf8');

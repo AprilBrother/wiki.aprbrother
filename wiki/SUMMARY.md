@@ -1,7 +1,5 @@
 # Summary
 
-### [Introduction](README.md)
-
 ### Learning
  
 * [April Beacon FAQs](How_to_use_ApriliBeacon.md)
