@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## ABBLEShield
 
@@ -69,4 +69,3 @@ The firmware is for upgrade only.
     [LightBlue](https://itunes.apple.com/app/lightblue/id557428110?mt=8)
     to test BLE
 
-</translate>

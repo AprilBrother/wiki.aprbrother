@@ -1,6 +1,6 @@
-<languages/>
 
-<translate> There are a few requirements on the mobile device side that
+
+ There are a few requirements on the mobile device side that
 must be met for the entire experience to work as expected.
 
   - An eligible app installed on a mobile device
@@ -27,4 +27,4 @@ The following Apple support article provides more details: iOS:
 Understanding multitasking
 
 Note: Push notifications require a WIFI or a cellular connection. WIFI
-is used when a cellular connection is not available. </translate>
+is used when a cellular connection is not available. 

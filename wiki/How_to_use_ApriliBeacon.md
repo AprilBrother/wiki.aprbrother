@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## General
 
@@ -204,4 +204,3 @@ Requirements](/April_Beacons_and_App_Requirements "wikilink")
 Please [check the
 topic](http://bbs.aprbrother.com/t/how-to-find-beacon-distance-by-the-received-rssi-in-android/425).
 
-</translate>

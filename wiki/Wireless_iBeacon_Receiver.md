@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Wireless iBeacon Receiver
 
@@ -111,4 +111,3 @@ Please refer the "How To Config" Section for more information.
 
   - [Support Forum](http://bbs.aprbrother.com/c/wifi)
 
-</translate>

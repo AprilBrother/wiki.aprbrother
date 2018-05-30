@@ -1,6 +1,6 @@
 <languages/>
 
-<translate>
+
 
 Firmware AprilBeacon
 
@@ -48,4 +48,3 @@ battery holder. The firmware cannot be used for BlueBeacon 101.
   - [ChangeLog for Firmware
     AprilBeacon](/ChangeLogForFirmwareAprilBeacon "wikilink")
 
-</translate>

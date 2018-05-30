@@ -1,8 +1,8 @@
-<languages/>
+
 
 [← AB BLE Gateway V4 Main Page](/AB_BLE_Gateway_V4 "wikilink")
 
-<translate>
+
 
 ## Data Format
 
@@ -64,4 +64,3 @@ Advertising Type Code
     CE = rssi
     0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0 = raw advertising data
 
-</translate>

@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 # AB BLE Gateway 2.0
 
@@ -56,4 +56,3 @@ local TCP server or internet HTTP/MQTT/WebSocket server.
   - [User Guide](/AB_BLE_Gateway_User_Guide "wikilink")
   - [Support Forum](http://bbs.aprbrother.com/c/wifi)
 
-</translate>

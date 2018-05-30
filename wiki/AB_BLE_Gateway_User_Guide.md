@@ -1,8 +1,8 @@
 [← AB BLE Gateway Main Page](/AB_BLE_Gateway "wikilink")
 
-<languages/>
 
-<translate>
+
+
 
 ## Description
 
@@ -129,4 +129,3 @@ the AP.
 
 to be continued
 
-</translate>

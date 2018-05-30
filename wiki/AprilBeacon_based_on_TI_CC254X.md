@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Introdution
 
@@ -96,4 +96,3 @@ only)
     Beacon](http://bbs.aprbrother.com/conversations/aprilbeacon)
   - [AprilBeacon 302](/AprilBeacon_302 "wikilink")
 
-</translate>

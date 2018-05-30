@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Description
 
@@ -118,4 +118,3 @@ SPI</p></td>
 </tbody>
 </table>
 
-</translate>

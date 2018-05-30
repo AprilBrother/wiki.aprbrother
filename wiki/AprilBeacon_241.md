@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Introdution
 
@@ -64,4 +64,3 @@ AprilBrother
 
 ...
 
-</translate>

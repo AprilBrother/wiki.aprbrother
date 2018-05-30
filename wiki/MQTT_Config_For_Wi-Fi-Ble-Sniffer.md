@@ -1,9 +1,9 @@
 [← Wireless iBeacon Receiver Main
 Page](/Wireless_iBeacon_Receiver "wikilink")
 
-<languages/>
 
-<translate>
+
+
 
 ## What's MQTT
 
@@ -49,4 +49,3 @@ A GUI MQTT client --
 Please check [How to write my own MQTT
 client](/How_to_write_my_own_MQTT_client "wikilink")
 
-</translate>

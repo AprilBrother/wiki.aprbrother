@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Description
 
@@ -32,4 +32,3 @@ disk.
     completion of the copy, AprilBeacon 302 will automatically restart,
     then enter the normal working state, the upgrade is complete.
 
-</translate>

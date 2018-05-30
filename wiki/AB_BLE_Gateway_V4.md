@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Description
 
@@ -78,4 +78,3 @@ API.
   - [Software And Tools](/Software_AB_BLE_Gateway_V4 "wikilink")
   - [Support Forum](http://bbs.aprbrother.com/c/wifi)
 
-</translate>

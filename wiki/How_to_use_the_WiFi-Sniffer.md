@@ -1,9 +1,9 @@
 [← Wireless iBeacon Receiver Main
 Page](/Wireless_iBeacon_Receiver "wikilink")
 
-<languages/>
 
-<translate>
+
+
 
 ## Introduction
 
@@ -261,4 +261,3 @@ data
 
 ## [Frequently Asked Questions and Solutions](http://wiki.aprbrother.com/wiki/Wireless_iBeacon_Receiver_Troubleshooting_and_FAQ)
 
-</translate>

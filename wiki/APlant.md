@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Instroduction
 
@@ -90,4 +90,3 @@ filter "aplant" to support the sensor.
   - [APlant Payload Format](/APlant_Payload_Format "wikilink")
   - [Support Forum](http://bbs.aprbrother.com)
 
-</translate>

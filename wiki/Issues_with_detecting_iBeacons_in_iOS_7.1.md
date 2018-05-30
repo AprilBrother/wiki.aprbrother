@@ -1,6 +1,6 @@
-<languages/>
 
-<translate> We are aware of the fact that there are some issues with
+
+ We are aware of the fact that there are some issues with
 iBeacons being detected with iOS 7.1 and 7.1.1.
 
 If you can't detect iBeacons on your iPhone with iOS 7.1(.1) please try
@@ -31,4 +31,3 @@ the Bluetooth hardware to your device."
   - [Tips to Fix Bluetooth Problems After iOS 7.1
     Upgrade](http://www.smartbotics.com/#!4-Tips-to-Fix-Bluetooth-Problems-After-iOS-71-Upgrade/c118r/031A86F6-C8E8-4768-B4FD-E6F83D9E4317%7C4)
 
-</translate>

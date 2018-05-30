@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ### 介绍
 
@@ -49,4 +49,3 @@ Hub”。
 
   - [使用介绍](/AB_BLE_Gateway_V3_Use_GUIDE "wikilink")
 
-</translate>

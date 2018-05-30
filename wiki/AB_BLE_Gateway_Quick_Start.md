@@ -1,8 +1,8 @@
 [← AB BLE Gateway Main Page](/AB_BLE_Gateway "wikilink")
 
-<languages/>
 
-<translate>
+
+
 
 ## Description
 
@@ -67,4 +67,3 @@ existing HTTP or MQTT Server.
   - [User Guide](/AB_BLE_Gateway_User_Guide "wikilink")
   - [Support Forum](http://bbs.aprbrother.com/c/wifi)
 
-</translate>

@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Instroduction
 
@@ -82,7 +82,7 @@ such as javascript to control the led strips.
 A: Please put the player web page to foreground. For Chrome, you can
 split a single window for the player tab.
 
-</translate>
+
 
 ## Links
 

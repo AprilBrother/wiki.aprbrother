@@ -1,6 +1,6 @@
-<languages/>
 
-<translate>
+
+
 
 ## Introdution
 
@@ -16,4 +16,3 @@ work as a standalone system.
     CC254X](/AprilBeacon_based_on_TI_CC254X "wikilink")
   - [AprilBeacon 302 - mini USB dongle](/AprilBeacon_302 "wikilink")
 
-</translate>

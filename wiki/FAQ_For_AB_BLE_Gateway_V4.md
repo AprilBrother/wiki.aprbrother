@@ -1,8 +1,8 @@
-<languages/>
+
 
 [← AB BLE Gateway V4 Main Page](/AB_BLE_Gateway_V4 "wikilink")
 
-<translate>
+
 
 ### Q: Does it support static IP
 
@@ -21,4 +21,3 @@ A: 可以。如果没有可用的以太网连接，那么它将使用WiFi
 
 A: 设备只支持2.4G无线网络，请检查路由器是不是5G网络。此外2.4G和5G的SSID不能是相同的，因为这个情况下设备很难连接WiFi网络。
 
-</translate>

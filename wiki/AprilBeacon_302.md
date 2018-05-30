@@ -1,4 +1,4 @@
-<languages/> <translate>
+ 
 
 ## Description
 
@@ -68,4 +68,3 @@ Service UUID FFF0 -\> Characteristic FFF1
     302](/How_to_upgrade_the_firmware_for_AprilBeacon_302 "wikilink")
   - [The AT commands and configuration](/Firmware/ZeroBeacon "wikilink")
 
-</translate>

@@ -1,4 +1,4 @@
-<translate>
+
 
 ## Description
 
@@ -100,4 +100,3 @@ SPI</p></td>
   - [Tutorials And Examples](/Cactus_Micro_R2_Tutorial "wikilink")
   - [Firmware For ESP8266](/Firmware_For_ESP8266 "wikilink")
 
-</translate>

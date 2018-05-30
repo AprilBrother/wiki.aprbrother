@@ -1,8 +1,8 @@
-<languages/>
+
 
 [← AB BLE Gateway V4 Main Page](/AB_BLE_Gateway_V4 "wikilink")
 
-<translate>
+
 
 ## 使用
 
@@ -27,4 +27,3 @@ gateway
 
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/ble-viewer.png" width="480">
 
-</translate>

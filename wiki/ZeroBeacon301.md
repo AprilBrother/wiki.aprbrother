@@ -1,4 +1,4 @@
-<languages/> <translate>
+ 
 
 ## Introduction
 
@@ -69,4 +69,3 @@ Service UUID FFF0 -\> Characteristic FFF1
 
   - How to upgrade the firmware?
 
-</translate>

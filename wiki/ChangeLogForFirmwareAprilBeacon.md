@@ -1,6 +1,6 @@
-<languages/>
 
-<translate> Note: The Firmware BlueBeacon was renamed to AprilBeacon.
+
+ Note: The Firmware BlueBeacon was renamed to AprilBeacon.
 
 ## ChangeLog
 
@@ -21,4 +21,3 @@
   - Add mac address in the Bluetooth service `Device Information ->
     System ID` (0x180A -\> 0x2A23).
 
-</translate>
