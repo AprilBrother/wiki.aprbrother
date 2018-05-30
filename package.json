@@ -2,12 +2,17 @@
     "name": "Wiki",
     "version": "1.0",
     "description": "",
+    "license": "ISC",
     "scripts": {
-        "serve": "gitbook serve",
+        "serve": "gulp prebuild && gitbook serve --no-watch --open",
         "build": "gitbook build"
     },
     "dependencies": {
+        "commander": "^2.15.1",
+        "del": "^3.0.0",
         "gitbook-plugin-expandable-chapters-small": "^0.1.7",
-        "gulp": "^3.9.1"
+        "globby": "^8.0.1",
+        "gulp": "^3.9.1",
+        "lodash": "^4.17.10"
     }
 }

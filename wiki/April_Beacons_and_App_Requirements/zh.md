@@ -1,4 +1,4 @@
-<languages/>
+
 
 There are a few requirements on the mobile device side that must be met
 for the entire experience to work as expected.

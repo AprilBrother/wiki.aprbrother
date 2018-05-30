@@ -1,4 +1,4 @@
-<languages/>
+
 
 Note: The Firmware BlueBeacon was renamed to AprilBeacon.
 

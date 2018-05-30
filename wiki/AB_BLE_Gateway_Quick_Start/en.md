@@ -1,6 +1,6 @@
 [← AB BLE Gateway Main Page](AB_BLE_Gateway.md)
 
-<languages/>
+
 
 ## Description
 

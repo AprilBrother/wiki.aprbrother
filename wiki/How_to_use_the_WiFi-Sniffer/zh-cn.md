@@ -1,7 +1,7 @@
 [← Wireless iBeacon Receiver Main
 Page](Wireless_iBeacon_Receiver.md)
 
-<languages/>
+
 
 ## WiFi-Sniffer用户使用说明
 

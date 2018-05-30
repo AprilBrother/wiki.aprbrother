@@ -1,4 +1,4 @@
-<languages/>
+
 
 在iOS 7.1和7.1.1中，手机检测iBeacon有时会遇到问题。
 

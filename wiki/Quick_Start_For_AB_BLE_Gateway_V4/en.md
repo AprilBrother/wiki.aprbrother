@@ -1,4 +1,4 @@
-<languages/>
+
 
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 

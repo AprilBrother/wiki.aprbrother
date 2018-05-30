@@ -1,7 +1,7 @@
 [← Wireless iBeacon Receiver Main
 Page](Wireless_iBeacon_Receiver.md)
 
-<languages/>
+
 
 ## MQTT是什么
 

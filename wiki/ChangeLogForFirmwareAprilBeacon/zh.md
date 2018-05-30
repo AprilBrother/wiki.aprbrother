@@ -1,4 +1,4 @@
-<languages/>
+
 
 注：原固件BlueBeacon现已更名为AprilBeacon
 

@@ -1,4 +1,4 @@
-<languages/>
+
 
 We are aware of the fact that there are some issues with iBeacons being
 detected with iOS 7.1 and 7.1.1.
