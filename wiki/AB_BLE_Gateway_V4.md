@@ -1,7 +1,3 @@
-
-
-
-
 ## Description
 
 AB BLE Gateway V4
@@ -11,7 +7,7 @@ format and sends to local TCP server or internet HTTP/MQTT server.
 User can configure the transmit period and server information through a simple HTTP
 API.
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/gw4.jpg" width="640">
+<img src="http://7fvk57.com1.z0.glb.clouddn.com/gateway41.jpg-640.jpg">
 
 ## Features
 
