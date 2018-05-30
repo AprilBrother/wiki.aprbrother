@@ -1,0 +1,9 @@
+{
+    "name": "Wiki",
+    "version": "1.0",
+    "description": "",
+    "scripts": {
+        "serve": "gitbook serve",
+        "build": "gitbook build"
+    }
+}
