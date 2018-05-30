@@ -5,7 +5,7 @@
     "license": "ISC",
     "scripts": {
         "serve": "gulp prebuild && gitbook serve --no-watch --open",
-        "build": "gitbook build"
+        "build": "gulp restore-ignore && gulp prebuild && gitbook build && gulp postbuild"
     },
     "dependencies": {
         "commander": "^2.15.1",

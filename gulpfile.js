@@ -33,7 +33,7 @@ gulp.task('publish', function (done) {
 });
 
 const FORBID_IGNORE_ARRAY = ['index.md', 'SUMMARY.md'];
-const allPagesPattern = ['wiki/*.md', 'wiki/**/*.md'];
+const allPagesPattern = ['wiki/*.md', 'wiki/**/*.md', 'wiki/**/**/*.md'];
 const START_TAG = '\n\n## CC_HIDE_IN_SUMMARY_START';
 const END_TAG = '## CC_HIDE_IN_SUMMARY_END\n';
 const START_TAG_IGNORE = '\n\nCC_IGNORE_START';
@@ -67,7 +67,6 @@ function fillSummary (path) {
     var cwd = Path.dirname(path);
     // get missing pages
     var listedPages = parseListedPages(path);
-    var allPagesPattern = Path.join(cwd, '*/**/*.md');
     var allPages = Globby.sync(allPagesPattern, { absolute: true });
     var missingPages = Difference(allPages, listedPages);
     // fill summary
@@ -102,12 +101,13 @@ gulp.task('restore-summary', function () {
 });
 
 gulp.task('restore-ignore', function () {
-    restoreIgnore('.bookignore');
+    //restoreIgnore('.bookignore');
 });
 
 function pruneLeftBar (dir) {
     var allPagesPattern = Path.join(dir, '**/*.html');
     var allPages = Globby.sync(allPagesPattern);
+    console.log(allPages);
     for (var i = 0; i < allPages.length; ++i) {
         var path = allPages[i];
         var content = Fs.readFileSync(path, 'utf8');
