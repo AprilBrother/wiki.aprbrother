@@ -1,0 +1,4 @@
+{
+    "root": "./wiki",
+    "plugins": ["expandable-chapters-small", "-search", "-livereload", "-fontsettings", "-sharing"]
+}
