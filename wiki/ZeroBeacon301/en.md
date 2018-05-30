@@ -50,7 +50,7 @@ command over the USB connector interface.
 
 ## Related Links
 
-  - [The AT commands and configuration](/Firmware/ZeroBeacon "wikilink")
+  - [The AT commands and configuration](Firmware/ZeroBeacon.md)
 
 ## FAQ
 

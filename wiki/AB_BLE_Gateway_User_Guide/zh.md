@@ -1,5 +1,5 @@
 [← AB BLE Gateway Main
-Page](/AB_BLE_Gateway "wikilink")
+Page](AB_BLE_Gateway.md)
 
 <languages/>
 
@@ -107,7 +107,7 @@ AB BLE网关默认AP模式。 您可以看到AP的参数。
 
 ### 高级
 
-  - [OTA upgrade firmware](/ABGateway_OTA "wikilink")
+  - [OTA upgrade firmware](ABGateway_OTA.md)
   - Restart device
 
 ## App ABGateway

@@ -7,7 +7,7 @@ Energy）iBeacon基站模块，可广泛用于室内定位，范围检测等场�
 
 ## Specifications
 
-  - 已烧录[AprilBeacon固件](/Firmware/AprilBeacon "wikilink")，按照苹果的技术规范文档实现
+  - 已烧录[AprilBeacon固件](Firmware/AprilBeacon.md)，按照苹果的技术规范文档实现
   - 内置CR2450纽扣电池座
   - 兼容蓝牙4.0低功耗BLE
   - 准确的数字RSSI信号

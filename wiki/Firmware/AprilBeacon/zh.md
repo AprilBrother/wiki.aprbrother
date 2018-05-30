@@ -42,4 +42,4 @@ Firmware AprilBeacon
 ## 相关链接
 
   - [ChangeLog for Firmware
-    AprilBeacon](/ChangeLogForFirmwareAprilBeacon "wikilink")
+    AprilBeacon](ChangeLogForFirmwareAprilBeacon.md)

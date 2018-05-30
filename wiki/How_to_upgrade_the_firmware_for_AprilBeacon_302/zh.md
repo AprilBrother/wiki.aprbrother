@@ -10,7 +10,7 @@ AprilBeacon 302提供了通过USB接口升级固件的功能
 
 请注意，这个升级步骤不可逆，进入升级模式以后，如果你不想升级固件，你只能得到一个238k的超小磁盘
 
-  - 从 [这个页面下载最新固件](/AprilBeacon_302#Downloads "wikilink"), 你会获得一个.bin文件
+  - 从 [这个页面下载最新固件](AprilBeacon_302#Downloads.md), 你会获得一个.bin文件
   - 把AprilBeacon 302插到USB接口上
   - 通过串口软件例如RealTerm/CoolTerm发送AT指令`AT+UBLUP`. AprilBeacon
     302会进入升级模式，此时不再接受其它AT指令.

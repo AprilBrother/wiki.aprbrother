@@ -48,8 +48,8 @@ Note: This device is in alpha development status.
 
 ## Documents And Links
 
-  - [Download app ABGateway](/Download_app_ABGateway "wikilink")
+  - [Download app ABGateway](Download_app_ABGateway.md)
   - [SDK](https://github.com/AprilBrother/ab-ble-gateway-sdk)
-  - [Quick Start](/AB_BLE_Gateway_Quick_Start "wikilink")
-  - [User Guide](/AB_BLE_Gateway_User_Guide "wikilink")
+  - [Quick Start](AB_BLE_Gateway_Quick_Start.md)
+  - [User Guide](AB_BLE_Gateway_User_Guide.md)
   - [Support Forum](http://bbs.aprbrother.com/c/wifi)

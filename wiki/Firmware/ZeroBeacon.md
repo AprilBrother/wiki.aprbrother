@@ -458,7 +458,7 @@ But you can still use orginal AT setup command to setup digital value:
 
 ## Related Products
 
-  - [Raspberry PI BLE Module](/PI305 "wikilink")
-  - [BlueDuino](/BlueDuino "wikilink")
-  - [AprilBeacon 301](/ZeroBeacon301 "wikilink")
-  - [BLEShield](/BLEShield "wikilink")
+  - [Raspberry PI BLE Module](PI305.md)
+  - [BlueDuino](BlueDuino.md)
+  - [AprilBeacon 301](ZeroBeacon301.md)
+  - [BLEShield](BLEShield.md)

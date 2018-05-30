@@ -9,7 +9,7 @@ Raspberry Pi, Netduino, BeagleBone等等。ABBLEShield同时也支持iBeacon广�
 
 ### 特点
 
-  - 接口简单 - 预烧录了固件 [ZeroBeacon](/Firmware/ZeroBeacon "wikilink"),
+  - 接口简单 - 预烧录了固件 [ZeroBeacon](Firmware/ZeroBeacon.md),
     可以很容易的与支持串口UART通讯的开发板相连.
   - 超小的体积 - 17mm x 27mm
   - 固件可升级 - 固件可通过串口升级.

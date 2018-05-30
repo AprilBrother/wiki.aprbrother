@@ -46,7 +46,7 @@ AprilBeacon 301 USB串口适配器在windows下可通过USB虚拟的串口，输
 
 ## Related Links
 
-  - [The AT commands and configuration](/Firmware/ZeroBeacon "wikilink")
+  - [The AT commands and configuration](Firmware/ZeroBeacon.md)
 
 ## FAQ
 

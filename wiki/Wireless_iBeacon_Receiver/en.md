@@ -121,8 +121,8 @@ datas are splitted by semicolon. The sample data
 
 ### How to Config
 
-  - [Wi-Fi Config](/Wi-Fi_Config_For_Wi-Fi-BLE-Sniffer "wikilink")
-  - [MQTT Config](/MQTT_Config_For_Wi-Fi-Ble-Sniffer "wikilink")
+  - [Wi-Fi Config](Wi-Fi_Config_For_Wi-Fi-BLE-Sniffer.md)
+  - [MQTT Config](MQTT_Config_For_Wi-Fi-Ble-Sniffer.md)
 
 ### Community
 

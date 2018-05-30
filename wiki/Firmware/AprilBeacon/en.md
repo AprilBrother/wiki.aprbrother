@@ -44,4 +44,4 @@ battery holder. The firmware cannot be used for BlueBeacon 101.
 ## Related Links
 
   - [ChangeLog for Firmware
-    AprilBeacon](/ChangeLogForFirmwareAprilBeacon "wikilink")
+    AprilBeacon](ChangeLogForFirmwareAprilBeacon.md)

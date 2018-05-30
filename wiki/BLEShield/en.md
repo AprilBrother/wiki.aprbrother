@@ -13,7 +13,7 @@ BeagleBone etc.
 ### Features
 
   - Simple interface - with our pre-loaded firmware name
-    [ZeroBeacon](/Firmware/ZeroBeacon "wikilink"), you could easily
+    [ZeroBeacon](Firmware/ZeroBeacon.md), you could easily
     connect to any development board or IC with UART interface.
   - Compact form factor - 17mm x 27mm this is a very popular request
     from makers using smaller Arduino boards like Arduino

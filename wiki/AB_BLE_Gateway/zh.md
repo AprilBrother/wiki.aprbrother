@@ -47,8 +47,8 @@ BLE网关是一个蓝牙（BLE）桥接到WiFi网络的网关工具。它可以�
 
 ### 文档以及链接
 
-  - [下载app](/Download_app_ABGateway "wikilink")
+  - [下载app](Download_app_ABGateway.md)
   - [SDK](https://github.com/AprilBrother/ab-ble-gateway-sdk)
-  - [快速上手](/AB_BLE_Gateway_Quick_Start/zh "wikilink")
-  - [用户手册](/AB_BLE_Gateway_User_Guide/zh "wikilink")
+  - [快速上手](AB_BLE_Gateway_Quick_Start/zh.md)
+  - [用户手册](AB_BLE_Gateway_User_Guide/zh.md)
   - [支持论坛](http://bbs.aprbrother.com/c/wifi)

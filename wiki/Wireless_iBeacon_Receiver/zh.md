@@ -118,8 +118,8 @@ datas are splitted by semicolon. The sample data
 
 ### Documents
 
-  - [Wi-Fi配置](/Wi-Fi_Config_For_Wi-Fi-BLE-Sniffer "wikilink")
-  - [MQTT配置](/MQTT_Config_For_Wi-Fi-Ble-Sniffer/zh "wikilink")
+  - [Wi-Fi配置](Wi-Fi_Config_For_Wi-Fi-BLE-Sniffer.md)
+  - [MQTT配置](MQTT_Config_For_Wi-Fi-Ble-Sniffer/zh.md)
 
 ### 交流
 
