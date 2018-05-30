@@ -2,3 +2,6 @@
 # yarn lockfile v1
 
 
+gitbook-plugin-expandable-chapters-small@^0.1.7:
+  version "0.1.7"
+  resolved "http://r.cnpmjs.org/gitbook-plugin-expandable-chapters-small/download/gitbook-plugin-expandable-chapters-small-0.1.7.tgz#afc9e597b6851156fa7b00231ff8ab93f4feba4c"

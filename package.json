@@ -6,5 +6,7 @@
         "serve": "gitbook serve",
         "build": "gitbook build"
     },
-    "dependencies": {}
+    "dependencies": {
+        "gitbook-plugin-expandable-chapters-small": "^0.1.7"
+    }
 }
