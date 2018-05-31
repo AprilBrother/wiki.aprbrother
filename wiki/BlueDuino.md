@@ -1,7 +1,6 @@
 ## Description
 
   - [BlueDuino rev2](BlueDuino_rev2.md)
-  - [BlueDuino rev1](BlueDuino_rev1.md)
 
 ## Firmware
 
