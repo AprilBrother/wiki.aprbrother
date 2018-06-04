@@ -1,4 +1,5 @@
 {
+    "root": ".",
     "plugins": [
         "expandable-chapters-small", 
         "-search", 
