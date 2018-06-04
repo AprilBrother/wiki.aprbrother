@@ -1,58 +1,54 @@
 
 
+## 产品介绍
 
+AB
+BLE网关是一个蓝牙（BLE）桥接到WiFi网络的网关工具。它可以读取诸如iBeacon和Eddystone格式的蓝牙（BLE）广播数据，并发送到本地TCP服务器或因特网HTTP
+/ MQTT / WebSocket服务器。
 
-# AB BLE Gateway 2.0
-
-## Description
-
-AB BLE Gateway is a BLE to WiFi gateway and bridge. The gateway reads
-BLE advertising data such as iBeacon and Eddystone format and sends to
-local TCP server or internet HTTP/MQTT/WebSocket server.
+注意：此设备处于alpha开发状态。
 
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/gw_1.jpg-320.jpg">
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/gw_2.jpg-320.jpg">
 
-## Features
+## 产品特征
 
-  - Size: 60mm x 36mm x 16mm
-  - Input:5V, 1000mA
-  - Operating temperature:-20'C to 60'C
-  - Low power consumption, 80mA typical working current
-  - Over-The-Air firmware upgrade
-  - Support WebSocket/HTTP/MQTT server
+  - 尺寸：60mm x 36mm x 16mm
+  - 电源规格：5V，1A
+  - 工作温度：-20'C至60'C
+  - 功耗低，80mA典型工作电流
+  - 空中固件升级
 
-### BLE
+### 蓝牙（BLE）说明
 
-  - Base on TI CC2640
-  - BLE on chip antenna
-  - Scan advertising data from BLE devices
-  - 30m range in open space
-  - Bluetooth scan duration 1 second
+  - 基于TI CC2640
+  - BLE瓦片式天线
+  - 从BLE设备扫描广播数据
+  - 露天场所可达到30米范围覆盖
+  - 蓝牙扫描周期为1秒/次
 
-### WiFi
+### 无线（WIFI）上网说明
 
-  - Support 802.11 b/g/n
-  - 2.4GHz frequency band
-  - Support cloud server or local server in LAN
-  - 100m range in open space
+  - 支持802.11 b / g /
+    n
+  - 频段：2.4GHz
+  - 支持局域网中的云服务器或本地服务器
+  - 传输距离：开放空间可达到100米范围
 
-## Application
+## 应用场景
 
-  - Indoor Location
-  - Meeting sign in
-  - Check in
-  - Parking & Checking in
-  - Sensor data collection
-  - Home automation
-  - User data collection
-  - ...
+  - 室内定位：当为人员或物品佩戴上蓝牙标签时，Gatway在关键位置获得蓝牙标签数据后，即可实现后台对人员或物品进行定位实现。
+  - 会议签到：当与会者佩戴蓝牙信标，在会议室部署的Gatway通过代表与会者的蓝牙信号采集后，反馈至会议系统，实现与会者到达现场的签到功能。
+  - 停车和车辆记录：在车辆上安装蓝牙标签后，车辆进入停车场时，场地中部署的Gatway即可将代表该车辆的蓝牙信号采集并上传至停车场系统，实现车辆轨迹记录信息。
+  - 人员打卡检查：佩戴蓝牙标签的工作人员达到部署Gatway周围时，服务器通过Gatway发上来的蓝牙信号，完成工作人员对相应位置的打卡工作。
+  - 传感器数据采集：在某个环境中，通过传感器获得的光线、加速度、温湿度……通过蓝牙信号广播出来时，Gatway定时扫描后发送到后台服务器，实现环境内各项数据的实时监测。
+  - 家庭自动化感应：或许在您家宠物脖子上带一个蓝牙信标后，它在特定时间到达进食区域，Gatway可以告诉家庭管理系统应该为您的宠物提供新鲜的食物了。
+  - 用户数据收集：当用户佩戴蓝牙标签时，身上的传感器可通过蓝牙信号广播出来，而用户路过部署有Gatway设备的场所时，Gatway可以在用户允许的情况下，将传感器的数据传输至相应的后台。
 
-## Documents And Links
+### 文档以及链接
 
-  - [Download app ABGateway](Download_app_ABGateway.md)
+  - [下载app](Download_app_ABGateway.md)
   - [SDK](https://github.com/AprilBrother/ab-ble-gateway-sdk)
-  - [Quick Start](AB_BLE_Gateway_Quick_Start.md)
-  - [User Guide](AB_BLE_Gateway_User_Guide.md)
-  - [Support Forum](http://bbs.aprbrother.com/c/wifi)
-
+  - [快速上手](AB_BLE_Gateway_Quick_Start/zh.md)
+  - [用户手册](AB_BLE_Gateway_User_Guide/zh.md)
+  - [支持论坛](http://bbs.aprbrother.com/c/wifi)

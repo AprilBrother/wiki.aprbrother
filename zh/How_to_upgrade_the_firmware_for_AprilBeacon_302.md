@@ -1,34 +1,20 @@
 
 
+## 说明
 
+AprilBeacon 302提供了通过USB接口升级固件的功能
 
-## Description
+请注意：升级固件有风险，须谨慎
 
-AprilBeacon 302 provides a firmware update function via the USB
-interface.
+## 如何升级固件
 
-Note: Firmware upgrade has a risk, be careful.
+请注意，这个升级步骤不可逆，进入升级模式以后，如果你不想升级固件，你只能得到一个238k的超小磁盘
 
-## How to upgrade the firmware
-
-Please note, this command is not reversible, entered the upgrade mode,
-if you do not want to upgrade, so, you will get a 238KB super small
-disk.
-
-  - Download firmware from [the
-    page](AprilBeacon_302#Downloads.md), you will get a .bin
-    file
-  - Plug-in AprilBeacon 302 to USB
-  - Send AT command "AT+UBLUP" by serial software such as
-    RealTerm/CoolTerm. AprilBeacon 302 will enter upgrade mode and do
-    not accept any AT commands.
-  - In the upgrading mode, the computer will add a disk, double-click
-    the disk
-  - Please don't move the DEFAULT.CFG file, just remove the bin file.
-    After the file is deleted, the disk will temporarily disappear,
-    please wait for the disk appears again, this time there is no bin
-    file in the disk.
-  - Copy the new firmware you downloaded to the disk. After the
-    completion of the copy, AprilBeacon 302 will automatically restart,
-    then enter the normal working state, the upgrade is complete.
-
+  - 从 [这个页面下载最新固件](AprilBeacon_302#Downloads.md), 你会获得一个.bin文件
+  - 把AprilBeacon 302插到USB接口上
+  - 通过串口软件例如RealTerm/CoolTerm发送AT指令`AT+UBLUP`. AprilBeacon
+    302会进入升级模式，此时不再接受其它AT指令.
+  - 在升级模式下，电脑上会新增一个磁盘，双击这个磁盘的盘符
+  - 打开磁盘后，请不要删除或修改DEFAULT.CFG文件, 只是删除bin文件.
+    文件删除后，这个磁盘会短暂消失，等这个磁盘再次出现时，就没有bin文件存留了。
+  - 复制下载的新固件到磁盘. 复制完成后, AprilBeacon 302会自动重启并进入正常工作的状态，升级完成

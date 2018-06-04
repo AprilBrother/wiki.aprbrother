@@ -1,89 +1,66 @@
 
 
+## 简介
 
+YuePixels是运用最新的WiFi技术的LED控制器。我们可以方便的在电脑或手机上播放音乐，控制WS2812灯串随着音乐律动显示频谱。
 
-## Instroduction
+<img src="https://dn-abcdn.qbox.me/wp-content/uploads/2016/06/yuepixels_5.jpg" width="600">
 
-YuePixels is newest WiFi technology LED driver. You can control WS2812
-led strips at PC or mobile by web player and very
-easy.
+## 特点
 
-<img src="https://dn-abcdn.qbox.me/wp-content/uploads/2016/06/yuepixels_5.jpg" width="550">
+  - WiFi控制WS2812灯串，不需要安装其它软件，直接采用电脑或手机控制
+  - 跟随音乐律动控制灯串显示波形
+  - 控制方式, YuePixels做AP或STATION两种模式
+  - 支持固件空中升级，未来可以扩充添加更多功能
 
-## Features
+## 参数
 
-  - Control WS2812 led strips through Wifi, no other app or software
-    needed, control by web page directly
-  - Default player will output music visualizer signal
-  - Control mode, YuePixels work as AP or STATION
-  - OTA support
-
-## Specification
-
-|                       |                        |
-| --------------------- | ---------------------- |
-| Name                  | Parameters             |
-| Work Voltage          | DC 5V/2A or 5V/3A      |
-| Output Voltage        | DC 5V                  |
-| Work Mode             | STA/AP/STA+AP          |
-| Security Mode         | WPA/WPA2               |
-| Frequency             | 2.412GHz -- 2.484GHz   |
-| WiFi Control Distance | Indoor 50 meters       |
-| Work Temperature      | \-20℃ - 65℃            |
-| Power Input Interface | 5.5\*2.5 female header |
+|          |                           |
+| -------- | ------------------------- |
+| Name     | Parameters                |
+| 工作电压     | DC直流 5V/2A 或 5V/3A        |
+| 输出电压     | DC直流5V                    |
+| 工作模式     | 支持STA/AP/STA+AP工作模式       |
+| 安全模式     | WPA/WPA2                  |
+| 频率范围     | 2.412GHz -- 2.484GHz      |
+| WiFi控制距离 | 室内50米                     |
+| 支持手机系统   | IOS7,安卓2.3及以上             |
+| 工作温度     | \-20℃ - 65℃               |
+| 电源输入端    | 5.5\*2.5 DC母头, 里面是正极外面是负极 |
 |  |
 
-## LED Status
+## LED指示灯状态
 
-  - LED is on shortly when power on
-  - LED will start blink slowly after button Mode pressed, you can use
-    app YuePixles configure WiFi parameters. If WiFi configuration ok,
-    the led will stop
-blink.
+  - 上电时，控制板上的指示灯会短暂亮起
+  - 按下配置按键(Mode)后，指示灯会慢速闪烁，此时可以采用YuePixels应用配置WiFi参数，如果配置网络参数成功，手机上会提示分配给YuePixels驱动板的IP，同时LED指示灯停止闪烁
 
 <img src="https://dn-abcdn.qbox.me/wp-content/uploads/2016/06/yuepixels_6.jpg" width="600">
 
-## Usage
+## 使用说明
 
-YuePixels work at WiFi AP and STATION mode after power on.
+上电后，YuePixels会同时工作于WiFi的AP和STATION模式。
 
-### YuePixels Work As AP
+### YuePixels做为AP时
 
-  - Open PC or mobile and search WiFi named "yuepixels" and connect,
-    default password is 12345678
-  - Open web page <http://192.168.4.1> after WiFi connected
-  - Click "SELECT SONGS TO PLAY" to choose mp3 files and start play. The
-    ws2812 led strips will play with fun
+  - 打开电脑或手机，搜索名称为yuepixels的wifi热点并连接，默认密码为12345678
+  - 连接成功后，在浏览器上打开控制网页 <http://192.168.4.1>
+  - 点击"SELECT SONGS TO PLAY"选择mp3格式的歌曲（可以选择多首），开始播放。此时灯串会随着音乐律动开始变化
 
-### YuePixels Work As STATION
+### YuePixels做为STATION时
 
-YuePixels only support 2.4G WiFi spot.
+  - 按下YuePixels上的配置(Mode)按键，此时LED指示灯会开始慢闪
+  - 打开手机应用YuePixels，输入你的WiFi热点名称(SSID)和密码(Password)，如果热点是隐藏的，请选中 (SSID
+    is hidden)，然后点选Confirm，如果配置网络成功，手机应用上会提示对应的设备IP，同时LED指示灯停止闪烁
+  - 连接成功后，假设获得的IP是192.168.1.123，那么在浏览器上打开控制网页， <http://192.168.1.123>
+  - 点击"SELECT SONGS TO PLAY"选择mp3格式的歌曲（可以选择多首），开始播放。此时灯串会随着音乐律动开始变化
 
-  - Press the Mode button on YuePixels, the led will start blink slowly
-  - Open mobile app YuePixels, input your WiFi name and password. If the
-    WiFi is hidden, please check the checkbox "WiFi is hidden". Click
-    "Confirm"
-  - The app will pop an alert window if network is ready and led stop
-    blink
-  - Let's say the IP for YuePixels is 192.168.1.123, then open the
-    control page at browser, <http://192.168.1.123>
-  - Click "SELECT SONGS TO PLAY" to choose mp3 files and start play. The
-    ws2812 led strips will play with fun
+## 进阶使用说明
 
-## Advance Usage
+YuePixels工作于websocket服务器模式，可以采用流行的开发语言发送灯串控制信号。控制8 x 8 =
+64个LED的颜色，相当于一个64像素的显示屏。
 
-YuePixels work as websocket server mode, you can use popular language
-such as javascript to control the led strips.
+## 常见问题
 
-## FAQ
+### Q:为什么灯串的会停止变化，此时音乐仍在播放
 
-### Q: Why led strips will stop blink but the player still worked
-
-A: Please put the player web page to foreground. For Chrome, you can
-split a single window for the player tab.
-
-
-
-## Links
-
-  - [Source Code](https://github.com/AprilBrother/YuePixels)
+A: 请注意将播放网页置于当前网页，如果切换到了其它网页后面，会停止播放

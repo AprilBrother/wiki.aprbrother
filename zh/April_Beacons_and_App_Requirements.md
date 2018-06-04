@@ -1,7 +1,7 @@
 
 
- There are a few requirements on the mobile device side that
-must be met for the entire experience to work as expected.
+There are a few requirements on the mobile device side that must be met
+for the entire experience to work as expected.
 
   - An eligible app installed on a mobile device
   - A mobile device's Bluetooth® Smart hardware must be switched on
@@ -9,7 +9,7 @@ must be met for the entire experience to work as expected.
     connection for content delivery to a mobile device. The latter is
     recommended.
 
-## iOS 7 Background App Refresh
+## iOS 7 后台应用刷新
 
 Background App Refresh is a global setting that allows apps to refresh
 their content when on a WIFI or cellular connection, or use Location
@@ -27,4 +27,4 @@ The following Apple support article provides more details: iOS:
 Understanding multitasking
 
 Note: Push notifications require a WIFI or a cellular connection. WIFI
-is used when a cellular connection is not available. 
+is used when a cellular connection is not available.

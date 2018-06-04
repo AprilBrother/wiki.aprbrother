@@ -2,8 +2,6 @@
 
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
-
-
 ## 使用
 
   - 准备好5V/2A的电源适配器一个，注意功率一定要足够。
@@ -12,18 +10,16 @@
   - 在电脑上安装好配置工具并打开
   - 点击application，你可以看到一些配置项
 
-## How To Test
+## 如何测试
 
-  - Change application settings for gateway and save
+  - 修改网关的Application设置如下并保存
       - Application Type -\> MQTT Client
       - MQTT Host -\> `mqtt.bconimg.com`
       - MQTT Port -\> 1883
       - Publish Topic -\> your-topic
-  - Download and install [data viewer
+  - 下载并安装测试工具 [data viewer
     software](http://7fvk57.com1.z0.glb.clouddn.com/ble-viewer-setup-v1.0.0.exe.zip)
-  - Fill the form with the parameters in first steps
-  - View the data from
-gateway
+  - 在测试工具中填写第一步中提到的参数
+  - 在测试工具中查看来自于蓝牙网关的数据
 
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/ble-viewer.png" width="480">
-

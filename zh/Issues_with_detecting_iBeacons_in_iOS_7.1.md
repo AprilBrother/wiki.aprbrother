@@ -1,33 +1,22 @@
 
 
- We are aware of the fact that there are some issues with
-iBeacons being detected with iOS 7.1 and 7.1.1.
+在iOS 7.1和7.1.1中，手机检测iBeacon有时会遇到问题。
 
-If you can't detect iBeacons on your iPhone with iOS 7.1(.1) please try
-the following:
+如果您的iPhone在iOS 7.1的情况下检测不到iBeacon, 请尝试下列方法。
 
-1\. Shut down and restart - some people have reported that this is all
-that was needed to fix their device after the iOS 7.1 upgrade.
+1.关机重启 - 大多数人表示只要做这一步就能解决iOS
+7.1升级后遇到的设备检测问题。
 
-2\. Toggle Bluetooth OFF and back ON - Swipe up to access Control Center
-and tap the Bluetooth icon, wait at least 30 seconds, then toggle it
-back on. This can often repair a device which is experiencing connection
-issues.
+2.将蓝牙开关关闭后重新打开-到手机的控制中心，点击蓝牙图标关闭蓝牙，等待30秒，重新激活蓝牙。这样可以解决设备连接问题。
 
-3\. Kill (force quit) the offending app - Start by double clicking Home
-to launch the multitasking cards interface. Touch and hold the card for
-the app, then toss it up and away. This will force the app to quit and
-it will be fully reloaded the next time the app is opened.
+3.关闭后台应用程序-首先双击Home键，系统会显示多任务卡片式略缩图管理界面，手指向上拖动应用程序缩略即可关闭相关应用。这样可以完全退出应用，下次打开时会重新更新数据。
 
-4\. Clear and reset your Bluetooth device pairing - Go to
-Settings\>Bluetooth and tap on the (i) icon for the offending device.
-Tap on Forget this Device. Now you should be able to re-add and re-pair
-the Bluetooth hardware to your device."
+4.清空重置蓝牙设备配对密码-到设置\>蓝牙，在设备旁轻触(i)图标，选择忽略此设备，然后重新添加，重新给手机和蓝牙设备进行配对。
 
-5\. Some people have reported that reinstalling the app helped.
+5.有些用户反映重新安装应用会有帮助。
 
-## Related Links
+## 相关链接
 
-  - [Tips to Fix Bluetooth Problems After iOS 7.1
-    Upgrade](http://www.smartbotics.com/#!4-Tips-to-Fix-Bluetooth-Problems-After-iOS-71-Upgrade/c118r/031A86F6-C8E8-4768-B4FD-E6F83D9E4317%7C4)
-
+[`Tips`` ``to`` ``Fix`` ``Bluetooth`` ``Problems`` ``After`` ``iOS``
+``7.1``
+``Upgrade`](http://www.smartbotics.com/#!4-Tips-to-Fix-Bluetooth-Problems-After-iOS-71-Upgrade/c118r/031A86F6-C8E8-4768-B4FD-E6F83D9E4317%7C4)

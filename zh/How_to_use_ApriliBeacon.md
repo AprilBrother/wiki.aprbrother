@@ -1,162 +1,109 @@
 
 
-
-
 ## General
 
-### What is iBeacon?
+### 什么是iBeacon?
 
-iBeacon is a technology which Apple calls "a new class of low-powered,
-low-cost transmitters that can notify nearby iOS 7 devices of their
-presence". They can also be used by the Android operating system
-(limited to central-only).
+iBeacon是苹果公司开发的一种通过低功耗蓝牙技术进行一个十分精确的微定位技术。通过此技术设备可以接收一定范围由其他iBeacons发出来的信号，同时也可以把你的信息在一定范围内传给其他用户。所有搭载有蓝牙4.0以上版本和iOS7的设备都可以作为iBeacons技术的发射器和接收器
 
-April iBeacon's Android and iOS 7 SDK include respective readme files
-that provide SDK installation and usage steps. Additionally, each
-platform's SDK is well documented. readme.md files; Android iOS 7 SDK
-documentation; Android iOS 7
+四月兄弟公司的Android和iOS 7 SDK
+包含各自的readme文件，详述了关于如何安装和使用SDK的步骤。另外,每个平台的SDK包含详细的文档。
+readme.md files; Android iOS 7 SDK documentation; Android iOS
+7
 
-### How does it work?
+### iBeacon如何工作？
 
-April beacon broadcast a signal which contain the UUID, major, and minor
-values. Bluetooth 4.0 LE enabled devices in the beacon's range are able
-to pick up this signal, and businesses can choose what interaction to
-deliver to the device via their app.
+Beacon广播信号包含UUID,major,和minor值。低功耗蓝牙技术可以让设备在beacon的范围内检索到它的信号,商家可以通过beacon应用将需要交互的数据推送到设备中。
 
-### User Guide of AprilBeacon?
+### 四月兄弟AprilBeacon用户手册
 
-Please download User Guide of AprilBeacon
-[1](http://abcdn1.qiniudn.com/UserguideofAprilBeacon0818.pdf?download)
+请下载用户手册[1](http://abcdn1.qiniudn.com/userguidechinese.pdf?download)
 
-### How to maintain April Beacons?
+### 如何维护April Beacons？
 
-April Brother provide free ibeacon maintenance system [iBeacon
-Maintenance System](http://skymap.aprbrother.com/) The system detail,
-please refer to [Maintenance
-article](http://www.chinaibeacons.com/index.php?a=shows&catid=1&id=54)
+四月兄弟公司开发了免费的[iBeacon维护系统](http://skymap.aprbrother.com/)供大家使用。使用介绍请参照文章[如何维护一套iBeacon系统](http://www.chinaibeacons.com/index.php?a=shows&catid=1&id=54)
 
-### How to get firmware version?
+### 如何查看固件的版本号
 
-View the firmware version via app AprilBeacon.
+通过AprilBeacon应用查看固件的版本号。
 
-### Why beacon is not visible after UUID changing?
+### 为什么修改了beacon的UUID后，就找不到了？
 
-iOS can't recognize all proximityUUID of beacons. You need add modified
-UUID to the whitelist. In AprilBeacon App, go to setting interface, add
-new modified UUID to the whitelist.
+iOS系统不能识别所有的beacon的UUID.
+需要将修改后的UUID加入白名单。以AprilBeacon应用为例，通过配置界面，将beacon修改后的UUID加入白名单，就可以找到那个beacon啦。
 
-### Do these April beacons support the Apple iBeacon profile?
+### 四月兄弟公司的April Beacons符合苹果公司的iBeacon的规范吗？
 
-Yes\! We are officialy licensed by Apple and all beacons we ship are
-iBeacon-compatible and work seamlessly with iPhones and iPads.
+是的，我们公司所有beacon产品都是通过苹果公司的认证的，都可以应用在iPhone和iPads上。
 
-### How to calibrate AprilBeacon?
+### 如何校准AprilBeacon?
 
-Please refer to [Calibration Blog](http://blog.aprbrother.com/p/95)
+请参考 [校准Blog](http://blog.aprbrother.com/p/95)
 
-### How to achieve successful deployment of April Beacon?
+### 如何获得April Beacon的最佳部署效果?
 
-Please refer to [Deployment Blog](http://blog.aprbrother.com/p/75)
+请参考 [如何获得April
+Beacon的最佳部署效果](http://blog.aprbrother.com/p/75)
 
-### How long does a battery last for April Beacon?
+### 电池的使用时间一般是多长？
 
-Normally, for testing cell battery, it should last up to 3 months. For
-Panasonic cell battery, it should last up to 6 months.
+通常情况下，测试电池可以续航至3个月。对于松下等电池，续航时间可达6个月。
 
-### How precise should the indoor location be?
+### 室内定位需要有多精确？
 
-It very much depends on your intended use and the immediate
-surroundings, but you could detect the presence of beacons as far away
-as 50-70 meters or as little as 10 inches, so it could be very accurate.
-It’s super important to consider your specific use case. For example: if
-you’re placing beacons in a museum, you probably don’t want users to be
-pinged with notifications until they’re really close to a particular
-painting, sculpture, or an installation. In a restaurant, however, you’d
-most likely prefer to reach all your customers in the room.
+室内定位需要有多精确，大多取决于具体的使用用途和场景。Beacon信号的接收范围大到50-70米，小到10英寸，可以说是比较精准的。根据特定的使用场景来考虑定位的精确度是非常重要的。例如，如果在博物馆里部署Beacon,我们可能需要游客距离特定的展画，雕像或者装置很近的时候才推送相应消息，而在一个饭店中，我们可能需要给在店内的所有客户推送信息。
 
-### What is a UUID?
+### 什么是UUID?
 
-A beacon identifies itself using three customizable values: Proximity
-UUID, Major and Minor; there is also an additional Internal Identifier
-for your own reference. Therefore you have three levels to identify a
-micro-location: only Proximity UUID, Proximity UUID and Major, or
-Proximity UUID and Major and Minor. For example, Proximity UUID
-identifies your entire retail company, Major identifies a specific store
-and Minor specify individual shelves or different points inside each
-store. Another example: Proximity UUID identifies your museum, Major
-identifies a specific gallery within the museum and Minor identifies an
-exhibit within that
-gallery.
+一个信标可以用三个自定义的值来唯一标识，他们分别是Proximity
+UUID，Major和Minor，也可以用一个额外的内部标识作为自己的参考。由此一个地方可以用三个级别来标识。只根据Proximity
+UUID,或者根据 Proximity UUID和Major,或者根据Proximity UUID，Major和Minor.
+例如，用Proximity
+UUID来表示整个零售公司，Major标识其下的各个商店，Minor标识商店中具体的各个货架或者不同的地点。另一个例子：用Proximity
+UUID标识一个博物馆，Major表示馆内具体的展厅，而Minor用来标识展厅内具体的展品。
 
-### Do I need to be connected to the internet to receive beacon notifcations?
+### 接收信标的推送信息需要我连接网络吗？
 
-No, Users do not need an internet connection to receive a notification
-from a beacon. But there might be content 'behind' the notification that
-will need an internet connection.
+不用，用户接收信标的推送信息是不需要网络连接的，但是推送的具体内容的显示可能需要网络的连通。
 
-### Does using iBeacon technology put user’s private data at risk?
+### iBeacon技术会侵犯个人隐私吗？
 
-iBeacon advertisements only contain UUID, major and minor values. This
-is a unidirectional broadcasting; there is no bidirectional
-communication between a beacon device and an iOS device via iBeacon
-technology, therefore iBeacon technology cannot be used to receive by a
-beacon to receive information from a user. What an app does in response
-to a notification triggered by an iBeacon advertisement is a separate
-matter, but this is no different from using existing geofencing
-technologies.
+iBeacon广播信息只包含UUID,
+major和minor值，是单向的广播，beacon设备和iOS设备之间通过iBeacon技术的通信不是双向的，beacon是不能接收用户信息的。用户手机的应用响应由iBeacon广播触发的推送是另外一个范畴的事情，类似于使用现有的geofencing技术。
 
-### Is the April Beacon case waterproof? Do they come in other colors?
+### 四月兄弟公司的beacon外壳防水吗？外壳还有其他颜色吗？
 
-Our beacon’s case is not waterproof for now. We have white and black
-cases with or without logo “ab” available. If you would like other
-colors or put your logo on the cases, please contact us directly. Mail
-to Contact@aprbrother.com
+目前我们的外壳是不防水的，有白色和黑色带Logo“ab”或不带logo的几种。如果您需要其他颜色的外壳或者想将您公司的Logo印在外壳上，请直接联系我们，邮箱：Contact@aprbrother.com
 
-### What kind of apps could be developed with the beacons?
+### Beacon的应用开发有什么要求？
 
-Your app is able to pick up a beacon's signal and retrieve data such as
-UUID, location and other information. It could do it in the background
-and trigger different actions depending on the proximity of the beacon.
-The possibilities are endless - indoor navigation, proximity marketing,
-automatic check-ins.
+Beacond的应用程序需要能够检索到beacon的信号并且获得UUID值、位置和其他信息。它可以在后台运行并能根据离beacon的远近来触发不同的推送。它的应用非常广泛：室内导航、近场营销和自动签到等。
 
-### Do the beacons need Bluetooth to be turned on?
+### Beacon应用需要开启蓝牙吗？
 
-Indeed\! We assume that most consumers always have both Bluetooth and
-Wi-Fi on. If they don't want their phones to interact with the
-beacon-enabled apps, they could easily turn off the Bluetooth for all
-the apps or for the annoying one.
+必须的！通常大多数用户总是开着蓝牙和Wi-Fi.如果他们不想接收跟beacon有关的应用，只需要关掉蓝牙，就不会被打扰了。
 
-### Do consumers need an app in order to interact with beacons?
+### 用户必须要有应用才能跟beacon交互吗？
 
-Yes\! Interaction is possible only if consumers have any smartphone apps
-on that support our beacons. Without the app, the smartphone will simply
-ignore any signals from
-beacons.
+是的，用户只有安装了支持beacon的应用才有交互可能性。如果没有安装应用，智能手机会忽略beacon发送的任何信号。
 
-### Does the app need to be active on the screen in order to pickup signals?
+### 为了检索到beacon的信号，应用必须在手机屏幕上启动运行吗？
 
-No\! The app could run in the background and still receive beacons
-signals. The general behavior is very similar to satellite-based
-location and geofencing.
+不需要。应用运行在后台仍可以接收beacon的信号。这个方式类似于卫星定位或者地理围栏技术。
 
-### Which smartphones and tablets will interact with beacons?
+### 哪些智能手机和平板电脑可以与beacon实现交互？
 
-Technically, all Bluetooth 4.0-enabled devices could pick up the BLE
-signals. Bluetooth Special Interest Group maintains a list of all
-devices that support Bluetooth Low Energy. The most popular are iPhone
-4S, iPhone 5 or later, iPad 3, Samsung Galaxy S III and Motorola RAZR.
+从技术上来讲，所有支持蓝牙4.0的设备都能检索到低功耗蓝牙的信号。蓝牙技术联盟有相关的名单。最普遍的是：iPhone 4S,iPhone 5
+及以上,iPad 3,Samsung Galaxy S III及以上和Motorola RAZR。
 
-### Can I get SDK for Android and iOS?
+### 我能得到Android和iOS系统的SDK吗？
 
 Yes, we can give you SDK for both Android 4.3 and iOS 7.0. You can
 download from [SDK](https://github.com/AprilBrother)
 
-### What is Measured Power?
+### 什么是Measured Power?
 
-Measured Power is a constant which indicates what's the expected RSSI at
-a distance of 1 meter to the beacon. Combined with RSSI, this allows to
-AprilBeacon the actual distance between the device and the beacon.
+Measured Power是一个固定值，它是在离beacon一米处的RSSI平均值。和RSSI配合计算，可以估算出比较准确的距离。
 
 ### 发射功率对应的距离？
 
@@ -172,35 +119,30 @@ Aprilbeacon发射功率共有4挡，分别是 0dbm, 4dbm, -6dbm, -23dbm， 对�
 
 ## iOS
 
-### Issues with detecting iBeacons in iOS 7.1
+### 在iOS 7.1下检测iBeacon的一些常见问题
 
-Please look [this
-link](Issues_with_detecting_iBeacons_in_iOS_7.1.md) if you have
-issues with detecting iBeacons in iOS 7.1.
+请查看 [在iOS
+7.1下检测iBeacon的一些常见问题](Issues_with_detecting_iBeacons_in_iOS_7.1/zh.md)
 
-### How to use AprilBeacon's SDK for iOS?
+### 如何使用AprilBrother的SDK之iOS?
 
-Please refer to [SDK for iOS Blog](http://blog.aprbrother.com/p/100)
+请参看[SDK
+Blog](http://blog.aprbrother.com/p/100)
 
-### How to trigger notifications for AprilBeacon on iPhone?
+### 如何测试AprilBeacon触发iPhone的推送功能？
 
-Holding your cellphone，leave April Beacon enough distance where it can't
-be detected. You can experience the trigger notification of leaving the
-beacon. When you walk back April beacon closely, you will trigger the
-notification of entering the range of beacon. The trigger App:[iOS App
-BTrigger](https://itunes.apple.com/app/btrigger/id883566531)。
+手持手机，离开AprilBeacon足够远的距离，足够远是指手机检测不到beacon这样的距离，这时可以检测到离开beacon的事件触发推送，这时候慢慢走回AprilBeacon的附近，可以触发进入beacon范围的推送。测试应用可以是[iOS
+应用BTrigger](https://itunes.apple.com/app/btrigger/id883566531)。
 
-### April Beacon and App Requirements
+### April Beacon 和 App 最低需求
 
-Please refer to [April Beacons and App
+请参考 [April Beacons and App
 Requirements](April_Beacons_and_App_Requirements.md)
 
 ## Android
 
 ## Developer
 
-### How to find beacon distance by the received RSSI?
+### 如何根据beacon的RSSI值估算距离?
 
-Please [check the
-topic](http://bbs.aprbrother.com/t/how-to-find-beacon-distance-by-the-received-rssi-in-android/425).
-
+请参考[这个主题](http://bbs.aprbrother.com/t/how-to-find-beacon-distance-by-the-received-rssi-in-android/425).
