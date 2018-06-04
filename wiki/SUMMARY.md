@@ -36,5 +36,4 @@
 - [BLEPad](BLEPad.md) - A wearable arduino compatible dev board (new)
 - [Cactus Micro Rev2](Cactus_Micro_Rev2.md)
 - [BlueDuino rev2](BlueDuino_rev2.md)
-- [Lipo Charger Shield](Lipo_Charger_Shield.md) For Cactus Micro And BlueDuino
 
