@@ -7,7 +7,7 @@ At the sensor's heart is an ESP8266 WiFi microcontroller clocked at 80
 MHz and at 3.3V logic. This microcontroller contains a Tensilica chip
 core as well as a full WiFi stack. You can program the microcontroller
 using the Arduino IDE for an easy-to-run Internet of Things core. You
-can use [ESP8266 Flasher](ESP8266_Flasher.md) that an upload
+can use [ESP Flasher Rev4](ESP_Flasher_Rev4.md) that an upload
 code at a blistering 115200 baud for fast development time. It also has
 auto-reset so no noodling with pins and reset button pressings.
 
@@ -31,10 +31,7 @@ The project need install Arduino core for ESP8266 WiFi chip first.
   - [Install and setup Arduino
     IDE](http://wiki.aprbrother.com/wiki/ESP_Soil_Moisture_Sensor_Using_Arduino_IDE)
   - Use ESP Flasher to connect the sensor and PC. How to wire ESP
-    Flasher and sensor? ([For ESP Flasher
-    Rev4](https://pbs.twimg.com/media/Cyetj8xVQAEM-Wq.jpg)) ([For
-    ESP8266 Flasher
-    Rev2](https://pbs.twimg.com/media/CyetkglUQAAfXSb.jpg))
+    Flasher and sensor? ([For ESP Flasher Rev4](https://pbs.twimg.com/media/Cyetj8xVQAEM-Wq.jpg)) 
   - Choose board type "NodeMCU 1.0" and right com port
   - Uploading
 
