@@ -1,1 +1,0 @@
-  - [ESP Flasher Rev4](ESP_Flasher_Rev4.md) - programming ESP32/ESP8266 chips like NodeMCU

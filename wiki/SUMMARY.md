@@ -28,7 +28,7 @@
 - [YuePixels WiFi LED Driver](YuePixels_WiFi_LED_Driver.md)
 - [ESP Soil Moisture Sensor](ESP_Soil_Moisture_Sensor.md)
 - [APixel](APixel.md)
-- [ESP Flasher](ESP_Flasher.md) - programming ESP8266/ESP32 like NodeMCU
+- [ESP Flasher](ESP_Flasher_Rev4.md) - programming ESP8266/ESP32 like NodeMCU
 
 ### Arduino Compatible Shield
 
@@ -71,8 +71,6 @@
 - [Note: The Firmware BlueBeacon was renamed to AprilBeacon.](ChangeLogForFirmwareAprilBeacon.md)
 - [- Install the app WiFi](Configure_the_Wi-Fi_with_SmartConfig.md)
 - [[← AB BLE Gateway Main Page](AB_BLE_Gateway.md)](Download_app_ABGateway.md)
-- [[← ESP Flasher Main Page](ESP_Flasher.md)](ESP8266_Flasher.md)
-- [[← ESP Flasher Main Page](ESP_Flasher.md)](ESP_Flasher_Rev4.md)
 - [[← ESP Flasher Main Page](ESP_Flasher.md)](ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP.md)
 - [[← ESP Soil Moisture Sensor Main](ESP_Soil_Moisture_Sensor_FAQ.md)
 - [[← ESP Soil Moisture Sensor Main](ESP_Soil_Moisture_Sensor_Using_Arduino_IDE.md)
