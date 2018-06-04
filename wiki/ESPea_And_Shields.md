@@ -15,5 +15,4 @@
 ## Links
 
   - [Shop](https://blog.aprbrother.com/product-tag/espea)
-  - [Examples for ESPea and
-    ESPea32](https://github.com/AprilBrother/ESPea-Examples)
+  - [Examples for ESPea and ESPea32](https://github.com/AprilBrother/ESPea-Examples)
