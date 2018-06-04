@@ -18,7 +18,6 @@
 ### BLE Gateway
 
 - [AB BLE Gateway V4](AB_BLE_Gateway_V4.md)
-- [AB BLE Gateway V3](AB_BLE_Gateway_V3.md) - Ethernet version
 - [AB BLE Gateway V2](AB_BLE_Gateway.md) - WiFi version
 - [Wireless iBeacon Receiver](Wireless_iBeacon_Receiver.md)
 
