@@ -429,6 +429,10 @@ gitbook-plugin-expandable-chapters-small@^0.1.7:
   version "0.1.7"
   resolved "http://r.cnpmjs.org/gitbook-plugin-expandable-chapters-small/download/gitbook-plugin-expandable-chapters-small-0.1.7.tgz#afc9e597b6851156fa7b00231ff8ab93f4feba4c"
 
+gitbook-plugin-language-selected@^0.0.3:
+  version "0.0.3"
+  resolved "http://r.cnpmjs.org/gitbook-plugin-language-selected/download/gitbook-plugin-language-selected-0.0.3.tgz#d63b3428ce6ad7d93b69db0365eb41723398650d"
+
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "http://r.cnpmjs.org/glob-parent/download/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"

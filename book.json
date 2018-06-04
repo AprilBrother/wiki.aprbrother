@@ -1,5 +1,6 @@
 {
     "plugins": [
+        "language-selected",
         "expandable-chapters-small", 
         "-search", 
         "-livereload", 

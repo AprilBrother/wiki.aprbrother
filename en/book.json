@@ -1,11 +1,3 @@
 {
-    "root": ".",
-    "plugins": [
-        "expandable-chapters-small", 
-        "-search", 
-        "-livereload", 
-        "-fontsettings", 
-        "-lunr", 
-        "-sharing"
-    ]
+    "root": "."
 }

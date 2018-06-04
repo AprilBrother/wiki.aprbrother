@@ -12,6 +12,7 @@
         "commander": "^2.15.1",
         "del": "^3.0.0",
         "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+        "gitbook-plugin-language-selected": "^0.0.3",
         "globby": "^8.0.1",
         "gulp": "^3.9.1",
         "lodash": "^4.17.10"
