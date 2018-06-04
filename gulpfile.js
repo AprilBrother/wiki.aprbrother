@@ -64,7 +64,6 @@ function fillSummary (path) {
     // get missing pages
     var listedPages = parseListedPages(path);
     var allPagesPattern = Path.join(cwd, '*.md');
-    console.log(allPagesPattern);
     var allPages = Globby.sync(allPagesPattern, { absolute: true });
     var missingPages = Difference(allPages, listedPages);
     // fill summary

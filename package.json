@@ -6,7 +6,7 @@
     "scripts": {
         "serve": "gulp prebuild && gitbook serve --no-watch --open",
         "sync": "rsync -avz --delete _book/./ wiki:/var/www/wiki/_book/",
-        "build": "gulp restore-ignore && gulp prebuild && gitbook build && gulp postbuild"
+        "build": "gulp prebuild && gitbook build && gulp postbuild"
     },
     "dependencies": {
         "commander": "^2.15.1",
