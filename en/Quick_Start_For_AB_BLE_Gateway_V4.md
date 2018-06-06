@@ -1,16 +1,11 @@
-
-
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
+## Usage
 
-
-## 使用
-
-  - 准备好5V/2A的电源适配器一个，注意功率一定要足够。
-  - 用网线连接网关到路由器，供电电源线请使用我们寄的那根黑色micro
-    usb线，连接电源线到电源适配器，一定不要直接连接USB线到电脑上，那样供电会不够。如果网口的黄灯亮了，说明网络已经连接
-  - 在电脑上安装好配置工具并打开
-  - 点击application，你可以看到一些配置项
+  - Prepare a power adapter 5V/2A. Please note the the current 2A is required
+  - Wire gateway with ethernet cable. Please use the micro USB cable as power cable. Wire the cable to power adapter. Don't wire the cable to Laptop directly. It may cause weak power. It means the gateway connected to LAN network if yellow LED around the ethernet port is on.
+  - Install configure tool at your laptop
+  - Click at application, you can see some configure options
 
 ## How To Test
 
