@@ -2,9 +2,9 @@
 
 ### Learning
  
-* [April Beacon FAQs](How_to_use_ApriliBeacon.md) [中文](How_to_use_ApriliBeacon/zh.md)
+* [April Beacon常见问题](How_to_use_ApriliBeacon.md)
 * [微信摇一摇常见问题](WeChat_FAQ.md)
-* [Cactus Micro Tutorial](Cactus_Micro_Tutorial_Links.md)
+* [Cactus Micro教程](Cactus_Micro_R2_Tutorial.md)
 
 ### Beacon
 
