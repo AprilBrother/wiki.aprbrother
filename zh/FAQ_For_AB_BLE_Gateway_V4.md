@@ -10,10 +10,9 @@ A: 你需要安装我们的配置工具来升级固件.
 * 点击 "Advance" -> "Update", 开始升级固件
 * 等待直到升级完成
 
-### Q: Does it support static IP
+### Q: 网关是否支持静态IP?
 
-A: Yes. Gateway 4 use DHCP IP default. You can also use our configure
-tool to set a static IP.
+A: 是. Gateway 4默认使用DHCP分配的IP. 你仍然可以通过配置工具为它设置一个静态IP.
 
 ### Q: 如何重置网关?
 
