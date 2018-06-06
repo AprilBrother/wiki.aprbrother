@@ -13,32 +13,32 @@ API.
 
   - Size: 72mmx74mmx20mm
   - Input: DC 5V/1000mA, micro-USB or Standard POE 48V
-  - Operating temperature: -20'C to 60'C�
+  - Operating temperature: -20'C to 60'C
   - Reads multiple BLE devices in the same time
   - Support WebSocket/HTTP/MQTT protocol
 
 ## BLE
 
-  - Bluetooth Smart( BLE) is based on NRF52832 �
-  - Bluetooth with on board PCB antenna�
-  - Bi-direction: Reads message advertised from BLE�
-      - devices and/or advertise command to BLE�
-      - devices(not standard, by request)�
-  - 30M range in open space�
+  - Bluetooth Smart( BLE) is based on NRF52832 
+  - Bluetooth with on board PCB antenna
+  - Bi-direction: Reads message advertised from BLE
+      - devices and/or advertise command to BLE
+      - devices(not standard, by request)
+  - 30M range in open space
 
 ## Wi-Fi
 
   - WiFi is based on ESP32
-  - Support 802.11 b/g/n/e/i（802.11n，Speed 150 Mbps）
-  - 2.4GHz frequency band�
-  - Transmit power:�
-      - \+20dBm @802.11b�
-      - \+14dBm @802.11n�
-  - WiFi data rate up to 150Mbps�
-  - WiFi with on board PCB antenna�
-  - HTTP api for configuration�
-  - Connect to Cloud server or local server�
-  - 100M range in open space�
+  - Support 802.11 b/g/n/e/i (802.11n, Speed 150 Mbps)
+  - 2.4GHz frequency band
+  - Transmit power:
+      - \+20dBm @802.11b
+      - \+14dBm @802.11n
+  - WiFi data rate up to 150Mbps
+  - WiFi with on board PCB antenna
+  - HTTP api for configuration
+  - Connect to Cloud server or local server
+  - 100M range in open space
 
 ## Ethernet
 
@@ -66,11 +66,9 @@ API.
 
 ## Documents And Links
 
-  - [Quick Start For AB BLE Gateway
-    V4](Quick_Start_For_AB_BLE_Gateway_V4.md)
-  - [User Guide For AB BLE Gateway
-    V4](User_Guide_For_AB_BLE_Gateway_V4.md)
-  - [FAQ](FAQ_For_AB_BLE_Gateway_V4.md)
-  - [Software And Tools](Software_AB_BLE_Gateway_V4.md)
-  - [Support Forum](http://bbs.aprbrother.com/c/wifi)
+  - [快速上手](Quick_Start_For_AB_BLE_Gateway_V4.md)
+  - [使用手册](User_Guide_For_AB_BLE_Gateway_V4.md)
+  - [常见问题](FAQ_For_AB_BLE_Gateway_V4.md)
+  - [软件以及工具](Software_AB_BLE_Gateway_V4.md)
+  - [支持论坛](http://bbs.aprbrother.com/c/wifi)
 
