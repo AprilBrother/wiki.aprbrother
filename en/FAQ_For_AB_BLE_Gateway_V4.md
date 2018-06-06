@@ -1,17 +1,23 @@
-
-
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
 
+### Q: How to update firmware for BLE Gateway?
+
+A: You need install our configure tool to update firmware.
+
+* Open configure tool
+* Choose the device from the dropdown menu at left-top side
+* Click "Advance" -> "Update", start updating firmware
+* Wait until it's done
 
 ### Q: Does it support static IP
 
 A: Yes. Gateway 4 use DHCP IP default. You can also use our configure
 tool to set a static IP.
 
-### Q: 如何重置网关?
+### Q: How to do factory reset?
 
-A: 网口左边有一个小孔，用小针捅进去按住不动，然后连接电源到网关，这样可以完成重置
+A: There's a hole at the left side of the Ethernet port. Use a needle to press and hold the hiden button, re-power the device to finish factory reset
 
 ### Q: 网关是不是可以直接连接WiFi, 不用网线
 

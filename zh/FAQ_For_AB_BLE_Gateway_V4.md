@@ -1,8 +1,14 @@
-
-
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
 
+### Q: 如何升级网关的固件?
+
+A: 你需要安装我们的配置工具来升级固件.
+
+* 打开配置工具
+* 从左上角的下拉菜单选择要升级的设备
+* 点击 "Advance" -> "Update", 开始升级固件
+* 等待直到升级完成
 
 ### Q: Does it support static IP
 
