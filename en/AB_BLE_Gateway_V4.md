@@ -1,42 +1,41 @@
 ## Description
 
-AB BLE Gateway V4 is a BLE to gateway and bridge. The gateway reads iBeacon and Eddystone like beacon or customized Tag
-format and sends to local TCP server or internet HTTP/MQTT server.
+AB BLE Gateway V4 isÂ aÂ BLEÂ toÂ gatewayÂ andÂ bridge.Â TheÂ gatewayÂ readsÂ iBeaconÂ andÂ EddystoneÂ likeÂ beaconÂ orÂ customizedÂ Tag formatÂ andÂ sendsÂ toÂ localÂ TCPÂ serverÂ orÂ internetÂ HTTP/MQTTÂ server.
 
-User can configure the transmit period and server information through a simple HTTP API.
+UserÂ canÂ configureÂ theÂ transmitÂ periodÂ andÂ serverÂ informationÂ throughÂ aÂ simpleÂ HTTP API.
 
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/gateway41.jpg-640.jpg">
 
 ## Features
 
-  - Size: 72mmx74mmx20mm
-  - Input: DC 5V/1000mA, micro-USB or Standard POE 48V
-  - Operating temperature: -20'C to 60'C
-  - Reads multiple BLE devices in the same time
-  - Support WebSocket/HTTP/MQTT protocol
+  - Size:Â 72mmx74mmx20mm
+  - Input:Â DC 5V/1000mA,Â micro-USB or Standard POE 48V
+  - OperatingÂ temperature:Â -20'CÂ toÂ 60'C
+  - ReadsÂ multipleÂ BLEÂ devicesÂ inÂ theÂ sameÂ time
+  - SupportÂ WebSocket/HTTP/MQTT protocol
 
 ## BLE
 
-  - Bluetooth Smart( BLE) is based on NRF52832 
-  - Bluetooth with on board PCB antenna
-  - Bi-direction: Reads message advertised from BLE
-      - devices and/or advertise command to BLE
-      - devices(not standard, by request)
-  - 30M range in open space
+  - BluetoothÂ Smart(Â BLE)Â isÂ basedÂ onÂ NRF52832Â 
+  - BluetoothÂ withÂ onÂ boardÂ PCBÂ antenna
+  - Bi-direction:Â ReadsÂ messageÂ advertisedÂ fromÂ BLE
+      - devicesÂ and/orÂ advertiseÂ commandÂ toÂ BLE
+      - devices(notÂ standard,Â byÂ request)
+  - 30MÂ rangeÂ inÂ openÂ space
 
 ## Wi-Fi
 
-  - WiFi is based on ESP32
-  - Support 802.11 b/g/n/e/i (802.11n, Speed 150 Mbps)
-  - 2.4GHz frequency band
-  - Transmit power:
-      - \+20dBm @802.11b
-      - \+14dBm @802.11n
-  - WiFi data rate up to 150Mbps
-  - WiFi with on board PCB antenna
-  - HTTP api for configuration
-  - Connect to Cloud server or local server
-  - 100M range in open space
+  - WiFiÂ isÂ basedÂ onÂ ESP32
+  - SupportÂ 802.11 b/g/n/e/i (802.11n, Speed 150 Mbps)
+  - 2.4GHzÂ frequencyÂ band
+  - TransmitÂ power:
+      - \+20dBmÂ @802.11b
+      - \+14dBmÂ @802.11n
+  - WiFiÂ dataÂ rateÂ upÂ toÂ 150Mbps
+  - WiFiÂ withÂ onÂ boardÂ PCBÂ antenna
+  - HTTP apiÂ forÂ configuration
+  - ConnectÂ toÂ CloudÂ serverÂ orÂ localÂ server
+  - 100MÂ rangeÂ inÂ openÂ space
 
 ## Ethernet
 

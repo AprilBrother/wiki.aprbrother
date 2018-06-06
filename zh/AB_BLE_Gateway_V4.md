@@ -1,11 +1,8 @@
 ## Description
 
-AB BLE Gateway V4
-is a BLE to gateway and bridge. The gateway reads iBeacon and Eddystone like beacon or customized Tag
-format and sends to local TCP server or internet HTTP/MQTT server.
+AB BLE Gateway V4 is a BLE to gateway and bridge. The gateway reads iBeacon and Eddystone like beacon or customized Tag format and sends to local TCP server or internet HTTP/MQTT server.
 
-User can configure the transmit period and server information through a simple HTTP
-API.
+User can configure the transmit period and server information through a simple HTTP API.
 
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/gateway41.jpg-640.jpg">
 
