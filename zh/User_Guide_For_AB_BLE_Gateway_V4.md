@@ -30,12 +30,10 @@ The data decoded is a dictionary with these keys:
 The devices array contain RAW advertising data for BLE device. An
 example hex data frame, see the section "Data Format For Key Devices"
 
-`00 12 3b 6a 1a 64 cf aa 02 01 06 1a ff 4c 00 02 15 b5 b1 82 c7 ea
-b1 49 88 aa 99 b5 c1 51 70 08 d9 00 01 cf 64
-c5`
+`00 12 3b 6a 1a 64 cf aa 02 01 06 1a ff 4c 00 02 15 b5 b1 82 c7 ea b1 49 88 aa 99 b5 c1 51 70 08 d9 00 01 cf 64 c5`
 
-| ---------- | ------------------------ | ------------------ |
 | Bytes      | Description                           | Example |
+| ---------- | ------------------------ | ------------------ |
 | byte 1     | advertising type, see the table below | 00 |
 | byte 2 - 7 | mac address for BLE device            | `12 3b 6a 1a 64 cf` |
 | byte 8     | RSSI, minus 256 for real value        | aa, 0xaa - 256 = -86 |
@@ -43,8 +41,8 @@ c5`
 
 ### Advertising Type Code
 
-| ---- | ---------------------------------------- |
 | Code | Description                              |
+| ---- | ---------------------------------------- |
 | 0    | Connectable undirected advertisement     |
 | 1    | Connectable directed advertisement       |
 | 2    | Scannable undirected advertisement       |
@@ -57,6 +55,7 @@ c5`
 
 hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0`
 
+| Data | Description |
 | --- | --- |
 | 02 | adv type |
 | C8FD1949A530 | mac address |
