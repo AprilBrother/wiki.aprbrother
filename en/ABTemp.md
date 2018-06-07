@@ -1,9 +1,7 @@
 ## Description
 
-ABTemp is a BLE (Bluetooth LE) Beacon with temperature sensor. It's
-based on [EEK (Energy Efficient King)
-beacon](https://blog.aprbrother.com/product/aprilbeacon-eek). It
-advertise the temperature data with iBeacon protocol.
+ABTemp is a BLE (Bluetooth LE) Beacon with temperature sensor. It's based on [EEK (Energy Efficient King)
+beacon](https://blog.aprbrother.com/product/aprilbeacon-eek). It advertises the temperature data with iBeacon protocol.
 
 ## Feautres
 
@@ -17,9 +15,8 @@ advertise the temperature data with iBeacon protocol.
 
 ## Technology Specification
 
-|                                                  |                                                  |
-| ------------------------------------------------ | ------------------------------------------------ |
 | Name                                             | Parameters                                       |
+| ------------------------------------------------ | ------------------------------------------------ |
 | Chip                                             | Dialog DA14580                                   |
 | Dimensions                                       | Diameter 31mm, Thickness 9mm                     |
 | Protocol standard                                | Bluetooth® 4.0 Through the iBeacon certification |
@@ -30,7 +27,6 @@ advertise the temperature data with iBeacon protocol.
 | Broadcast Frequency (Broadcasting time interval) | Adjustable (100~1285ms)                          |
 | Supply Voltage                                   | 3.0V                                             |
 | Battery                                          | CR2450 Battery                                   |
-|  |
 
 ## Default Settings
 
