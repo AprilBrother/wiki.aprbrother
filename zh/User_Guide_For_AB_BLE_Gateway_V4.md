@@ -1,38 +1,29 @@
-
-
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
+## 数据格式
 
+Gateway V4以[MessagePack](https://msgpack.org/)格式提交数据.  
 
-## Data Format
+### MessagePack
 
-Gateway V4 post data in [MessagePack](https://msgpack.org/) format.
-MessagePack is an efficient binary serialization format. It lets you
-exchange data among multiple languages like JSON. But it's faster and
-smaller.
+MessagePack是一个高效的二进制序列化格式. 它让你像JSON一样可以在各种语言之间交换数据。但是它比JSON更快、更小.  这种格式小巧快速，支持超过50种编程语言和环境。
 
-MessagePack is an efficient binary serialization format. It lets you
-exchange data among multiple languages like JSON. But it's faster and
-smaller. We can get more library for programming languages to parse
-MessagePack.
+### Keys
 
-## Keys
-
-The data decoded is a dictionary with these keys:
+解包之后的数据是一个字典，包含如下键值:
 
   - v - firmware version
   - mid - message ID
-  - time - boot time
-  - ip - the IP for gateway
-  - mac - the mac address for gateway
-  - devices - an array for BLE advertising datas that gateway collected
+  - time - 启动时长，以秒计算
+  - ip - gateway的IP
+  - mac - gateway的mac address
+  - devices - 一个由BLE广播包组成的数组, 这些广播包都是gateway收集到的
 
-The devices array contain RAW advertising data for BLE device. An
-example hex data frame, see the section "Data Format For Key Devices"
+devices数组中包含BLE广播的原始内容. 下面是一个数据帧的示例，参考"Data Format For Key Devices"
 
 `00 12 3b 6a 1a 64 cf aa 02 01 06 1a ff 4c 00 02 15 b5 b1 82 c7 ea b1 49 88 aa 99 b5 c1 51 70 08 d9 00 01 cf 64 c5`
 
-| Bytes      | Description                           | Example |
+| Bytes      | 说明                           | 示例 |
 | ---------- | ------------------------ | ------------------ |
 | byte 1     | advertising type, see the table below | 00 |
 | byte 2 - 7 | mac address for BLE device            | `12 3b 6a 1a 64 cf` |
