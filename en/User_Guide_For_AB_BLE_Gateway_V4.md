@@ -9,10 +9,6 @@
 Gateway V4 post data in [MessagePack](https://msgpack.org/) format.
 MessagePack is an efficient binary serialization format. It lets you
 exchange data among multiple languages like JSON. But it's faster and
-smaller.
-
-MessagePack is an efficient binary serialization format. It lets you
-exchange data among multiple languages like JSON. But it's faster and
 smaller. We can get more library for programming languages to parse
 MessagePack.
 
@@ -27,8 +23,7 @@ The data decoded is a dictionary with these keys:
   - mac - the mac address for gateway
   - devices - an array for BLE advertising datas that gateway collected
 
-The devices array contain RAW advertising data for BLE device. An
-example hex data frame, see the section "Data Format For Key Devices"
+The devices array contain RAW advertising data for BLE device. An example hex data frame, see the section "Data Format For Key Devices"
 
 `00 12 3b 6a 1a 64 cf aa 02 01 06 1a ff 4c 00 02 15 b5 b1 82 c7 ea b1 49 88 aa 99 b5 c1 51 70 08 d9 00 01 cf 64 c5`
 
@@ -51,7 +46,7 @@ example hex data frame, see the section "Data Format For Key Devices"
 
 ### Data Format For Key Devices
 
-Here's a example data from devices array 
+Here's an example data from devices array 
 
 hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0`
 
