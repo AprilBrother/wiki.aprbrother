@@ -62,7 +62,7 @@ PCB Layout for Gateway V4. The microcontroller is ESP32 and NRF52832.
 | J3 | I2C ports for ESP32 module |
 | P2 | Program pins for ESP32 module |
 | P3 | Program pins for NRF52832 module |
-| P4 | Uart ports for NRF52832 module |
+| P4 | UART ports for NRF52832 module |
 
 #### J3 pinouts
 
