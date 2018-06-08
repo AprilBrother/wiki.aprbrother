@@ -53,20 +53,23 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 |   CE | rssi |
 |   0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0 | raw advertising data |
 
-## Schematic And PCB Layout
+## PCB原理图以及布局
+
+* [PCB原理图](http://7fvk57.com1.z0.glb.clouddn.com/ble-gateway-v4-schematic.pdf)
+* Gateway V4的PCB布局. 这里采用了微处理器ESP32以及NRF52832.
 
 ![PCB Layout](http://7fvk57.com1.z0.glb.clouddn.com/gw4-layout.png)
 
-### Pinouts
+### 引脚
 
-| Pinouts | Description |
+| 引脚 | 说明 |
 | --- | --- |
-| J3 | I2C ports for ESP32 module |
-| P2 | Program pins for ESP32 module |
-| P3 | Program pins for NRF52832 module |
-| P4 | UART ports for NRF52832 module |
+| J3 | ESP32模块I2C端口 |
+| P2 | ESP32模块的烧写引脚 |
+| P3 | NRF52832模块的烧写引脚 |
+| P4 | NRF52832模块的串口 |
 
-#### J3 pinouts
+#### J3 引脚
 
 * VCC
 * GND

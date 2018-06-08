@@ -51,7 +51,8 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 
 ## Schematic And PCB Layout
 
-PCB Layout for Gateway V4. The microcontroller is ESP32 and NRF52832.
+* [Schematic](http://7fvk57.com1.z0.glb.clouddn.com/ble-gateway-v4-schematic.pdf)
+* PCB Layout for Gateway V4. The microcontroller is ESP32 and NRF52832.
 
 ![PCB Layout](http://7fvk57.com1.z0.glb.clouddn.com/gw4-layout.png)
 
