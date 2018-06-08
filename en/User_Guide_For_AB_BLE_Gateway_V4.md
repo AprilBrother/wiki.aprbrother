@@ -1,18 +1,10 @@
-
-
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
-
-
 
 ## Data Format
 
-Gateway V4 post data in [MessagePack](https://msgpack.org/) format.
-MessagePack is an efficient binary serialization format. It lets you
-exchange data among multiple languages like JSON. But it's faster and
-smaller. We can get more library for programming languages to parse
-MessagePack.
+Gateway V4 post data in [MessagePack](https://msgpack.org/) format. MessagePack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. We can get more library for programming languages to parse MessagePack.
 
-## Keys
+### Keys
 
 The data decoded is a dictionary with these keys:
 
@@ -57,3 +49,24 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 |   CE | rssi |
 |   0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0 | raw advertising data |
 
+## Schematic And PCB Layout
+
+PCB Layout for Gateway V4. The microcontroller is ESP32 and NRF52832.
+
+![PCB Layout](http://7fvk57.com1.z0.glb.clouddn.com/gw4-layout.png)
+
+### Pinouts
+
+| Pinouts | Description |
+| --- | --- |
+| J3 | I2C ports for ESP32 module |
+| P2 | Program pins for ESP32 module |
+| P3 | Program pins for NRF52832 module |
+| P4 | Uart ports for NRF52832 module |
+
+#### J3 pinouts
+
+* VCC
+* GND
+* GPIO07
+* GPIO06

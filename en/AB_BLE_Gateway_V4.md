@@ -8,20 +8,21 @@ User can configure the transmit period and server information through 
 
 ## Features
 
-  - Size: 72mmx74mmx20mm
-  - Input: DC 5V/1000mA, micro-USB or Standard POE 48V
-  - Operating temperature: -20'C to 60'C
-  - Reads multiple BLE devices in the same time
-  - Support WebSocket/HTTP/MQTT protocol
+- Size: 72mmx74mmx20mm
+- Power Input: DC 5V/2000mA, micro-USB or Standard POE 48V
+- Operating temperature: -20'C to 60'C
+- Reads multiple BLE devices in the same time and upload to remote server
+- Support WebSocket/HTTP/MQTT protocol
+- External antenna for BLE  
 
 ## BLE
 
-  - Bluetooth Smart( BLE) is based on NRF52832 
-  - Bluetooth with on board PCB antenna
-  - Bi-direction: Reads message advertised from BLE
-      - devices and/or advertise command to BLE
-      - devices(not standard, by request)
-  - 30M range in open space
+- Bluetooth Smart( BLE) is based on NRF52832 
+- Bluetooth with on board PCB antenna
+- Bi-direction: Reads message advertised from BLE
+  - devices and/or advertise command to BLE
+  - devices(not standard, by request)
+- 30M range in open space
 
 ## Wi-Fi
 

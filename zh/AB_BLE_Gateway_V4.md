@@ -8,11 +8,12 @@ User can configure the transmit period and server information through 
 
 ## Features
 
-  - Size: 72mmx74mmx20mm
-  - Input: DC 5V/1000mA, micro-USB or Standard POE 48V
-  - Operating temperature: -20'C to 60'C
-  - Reads multiple BLE devices in the same time
-  - Support WebSocket/HTTP/MQTT protocol
+- 尺寸: 72mmx74mmx20mm
+- 电源: DC 5V/2000mA, micro-USB 或者标准POE 48V
+- 工作温度: -20摄氏度 ~ 60摄氏度
+- 同时读取多个BLE设备的广播信息并上传到远程服务器Reads multiple BLE devices in the same time
+- 支持WebSocket/HTTP/MQTT协议
+- BLE带有外置天线
 
 ## BLE
 

@@ -53,3 +53,22 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 |   CE | rssi |
 |   0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0 | raw advertising data |
 
+## Schematic And PCB Layout
+
+![PCB Layout](http://7fvk57.com1.z0.glb.clouddn.com/gw4-layout.png)
+
+### Pinouts
+
+| Pinouts | Description |
+| --- | --- |
+| J3 | I2C ports for ESP32 module |
+| P2 | Program pins for ESP32 module |
+| P3 | Program pins for NRF52832 module |
+| P4 | Uart ports for NRF52832 module |
+
+#### J3 pinouts
+
+* VCC
+* GND
+* GPIO07
+* GPIO06
