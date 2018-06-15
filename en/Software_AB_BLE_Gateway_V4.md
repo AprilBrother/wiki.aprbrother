@@ -2,7 +2,7 @@
 
 ### Configure Tool
 
-- [Gateway Configure Tool v1.0.8 for windows 64bit](http://7fvk57.com1.z0.glb.clouddn.com/gw4-config-tool-setup-v1.0.8.exe.zip)
+- [Gateway Configure Tool v1.1.0 for windows 64bit](http://7fvk57.com1.z0.glb.clouddn.com/gw4-config-tool-setup-v1.1.0.exe.zip)
 - [Gateway Configure Tool](http://7fvk57.com1.z0.glb.clouddn.com/gw4-config-tool-v1.0.7-amd64.deb) v1.0.7 For Linux/Ubuntu
 
 ### Test Tool
