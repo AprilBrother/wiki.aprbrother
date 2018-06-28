@@ -74,12 +74,10 @@ SPI</p></td>
 
 ### Tech Documents
 
-  - [Tutorial And Examples](BlueDuino_Rev2_Tutorial.md)
-  - [Hookup
-    Guide](BlueDuino_Rev2_Hookup_Guide.md)
-  - [Schematic](https://github.com/AprilBrother/BlueDuino/raw/master/docs/schematic/blueduino-r2.pdf)
-  - [AT Command & Configuration](Firmware/ZeroBeacon.md)
-  - [Datasheet
-    (ATmega32U4)](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Dev/Arduino/Boards/ATMega32U4.pdf)
-  - [Design Files](https://github.com/AprilBrother/BlueDuino)
-  - [Firmware for BLE module](BlueDuino#Firmware.md)
+- [Tutorial And Examples](BlueDuino_Rev2_Tutorial.md)
+- [Hookup Guide](BlueDuino_Rev2_Hookup_Guide.md)
+- [Schematic](https://github.com/AprilBrother/BlueDuino/raw/master/docs/schematic/blueduino-r2.pdf)
+- [AT Command & Configuration](ZeroBeacon.md)
+- [Datasheet (ATmega32U4)](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Dev/Arduino/Boards/ATMega32U4.pdf)
+- [Design Files](https://github.com/AprilBrother/BlueDuino)
+- [Firmware for BLE module](BlueDuino#Firmware.md)
