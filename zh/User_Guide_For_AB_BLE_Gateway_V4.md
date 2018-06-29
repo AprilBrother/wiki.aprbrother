@@ -1,5 +1,14 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
+## LED指示灯状态
+
+以太网接口有一个绿色指示灯和黄色指示灯
+
+| 指示灯 |  说明 |
+| ---------- | ------------------------ | 
+| 绿色 | 在以太网启动时开始闪烁 | 
+| 黄色 | 在获得IP后常亮 | 
+
 ## 数据格式
 
 Gateway V4以[MessagePack](https://msgpack.org/)格式提交数据.  

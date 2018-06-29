@@ -7,7 +7,7 @@
 
 ### 测试工具
 
-- [BLE Viewer](http://7fvk57.com1.z0.glb.clouddn.com/ble-viewer-setup-v1.0.0.exe.zip) - see section [How To Test](Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test.md)
+- [BLE Viewer](http://7fvk57.com1.z0.glb.clouddn.com/ble-viewer-setup-v1.0.0.exe.zip) - 查看章节[How To Test](Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test.md)
 
 ### 开发你自己的客户端工具
 

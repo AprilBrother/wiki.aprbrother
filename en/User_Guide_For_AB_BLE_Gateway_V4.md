@@ -1,5 +1,14 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
+## LED Status
+
+The ethernet port has a green LED and a red LED. 
+
+| Color |  Description |
+| ---------- | ------------------------ | 
+| Green | Blink when ethernet start | 
+| Yellow | Turn on when it got IP address | 
+
 ## Data Format
 
 Gateway V4 post data in [MessagePack](https://msgpack.org/) format. MessagePack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. We can get more library for programming languages to parse MessagePack.
