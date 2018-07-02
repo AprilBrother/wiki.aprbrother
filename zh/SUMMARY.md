@@ -8,8 +8,9 @@
 
 ### Beacon
 
+- [ABKey](ABKey.md) (new)
 - [ASensor](ASensor.md)
-- [ABTemp](ABTemp.md) (new)
+- [ABTemp](ABTemp.md)
 - [APlant Soil Moisture Sensor](APlant.md)
 - [AprilBeacon with iBeacon technology](AprilBeacon.md)
  - [AprilBeacon extra long battery life](AprilBeacon_based_on_DA14580.md)
