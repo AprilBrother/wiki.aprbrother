@@ -8,7 +8,6 @@
 
 ### Beacon
 
-- [ABKey](ABKey.md)
 - [ASensor](ASensor.md)
 - [ABTemp](ABTemp.md)
 - [APlant Soil Moisture Sensor](APlant.md)
