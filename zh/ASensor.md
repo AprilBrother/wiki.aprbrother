@@ -8,12 +8,10 @@ default settings
 You can use app or BLE gateway to receive the sensor
 data.
 
-|                    |                                                                                     |
-| ------------------ | ----------------------------------------------------------------------------------- |
 | Name               | Descrpition                                                                         |
+| ------------------ | ----------------------------------------------------------------------------------- |
 | ABSensorDH (new\!) | <img src="http://7fvk57.com1.z0.glb.clouddn.com/ABsensorDHF.jpg-640.jpg" width=320> |
 | ABSensor           | <img src="http://7fvk57.com1.z0.glb.clouddn.com/asensor_4.jpg-640.jpg" width="320"> |
-|  |
 
 ## Features
 
@@ -29,9 +27,8 @@ data.
 
 ## Specification
 
-|                                                  |                                                  |
-| ------------------------------------------------ | ------------------------------------------------ |
 | Name                                             | Parameters                                       |
+| ------------------------------------------------ | ------------------------------------------------ |
 | Chip                                             | Dialog DA14580                                   |
 | Dimensions                                       | 37.3mm \* 37.3mm \* 7mm                          |
 | Protocol standard                                | Bluetooth® 4.0 Through the iBeacon certification |
@@ -42,7 +39,6 @@ data.
 | Broadcast Frequency (Broadcasting time interval) | Adjustable (100~1285ms), Default 1285ms          |
 | Supply Voltage                                   | 3.0V                                             |
 | Battery                                          | CR2032 Battery                                   |
-|  |
 
 ## Advertising Type Comparison
 
@@ -80,9 +76,8 @@ data.
 
 ## Default Settings
 
-|                      |                                                       |
-| -------------------- | ----------------------------------------------------- |
 | Name                 | Parameters                                            |
+| -------------------- | ----------------------------------------------------- |
 | Device Name          | asensor_xxxx, "xxxx" are last 2 bytes of mac address |
 | Advertising Interval | 1285ms                                                |
 | Proximity UUID       | B5B182C7-EAB1-4988-AA99-B5C1517008D9                  |
