@@ -6,7 +6,8 @@
     "scripts": {
         "serve": "gulp prebuild && gitbook serve --no-watch --open",
         "sync": "rsync -avz --delete _book/./ cn1.www:/var/www/wiki/_book/ && rsync -avz --delete _book/./ wiki:/var/www/wiki/_book/",
-        "build": "gulp prebuild && gitbook build && gulp postbuild"
+        "build": "gulp prebuild && gitbook build && gulp postbuild",
+        "deploy": "yarn build && yarn sync"
     },
     "dependencies": {
         "commander": "^2.15.1",
