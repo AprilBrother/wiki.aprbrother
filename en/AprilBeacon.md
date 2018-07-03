@@ -1,7 +1,3 @@
-
-
-
-
 ## Introdution
 
 The AprilBeacon is developed and produced including hardware and
