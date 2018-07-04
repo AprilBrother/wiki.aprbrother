@@ -2,13 +2,13 @@
 
 ### Learning
  
-* [April Beacon常见问题](How_to_use_ApriliBeacon.md)
+* [April Beacon FAQs](How_to_use_ApriliBeacon.md)
 * [微信摇一摇常见问题](WeChat_FAQ.md)
-* [Cactus Micro教程](Cactus_Micro_R2_Tutorial.md)
+* [Cactus Micro Tutorial](Cactus_Micro_R2_Tutorial.md)
 
 ### Beacon
 
-- [April Beacon基站, 支持iBeacon技术](AprilBeacon.md)
+- [April Beacon](AprilBeacon.md)
 - [ASensor](ASensor.md)
 - [ABTemp](ABTemp.md)
 - [APlant Soil Moisture Sensor](APlant.md)
@@ -16,8 +16,8 @@
 ### BLE Gateway
 
 - [Wireless iBeacon Receiver](Wireless_iBeacon_Receiver.md)
-- [AB BLE Gateway 蓝牙网关 V2](AB_BLE_Gateway.md) - WiFi version
-- [AB BLE Gateway 蓝牙网关 V4](AB_BLE_Gateway_V4.md)
+- [AB BLE Gateway V2](AB_BLE_Gateway.md) - WiFi version
+- [AB BLE Gateway V4](AB_BLE_Gateway_V4.md)
 
 ### Dev Board
 

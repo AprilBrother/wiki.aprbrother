@@ -29,6 +29,12 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
 * Embedded Temperature/Humidity/Light sensors.
 
+### [USB Beacon 305](AprilBeacon_305.md)
+
+<img src="http://abcdn1.qiniudn.com/302.jpg" width="120" align="right">
+* USB Powered
+* Supporting iBeacon + Eddystone 
+
 ### Others
 
 - [AprilBeacon based on DA14580](AprilBeacon_based_on_DA14580.md)
