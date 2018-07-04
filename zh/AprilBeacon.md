@@ -12,7 +12,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ## Models
 
-### ABSensor N1
+### ABSensor N01
 
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
 * Power supply by CR2032 Battery 230~ mAh (replaceable).
@@ -26,7 +26,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 * One hole for leash/strip
 * BLE micro controller NRF52810
 
-### ABSensor N3
+### ABSensor N03
 
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
 * Embedded Temperature/Humidity/Light sensors.
