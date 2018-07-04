@@ -12,5 +12,20 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ## Models
 
+### ABSensor N1
+
+* Power supply by CR2032 Battery 230~ mAh (replaceable).
+* Signal range 3m - 60m.
+* Embedded acceleration sensor
+* One LED and one button
+* BLE micro controller NRF52810
+
+### ABSensor N3
+
+* Power supply by CR2450 Battery 500~ mAh (replaceable).
+* Embedded Temperature/Humidity/Light sensors.
+
+### Others
+
 - [AprilBeacon based on DA14580](AprilBeacon_based_on_DA14580.md)
 - [AprilBeacon based on TI CC254X](AprilBeacon_based_on_TI_CC254X.md)
