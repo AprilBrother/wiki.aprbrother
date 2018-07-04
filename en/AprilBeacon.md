@@ -14,6 +14,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### ABSensor N1
 
+<img src="http://7fvk57.com1.z0.glb.clouddn.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
 * Power supply by CR2032 Battery 230~ mAh (replaceable).
 * Signal range 3m - 60m.
 * Embedded acceleration sensor
