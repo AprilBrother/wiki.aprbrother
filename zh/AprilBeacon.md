@@ -16,14 +16,12 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 <img src="http://7fvk57.com1.z0.glb.clouddn.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
 * Power supply by CR2032 Battery 230~ mAh (replaceable).
-* Dimensions 
- * Height 33mm
- * Width 33mm
- * Depth 10mm
+* Dimensions: Height 33mm, Width 33mm, Depth 10mm
 * Signal range 3m - 60m.
 * Embedded acceleration sensor
 * One LED and one button
 * One hole for leash/strip
+* Advertise 1st UUID when still, advertise 2nd UUID when move
 * BLE micro controller NRF52810
 
 ### ABSensor N03
