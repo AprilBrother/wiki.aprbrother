@@ -1,18 +1,16 @@
-
-
-
-
 ## Introdution
 
-The AprilBeacon is developed and produced including hardware and
-firmware all provide by Beijing April Brother technology CO.LTD. It can
-work as a standalone system.
+AprilBeacon is one of the most commonly used beacons. Supporting both iBeacon and Eddystone. Battery level can be shown in the advertising data or via a Bluetooth GATT connection.
+
+While this beacon has both iOS and Android configuration apps, the iOS app is easier to use and is more functional. If you are setting up Eddystone-URL (for Android notifications) and you consider yourself to be non-technical then you will need use of an iOS device for setup.
+
+## Features
+
+* Support both iBeacon and Eddystone
+* Configurable including UUID, major, minor and TX power etc
+* Upgrade Over-The-Air supported.
 
 ## Models
 
-  - [AprilBeacon based on
-    DA14580](AprilBeacon_based_on_DA14580.md)
-  - [AprilBeacon based on TI
-    CC254X](AprilBeacon_based_on_TI_CC254X.md)
-  - [AprilBeacon 302 - mini USB dongle](AprilBeacon_302.md)
-
+- [AprilBeacon based on DA14580](AprilBeacon_based_on_DA14580.md)
+- [AprilBeacon based on TI CC254X](AprilBeacon_based_on_TI_CC254X.md)
