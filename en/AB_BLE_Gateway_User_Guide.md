@@ -109,8 +109,7 @@ AB BLE Gateway work as AP mode default. You can see the parameters for
 the AP.
 
   - SSID: the default name is `ab.gateway` and serial number
-  - Security Key: default key is `12345678`, it can be changed to other
-    key
+  - Security Key: default key is `12345678`, it can be changed to other key
 
 #### Station
 

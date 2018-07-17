@@ -1,9 +1,6 @@
-
-
 ## 产品介绍
 
-AB
-BLE网关是一个蓝牙（BLE）桥接到WiFi网络的网关工具。它可以读取诸如iBeacon和Eddystone格式的蓝牙（BLE）广播数据，并发送到本地TCP服务器或因特网HTTP
+AB BLE网关是一个蓝牙（BLE）桥接到WiFi网络的网关工具。它可以读取诸如iBeacon和Eddystone格式的蓝牙（BLE）广播数据，并发送到本地TCP服务器或因特网HTTP
 / MQTT / WebSocket服务器。
 
 注意：此设备处于alpha开发状态。
@@ -49,6 +46,6 @@ BLE网关是一个蓝牙（BLE）桥接到WiFi网络的网关工具。它可以�
 
   - [下载app](Download_app_ABGateway.md)
   - [SDK](https://github.com/AprilBrother/ab-ble-gateway-sdk)
-  - [快速上手](AB_BLE_Gateway_Quick_Start/zh.md)
-  - [用户手册](AB_BLE_Gateway_User_Guide/zh.md)
+  - [快速上手](AB_BLE_Gateway_Quick_Start.md)
+  - [用户手册](AB_BLE_Gateway_User_Guide.md)
   - [支持论坛](http://bbs.aprbrother.com/c/wifi)

@@ -94,8 +94,8 @@ AB BLE网关在同一时间在STATION和AP模式下工作。
 
 AB BLE网关默认AP模式。 您可以看到AP的参数。
 
-  - SSID：默认名称为<code> ab.gateway \</ code\>和序列号
-  - 安全密钥：默认密钥为<code> 12345678 \</ code\>，可以更改为其他密钥
+  - SSID：默认名称为`ab.gateway`和序列号
+  - 安全密钥：默认密钥为`12345678`，可以更改为其他密钥
 
 #### Station
 
