@@ -80,4 +80,17 @@ SPI</p></td>
 - [AT Command & Configuration](ZeroBeacon.md)
 - [Datasheet (ATmega32U4)](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Dev/Arduino/Boards/ATMega32U4.pdf)
 - [Design Files](https://github.com/AprilBrother/BlueDuino)
-- [Firmware for BLE module](BlueDuino#Firmware.md)
+
+### Firmware for BLE module
+
+See [Firmware ChangeLog](ZeroBeacon.md#ChangeLog) for what's new
+
+- [ZeroBeacon 2.2.8 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.8.bin)
+- [ZeroBeacon 2.2.6 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.6.bin)
+- [ZeroBeacon 2.2.3 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.3.bin)
+- [ZeroBeacon 2.2.1 for BlueDuino](http://7fvk57.com1.z0.glb.clouddn.com/zerobeacon-ebl-2.2.1.bin)
+- [ZeroBeacon 2.1.7 for BlueDuino](http://7fvk57.com1.z0.glb.clouddn.com/zerobeacon-ebl-2.1.7.bin)
+- [ZeroBeacon 2.1.6 for BlueDuino](http://7fvk57.com1.z0.glb.clouddn.com/zerobeacon-ebl-2.1.6.bin)
+- [ZeroBeacon 2.1 for BlueDuino](http://abcdn1.qiniudn.com/zerobeacon-ebl-2.1.bin?attname=)
+- [ZeroBeacon 2.0 for BlueDuino](http://abcdn1.qiniudn.com/zerobeacon-ebl-2.0.bin?attname=)
+
