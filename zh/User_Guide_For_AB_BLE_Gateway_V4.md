@@ -69,6 +69,8 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 
 ![PCB Layout](http://7fvk57.com1.z0.glb.clouddn.com/gw4-layout.png)
 
+![PCB尺寸图](http://7fvk57.com1.z0.glb.clouddn.com/gw4-dimension.png)
+
 ### 引脚
 
 | 引脚 | 说明 |
