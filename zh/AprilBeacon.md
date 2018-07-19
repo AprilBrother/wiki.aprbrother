@@ -28,6 +28,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
 * Embedded Temperature/Humidity/Light sensors.
+* BLE micro controller NRF52832
 
 ### [USB Beacon 305](AprilBeacon_305.md)
 
