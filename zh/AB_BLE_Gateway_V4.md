@@ -17,12 +17,10 @@ User can configure the transmit period and server information through 
 
 ## BLE
 
-  - Bluetooth Smart( BLE) is based on NRF52832 
-  - Bluetooth with on board PCB antenna
-  - Bi-direction: Reads message advertised from BLE
-      - devices and/or advertise command to BLE
-      - devices(not standard, by request)
-  - 30M range in open space
+- Bluetooth Smart( BLE) is based on NRF52832 
+- Bluetooth with on board PCB antenna
+- Bi-direction: Reads message advertised from BLE devices 
+- 30M range in open space
 
 ## Wi-Fi
 
