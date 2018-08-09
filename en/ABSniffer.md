@@ -8,8 +8,6 @@ nearby.
 ## Products
 
   - [ABSniffer USB Dongle 528](ABSniffer_USB_Dongle_528.md)
-    new\!
-  - [ABSniffer UART Module 501](ABSniffer_UART_Module_501.md)
   - [ABSniffer USB Dongle 502](ABSniffer_USB_Dongle_502.md)
 
 ## Default Settings
@@ -27,8 +25,6 @@ nearby.
 
 ## Related Links
 
-  - [AT Commands For ABSniffer
-    528](AT_Commands_For_ABSniffer_528.md)
-  - [AT Commands For ABSniffer 501/502
-    Model](AT_Commands_For_ABSniffer_501/502_Model.md)
-  - [Support forum for ABSniffer](http://bbs.aprbrother.com)
+- [AT Commands For ABSniffer 528](AT_Commands_For_ABSniffer_528.md)
+- [AT Commands For ABSniffer 502 Model](AT_Commands_For_ABSniffer_502.md)
+- [Support forum for ABSniffer](http://bbs.aprbrother.com)
