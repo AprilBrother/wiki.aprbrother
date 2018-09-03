@@ -57,7 +57,4 @@ only)
 
 ## Related Link
 
-- [Upgrade Firmware For
-AprilBeacon](How_To_Upgrade_Firmware.md)
-- [Support Forum For April
-Beacon](http://bbs.aprbrother.com/conversations/aprilbeacon)
+- [Support Forum For April Beacon](http://bbs.aprbrother.com/conversations/aprilbeacon)
