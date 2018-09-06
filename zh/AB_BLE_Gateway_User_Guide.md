@@ -64,7 +64,7 @@ c5 0d 0a`
 
 电源开关。 往左拨动打开电源，往右拨动关闭电源。
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/abgateway-cn.png">
+<img src="http://i1.aprbrother.com/abgateway-cn.png">
 
 找到下面照片中的孔，里面是一个配置按钮。 LED灯在按钮的左侧。
 
@@ -88,7 +88,7 @@ c5 0d 0a`
 
 AB BLE网关在同一时间在STATION和AP模式下工作。
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/ab-wifi.jpg">
+<img src="http://i1.aprbrother.com/ab-wifi.jpg">
 
 #### AP
 

@@ -10,8 +10,8 @@ AB BLE Gateway is a BLE to WiFi gateway and bridge. The gateway reads
 BLE advertising data such as iBeacon and Eddystone format and sends to
 local TCP server or internet HTTP/MQTT/WebSocket server.
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/gw_1.jpg-320.jpg">
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/gw_2.jpg-320.jpg">
+<img src="http://i1.aprbrother.com/gw_1.jpg-320.jpg">
+<img src="http://i1.aprbrother.com/gw_2.jpg-320.jpg">
 
 ## Features
 

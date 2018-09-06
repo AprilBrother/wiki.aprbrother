@@ -1,7 +1,7 @@
 APixel is a combination of a ESP8266 dev board, it combined with a
 WS2812B (Addressable RGB) LED all in one.
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/apixel-3.jpg-320.jpg">
+<img src="http://i1.aprbrother.com/apixel-3.jpg-320.jpg">
 
 ### Pinouts
 

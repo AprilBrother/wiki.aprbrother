@@ -64,12 +64,12 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 
 ## PCB原理图以及布局
 
-* [PCB原理图](http://7fvk57.com1.z0.glb.clouddn.com/ble-gateway-v4-schematic.pdf)
+* [PCB原理图](http://i1.aprbrother.com/ble-gateway-v4-schematic.pdf)
 * Gateway V4的PCB布局. 这里采用了微处理器ESP32以及NRF52832.
 
-![PCB Layout](http://7fvk57.com1.z0.glb.clouddn.com/gw4-layout.png)
+![PCB Layout](http://i1.aprbrother.com/gw4-layout.png)
 
-![PCB尺寸图](http://7fvk57.com1.z0.glb.clouddn.com/gw4-dimension.png)
+![PCB尺寸图](http://i1.aprbrother.com/gw4-dimension.png)
 
 ### 引脚
 

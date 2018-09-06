@@ -15,7 +15,7 @@
 
 2、Cactus Micro Rev2引脚说明(如下图2所示)
 
-<http://7fvk57.com1.z0.glb.clouddn.com/pinouts-txt.jpg>
+<http://i1.aprbrother.com/pinouts-txt.jpg>
 
 图2
 

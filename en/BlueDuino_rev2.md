@@ -4,7 +4,7 @@ Low Energy (BLE), built in. Just plug in the board and your ready to
 start programming\! It's the easiest way to get Bluetooth 4.0 in your
 project\!
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/blueduino_2.jpg-640.jpg">
+<img src="http://i1.aprbrother.com/blueduino_2.jpg-640.jpg">
 
 ### Features
 
@@ -88,9 +88,9 @@ See [Firmware ChangeLog](ZeroBeacon.md#ChangeLog) for what's new
 - [ZeroBeacon 2.2.8 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.8.bin)
 - [ZeroBeacon 2.2.6 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.6.bin)
 - [ZeroBeacon 2.2.3 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.3.bin)
-- [ZeroBeacon 2.2.1 for BlueDuino](http://7fvk57.com1.z0.glb.clouddn.com/zerobeacon-ebl-2.2.1.bin)
-- [ZeroBeacon 2.1.7 for BlueDuino](http://7fvk57.com1.z0.glb.clouddn.com/zerobeacon-ebl-2.1.7.bin)
-- [ZeroBeacon 2.1.6 for BlueDuino](http://7fvk57.com1.z0.glb.clouddn.com/zerobeacon-ebl-2.1.6.bin)
+- [ZeroBeacon 2.2.1 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.2.1.bin)
+- [ZeroBeacon 2.1.7 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.1.7.bin)
+- [ZeroBeacon 2.1.6 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.1.6.bin)
 - [ZeroBeacon 2.1 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.1.bin?attname=)
 - [ZeroBeacon 2.0 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.0.bin?attname=)
 

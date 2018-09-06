@@ -13,7 +13,7 @@ computer as a mouse and keyboard, in addition to a virtual (CDC) serial
 / COM port. It also has other implications for the behavior of the
 board;
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/blepad_2.jpg-640.jpg">
+<img src="http://i1.aprbrother.com/blepad_2.jpg-640.jpg">
 
 ## Getting Started
 

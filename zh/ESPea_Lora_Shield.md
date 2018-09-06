@@ -10,7 +10,7 @@ This miniaturized PCB accepts a RFM9x chip, a SMA antenna connector and
 a
 button.
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/lora-soldered.jpg" width="320">
+<img src="http://i1.aprbrother.com/lora-soldered.jpg" width="320">
 
 ## Example Sketch
 

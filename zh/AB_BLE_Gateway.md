@@ -5,8 +5,8 @@ AB BLE网关是一个蓝牙（BLE）桥接到WiFi网络的网关工具。它可�
 
 注意：此设备处于alpha开发状态。
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/gw_1.jpg-320.jpg">
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/gw_2.jpg-320.jpg">
+<img src="http://i1.aprbrother.com/gw_1.jpg-320.jpg">
+<img src="http://i1.aprbrother.com/gw_2.jpg-320.jpg">
 
 ## 产品特征
 

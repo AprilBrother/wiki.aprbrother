@@ -7,7 +7,7 @@
 Here’s a map of which pin is where, and what special hardware functions
 it may have:
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/pinouts-txt.jpg">
+<img src="http://i1.aprbrother.com/pinouts-txt.jpg">
 
 #### Power Pins
 

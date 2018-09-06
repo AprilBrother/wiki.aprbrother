@@ -23,4 +23,4 @@ A simple chat demo for iOS to talk to Arduino.
       - Type some strings in serial monitor and send, it will appear in
         iPhone's textfield.
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/chat.png-640.jpg">
+<img src="http://i1.aprbrother.com/chat.png-640.jpg">

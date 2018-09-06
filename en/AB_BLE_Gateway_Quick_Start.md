@@ -22,7 +22,7 @@ accept a few WiFi connection in same time.
   - Check "Connection Type" as "WebSocket Server", The default port is
     8080
 
-[<img src="http://7fvk57.com1.z0.glb.clouddn.com/app-websocket-server.jpg-320.jpg">](http://7fvk57.com1.z0.glb.clouddn.com/app-websocket-server.jpg)
+[<img src="http://i1.aprbrother.com/app-websocket-server.jpg-320.jpg">](http://i1.aprbrother.com/app-websocket-server.jpg)
 
   - Reboot device
   - Use WebSocket client tool to connect the server
@@ -38,10 +38,10 @@ existing WebSocket Server through other WiFi AP.
 2.  Open browser and access <http://192.168.4.1>
 3.  Change gateway to connect your WiFi
     AP
-    [<img src="http://7fvk57.com1.z0.glb.clouddn.com/ab-wifi.jpg-320.jpg">](http://7fvk57.com1.z0.glb.clouddn.com/ab-wifi.jpg)
+    [<img src="http://i1.aprbrother.com/ab-wifi.jpg-320.jpg">](http://i1.aprbrother.com/ab-wifi.jpg)
 4.  Change gateway to connect another WebSocket
     Server
-    [<img src="http://7fvk57.com1.z0.glb.clouddn.com/app-websocket-client.jpg-320.jpg">](http://7fvk57.com1.z0.glb.clouddn.com/app-websocket-client.jpg)
+    [<img src="http://i1.aprbrother.com/app-websocket-client.jpg-320.jpg">](http://i1.aprbrother.com/app-websocket-client.jpg)
 5.  Reboot gateway, the device will keep send data after it got
     websocket connection
 
@@ -53,10 +53,10 @@ existing HTTP or MQTT Server.
   - Step 1 - 3 are same with "Work As WebSocket Client "
   - Change gateway to connect another HTTP
     Server
-    [<img src="http://7fvk57.com1.z0.glb.clouddn.com/app-http-client.jpg-320.jpg">](http://7fvk57.com1.z0.glb.clouddn.com/app-http-client.jpg)
+    [<img src="http://i1.aprbrother.com/app-http-client.jpg-320.jpg">](http://i1.aprbrother.com/app-http-client.jpg)
   - Or MQTT
     server
-    [<img src="http://7fvk57.com1.z0.glb.clouddn.com/app-mqtt-client.jpg-320.jpg">](http://7fvk57.com1.z0.glb.clouddn.com/app-mqtt-client.jpg)
+    [<img src="http://i1.aprbrother.com/app-mqtt-client.jpg-320.jpg">](http://i1.aprbrother.com/app-mqtt-client.jpg)
   - Reboot device
   - See datas at server side
 

@@ -13,6 +13,6 @@ the second UUID when it work as iBeacon mode and keep moving.
     field to a non zero
 value.
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/aprilbeacon-asensor.png">
+<img src="http://i1.aprbrother.com/aprilbeacon-asensor.png">
 
   - Save the value and make the settings effected

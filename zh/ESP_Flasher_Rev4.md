@@ -5,7 +5,7 @@ ESP8266/ESP32 module just like NodeMCU. It has smaller size than rev2
 and we make it breadboard friendly. You can also use the flasher to
 programming ESP32 without pushing flash button.
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/flasher-1.jpg-320.jpg">
+<img src="http://i1.aprbrother.com/flasher-1.jpg-320.jpg">
 
 ### Why did you make it?
 
@@ -15,12 +15,12 @@ and ESP32 module
 For program with Arduino IDE, the circuit does the trick for auto reset.
 Thanks for NodeMCU team\!
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/auto-reset.png">
+<img src="http://i1.aprbrother.com/auto-reset.png">
 
 Diagram
 pictures
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/esp-flasher-diagram.png">
+<img src="http://i1.aprbrother.com/esp-flasher-diagram.png">
 
 ### Features
 

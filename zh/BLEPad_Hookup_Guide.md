@@ -58,7 +58,7 @@ pin ANT is good enough for antenna.
 
 See the picture below.
 
-<img src="http://7fvk57.com1.z0.glb.clouddn.com/blepad_6.jpg-640.jpg">
+<img src="http://i1.aprbrother.com/blepad_6.jpg-640.jpg">
 
 #### BLE module DA14580 Pins
 

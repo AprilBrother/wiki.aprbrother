@@ -45,7 +45,7 @@ If you want to reprogram this devices you must use a J-Link.
 The pins for re-programming. These five pins are in same line. You can
 re-programming the usb dongle with 1.27mm 5 pin header.
 
-<http://7fvk57.com1.z0.glb.clouddn.com/ab528-pins.png>
+<http://i1.aprbrother.com/ab528-pins.png>
 
 ## About Default Firmware ABSniffer
 

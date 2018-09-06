@@ -1,6 +1,6 @@
 ### v1.1.1
 
-[ai-thinker-v1.1.1.bin](http://7fvk57.com1.z0.glb.clouddn.com/ai-thinker-v1.1.1.bin)
+[ai-thinker-v1.1.1.bin](http://i1.aprbrother.com/ai-thinker-v1.1.1.bin)
 - the default baud rate is 115200
 
 Important Note: The AT command must be end with "\\r\\n". For Arduino,
