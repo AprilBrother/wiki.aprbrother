@@ -85,9 +85,9 @@ SPI</p></td>
 
 查看[Firmware ChangeLog](ZeroBeacon.md#ChangeLog)了解固件更新情况 
 
-- [ZeroBeacon 2.2.8 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.8.bin)
-- [ZeroBeacon 2.2.6 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.6.bin)
-- [ZeroBeacon 2.2.3 for BlueDuino](https://dn-abcdn1.qbox.me/zerobeacon-ebl-2.2.3.bin)
+- [ZeroBeacon 2.2.8 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.2.8.bin)
+- [ZeroBeacon 2.2.6 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.2.6.bin)
+- [ZeroBeacon 2.2.3 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.2.3.bin)
 - [ZeroBeacon 2.2.1 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.2.1.bin)
 - [ZeroBeacon 2.1.7 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.1.7.bin)
 - [ZeroBeacon 2.1.6 for BlueDuino](http://i1.aprbrother.com/zerobeacon-ebl-2.1.6.bin)
