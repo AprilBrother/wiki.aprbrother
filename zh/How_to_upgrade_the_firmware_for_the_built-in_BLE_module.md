@@ -18,7 +18,7 @@ can be upgrade if the device name for BLE module is "ZeroBeacon".
 
 Just connect the three pads with soldering.
 
-<img src="http://abcdn1.qiniudn.com/blueduino-jumper.png" />
+<img src="http://i1.aprbrother.com/blueduino-jumper.png" />
 
 ### Change the BlueDuino to upgrade mode
 

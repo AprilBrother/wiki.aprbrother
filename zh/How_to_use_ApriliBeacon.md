@@ -17,7 +17,7 @@ Beacon广播信号包含UUID,major,和minor值。低功耗蓝牙技术可以让�
 
 ### 四月兄弟AprilBeacon用户手册
 
-请下载用户手册[1](http://abcdn1.qiniudn.com/userguidechinese.pdf?download)
+请下载用户手册[1](http://i1.aprbrother.com/userguidechinese.pdf?download)
 
 ### 如何维护April Beacons？
 

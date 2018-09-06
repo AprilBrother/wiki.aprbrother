@@ -17,13 +17,13 @@ So the hardwareSerialMonitor sketch will not work
 
 ### v0.9.5.2
 
-  - [ai-thinker-0.9.5.2-9600.bin](http://abcdn1.qiniudn.com/ai-thinker-0.9.5.2-9600.bin?attname=)
+  - [ai-thinker-0.9.5.2-9600.bin](http://i1.aprbrother.com/ai-thinker-0.9.5.2-9600.bin?attname=)
     - The default baud rate is
     9600
 
 <!-- end list -->
 
-  - [ai-thinker-0.9.5.2.bin](http://abcdn1.qiniudn.com/ai-thinker-0.9.5.2.bin?attname=)
+  - [ai-thinker-0.9.5.2.bin](http://i1.aprbrother.com/ai-thinker-0.9.5.2.bin?attname=)
     - The default baud rate is 115200
 
 <!-- end list -->
@@ -35,7 +35,7 @@ So the hardwareSerialMonitor sketch will not work
 
 ### v0.9.5 beta
 
-  - [ai-thinker-0.9.5.bin](http://abcdn1.qiniudn.com/ai-thinker-0.9.5.bin?attname=)
+  - [ai-thinker-0.9.5.bin](http://i1.aprbrother.com/ai-thinker-0.9.5.bin?attname=)
 
 <!-- end list -->
 

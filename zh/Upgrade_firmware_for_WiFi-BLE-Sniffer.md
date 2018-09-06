@@ -46,7 +46,7 @@ These operation can be done on Windows only.
 5.  Make the BLE module to upgrade mode. Type AT command `AT+SBLUP`. The
     module will not work as normal now and wait for upgrade.
 
-<img src=http://abcdn1.qiniudn.com/beacon-rx.jpg width="80%">
+<img src=http://i1.aprbrother.com/beacon-rx.jpg width="80%">
 
 #### Start upgrade
 
@@ -63,4 +63,4 @@ You've done\!
 #### Firmware for BLE module
 
   - [firmware 1.2.7 for BLE
-    module](http://abcdn1.qiniudn.com/sniffer-ebl-gpio-1.2.7.bin)
+    module](http://i1.aprbrother.com/sniffer-ebl-gpio-1.2.7.bin)

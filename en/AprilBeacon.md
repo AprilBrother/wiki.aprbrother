@@ -32,7 +32,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### [USB Beacon 305](AprilBeacon_305.md)
 
-<img src="http://abcdn1.qiniudn.com/302.jpg" width="120" align="right">
+<img src="http://i1.aprbrother.com/302.jpg" width="120" align="right">
 * USB Powered
 * Supporting iBeacon + Eddystone 
 
