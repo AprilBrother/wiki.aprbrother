@@ -27,4 +27,4 @@
 | 19      | Battery Level           | 0x02       | |
 | 20,21      | Temperature    | 0xD400         | Reverse the value first. Divide 8 for real temperature value. Eg. 0x00D4 = 212, 212 / 8 = 26.5°C |
 | 22,23      | Humidity       | 0x6700 | Reverse the value first. Divide 2 for real humidity value. Eg. 0x0067 = 103, 103 / 2 = 51.5 |
-| 24,25      | Light          | . | . | 
+| 24,25      | Light          | 0x0700 | Reverse the value first. 0x0007 = 7 | 
