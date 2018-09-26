@@ -25,6 +25,6 @@
 | 12      | Device Type | 0x03  | |
 | 13 - 18 | Mac Address             |            |  
 | 19      | Battery Level           | 0x02       | |
-| 20-21      | Temperature    | .         | |
-| 22-23      | Humidity       | . | . |
-| 24-25      | Light          | . | . | 
+| 20-21      | Temperature     |          |       
+| 22-23      | Humidity |      |         
+| 24-25      | Light          |         | |
