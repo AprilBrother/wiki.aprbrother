@@ -23,8 +23,8 @@
 | 9, 10   | Service UUID            | 0x59, 0xFE | 16-bit Service UUID for OTA service   |
 | 11      | Company ID | 0xAB  | |
 | 12      | Device Type | 0x03  | |
-| 13 - 18 | Mac Address             |            |  
+| 13,18 | Mac Address             |            |  
 | 19      | Battery Level           | 0x02       | |
-| 20-21      | Temperature    | .         | |
-| 22-23      | Humidity       | . | . |
-| 24-25      | Light          | . | . | 
+| 20,21      | Temperature    | .         | |
+| 22,23      | Humidity       | . | . |
+| 24,25      | Light          | . | . | 
