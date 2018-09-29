@@ -1,10 +1,8 @@
-
-
 ## 简介
 
 基于德国蓝牙芯片DA14580的土壤湿度传感器。同时也提供了环境温度传感器功能。无需建立蓝牙连接，通过iBeacon协议广播传感器数据
 
-<img src="https://dn-abcdn.qbox.me/wp-content/uploads/2016/06/plant_1-600x600.jpg">
+<img src="http://i0.aprbrother.com/wp-content/uploads/2016/06/plant_1-600x600.jpg">
 
 安装应用AprilBeacon来配置参数
 
