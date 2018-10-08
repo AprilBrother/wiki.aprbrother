@@ -2,6 +2,25 @@
 
 ## ABSensor N01
 
+<img src="http://i1.aprbrother.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
+
+BLE Beacon with acceleration sensor. Small size and replacable battery.
+
+### Technical Details
+
+* Power supply by CR2032 Battery 230~ mAh (replaceable).
+* Dimensions: Height 33mm, Width 33mm, Depth 10mm
+* Signal range 3m - 60m.
+* Embedded acceleration sensor
+* One LED and one button
+* One hole for leash/strip
+* Advertise 1st UUID when still, advertise 2nd UUID when move
+* BLE micro controller NRF52810
+
+### Hardware Files 
+
+* [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n01/schematic.pdf)
+
 ## ABSensor N03
 
 N03 advertises sensor data in custom format. See section "Packet Format" for more details.
