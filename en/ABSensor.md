@@ -4,13 +4,37 @@
 
 ## ABSensor N03
 
+N03 advertises sensor data in custom format. See section "Packet Format" for more details.
+
 ### Technical Details
 
-#### Hardware Files 
+* Power supply by CR2450 Battery 500~ mAh (replaceable).
+* Embedded Temperature/Humidity/Light sensors.
+* BLE micro controller NRF52832
+
+![n03 PCB](http://i1.aprbrother.com/n03-pcb.png-320.jpg)
+
+### Sensors
+
+* Light Sensor: AP3216
+* Humidity/Temperature Sensor: HTS221
+
+### Pinouts
+
+#### P1
+
+Pins for programing by jLink
+
+* GND
+* VCC
+* SWIO
+* CLK
+
+### Hardware Files 
 
 * [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n03/sensor-htl.pdf)
 
-#### Packet Format
+### Packet Format
 
 | Byte(s) | Name | Value | Notes |
 | ------- | ------- | ---------- | ---------- |
