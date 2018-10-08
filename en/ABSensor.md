@@ -6,7 +6,9 @@
 
 ### Technical Details
 
-#### Schematic 
+#### Hardware Files 
+
+* [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n03/sensor-htl.pdf)
 
 #### Packet Format
 

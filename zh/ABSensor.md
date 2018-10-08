@@ -8,6 +8,8 @@
 
 #### Schematic 
 
+* [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n03/sensor-htl.pdf)
+
 #### Packet Format
 
 | Byte(s) | Name | Value | Notes |
