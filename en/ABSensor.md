@@ -52,6 +52,7 @@ Pins for programing by jLink
 ### Hardware Files 
 
 * [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n03/sensor-htl.pdf)
+* [nRF5 Libraries For Sensor](https://github.com/AprilBrother/nrf5-sdk/tree/master/libraries)
 
 ### Packet Format
 
