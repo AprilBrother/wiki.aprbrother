@@ -29,7 +29,7 @@ SmartConfig
 
 <td>
 
-<img src=http://i1.aprbrother.com/wifi4.jpg-320.jpg align=right>
+<img src=//i1.aprbrother.com/wifi4.jpg-320.jpg align=right>
 
 </td>
 

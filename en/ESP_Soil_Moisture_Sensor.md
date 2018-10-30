@@ -14,11 +14,11 @@ auto-reset so no noodling with pins and reset button pressings.
 The sensor can upload sensor datas to remote server. We provided example
 code for uploading to thingspeak.
 
-<img src="http://i1.aprbrother.com/thingspeak.png-640.jpg">
+<img src="//i1.aprbrother.com/thingspeak.png-640.jpg">
 
 Senor in soil
 
-<img src="http://i1.aprbrother.com/IMG_5772.jpg-640.jpg">
+<img src="//i1.aprbrother.com/IMG_5772.jpg-640.jpg">
 
 The project is modifying of the [I2C Moisture
 Sensor](https://github.com/Miceuz/i2c-moisture-sensor) project from
@@ -54,7 +54,7 @@ Note:
   - A jumper for wire GPIO16 to RESET
   - Measures 35mm x 157mm
 
-<img src="http://i1.aprbrother.com/soil-v2.1.jpg-640.jpg">
+<img src="//i1.aprbrother.com/soil-v2.1.jpg-640.jpg">
 
 ### Pinouts
 
@@ -82,7 +82,7 @@ Note:
 
 AA battery not included. Please add AA battery x 2.
 
-<img src="http://i1.aprbrother.com/IMG_5773.jpg-640.jpg">
+<img src="//i1.aprbrother.com/IMG_5773.jpg-640.jpg">
 
 ### Pinouts
 

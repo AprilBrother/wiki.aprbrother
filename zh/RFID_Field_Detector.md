@@ -15,10 +15,10 @@ It supports
 * Differentiate between `13.56MHz` `HF`/`NFC` & `125kHz` `LF` RFID #readers
 * Form factor that fits in your wallet!
 
-<img src="http://i1.aprbrother.com/rfid-1.jpg-320.jpg">
+<img src="//i1.aprbrother.com/rfid-1.jpg-320.jpg">
 
 When you push it nearby the RFID reader (125kHz), it shows the green LED
 
-<img src="http://i1.aprbrother.com/rfd-2.jpg-320.jpg">
+<img src="//i1.aprbrother.com/rfd-2.jpg-320.jpg">
 
 The detector will turn on red LED for high frequency reader.

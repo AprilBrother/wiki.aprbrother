@@ -69,9 +69,9 @@ Miceuz.
     C. 环境温度传感器
     D. LED
 
-<img src="http://i1.aprbrother.com/aplant_layout_1.jpg-1024.jpg">
+<img src="//i1.aprbrother.com/aplant_layout_1.jpg-1024.jpg">
 
-<img src="http://i1.aprbrother.com/soil-pcb.png" width="1024">
+<img src="//i1.aprbrother.com/soil-pcb.png" width="1024">
 
 ## 数据格式
 

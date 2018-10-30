@@ -35,4 +35,4 @@ Thanks Jason for his sharing\!
 
 ## Links
 
-- [Drivers for Win7/WinXP](http://i1.aprbrother.com/cc2540-cdc-driver-latest.zip)
+- [Drivers for Win7/WinXP](//i1.aprbrother.com/cc2540-cdc-driver-latest.zip)

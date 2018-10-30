@@ -17,9 +17,9 @@ Note:
 
 See the pictures below
 
-<img src="http://i1.aprbrother.com/IMG_5779.JPG-640.jpg">
+<img src="//i1.aprbrother.com/IMG_5779.JPG-640.jpg">
 
-<img src="http://i1.aprbrother.com/IMG_5780.JPG-640.jpg">
+<img src="//i1.aprbrother.com/IMG_5780.JPG-640.jpg">
 
 ### Install the Arduino IDE 1.6.8
 

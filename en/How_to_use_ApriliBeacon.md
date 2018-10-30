@@ -26,7 +26,7 @@ deliver to the device via their app.
 ### User Guide of AprilBeacon?
 
 Please download User Guide of AprilBeacon
-[1](http://i1.aprbrother.com/UserguideofAprilBeacon0818.pdf?download)
+[1](//i1.aprbrother.com/UserguideofAprilBeacon0818.pdf?download)
 
 ### How to maintain April Beacons?
 

@@ -11,6 +11,6 @@
 ## Firmware
 
   - [Firmware
-    v1.12](http://i1.aprbrother.com/firmware-1.12.bin)
+    v1.12](//i1.aprbrother.com/firmware-1.12.bin)
   - [Firmware
-    v1.11](http://i1.aprbrother.com/firmware-1.11_2.bin)
+    v1.11](//i1.aprbrother.com/firmware-1.11_2.bin)

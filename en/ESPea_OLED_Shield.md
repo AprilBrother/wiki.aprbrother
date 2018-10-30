@@ -9,7 +9,7 @@ The OLED uses only the two I2C pins on the [ESPea](ESPea.md),
 and you can pretty much stack it with ESPea, even ones that use I2C
 since that is a shared bus.
 
-<img src="http://i1.aprbrother.com/oled-3.jpg-640.jpg">
+<img src="//i1.aprbrother.com/oled-3.jpg-640.jpg">
 
 ## Technical Details
 

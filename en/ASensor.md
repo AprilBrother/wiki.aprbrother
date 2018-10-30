@@ -10,8 +10,8 @@ data.
 
 | Name               | Descrpition                                                                         |
 | ------------------ | ----------------------------------------------------------------------------------- |
-| ABSensorDH (new\!) | <img src="http://i1.aprbrother.com/ABsensorDHF.jpg-640.jpg" width=320> |
-| ABSensor           | <img src="http://i1.aprbrother.com/asensor_4.jpg-640.jpg" width="320"> |
+| ABSensorDH (new\!) | <img src="//i1.aprbrother.com/ABsensorDHF.jpg-640.jpg" width=320> |
+| ABSensor           | <img src="//i1.aprbrother.com/asensor_4.jpg-640.jpg" width="320"> |
 
 ## Features
 

@@ -4,7 +4,7 @@ AB BLE Gateway V4 is a BLE to gateway and bridge. The gateway reads iB
 
 User can configure the transmit period and server information through a simple HTTP API.
 
-<img src="http://i1.aprbrother.com/gateway41.jpg-640.jpg">
+<img src="//i1.aprbrother.com/gateway41.jpg-640.jpg">
 
 ## Features
 

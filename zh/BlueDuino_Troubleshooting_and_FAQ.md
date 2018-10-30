@@ -32,7 +32,7 @@ sets up USB functionality on the ATmega32U4. The BlueDuino will actually
 take code compiled for the wrong operating speed, but when it tries to
 re-enumerate, you’ll be greeted with a notification like this:
 
-<img src="http://i1.aprbrother.com/523b7a11757b7fd5468b4567.png"/>
+<img src="//i1.aprbrother.com/523b7a11757b7fd5468b4567.png"/>
 
 To revive the BlueDuino, you’ll need to find a way to upload a sketch to
 it with the board option correctly set. We can do this with a little

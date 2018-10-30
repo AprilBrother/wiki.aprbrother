@@ -10,13 +10,13 @@ What's difference ESPea32 with other ESP32 development board? It can be
 cut down to smaller size if you need a smaller board. The board is also
 part compatible with our [ESPea](ESPea.md) development board.
 
-<img src="http://i1.aprbrother.com/esp32-2.jpg-640.jpg">
+<img src="//i1.aprbrother.com/esp32-2.jpg-640.jpg">
 
 In addition to the WiFi/BLE SoC, the ESPea32 includes an CP2104, which
 converts USB to serial, and allows your computer to program and
 communicate with the microcontroller.
 
-<img src="http://i1.aprbrother.com/espea32-a.jpg-640.jpg">
+<img src="//i1.aprbrother.com/espea32-a.jpg-640.jpg">
 
 ## Features
 
@@ -48,7 +48,7 @@ A USB interface that lets you quickly use it with the Arduino IDE
 
 ## Pinouts
 
-<img src="http://i1.aprbrother.com/espea32-pinouts.png">
+<img src="//i1.aprbrother.com/espea32-pinouts.png">
 
 Both I2C interfaces are supported by the Wire library. The SDA and SCL
 pins are assigned, by default, to pins 21 and 22.

@@ -60,12 +60,12 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 
 ## Schematic And PCB Layout
 
-* [Schematic](http://i1.aprbrother.com/ble-gateway-v4-schematic.pdf)
+* [Schematic](//i1.aprbrother.com/ble-gateway-v4-schematic.pdf)
 * PCB Layout for Gateway V4. The microcontroller is ESP32 and NRF52832.
 
-![PCB Layout](http://i1.aprbrother.com/gw4-layout.png)
+![PCB Layout](//i1.aprbrother.com/gw4-layout.png)
 
-![PCB dimension](http://i1.aprbrother.com/gw4-dimension.png)
+![PCB dimension](//i1.aprbrother.com/gw4-dimension.png)
 
 ### Pinouts
 

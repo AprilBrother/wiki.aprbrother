@@ -74,7 +74,7 @@ One side of the cable is USB-A, the other side is 3.5-1.35MM DC plug.
 
 Power switch. Push to left side for power on.
 
-<img src="http://i1.aprbrother.com/abgateway-en.png">
+<img src="//i1.aprbrother.com/abgateway-en.png">
 
 Find the hole in the photo below, there's a config button. A LED is at
 left side of the button.
@@ -101,7 +101,7 @@ See "Firmware Version", mac address for WiFi, serial number at this page
 
 AB BLE Gateway work at STATION and AP mode in same time.
 
-<img src="http://i1.aprbrother.com/ab-wifi.jpg">
+<img src="//i1.aprbrother.com/ab-wifi.jpg">
 
 #### AP
 
