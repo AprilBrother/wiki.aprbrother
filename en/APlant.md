@@ -4,7 +4,7 @@ DA14580 based soil moisture sensor. Also provide ambient temperature
 sensor. Advertising sensor data with iBeacon
 protocol.
 
-<img src="http://i0.aprbrother.com/wp-content/uploads/2016/06/plant_1-600x600.jpg">
+<img src="https://i0.aprbrother.com/wp-content/uploads/2016/06/plant_1-600x600.jpg">
 
 Install app AprilBeacon to configure
 params
