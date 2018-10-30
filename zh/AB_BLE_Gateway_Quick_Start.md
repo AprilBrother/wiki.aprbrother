@@ -29,10 +29,10 @@ AP连接到现有的WebSocket服务器。
 ＃打开浏览器并访问http://192.168.4.1
 ＃修改网关所需连接WIFI的配置信息，确保蓝牙网关可连接上工作时需要连接的WIFI网络。
 [\<img src =“http：//7fvk57.com1.z0.glb。
-clouddn.com/ab-wifi.jpg-320.jpg“\>](//i1.aprbrother.com/ab-wifi.jpg)
+clouddn.com/ab-wifi.jpg-320.jpg“\>](https://i1.aprbrother.com/ab-wifi.jpg)
 ＃更改网关以连接另一个WebSocket服务器
 [\<img src =“http：//7fvk57.com1.z0。
-glb.clouddn.com/app-websocket-client.jpg-320.jpg“\>](//i1.aprbrother.com/app-websocket-client.jpg)
+glb.clouddn.com/app-websocket-client.jpg-320.jpg“\>](https://i1.aprbrother.com/app-websocket-client.jpg)
 ＃重新启动网关，设备在保持websocket连接后会保持发送数据
 
 ## 配置成 HTTP 或 MQTT 客户端
@@ -42,8 +42,8 @@ glb.clouddn.com/app-websocket-client.jpg-320.jpg“\>](//i1.aprbrother.com/app-w
   - 前面将蓝牙网关当作无线基站（WIFI AP）的方式和配置成WebSocket客户端的步骤一样
     "
   - 更改网关以连接另一个HTTP服务器
-    [<img src="//i1.aprbrother.com/app-http-client.jpg-320.jpg">](//i1.aprbrother.com/app-http-client.jpg)
+    [<img src="https://i1.aprbrother.com/app-http-client.jpg-320.jpg">](https://i1.aprbrother.com/app-http-client.jpg)
   - 或MQTT服务器
-    [<img src="//i1.aprbrother.com/app-mqtt-client.jpg-320.jpg">](//i1.aprbrother.com/app-mqtt-client.jpg)
+    [<img src="https://i1.aprbrother.com/app-mqtt-client.jpg-320.jpg">](https://i1.aprbrother.com/app-mqtt-client.jpg)
   - 重启设备
   - 请参阅服务器端的数据

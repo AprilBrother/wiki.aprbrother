@@ -10,7 +10,7 @@ If you'd like use previous AT firmware, you can re-flash the firmware
 yourself.
 
   - The [AT
-    firmware](//i1.aprbrother.com/ai-thinker-0.9.5.2-9600.bin?attname=)
+    firmware](https://i1.aprbrother.com/ai-thinker-0.9.5.2-9600.bin?attname=)
   - [How to made Cactus Micro R2 as ESP8266
     programmer](How_to_made_Cactus_Micro_R2_as_ESP8266_programmer.md)
 

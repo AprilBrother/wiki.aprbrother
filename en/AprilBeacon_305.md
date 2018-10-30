@@ -4,7 +4,7 @@ An April Beacon 305 is a tiny USB device that runs on Bluetooth 4.0 Low Energy; 
 
 The AprilBeacon 305 Can be configured by the mobile app AprilBeacon
 
-<img src="//i1.aprbrother.com/302.jpg">
+<img src="https://i1.aprbrother.com/302.jpg">
 
 ## Specification
 

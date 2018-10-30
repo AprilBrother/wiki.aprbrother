@@ -2,12 +2,12 @@
 
 ### 配置工具
 
-- [网关配置工具 V1.1.0 for windows 64位](//i1.aprbrother.com/gw4-config-tool-setup-v1.1.0.exe.zip)
-- [网关配置工具](//i1.aprbrother.com/gw4-config-tool-v1.0.7-amd64.deb) v1.0.7 For Linux/Ubuntu
+- [网关配置工具 V1.1.0 for windows 64位](https://i1.aprbrother.com/gw4-config-tool-setup-v1.1.0.exe.zip)
+- [网关配置工具](https://i1.aprbrother.com/gw4-config-tool-v1.0.7-amd64.deb) v1.0.7 For Linux/Ubuntu
 
 ### 测试工具
 
-- [BLE Viewer](//i1.aprbrother.com/ble-viewer-setup-v1.0.0.exe.zip) - 查看章节[How To Test](Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test.md)
+- [BLE Viewer](https://i1.aprbrother.com/ble-viewer-setup-v1.0.0.exe.zip) - 查看章节[How To Test](Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test.md)
 
 ### 开发你自己的客户端工具
 

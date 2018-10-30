@@ -2,7 +2,7 @@
 
 ## ABSensor N01
 
-<img src="//i1.aprbrother.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
+<img src="https://i1.aprbrother.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
 
 BLE Beacon with acceleration sensor. Small size and replacable battery.
 
@@ -31,7 +31,7 @@ N03 advertises sensor data in custom format. See section "Packet Format" for mor
 * Embedded Temperature/Humidity/Light sensors.
 * BLE micro controller NRF52832
 
-![n03 PCB](//i1.aprbrother.com/n03-pcb.png-320.jpg)
+![n03 PCB](https://i1.aprbrother.com/n03-pcb.png-320.jpg)
 
 ### Sensors
 

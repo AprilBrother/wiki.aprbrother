@@ -54,11 +54,11 @@ table.
 | Extended sleep mode                       | 1.34uA          | \-       | \-      |
 |  |
 
-<img src="//i1.aprbrother.com/da_power_1.png-640.jpg">
+<img src="https://i1.aprbrother.com/da_power_1.png-640.jpg">
 
-<img src="//i1.aprbrother.com/da_power_2.png-640.jpg">
+<img src="https://i1.aprbrother.com/da_power_2.png-640.jpg">
 
-<img src="//i1.aprbrother.com/da_power_3.png-640.jpg">
+<img src="https://i1.aprbrother.com/da_power_3.png-640.jpg">
 
 Based on the different scenarios and the power consumption measurements
 shown in upper talbe, the expected lifetimes of CR2477 and CR2032 coin
@@ -82,7 +82,7 @@ configure AprilBeacon.
 ### Downloads
 
   - [Firmware 3.0.9 for EEK
-    beacon](//i1.aprbrother.com/eek_fw_2.img) -
+    beacon](https://i1.aprbrother.com/eek_fw_2.img) -
     support Line beacon service
 
 ### FAQ

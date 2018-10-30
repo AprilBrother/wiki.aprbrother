@@ -2,12 +2,12 @@
 
 ### Configure Tool
 
-- [Gateway Configure Tool v1.1.0 for windows 64bit](//i1.aprbrother.com/gw4-config-tool-setup-v1.1.0.exe.zip)
-- [Gateway Configure Tool](//i1.aprbrother.com/gw4-config-tool-v1.0.7-amd64.deb) v1.0.7 For Linux/Ubuntu
+- [Gateway Configure Tool v1.1.0 for windows 64bit](https://i1.aprbrother.com/gw4-config-tool-setup-v1.1.0.exe.zip)
+- [Gateway Configure Tool](https://i1.aprbrother.com/gw4-config-tool-v1.0.7-amd64.deb) v1.0.7 For Linux/Ubuntu
 
 ### Test Tool
 
-- [BLE Viewer](//i1.aprbrother.com/ble-viewer-setup-v1.0.0.exe.zip) - see section [How To Test](Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test.md)
+- [BLE Viewer](https://i1.aprbrother.com/ble-viewer-setup-v1.0.0.exe.zip) - see section [How To Test](Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test.md)
 
 ### Write Your Own Client
 

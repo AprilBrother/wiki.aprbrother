@@ -7,7 +7,7 @@
 Here’s a map of which pin is where, and what special hardware functions
 it may have:
 
-<img src="//i1.aprbrother.com/blueduino_1.jpg">
+<img src="https://i1.aprbrother.com/blueduino_1.jpg">
 
 #### Power Pins
 

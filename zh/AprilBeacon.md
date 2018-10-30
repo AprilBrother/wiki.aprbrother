@@ -14,7 +14,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### [ABSensor N01](ABSensor.md#absensor-n01)
 
-<img src="//i1.aprbrother.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
+<img src="https://i1.aprbrother.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
 * Power supply by CR2032 Battery 230~ mAh (replaceable).
 * Dimensions: Height 33mm, Width 33mm, Depth 10mm
 * Signal range 3m - 60m.
@@ -32,7 +32,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### [USB Beacon 305](AprilBeacon_305.md)
 
-<img src="//i1.aprbrother.com/302.jpg" width="120" align="right">
+<img src="https://i1.aprbrother.com/302.jpg" width="120" align="right">
 * USB Powered
 * Supporting iBeacon + Eddystone 
 

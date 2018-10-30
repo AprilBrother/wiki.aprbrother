@@ -56,7 +56,7 @@ monitoring
 Remove the plastic battery saver tab and they're ready to turn on. the
 LED will blink 3 times when power on.
 
-<img src="//i1.aprbrother.com/plant_plastic.jpg">
+<img src="https://i1.aprbrother.com/plant_plastic.jpg">
 
 ### How to configure with app AprilBeacon
 
@@ -77,9 +77,9 @@ filter "aplant" to support the sensor.
     C. Temperature Sensor
     D. LED
 
-<img src="//i1.aprbrother.com/aplant_layout_1.jpg-1024.jpg">
+<img src="https://i1.aprbrother.com/aplant_layout_1.jpg-1024.jpg">
 
-<img src="//i1.aprbrother.com/soil-pcb.png" width="1024">
+<img src="https://i1.aprbrother.com/soil-pcb.png" width="1024">
 
 ## Documents And Links
 

@@ -1,6 +1,6 @@
 ### v1.1.1
 
-[ai-thinker-v1.1.1.bin](//i1.aprbrother.com/ai-thinker-v1.1.1.bin)
+[ai-thinker-v1.1.1.bin](https://i1.aprbrother.com/ai-thinker-v1.1.1.bin)
 - the default baud rate is 115200
 
 Important Note: The AT command must be end with "\\r\\n". For Arduino,
@@ -17,13 +17,13 @@ So the hardwareSerialMonitor sketch will not work
 
 ### v0.9.5.2
 
-  - [ai-thinker-0.9.5.2-9600.bin](//i1.aprbrother.com/ai-thinker-0.9.5.2-9600.bin?attname=)
+  - [ai-thinker-0.9.5.2-9600.bin](https://i1.aprbrother.com/ai-thinker-0.9.5.2-9600.bin?attname=)
     - The default baud rate is
     9600
 
 <!-- end list -->
 
-  - [ai-thinker-0.9.5.2.bin](//i1.aprbrother.com/ai-thinker-0.9.5.2.bin?attname=)
+  - [ai-thinker-0.9.5.2.bin](https://i1.aprbrother.com/ai-thinker-0.9.5.2.bin?attname=)
     - The default baud rate is 115200
 
 <!-- end list -->
@@ -35,7 +35,7 @@ So the hardwareSerialMonitor sketch will not work
 
 ### v0.9.5 beta
 
-  - [ai-thinker-0.9.5.bin](//i1.aprbrother.com/ai-thinker-0.9.5.bin?attname=)
+  - [ai-thinker-0.9.5.bin](https://i1.aprbrother.com/ai-thinker-0.9.5.bin?attname=)
 
 <!-- end list -->
 

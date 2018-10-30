@@ -16,7 +16,7 @@ auto-reset so no noodling with pins and reset button pressings. The
 CP2104 has better driver support than the CH340 and can do very high
 speeds without stability issues.
 
-<img src="//i1.aprbrother.com/2.jpg-640.jpg">
+<img src="https://i1.aprbrother.com/2.jpg-640.jpg">
 
 ## Features
 
@@ -40,7 +40,7 @@ Lua.
 
 ## Pinouts
 
-<img src="//i1.aprbrother.com/espea-pinouts.png-640.jpg">
+<img src="https://i1.aprbrother.com/espea-pinouts.png-640.jpg">
 
 ## Getting Started
 

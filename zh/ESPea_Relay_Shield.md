@@ -30,7 +30,7 @@ You can cut orginal jumper for D1, wire other pin to relay.
 See the photo for
 jumpers
 
-<img src="//i1.aprbrother.com/relay-jumper.jpg-640.jpg">
+<img src="https://i1.aprbrother.com/relay-jumper.jpg-640.jpg">
 
 ## LED Status
 
