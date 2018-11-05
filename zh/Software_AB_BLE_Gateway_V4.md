@@ -2,7 +2,7 @@
 
 ### 配置工具
 
-- [网关配置工具 V1.1.0 for windows 64位](https://i1.aprbrother.com/gw4-config-tool-setup-v1.1.0.exe.zip)
+- [网关配置工具 V1.1.2 for windows 64位](https://i1.aprbrother.com/gw4-config-tool-setup-v1.1.2.zip)
 - [网关配置工具](https://i1.aprbrother.com/gw4-config-tool-v1.0.7-amd64.deb) v1.0.7 For Linux/Ubuntu
 
 ### 测试工具
