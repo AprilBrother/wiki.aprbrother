@@ -15,18 +15,13 @@ upgrade the firmware easily.
 
 ## Hardware requirements
 
-  - A USB to UART converter such as FTDI usb module. Our [CP2102 USB to
-    UART
-    converter](https://www.tindie.com/products/AprilBrother/usb-to-uart-converter-that-support-esp8266/)
-    is good and cheaper option.
-  - Some female to female dupont jumper lines
+- A USB to UART converter such as FTDI usb module. Our [CP2102 USB to UART converter](https://www.tindie.com/products/AprilBrother/usb-to-uart-converter-that-support-esp8266/) is good and cheaper option.
+- Some female to female dupont jumper lines
 
 ## Software requirements
 
-  - [SerialBootTool from
-    TI](http://processors.wiki.ti.com/images/6/64/SerialBootTool_1_3_2.zip)
-  - [Termite － A free serial terminal
-    software](http://www.compuphase.com/software_termite.htm)
+  - [SerialBootTool from TI](http://processors.wiki.ti.com/images/6/64/SerialBootTool_1_3_2.zip)
+  - [Termite － A free serial terminal software](http://www.compuphase.com/software_termite.htm)
 
 ## Getting Start
 
@@ -60,8 +55,7 @@ You've done\!
 
 ## Firmware
 
-  - [Firmwares For
-    BlueDuino](http://wiki.aprbrother.com/wiki/BlueDuino#Firmware)
+  - [Firmwares For BlueDuino](BlueDuino_rev2.md#firmware-for-ble-module)
 
 ## Troubleshooting
 
