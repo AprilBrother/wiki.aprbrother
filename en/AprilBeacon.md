@@ -30,6 +30,13 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 * Embedded Temperature/Humidity/Light sensors.
 * BLE micro controller NRF52832
 
+### April Beacon N04
+
+<img src="https://i1.aprbrother.com/aprilbeacon-n04.jpg" width="120" align="right">
+* Power supply by CR2450 Battery 500~ mAh (replaceable).
+* External antenna
+* BLE micro controller NRF52810
+
 ### [USB Beacon 305](AprilBeacon_305.md)
 
 <img src="https://i1.aprbrother.com/302.jpg" width="120" align="right">
