@@ -28,6 +28,7 @@ N03 advertises sensor data in custom format. See section "Packet Format" for mor
 ### Technical Details
 
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
+* Dimensions: Diameter 48mm, Height 23mm
 * Embedded Temperature/Humidity/Light sensors.
 * BLE micro controller NRF52832
 

@@ -27,6 +27,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 ### [ABSensor N03](ABSensor.md#absensor-n03)
 
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
+* Dimensions: Diameter 48mm, Height 23mm
 * Embedded Temperature/Humidity/Light sensors.
 * BLE micro controller NRF52832
 
@@ -34,6 +35,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 <img src="https://i1.aprbrother.com/aprilbeacon-n04.jpg" width="120" align="right">
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
+* Dimensions: Diameter 48mm, Height 23mm
 * External antenna
 * BLE micro controller NRF52810
 
