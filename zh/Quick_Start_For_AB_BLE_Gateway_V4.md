@@ -10,7 +10,9 @@
   - 在电脑上安装好[配置工具](Software_AB_BLE_Gateway_V4.md)并打开
   - 点击application，你可以看到一些配置项
 
-## 如何测试
+## How To Test
+
+如何测试
 
   - 修改网关的Application设置如下并保存
       - Application Type -\> MQTT Client
