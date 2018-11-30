@@ -7,7 +7,7 @@
 
 ### Test Tool
 
-- [BLE Viewer](https://i1.aprbrother.com/ble-viewer-setup-1.0.1.zip) - see section [How To Test](Quick_Start_For_AB_BLE_Gateway_V4#How_To_Test.md)
+- [BLE Viewer](https://i1.aprbrother.com/ble-viewer-setup-1.0.1.zip) - see section [How To Test](Quick_Start_For_AB_BLE_Gateway_V4.md#How_To_Test)
 
 ### Write Your Own Client
 
