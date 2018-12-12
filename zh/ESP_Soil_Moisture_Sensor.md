@@ -59,9 +59,8 @@ Note:
 ### Pinouts
 
 |        |                                                     |
-| ------ | --------------------------------------------------- |
-| pin    | detail                                              |
-| GPIO5  | Clock source for soil moisture sensor               |
+| Pin    | Detail                                              |
+| D5 (GPIO14)  | Clock source for soil moisture sensor               |
 | A0     | Output of soil moisture sensor                      |
 | GPIO13 | LED                                                 |
 | GPIO15 | SWITCH for measuring soil sensor or battery voltage |
@@ -87,9 +86,8 @@ AA battery not included. Please add AA battery x 2.
 ### Pinouts
 
 |        |                                       |
-| ------ | ------------------------------------- |
-| pin    | detail                                |
-| GPIO5  | Clock source for soil moisture sensor |
+| Pin    | Detail                                              |
+| D5 (GPIO14)  | Clock source for soil moisture sensor               |
 | A0     | Output of soil moisture sensor        |
 | GPIO12 | LED                                   |
 | GPIO2  | Output of DHT11 sensor                |
