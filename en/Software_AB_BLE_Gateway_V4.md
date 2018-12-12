@@ -1,16 +1,27 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
-### Configure Tool
+## Configure Tool
 
-- [Gateway Configure Tool v1.1.2 for windows 64bit](https://i1.aprbrother.com/gw4-config-tool-setup-v1.1.2.zip)
+* [Source Code](https://github.com/AprilBrother/gw4-config-tool)
+* [ChangeLog](https://github.com/AprilBrother/gw4-config-tool/wiki/ChangeLog)
+
+### Download
+
+- [Gateway Configure Tool v1.2.2 for windows 64bit][config-tool-link]
 - [Gateway Configure Tool](https://i1.aprbrother.com/gw4-config-tool-v1.0.7-amd64.deb) v1.0.7 For Linux/Ubuntu
 
-### Test Tool
+## Test Tool
 
-- [BLE Viewer](https://i1.aprbrother.com/ble-viewer-setup-1.0.1.zip) - see section [How To Test](Quick_Start_For_AB_BLE_Gateway_V4.md#How_To_Test)
+### BLE Viewer ###
 
-### Write Your Own Client
-
+- [How To Test](Quick_Start_For_AB_BLE_Gateway_V4.md#How_To_Test)
+- [Download](https://i1.aprbrother.com/ble-viewer-setup-1.0.1.zip)
 - [Source Code For BLE Viewer](https://github.com/AprilBrother/ble-viewer)
+
+## Write Your Own Client
+
 - [HTTP Server Example Written In NodeJS](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/tools/http-server/gateway4-nodejs)
 - [PHP SDK](https://github.com/AprilBrother/ab-ble-gateway-sdk-php) - See readme file for more information
+
+
+[config-tool-link]: https://i1.aprbrother.com/gw4-config-tool-v1.2.2.zip "Gateway Configure Tool"
