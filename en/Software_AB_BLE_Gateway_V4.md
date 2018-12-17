@@ -8,7 +8,7 @@
 ### Download
 
 - [Gateway Configure Tool v1.2.2 for windows 64bit][config-tool-link]
-- [Gateway Configure Tool](https://i1.aprbrother.com/gw4-config-tool-v1.0.7-amd64.deb) v1.0.7 For Linux/Ubuntu
+- [Gateway Configure Tool](https://i1.aprbrother.com/gw-config-tool-1.2.3_amd64.deb.zip) v1.2.3 For Linux/Ubuntu
 
 ## Test Tool
 
