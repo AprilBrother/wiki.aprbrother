@@ -9,6 +9,12 @@
 | 绿色 | 在以太网启动时开始闪烁 | 
 | 黄色 | 在获得IP后常亮 | 
 
+## Performance
+
+* Scan duration = 1 second
+* 以太网连接时，每秒最多上传210条广播数据
+* WiFi连接时，每秒最多上传150条广播数据
+
 ## 数据格式
 
 Gateway V4以[MessagePack](https://msgpack.org/)格式提交数据.  
