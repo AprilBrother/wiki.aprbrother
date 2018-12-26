@@ -9,8 +9,8 @@ protocol.
 Install app AprilBeacon to configure
 params
 
-[<http://www.ti.com/lsds/media/images/Apple_App_Store_Badge.png>](https://itunes.apple.com/app/id847517010)
-[<http://www.ti.com/lsds/media/images/Google_Play_Badge.png>](https://play.google.com/store/apps/details?id=com.aprilbrother.ab_ibeacon)
+[![Apple](//i1.aprbrother.com/Apple_App_Store_Badge.png)](//itunes.apple.com/us/app/aprilbeacon/id847517010?mt=8)
+[![Google Play](//i1.aprilbrother.com/Google_Play_Badge.png)](https://play.google.com/store/apps/details?id=com.aprilbrother.ab_ibeacon)
 
 The project is based on [Miceuz's I2C Moisture Sensor
 project](https://github.com/Miceuz/i2c-moisture-sensor). Thanks for
