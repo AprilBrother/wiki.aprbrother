@@ -18,20 +18,19 @@ Miceuz.
 
 ## Features
 
-  - ARM Cortex -M0 32-bit processor
-  - Support Bluetooth Smart 4.0
-  - Powered with 1 X CR2032 battery
-  - Long battery life : 1.5 year in typical beacon setting
-  - iPhone/Android APP for configuration
-  - Button for Factory Reset
-  - Temperature sensor for environment
-monitoring
+- ARM Cortex -M0 32-bit processor
+- Support Bluetooth Smart 4.0
+- Powered with 1 X CR2032 battery
+- Long battery life : 1.5 year in typical beacon setting
+- iPhone/Android APP for configuration
+- Button for Factory Reset
+- Soil moisture sensor
+- Temperature sensor for environment monitoring
 
 ## Specification
 
-|                                                  |                                                  |
+| Name                              | Parameters                                       |
 | ------------------------------------------------ | ------------------------------------------------ |
-| Name                                             | Parameters                                       |
 | Chip                                             | Dialog DA14580                                   |
 | Dimensions                                       | 160mm\*29mm\*20mm                                |
 | Protocol standard                                | Bluetooth® 4.0 Through the iBeacon certification |
@@ -42,7 +41,6 @@ monitoring
 | Broadcast Frequency (Broadcasting time interval) | Adjustable (100~1285ms), Default 1285ms          |
 | Supply Voltage                                   | 3.0V                                             |
 | Battery                                          | CR2032 Battery                                   |
-|  |
 
 ## Default Settings
 
