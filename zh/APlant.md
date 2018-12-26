@@ -6,8 +6,8 @@
 
 安装应用AprilBeacon来配置参数
 
-[![Apple](//i1.aprbrother.com/Apple_App_Store_Badge.png)](//itunes.apple.com/cn/app/aprilbeacon/id847517010?mt=8)
-[![Google Play](//i1.aprilbrother.com/Google_Play_Badge.png)](https://play.google.com/store/apps/details?id=com.aprilbrother.ab_ibeacon)
+[![Apple](https://i1.aprbrother.com/Apple_App_Store_Badge.png)](https://itunes.apple.com/us/app/aprilbeacon/id847517010?mt=8)
+[![Google Play](https://i1.aprbrother.com/Google_Play_Badge.png)](https://play.google.com/store/apps/details?id=com.aprilbrother.ab_ibeacon)
 
 这个项目基于 [Miceuz's I2C Moisture Sensor
 project](https://github.com/Miceuz/i2c-moisture-sensor). Thanks for
