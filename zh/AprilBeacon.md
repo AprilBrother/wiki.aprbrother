@@ -24,6 +24,15 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 * Advertise 1st UUID when still, advertise 2nd UUID when move
 * BLE micro controller NRF52810
 
+### April Beacon N02
+
+<img src="https://i1.aprbrother.com/card-n02.jpg-320.jpg" width="120">
+
+* Power supply by Lithium Battery 500~ mAh
+* Dimension: 86mm * 54mm * 4mm
+* One LED and one button
+* BLE micro controller NRF52810
+
 ### [ABSensor N03](ABSensor.md#absensor-n03)
 
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
