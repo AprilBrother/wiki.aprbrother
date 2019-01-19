@@ -26,7 +26,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### April Beacon N02
 
-<img src="https://i1.aprbrother.com/card-n02.jpg-320.jpg" width="120">
+<img src="https://i1.aprbrother.com/card-n02.jpg-320.jpg" width="120" align="right">
 
 * Power supply by Lithium Battery 500~ mAh
 * Dimension: 86mm * 54mm * 4mm
