@@ -1,7 +1,6 @@
 ## Description
 
-The ABSniffer works as BLE central role. It will search for all iBeacons
-nearby.
+ABSniffer USB Dongle works as BLE central role. It searches for all iBeacons or BLE advertising data nearby.
 
 ### Products
 
