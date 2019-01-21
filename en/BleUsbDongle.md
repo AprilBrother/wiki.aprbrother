@@ -46,6 +46,10 @@ Pinouts P1 (from square soldering hole)
 * SWDIO
 * SWDCLK 
 
+### Firmware
+
+The USB dongle nRF52840 is flashed with Adafruit nRF52 Bootloader and "BLE Peripheral Blink" from nRF5 SDK examples default
+
 ### Downloadable Content
 
 * [Hardware Files](https://github.com/AprilBrother/ab-hardware/tree/master/april-usb-dongle-52840)
