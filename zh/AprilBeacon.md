@@ -35,7 +35,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### [ABSensor N03](ABSensor.md#absensor-n03)
 
-<img src="https://i1.aprbrother.com/n03.jpg-320.jpg" width="120" aligh="right">
+<img src="https://i1.aprbrother.com/n03.jpg-320.jpg" width="120" align="right">
 
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
 * Dimensions: Diameter 48mm, Height 23mm
