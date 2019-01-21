@@ -4,5 +4,6 @@ The April Brother Wiki contains technical documentation for our current solution
 
 For information on how to purchase our products, visit our [Shop](https://blog.aprbrother.com/shop) page.
 
-## Documentation updates
+## 文档更新
 
+* 新增页面[BLE USB Dongle](BleUsbDongle.md) - 2019-01-21

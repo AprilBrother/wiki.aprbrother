@@ -6,3 +6,4 @@ For information on how to purchase our products, visit our [Shop](https://blog.a
 
 ## Documentation updates
 
+* Add page [BLE USB Dongle](BleUsbDongle.md) - 2019-01-21
