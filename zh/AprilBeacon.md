@@ -14,6 +14,8 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### [ABSensor N01](ABSensor.md#absensor-n01)
 
+---
+
 <img src="https://i1.aprbrother.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
 * Power supply by CR2032 Battery 230~ mAh (replaceable).
 * Dimensions: Height 33mm, Width 33mm, Depth 10mm
@@ -26,6 +28,8 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### April Beacon N02
 
+---
+
 <img src="https://i1.aprbrother.com/card-n02.jpg-320.jpg" width="120" align="right">
 
 * Power supply by Lithium Battery 500~ mAh
@@ -34,6 +38,8 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 * BLE micro controller NRF52810
 
 ### [ABSensor N03](ABSensor.md#absensor-n03)
+
+---
 
 <img src="https://i1.aprbrother.com/n03.jpg-320.jpg" width="120" align="right">
 
@@ -44,6 +50,8 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ### April Beacon N04
 
+---
+
 <img src="https://i1.aprbrother.com/aprilbeacon-n04.jpg" width="120" align="right">
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
 * Dimensions: Diameter 48mm, Height 23mm
@@ -51,6 +59,8 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 * BLE micro controller NRF52810
 
 ### [USB Beacon 305](AprilBeacon_305.md)
+
+---
 
 <img src="https://i1.aprbrother.com/302.jpg" width="120" align="right">
 * USB Powered
