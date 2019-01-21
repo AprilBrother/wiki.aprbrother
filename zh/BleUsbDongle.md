@@ -20,6 +20,8 @@ The nRF52840 Dongle can be used as a development platform for the nRF52840 SoC. 
 configurable LEDs and a button. In addition to
 radio communication, the nRF5240 SoC can communicate with a computer through USB.
 
+The USB dongle is very similar with Nordic's USB dongle PCA10059. But it has less pinouts and button.
+
 #### Buttons And LEDs
 
 The nRF528540 Dongle is equipped with a LED (LED1), a multicolor RGB LED (LED2), a user configurable button (SW1)
