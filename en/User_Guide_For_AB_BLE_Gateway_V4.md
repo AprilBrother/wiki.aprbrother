@@ -2,7 +2,7 @@
 
 ## LED Status
 
-The ethernet port has a green LED and a red LED. 
+The ethernet port has a green LED and a yellow LED. 
 
 | Color |  Description |
 | ---------- | ------------------------ | 
