@@ -15,6 +15,11 @@ User can configure the transmit period and server information through 
 - 支持WebSocket/HTTP/MQTT协议
 - BLE带有外置天线
 
+## 认证
+
+* FCCID: `2ACAL-ABBG0004`
+* CE No.: `ATSZAWW190102008`
+
 ## BLE
 
 - Bluetooth Smart( BLE) is based on NRF52832 

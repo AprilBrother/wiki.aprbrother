@@ -15,6 +15,11 @@ User can configure the transmit period and server information through 
 - Support WebSocket/HTTP/MQTT protocol
 - External antenna for BLE  
 
+## Certifications
+
+* FCCID: `2ACAL-ABBG0004`
+* CE No.: `ATSZAWW190102008`
+
 ## BLE
 
 - Bluetooth Smart( BLE) is based on NRF52832 
