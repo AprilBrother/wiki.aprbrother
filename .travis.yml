@@ -21,6 +21,6 @@ script:
 deploy:
   provider: script
   skip_cleanup: true
-  script: echo "hello"
+  script: yarn sync
   on:
     branch: master
