@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - "stable"
+
+before_install:
+  - export TZ='Asia/Shanghai'
+
+install:
+  - npm install gitbook-cli -g
+  - npm install -g gulp
+  - gitbook install
+
+script:
+  - gulp prebuild
+  - gitbook build
+  - gulp postbuild
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: echo "hello"
+  on:
+    branch: master
