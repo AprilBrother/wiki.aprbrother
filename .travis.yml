@@ -8,6 +8,7 @@ before_install:
 install:
   - npm install gitbook-cli -g
   - npm install -g gulp
+  - npm link gulp
   - gitbook install
 
 script:
