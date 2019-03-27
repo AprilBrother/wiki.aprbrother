@@ -20,7 +20,7 @@ before_deploy:
 - chmod 600 /tmp/deploy_rsa
 - eval "$(ssh-agent -s)"
 - ssh-add /tmp/deploy_rsa
-- cp /tmp/ssh_config ~/.ssh/
+- cp /tmp/ssh_config ~/.ssh/config
 - cp /tmp/known_hosts ~/.ssh/
 deploy:
   provider: script
