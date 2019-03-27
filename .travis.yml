@@ -6,11 +6,12 @@ before_install:
   - export TZ='Asia/Shanghai'
 
 install:
-  - npm install gitbook-cli -g
-  - npm install
-  - npm install -g gulp
-  - npm link gulp
+  - yarn global add gitbook-cli
+  - yarn global add gulp-cli
   - gitbook install
+
+before_script:
+  - yarn
 
 script:
   - gulp prebuild
