@@ -1,23 +1,20 @@
 language: node_js
 node_js:
-  - "stable"
-
+- stable
 before_install:
-  - export TZ='Asia/Shanghai'
-
+- openssl aes-256-cbc -K $encrypted_ac1ee89ed3c7_key -iv $encrypted_ac1ee89ed3c7_iv
+  -in .travis/deploy_rsa.enc -out .travis/deploy_rsa -d
+- export TZ='Asia/Shanghai'
 install:
-  - yarn global add gitbook-cli
-  - yarn global add gulp-cli
-  - gitbook install
-
+- yarn global add gitbook-cli
+- yarn global add gulp-cli
+- gitbook install
 before_script:
-  - yarn
-
+- yarn
 script:
-  - gulp prebuild
-  - gitbook build
-  - gulp postbuild
-
+- gulp prebuild
+- gitbook build
+- gulp postbuild
 deploy:
   provider: script
   skip_cleanup: true
