@@ -5,7 +5,7 @@
     "license": "ISC",
     "scripts": {
         "serve": "gulp prebuild && gitbook serve --no-watch --open",
-        "sync": "rsync -avz --delete _book/./ cn1.www:/var/www/wiki/_book/ && rsync -avz --delete _book/./ wiki:/var/www/wiki/_book/",
+        "sync": "rsync -avz --delete --exclude=.travis _book/./ cn1.www:/var/www/wiki/_book/ && rsync -avz --delete --exclude=.travis _book/./ wiki:/var/www/wiki/_book/",
         "build": "gulp prebuild && gitbook build && gulp postbuild",
         "deploy": "yarn build && yarn sync"
     },
