@@ -27,3 +27,6 @@ A: Yes. It will use WiFi without ethernet connection.
 
 A: The device supports only 2.4GHz WiFi. It can't connect to 5GHz network. Please check your WiFi AP. Don't set same SSID name for 2.4G and 5G WiFi both. Because gateway can't connect to your WiFi.
 
+### Q: Why the data fom BLE gateway is messed up?
+
+A: Gateway V4 post data in [MessagePack](https://msgpack.org/) format. MessagePack is an efficient binary serialization format. You should decode it to get right data structure.
