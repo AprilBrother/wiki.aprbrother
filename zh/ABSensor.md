@@ -17,6 +17,15 @@ BLE Beacon with acceleration sensor. Small size and replacable battery.
 * Advertise 1st UUID when still, advertise 2nd UUID when move
 * BLE micro controller NRF52810
 
+## Default Settings
+
+| Name                 | Parameters                                            |
+| -------------------- | ----------------------------------------------------- |
+| Advertising Interval | 700ms                                                 |
+| Proximity UUID       | B5B182C7-EAB1-4988-AA99-B5C1517008D9                  |
+| Major                | 1                                                     |
+| Minor                | last 2 bytes of mac address                           |
+
 ### Hardware Files 
 
 * [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n01/schematic.pdf)
