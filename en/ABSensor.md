@@ -17,7 +17,7 @@ BLE Beacon with acceleration sensor. Small size and replacable battery.
 * Advertise 1st UUID when still, advertise 2nd UUID when move
 * BLE micro controller NRF52810
 
-## Default Settings
+### Default Settings
 
 | Name                 | Parameters                                            |
 | -------------------- | ----------------------------------------------------- |
