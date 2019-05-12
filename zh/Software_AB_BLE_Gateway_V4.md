@@ -19,7 +19,9 @@
 
 ### 开发你自己的客户端工具
 
-- [用NodeJS写的HTTP服务器示例](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/tools/http-server/gateway4-nodejs)
-- [PHP SDK](https://github.com/AprilBrother/ab-ble-gateway-sdk-php) - 查看readme文件获得更多信息
+* [PHP示例](https://github.com/AprilBrother/ab-ble-gateway-sdk-php) - 查看readme文件获得更多信息
+* [Java示例](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/java)
+* [NodeJS示例](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/nodejs)
+* [Python示例](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/python)
 
 [config-tool-link]: https://i1.aprbrother.com/gw4-config-tool-v1.2.2.zip "Gateway Configure Tool"
