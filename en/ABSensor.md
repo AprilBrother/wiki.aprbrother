@@ -70,7 +70,7 @@ Pins for programing by jLink
 | ------- | ------- | ---------- | ---------- |
 | 0       | Flags 0              | 0x02       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
 | 1       | Flags 1              | 0x01       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
-| 2       | Flags 2              | 0x04       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
+| 2       | Flags 2              | 0x06       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
 | 3       | Length                  | 0x03       | See Bluetooth 4.0 Core Specification                             |
 | 4       | Type                    | 0x03       | See Bluetooth 4.0 Core Specification                             |
 | 5, 6    | Service UUID            | 0x59, 0xFE | 16-bit Service UUID for OTA service                                     |
