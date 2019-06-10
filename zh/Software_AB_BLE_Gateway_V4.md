@@ -14,7 +14,7 @@
 ## 测试工具
 
 - [如何测试](Quick_Start_For_AB_BLE_Gateway_V4.md#How_To_Test)
-- [下载BLE Viewer](https://i1.aprbrother.com/ble-viewer-setup-1.0.1.zip)
+- [下载BLE Viewer](https://i1.aprbrother.com/ble-viewer-setup-1.0.2.zip)
 - [BLE Viewer的源码](https://github.com/AprilBrother/ble-viewer)
 
 ### 开发你自己的客户端工具
