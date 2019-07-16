@@ -17,7 +17,7 @@
         "gitbook-plugin-page-toc": "^1.1.1",
         "globby": "^8.0.1",
         "gulp": "^3.9.1",
-        "lodash": "^4.17.10"
+        "lodash": "^4.17.13"
     },
     "devDependencies": {}
 }
