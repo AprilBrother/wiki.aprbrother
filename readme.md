@@ -1,1 +1,1 @@
-Gitbook version for wiki.aprbrother.com
+Gitbook version for [wiki.aprbrother.com](https://wiki.aprbrother.com)
