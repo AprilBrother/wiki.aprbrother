@@ -19,7 +19,7 @@
       - MQTT Host -\> `mqtt.bconimg.com`
       - MQTT Port -\> 1883
       - Publish Topic -\> your-topic
-  - 下载并安装测试工具 [data viewer software](https://i1.aprbrother.com/ble-viewer-setup-v1.0.0.exe.zip)
+  - 下载并安装测试工具 [data viewer software](https://i1.aprbrother.com/ble-viewer-setup-1.0.2.zip)
   - 在测试工具中填写第一步中提到的参数
   - 在测试工具中查看来自于蓝牙网关的数据
 

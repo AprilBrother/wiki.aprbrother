@@ -14,7 +14,7 @@
       - MQTT Host -\> `mqtt.bconimg.com`
       - MQTT Port -\> 1883
       - Publish Topic -\> your-topic
-  - Download and install [data viewer software](https://i1.aprbrother.com/ble-viewer-setup-v1.0.0.exe.zip)
+  - Download and install [data viewer software](https://i1.aprbrother.com/ble-viewer-setup-1.0.2.zip)
   - Fill the form with the parameters in first steps
   - View the data from gateway
 
