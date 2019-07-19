@@ -59,6 +59,17 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 * External antenna
 * BLE micro controller NRF52810
 
+### April Beacon N05
+
+---
+
+* Power supply by CR2032 Battery 230~ mAh (replaceable).
+* PCB Dimensions: Height 23.9mm, Width 23.1mm
+* Embedded acceleration sensor LIS3DH
+* One LED and one button (For factory reset)
+* BLE micro controller NRF52810
+
+
 ### [USB Beacon 305](AprilBeacon_305.md)
 
 ---
