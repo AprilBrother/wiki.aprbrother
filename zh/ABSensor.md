@@ -21,10 +21,20 @@ BLE Beacon with acceleration sensor. Small size and replacable battery.
 
 | Name                 | Parameters                                            |
 | -------------------- | ----------------------------------------------------- |
+| Advertising Type     | Sensor                                                |
 | Advertising Interval | 700ms                                                 |
+| TX Power             | 0dBm                                                  |
 | Proximity UUID       | B5B182C7-EAB1-4988-AA99-B5C1517008D9                  |
 | Major                | 1                                                     |
 | Minor                | last 2 bytes of mac address                           |
+
+### Advertising Type Comparison
+
+|  Advertising Type    | iBeacon         | Eddystone          | Sensor                                |
+| -------------------- | -------         | ---------          | ------                                |
+| Advertising Interval | configurable    | configurable       | configurable                          |
+| Button press         | advertise UUID2 | advertise UUID2    | Change button bit in advertising data |
+| Acceleration Sensor  | Keep working    | Keep working       | Keep working                          |
 
 ### Hardware Files 
 
