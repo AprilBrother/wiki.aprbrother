@@ -72,6 +72,8 @@ A small and low-cost nRF52832 USB Dongle Form Factor with external antenna
 
 ### Hardware Description
 
+* [Hardware Files](https://github.com/AprilBrother/ab-hardware/tree/master/april-usb-dongle-52832)
+
 #### SWD Interface
 
 ## [ABSniffer series](ABSniffer.md)
