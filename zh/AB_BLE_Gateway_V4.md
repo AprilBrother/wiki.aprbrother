@@ -23,7 +23,7 @@ User can configure the transmit period and server information through 
 ## BLE
 
 - Bluetooth Smart( BLE) is based on NRF52832 
-- Bluetooth with on board PCB antenna
+- 外置天线
 - Bi-direction: Reads message advertised from BLE devices 
 - 30M range in open space
 

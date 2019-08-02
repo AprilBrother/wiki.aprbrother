@@ -1,7 +1,3 @@
-
-
-
-
 # AB BLE Gateway 2.0
 
 ## Description
