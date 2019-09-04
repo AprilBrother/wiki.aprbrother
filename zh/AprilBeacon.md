@@ -62,7 +62,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ---
 
-* Power supply by CR2032 Battery 230~ mAh (replaceable).
+* Power supply by CR1632 Battery 120~ mAh (replaceable).
 * PCB Dimensions: Height 23.9mm, Width 23.1mm
 * Embedded acceleration sensor LIS3DH
 * One LED and one button (For factory reset)
