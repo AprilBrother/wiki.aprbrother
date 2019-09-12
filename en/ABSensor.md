@@ -36,6 +36,35 @@ BLE Beacon with acceleration sensor. Small size and replacable battery.
 | Button press         | advertise UUID2 | advertise UUID2    | Change button bit in advertising data |
 | Acceleration Sensor  | Keep working    | Keep working       | Keep working                          |
 
+### Packet Format
+
+Advertising packet for sensor mode
+
+| Byte(s) | Name                    | Value      | Notes                                                            |
+| ------- | ----------------------- | ---------- | ---------------------------------------------------------------- |
+| 0       | Flags\[0\]              | 0x02       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
+| 1       | Flags\[1\]              | 0x01       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
+| 2       | Flags\[2\]              | 0x06       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
+| 3       | Length                  | 0x03       | See Bluetooth 4.0 Core Specification                             |
+| 4       | Type                    | 0x03       | See Bluetooth 4.0 Core Specification                             |
+| 5, 6    | Service UUID            | 0x59, 0xFE | Service UUID for OTA service                                     |
+| 7       | Length                  | 0x17       | See Bluetooth 4.0 Core Specification                             |
+| 8       | Type                    | 0x16       | Manufacturer Specification data                                  |
+| 9, 10   | Service UUID            | 0x59, 0xFE | Service UUID for OTA service                                     |
+| 11, 12  | Compoany ID             | 0xAB, 0x01 | ID for April Brother                                             |
+| 13      | Data Version            | 0x03       | \-                                                               |
+| 14 - 19 | Mac Address             | \-         | Reverse the order                                                |
+| 20, 21  | Temperature             | \-         | \-                                                               |
+| 22      | Is Sensor Motion        | 0x00       | When move the value = 0x01. when still the value = 0x00          |
+| 23      | X Acceleration          | \-         | \-                                                               |
+| 24      | Y Acceleration          | \-         | \-                                                               |
+| 25      | Z Acceleration          | \-         | \-                                                               |
+| 26      | Current Motion Duration | 0x00       | Current motion time in second                                    |
+| 27      | Last Motion Duration    | 0x00       | Last motion time in second                                       |
+| 28      | Battery Level           | 0x64       | Battery level in percent                                         |
+| 29      | Measured Power          | \-         | \-                                                               |
+| 30      | Button State            | \-         | pressed=0x01, idle=0x00                                          |
+
 ### Hardware Files 
 
 * [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n01/schematic.pdf)
