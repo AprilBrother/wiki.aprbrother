@@ -36,7 +36,7 @@ BLE Beacon with acceleration sensor. Small size and replacable battery.
 | Button press         | advertise UUID2 | advertise UUID2    | Change button bit in advertising data |
 | Acceleration Sensor  | Keep working    | Keep working       | Keep working                          |
 
-### Packet Format
+### N01 Packet Format
 
 Advertising packet for sensor mode
 
@@ -103,7 +103,7 @@ Pins for programing by jLink
 * [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n03/sensor-htl.pdf)
 * [nRF5 Libraries For Sensor](https://github.com/AprilBrother/nrf5-sdk/tree/master/libraries)
 
-### Packet Format
+### N03 Packet Format
 
 | Byte(s) | Name | Value | Notes |
 | ------- | ------- | ---------- | ---------- |
