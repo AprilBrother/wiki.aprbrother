@@ -6,7 +6,7 @@
 
 BLE Beacon with acceleration sensor. Small size and replacable battery.
 
-### Technical Details
+### N01 Technical Details
 
 * Power supply by CR2032 Battery 230~ mAh (replaceable).
 * Dimensions: Height 33mm, Width 33mm, Depth 10mm
@@ -17,7 +17,7 @@ BLE Beacon with acceleration sensor. Small size and replacable battery.
 * Advertise 1st UUID when still, advertise 2nd UUID when move
 * BLE micro controller NRF52810
 
-### Default Settings
+### N01 Default Settings
 
 | Name                 | Parameters                                            |
 | -------------------- | ----------------------------------------------------- |
@@ -65,7 +65,7 @@ Sensor模式下的广播包格式
 | 29      | Measured Power          | \-         | \-                                                               |
 | 30      | Button State            | \-         | pressed=0x01, idle=0x00                                          |
 
-### Hardware Files 
+### N01 Hardware Files 
 
 * [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n01/schematic.pdf)
 
@@ -73,7 +73,7 @@ Sensor模式下的广播包格式
 
 N03 advertises sensor data in custom format. See section "Packet Format" for more details.
 
-### Technical Details
+### N03 Technical Details
 
 * Power supply by CR2450 Battery 500~ mAh (replaceable).
 * Dimensions: Diameter 48mm, Height 23mm
@@ -87,7 +87,7 @@ N03 advertises sensor data in custom format. See section "Packet Format" for mor
 * Light Sensor: AP3216
 * Humidity/Temperature Sensor: HTS221
 
-### Pinouts
+### N03 Pinouts
 
 #### P1
 
@@ -98,7 +98,7 @@ Pins for programing by jLink
 * SWIO
 * CLK
 
-### Hardware Files 
+### N03 Hardware Files 
 
 * [Schematic](https://github.com/AprilBrother/ab-hardware/raw/master/n03/sensor-htl.pdf)
 * [nRF5 Libraries For Sensor](https://github.com/AprilBrother/nrf5-sdk/tree/master/libraries)
