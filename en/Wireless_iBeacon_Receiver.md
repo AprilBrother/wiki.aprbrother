@@ -1,14 +1,4 @@
-
-
-
-
 ## Wireless iBeacon Receiver
-
-<table>
-
-<tr>
-
-<td valign="top">
 
 The Wireless iBeacon Receiver can work as Bluetooth 4.0 receiver. It
 will scan the iBeacon device nearby and post to the remote server side.
@@ -22,20 +12,8 @@ and connect to internet.
   - Transfer data via Wi-Fi
   - The fastest transport frequency is 1 second. Good for realtime scan
     requirement.
-  - Configure SSID and password by iPhone
-SmartConfig
-
-</td>
-
-<td>
 
 <img src=https://i1.aprbrother.com/wifi4.jpg-320.jpg align=right>
-
-</td>
-
-</tr>
-
-</table>
 
 ### Hardware
 
@@ -52,11 +30,6 @@ SmartConfig
 | Work with Wi-Fi AP      | 2.4G Wi-Fi AP only          |                       |
 | Working Temperature(C)  | \-20 ~ 65                   |                       |
 | Dimension               | 59.3mm x 75.3mm x 11.6mm    |                       |
-|  |
-
-### How it worked
-
-TODO
 
 ### Applications
 
@@ -71,23 +44,18 @@ TODO
 
 ### Quick Start
 
-  - Prepare an iPhone and download [app Wi-Fi
-    Starter](https://itunes.apple.com/app/texas-instruments-simplelink/id884122493?mt=8)
-  - Power on Wireless iBeacon Receiver
-  - When the yellow led on, the device prepare for connect Wi-Fi AP.
-    Configure the Wi-Fi SSID and password by app Wi-Fi Starter.
-  - Open app Wi-Fi Starter，type in SSID and password and tap Start。Wait
-    a moment, the app will receive a notification for device
-    discovering, now Wi-Fi config ok. (Note: Only work with 2.4G Wi-Fi
-    AP)
-  - Re-power the receiver. The receiver will connect a MQTT Broker
-    provide by ApilBrother default. - `mqtt.bconimg.com`
-  - Download the free software \[//mosquitto.org mosquitto\] to access
-    the beacon datas uploaded by the receiver.
+The receiver will try to connect WiFi hotspot that SSID = `hello` and password = `12345678` default.
+                                                                                 
+- Turn on the "personal hotsport mode" for your mobile                          
+- Change the SSID = hello and password = 12345678                               
+- Power on the receiver                                                         
+- Access the IP with browser if the receiver connected to your mobile
+- Re-power the receiver. The receiver will connect a MQTT Broker provide by ApilBrother default. - `mqtt.bconimg.com`
+- Download the free software \[//mosquitto.org mosquitto\] to access the beacon datas uploaded by the receiver.
 
 Please refer the "How To Config" Section for more information.
 
-  - [Quickstart](How_to_use_the_WiFi-Sniffer.md) - 快速上手中文版
+- [Quickstart](How_to_use_the_WiFi-Sniffer.md) - 快速上手中文版
 
 ### About LED Status
 
