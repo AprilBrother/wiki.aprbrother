@@ -22,7 +22,7 @@ First, you’ll need to set the serial port to the bootloader. But that
 port is only visible when the board is in bootloader mode, so pull the
 reset line low twice quickly to invoke the bootloader reset feature
 discussed above. You can quickly press the reset button twice. While the
-c is in the bootloader change the ‘Tools \> Serial Port’ menu to the
+BlueDuino is in the bootloader mode change the ‘Tools \> Serial Port’ menu to the
 bootloader COM port. Quick\! You’ve only got eight seconds. On Windows,
 the bootloader’s COM port number is usually one number higher than the
 BlueDuino’s regular port number.
