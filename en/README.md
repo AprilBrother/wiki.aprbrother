@@ -6,6 +6,7 @@ For information on how to purchase our products, visit our [Shop](https://blog.a
 
 ## Documentation Updates
 
+* Add page [AButton V3](AButton_V3.md) - 2020-05-07
 * Add client examples for BLE Gateway V4 - 2019-05-12
 * Add link for [BLE Gateway Config Tool For Android](Software_AB_BLE_Gateway_V4.md) - 2019-03-25
 * Add page [BLE USB Dongle](BleUsbDongle.md) - 2019-01-21
