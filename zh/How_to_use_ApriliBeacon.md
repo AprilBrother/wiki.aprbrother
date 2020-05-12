@@ -1,5 +1,3 @@
-
-
 ## General
 
 ### 什么是iBeacon?
@@ -14,6 +12,10 @@ readme.md files; Android iOS 7 SDK documentation; Android iOS
 ### iBeacon如何工作？
 
 Beacon广播信号包含UUID,major,和minor值。低功耗蓝牙技术可以让设备在beacon的范围内检索到它的信号,商家可以通过beacon应用将需要交互的数据推送到设备中。
+
+### iBeacon的广播包格式?
+
+参考[iBeacon Packet](iBeacon_Packet.md)
 
 ### 四月兄弟AprilBeacon用户手册
 

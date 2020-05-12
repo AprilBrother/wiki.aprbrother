@@ -1,7 +1,3 @@
-
-
-
-
 ## General
 
 ### What is iBeacon?
@@ -22,6 +18,10 @@ April beacon broadcast a signal which contain the UUID, major, and minor
 values. Bluetooth 4.0 LE enabled devices in the beacon's range are able
 to pick up this signal, and businesses can choose what interaction to
 deliver to the device via their app.
+
+### iBeacon Packet Structure?
+
+See [iBeacon Packet](iBeacon_Packet.md)
 
 ### User Guide of AprilBeacon?
 
