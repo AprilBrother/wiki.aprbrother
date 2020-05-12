@@ -197,10 +197,7 @@ Requirements](April_Beacons_and_App_Requirements.md)
 
 ## Android
 
-## Developer
-
 ### How to find beacon distance by the received RSSI?
 
-Please [check the
-topic](http://bbs.aprbrother.com/t/how-to-find-beacon-distance-by-the-received-rssi-in-android/425).
+Please [check the topic](http://bbs.aprbrother.com/t/how-to-find-beacon-distance-by-the-received-rssi-in-android/425).
 

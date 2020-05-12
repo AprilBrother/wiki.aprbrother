@@ -123,8 +123,7 @@ Aprilbeacon发射功率共有4挡，分别是 0dbm, 4dbm, -6dbm, -23dbm， 对�
 
 ### 在iOS 7.1下检测iBeacon的一些常见问题
 
-请查看 [在iOS
-7.1下检测iBeacon的一些常见问题](Issues_with_detecting_iBeacons_in_iOS_7.1/zh.md)
+请查看 [在iOS 7.1下检测iBeacon的一些常见问题](Issues_with_detecting_iBeacons_in_iOS_7.1/zh.md)
 
 ### 如何使用AprilBrother的SDK之iOS?
 
@@ -138,12 +137,9 @@ Blog](http://blog.aprbrother.com/p/100)
 
 ### April Beacon 和 App 最低需求
 
-请参考 [April Beacons and App
-Requirements](April_Beacons_and_App_Requirements.md)
+请参考 [April Beacons and App Requirements](April_Beacons_and_App_Requirements.md)
 
 ## Android
-
-## Developer
 
 ### 如何根据beacon的RSSI值估算距离?
 
