@@ -4,7 +4,7 @@ AButton V3 is a WiFi connected push button based on EspressIF's ESP32-PICO-D4.  
 
 ## Specification
 
-* Enclouse size 50mm x 30mm x 12mm
+* Enclouse size 50mm x 12mm
 * Lithium battery 300mAH
 
 ## Hardware Files
