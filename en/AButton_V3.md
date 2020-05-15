@@ -6,6 +6,9 @@ AButton V3 is a WiFi connected push button based on EspressIF's ESP32-PICO-D4.  
 
 * Enclouse size 50mm x 12mm
 * Lithium battery 300mAH
+* RGB LED x 1 (WS2812B)
+* ESP32-PICO with WiFi protocol
+* One button for wake up
 
 ## Hardware Files
 
