@@ -71,5 +71,4 @@ For ESP32
   - [Schematic](https://github.com/AprilBrother/esp-flasher/tree/master/schematic)
   - [Setup Arduino IDE for programming ESP8266 /
     ESP32](ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP.md)
-  - [Driver for
-    CP210X](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx)
+  - [Driver for CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
