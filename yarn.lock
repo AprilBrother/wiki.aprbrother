@@ -503,6 +503,13 @@ gitbook-plugin-expandable-chapters-small@^0.1.7:
   resolved "https://r.cnpmjs.org/gitbook-plugin-expandable-chapters-small/download/gitbook-plugin-expandable-chapters-small-0.1.7.tgz#afc9e597b6851156fa7b00231ff8ab93f4feba4c"
   integrity sha1-r8nll7aFEVb6ewAjH/irk/T+ukw=
 
+gitbook-plugin-include@^0.1.0:
+  version "0.1.0"
+  resolved "https://r.cnpmjs.org/gitbook-plugin-include/download/gitbook-plugin-include-0.1.0.tgz#c35ff476560a5effdefadbf63982249c1cbc74dc"
+  integrity sha1-w1/0dlYKXv/e+tv2OYIknBy8dNw=
+  dependencies:
+    q "*"
+
 gitbook-plugin-language-selected@^0.0.3:
   version "0.0.3"
   resolved "https://r.cnpmjs.org/gitbook-plugin-language-selected/download/gitbook-plugin-language-selected-0.0.3.tgz#d63b3428ce6ad7d93b69db0365eb41723398650d"
@@ -1116,10 +1123,10 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
-lodash@^4.17.13:
-  version "4.17.15"
-  resolved "https://r.cnpmjs.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+lodash@^4.17.19:
+  version "4.17.19"
+  resolved "https://r.cnpmjs.org/lodash/download/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha1-5I3e2+MLMyF4PFtDAfvTU7weSks=
 
 lodash@~1.0.1:
   version "1.0.2"
@@ -1443,6 +1450,11 @@ process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://r.cnpmjs.org/process-nextick-args/download/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
+
+q@*:
+  version "1.5.1"
+  resolved "https://r.cnpmjs.org/q/download/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
+  integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 "readable-stream@>=1.0.33-1 <1.1.0-0":
   version "1.0.34"
