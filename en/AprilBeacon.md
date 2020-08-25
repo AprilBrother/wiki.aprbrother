@@ -32,7 +32,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 <img src="https://i1.aprbrother.com/card-n02.jpg-320.jpg" width="120" align="right">
 
-* Power supply by Lithium Battery 500~ mAh
+* Power supply by Lithium Battery 800 mAh
 * Dimension: 86mm * 54mm * 4mm
 * One LED and one button
 * BLE micro controller NRF52810
