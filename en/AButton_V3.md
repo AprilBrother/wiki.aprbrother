@@ -12,6 +12,10 @@ AButton V3 is a WiFi connected push button based on EspressIF's ESP32-PICO-D4.  
 * ESP32-PICO with WiFi protocol
 * One button for wake up
 
+PCB image
+
+![AButton V3 PCB](https://i1.aprbrother.com/abutton-v3-pcb.png-320.jpg)
+
 ## Hardware Files
 
 * [AButton V3](https://github.com/AprilBrother/ab-hardware/tree/master/abutton-v3)
