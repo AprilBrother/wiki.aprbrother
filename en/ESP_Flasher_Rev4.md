@@ -9,8 +9,7 @@ programming ESP32 without pushing flash button.
 
 ### Why did you make it?
 
-The converter supports 400mA+ current. It's good for programming ESP8266
-and ESP32 module
+The converter supports 400mA+ current. It's good for programming ESP8266 and ESP32 module
 
 For program with Arduino IDE, the circuit does the trick for auto reset.
 Thanks for NodeMCU team\!
@@ -69,6 +68,5 @@ For ESP32
 ### Links
 
   - [Schematic](https://github.com/AprilBrother/esp-flasher/tree/master/schematic)
-  - [Setup Arduino IDE for programming ESP8266 /
-    ESP32](ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP.md)
+  - [Setup Arduino IDE for programming ESP8266 / ESP32](ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP.md)
   - [Driver for CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)

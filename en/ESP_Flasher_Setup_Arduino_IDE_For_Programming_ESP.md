@@ -32,4 +32,4 @@ Have fun\!
 
 ## Setup Arduino IDE for programming ESP32
 
-  - Choose board type "ESP32 Dev Board"
+See [Installation instructions using Arduino IDE Boards Manager](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md)
