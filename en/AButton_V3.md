@@ -34,6 +34,14 @@ PCB image
 
 Espressif has added support for the Arduino Boards Manager and by installing this way, you get the benefit of a slew of great built-in examples. Instructions for installing via the board manager can be found at [espressif's arduino-esp32 GitHub](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md).
 
+### Use ESP Flasher To Program AButton
+
+We designed pins 2 x 4 for match ESP Flasher. ESP Flasher is an USB to UART converter. It's best tool to program AButton. See the photo for how to wire it
+
+![How To wire ESP Flasher with AButton](https://i1.aprbrother.com/abutton-v3-2.jpg)
+
+Here's [a video for how to wire ESP Flasher](https://youtu.be/C1G9SJpkaxs)
+
 ## Hardware Files
 
 * [AButton V3](https://github.com/AprilBrother/ab-hardware/tree/master/abutton-v3)
