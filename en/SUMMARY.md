@@ -10,7 +10,6 @@
 
 - [April Beacon](AprilBeacon.md)
 - [ABTemp](ABTemp.md)
-- [APlant Soil Moisture Sensor](APlant.md)
 
 ### BLE Gateway
 
