@@ -21,7 +21,6 @@ For programming APixel, just wire the flasher to the board.
 
 ### Documents
 
-  - [Tutorials And
-    Examples](APixel_Tutorial.md)
+  - [Tutorials And Examples](APixel_Tutorial.md)
   - [Schematic](https://github.com/AprilBrother/APixel/blob/master/hardware/schematic.pdf)
   - [GitHub](https://github.com/AprilBrother/APixel)
