@@ -9,6 +9,7 @@ programming ESP32 without pushing flash button.
 
 ### What's Difference
 
+* USB Type-C interface
 * Add jumper for support 1.8V and 3.3V GPIO voltage
 * Add P1 pinout to support more GPIO
 * ESD and Overcurrent Protection for USB 

@@ -9,6 +9,7 @@ programming ESP32 without pushing flash button.
 
 ### What's Difference
 
+* Micro USB interface
 * Overcurrent Protection for USB
 
 For program with Arduino IDE, the circuit does the trick for auto reset.
