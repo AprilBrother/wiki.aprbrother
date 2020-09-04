@@ -5,11 +5,11 @@ ESP8266/ESP32 module just like NodeMCU. It has small size
 and we make it breadboard friendly. You can also use the flasher to
 programming ESP32 without pushing flash button.
 
-[ESP_FLasher_Rev5](ESP_Flasher_Rev5.md) - USB Type-C
+[ESP_Flasher_Rev5](ESP_Flasher_Rev5.md) - USB Type-C
 
 ![ESP Flasher Rev5](https://i1.aprbrother.com/esp-flasher-rev5-1.png-320.jpg)
 
-[ESP_FLasher_Rev4](ESP_Flasher_Rev4.md) - Micro USB
+[ESP_Flasher_Rev4](ESP_Flasher_Rev4.md) - Micro USB
 
 ![ESP Flasher Rev4](https://i1.aprbrother.com/flasher-1.jpg-320.jpg)
 
