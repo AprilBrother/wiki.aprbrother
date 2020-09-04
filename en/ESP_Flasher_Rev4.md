@@ -7,9 +7,9 @@ ESP8266/ESP32 module just like NodeMCU. It has smaller size than rev2
 and we make it breadboard friendly. You can also use the flasher to
 programming ESP32 without pushing flash button.
 
-* Overcurrent Protection for USB
+### What's Difference
 
-![ESP Flasher Rev5](https://i1.aprbrother.com/esp-flasher-rev5-1.png-320.jpg)
+* Overcurrent Protection for USB
 
 For program with Arduino IDE, the circuit does the trick for auto reset.
 
@@ -19,3 +19,6 @@ Diagram pictures
 
 <img src="https://i1.aprbrother.com/esp-flasher-diagram.png">
 
+### Hardware Photos
+
+![ESP Flasher Rev4](https://i1.aprbrother.com/flasher-1.jpg-320.jpg)

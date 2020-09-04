@@ -7,9 +7,20 @@ ESP8266/ESP32 module just like NodeMCU. It has smaller size than rev2
 and we make it breadboard friendly. You can also use the flasher to
 programming ESP32 without pushing flash button.
 
-* USB Type-C interface
+### What's Difference
+
+* Add jumper for support 1.8V and 3.3V GPIO voltage
+* Add P1 pinout to support more GPIO
 * ESD and Overcurrent Protection for USB 
+* Add support for USB to RS485/RS232 convert
+* USB Type-C interface
+
+![RS485 And RS232](https://i1.aprbrother.com/cp2014-rs485-rs232.png)
+
+### Hardware Photos
 
 ![ESP Flasher Rev5](https://i1.aprbrother.com/esp-flasher-rev5-1.png-320.jpg)
 
 ![ESP Flasher Rev5 2](https://i1.aprbrother.com/esp-flasher-rev5-2.png-320.jpg)
+
+

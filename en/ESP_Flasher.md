@@ -9,9 +9,9 @@ programming ESP32 without pushing flash button.
 
 ![ESP Flasher Rev5](https://i1.aprbrother.com/esp-flasher-rev5-1.png-320.jpg)
 
-[ESP_FLasher_Rev4](ESP_FLasher_Rev4.md) - micro USB
+[ESP_FLasher_Rev4](ESP_FLasher_Rev4.md) - Micro USB
 
-![ESP Flasher Rev5](https://i1.aprbrother.com/flasher-1.jpg-320.jpg)
+![ESP Flasher Rev4](https://i1.aprbrother.com/flasher-1.jpg-320.jpg)
 
 ### Why did you make it?
 
@@ -37,9 +37,10 @@ For program with Arduino IDE, the circuit does the trick for auto reset.
 For programming other ESP8266 modules such as ESP-12 or ESP-07, wire the
 pins like these:
 
-|             |                  |
+For ESP8266
+
+| flasher pin | ESP8266 pin      |
 | ----------- | ---------------- |
-| flasher pin | ESP module pin   |
 | VCC         | VCC              |
 | GND         | GND              |
 | TXD         | RXD              |
@@ -50,9 +51,8 @@ pins like these:
 
 For ESP32
 
-|             |                |
+| flasher pin | ESP32 pin      |
 | ----------- | -------------- |
-| flasher pin | ESP module pin |
 | VCC         | VCC            |
 | GND         | GND            |
 | TXD         | RXD            |
