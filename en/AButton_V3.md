@@ -24,7 +24,7 @@ Additionally, the board includes a WS2812B RGB LED and buttons to aid in your de
 * Connectivity:
   * WS2812B RGB LED x 1
   * Button x 1 for wake up
-  * Serail/UART ports for programming (match [ESP Flasher](ESP_Flasher_Rev4.md))
+  * Serail/UART ports for programming (match [ESP Flasher](ESP_Flasher.md))
 
 PCB image
 

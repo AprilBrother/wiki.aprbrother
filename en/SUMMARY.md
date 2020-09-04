@@ -24,7 +24,7 @@
 - [BLE USB Dongle](BleUsbDongle.md)
 - [ESP Soil Moisture Sensor](ESP_Soil_Moisture_Sensor.md)
 - [APixel](APixel.md)
-- [ESP Flasher](ESP_Flasher_Rev4.md) - programming ESP8266/ESP32 like NodeMCU
+- [ESP Flasher](ESP_Flasher.md) - programming ESP8266/ESP32 like NodeMCU
 
 ### Arduino Compatible Shield
 
