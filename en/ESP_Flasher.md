@@ -7,7 +7,7 @@ programming ESP32 without pushing flash button.
 
 [ESP_Flasher_Rev5](ESP_Flasher_Rev5.md) - USB Type-C
 
-![ESP Flasher Rev5](https://i1.aprbrother.com/esp-flasher-rev5-1.png-320.jpg)
+![ESP Flasher Rev5](https://i1.aprbrother.com/ESP_Flasher_Rev5-03.jpg-320.jpg)
 
 [ESP_Flasher_Rev4](ESP_Flasher_Rev4.md) - Micro USB
 

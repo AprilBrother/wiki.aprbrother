@@ -20,8 +20,11 @@ programming ESP32 without pushing flash button.
 
 ### Hardware Photos
 
+![ESP Flasher Rev5 3](https://i1.aprbrother.com/ESP_Flasher_Rev5-03.jpg)
+
+![ESP Flasher Rev5](https://i1.aprbrother.com/ESP_Flasher_Rev5.jpg)
+
 ![ESP Flasher Rev5](https://i1.aprbrother.com/esp-flasher-rev5-1.png-320.jpg)
 
 ![ESP Flasher Rev5 2](https://i1.aprbrother.com/esp-flasher-rev5-2.png-320.jpg)
-
 
