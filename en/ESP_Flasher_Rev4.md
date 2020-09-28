@@ -12,10 +12,6 @@ programming ESP32 without pushing flash button.
 * Micro USB interface
 * Overcurrent Protection for USB
 
-For program with Arduino IDE, the circuit does the trick for auto reset.
-
-<img src="https://i1.aprbrother.com/auto-reset.png">
-
 Diagram pictures
 
 <img src="https://i1.aprbrother.com/esp-flasher-diagram.png">
