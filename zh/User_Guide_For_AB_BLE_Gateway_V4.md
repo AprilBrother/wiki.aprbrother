@@ -1,14 +1,5 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
-## LED指示灯状态
-
-以太网接口有一个绿色指示灯和黄色指示灯
-
-| 指示灯 |  说明 |
-| ---------- | ------------------------ | 
-| 绿色 | 在以太网启动时开始闪烁 | 
-| 黄色 | 在获得IP后常亮 | 
-
 ## Performance
 
 * Scan duration = 1 second
@@ -68,7 +59,18 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 |   CE | rssi |
 |   0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0 | raw advertising data |
 
-## PCB原理图以及布局
+## 硬件
+
+### LED指示灯状态
+
+以太网接口有一个绿色指示灯和黄色指示灯
+
+| 指示灯 |  说明 |
+| ------ | ------------------------ | 
+| 绿色   | 在以太网启动时开始闪烁 | 
+| 黄色   | 在获得IP后常亮 | 
+
+### PCB原理图以及布局
 
 * [PCB原理图](https://i1.aprbrother.com/ble-gateway-v4-schematic.pdf)
 * Gateway V4的PCB布局. 这里采用了微处理器ESP32以及NRF52832.

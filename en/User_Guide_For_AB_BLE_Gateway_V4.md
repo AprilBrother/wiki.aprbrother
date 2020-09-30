@@ -1,14 +1,5 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
-## LED Status
-
-The ethernet port has a green LED and a yellow LED. 
-
-| Color |  Description |
-| ---------- | ------------------------ | 
-| Green | Blink when ethernet start | 
-| Yellow | Turn on when it got IP address | 
-
 ## Performance
 
 * Scan duration = 1 second
@@ -64,7 +55,18 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 |   CE | rssi |
 |   0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0 | raw advertising data |
 
-## Schematic And PCB Layout
+## Hardware
+
+### LED Status
+
+The ethernet port has a green LED and a yellow LED. 
+
+| Color |  Description |
+| ---------- | ------------------------ | 
+| Green | Blink when ethernet start | 
+| Yellow | Turn on when it got IP address | 
+
+### Schematic And PCB Layout
 
 * [Schematic](https://i1.aprbrother.com/ble-gateway-v4-schematic.pdf)
 * PCB Layout for Gateway V4. The microcontroller is ESP32 and NRF52832.
