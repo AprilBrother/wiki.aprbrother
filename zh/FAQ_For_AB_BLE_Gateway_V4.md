@@ -1,6 +1,5 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
-
 ### Q: 如何升级网关的固件?
 
 A: 你需要安装我们的配置工具来升级固件.
@@ -29,3 +28,11 @@ A: 设备只支持2.4G无线网络，请检查路由器是不是5G网络。此�
 ### Q: 为什么网关发送的数据都是乱码?
 
 A: 网关V4以[MessagePack](https://msgpack.org/)格式提交数据.  MessagePack是一个高效的二进制序列化格式. 你需要decode之后才能获取到正确的数据。
+
+### Q: 如何配置网关支持阿里云微消息队列MQTT版?
+
+A: 目前仅测试过阿里云微消息队列 MQTT 版的签名鉴权模式。配置方法
+
+* 默认的Client ID Prefix是`XBG_`, 必须改成按照阿里云文档中说明改为GID开头.例如`GID_Test@@@`
+* 如果希望使用固定的Client ID而不加上MAC地址后缀, 那么在Client ID prefix后面加上 `$$$`即可. 举例Client ID为`GID_Test@@@00001`,那么设置Client ID Prefix为 `GID_Test@@@00001$$$`
+* MQTT的Username和Password分别按照签名验证的方式计算获得.
