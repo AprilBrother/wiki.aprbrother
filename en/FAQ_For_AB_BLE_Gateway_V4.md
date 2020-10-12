@@ -35,5 +35,5 @@ A: Gateway V4 post data in [MessagePack](https://msgpack.org/) format. MessagePa
 A: 目前仅测试过阿里云微消息队列 MQTT 版的签名鉴权模式。配置方法
 
 * 默认的Client ID Prefix是`XBG_`, 必须改成按照阿里云文档中说明改为GID开头.例如`GID_Test@@@`
-* 如果希望使用固定的Client ID而不加上MAC地址后缀, 那么在Client ID prefix后面加上 `$$$`即可. 举例Client ID为`GID_Test@@@00001`,那么设置Client ID Prefix为 `GID_Test@@@00001$$$`
+* 如果希望使用固定的Client ID而不加上MAC地址后缀, 那么在Client ID prefix后面加上 `$$$`即可. 举例Client ID为`GID_Test@@@00001`,那么设置Client ID Prefix为 `GID_Test@@@00001$$$`, 此时网关连接MQTT Broker的Client ID是`GID_Test@00001`
 * MQTT的Username和Password分别按照签名验证的方式计算获得.
