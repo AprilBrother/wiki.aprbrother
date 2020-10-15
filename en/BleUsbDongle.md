@@ -59,14 +59,13 @@ The USB dongle nRF52840 is flashed with Adafruit nRF52 Bootloader and "BLE Perip
 
 A small and low-cost nRF52832 USB Dongle Form Factor with external antenna
 
-![USB Dongle nRF52840](https://i1.aprbrother.com/usb-nrf52.jpg-320.jpg)
+![USB Dongle nRF52832](https://i1.aprbrother.com/usb-nrf52.jpg-320.jpg)
 
 ### Key Features
 
 * nRF52832 flash-based Bluetooth Low Energy SoC solution
 * Button and LED for user interaction
 * Super Small Form Factor
-* Onboard USB bootloader with buttonless support (Adafruit nRF52 Bootloader)
 * Onboard external antenna
 * USB support with chip CP2104
 
