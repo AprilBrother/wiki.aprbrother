@@ -2,8 +2,6 @@
 
 
 
-
-
 ## Description
 
 AB BLE Gateway is a gateway to connecting BLE devices to network by

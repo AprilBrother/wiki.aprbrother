@@ -90,3 +90,5 @@ The ethernet port has a green LED and a yellow LED.
 * GND
 * GPIO07
 * GPIO06
+
+## [Firmware ChangeLog](AB_BLE_Gateway_V4_Firmware_Changes.md)
