@@ -19,6 +19,7 @@
 
 ### Dev Board
 
+- [April soil moisture sensor](april_soil_moisture_sensor.md)
 - [AButton V3](AButton_V3.md)
 - [RFID Field Detector](RFID_Field_Detector.md)
 - [BLE USB Dongle](BleUsbDongle.md)
