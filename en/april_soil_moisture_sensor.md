@@ -14,6 +14,7 @@ The project is modifying of the I2C Moisture Sensor project from Miceuz. Thanks 
 * Soil moisture sensor x 1 (PCB sensor uses capacitive moisture probing)
 * Lithium Battery holder x 1
 * USB Type-C for programming and battery charge
+* PCB size: `28.15mm * 126mm`
 
 ### Downloads ###
 
