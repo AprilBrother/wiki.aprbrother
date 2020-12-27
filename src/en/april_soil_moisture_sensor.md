@@ -2,7 +2,7 @@ Soil moisture sensor Wi-Fi enabled. It's based on Espressif's ESP32 S2 SoC and u
 
 The project is modifying of the I2C Moisture Sensor project from Miceuz. Thanks for his source code
 
-### Hardware ###
+## Hardware ##
 
 * ESP32 S2 module x 1
 * Reset button x 1
@@ -16,7 +16,17 @@ The project is modifying of the I2C Moisture Sensor project from Miceuz. Thanks 
 * USB Type-C for programming and battery charge
 * PCB size: `28.15mm * 126mm`
 
-### Downloads ###
+## FAQ ##
+
+### How can I flash my sensor in Arduino or IDF? ###
+
+If you currently have CircuitPython installed and you would like to use your device in the Arduino IDE or with the ESP-IDF, the first time you flash your board you will need to put it into download mode by holding BOOT/EN, pressing RESET and then releasing BOOT/EN. That will enable the CDC USB in ROM and you will be able to select the device to flash it.
+
+### RX & TX pins are not coupled with the internal USB, what are they used for? ###
+
+RX & TX are still connected to UART0, and still used with the USB when in CDC (download mode). Otherwise, you can use them as UART0 when connecting a module that uses serial, or use them as general IO, it's up to you.
+
+## Downloads ##
 
 * [Source code](https://github.com/volca/esp-soil)
 * [Hardware files](https://github.com/AprilBrother/ab-hardware/tree/master/april-soil-moisture-sensor)
