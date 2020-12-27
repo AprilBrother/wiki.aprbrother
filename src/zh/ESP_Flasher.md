@@ -1,1 +1,1 @@
-!INCLUDE "../en/ESP_Flasher.md"
+<Content :page-key="$site.pages.find(p => p.path === '/en/ESP_Flasher.html').key"/>
