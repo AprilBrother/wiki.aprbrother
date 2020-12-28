@@ -17,6 +17,7 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 ---
 
 <img src="https://i1.aprbrother.com/ABsensorDHF.jpg-320.jpg" width="120" align="right">
+
 * Power supply by CR2032 Battery 230~ mAh (replaceable).
 * Dimensions: Height 33mm, Width 33mm, Depth 10mm
 * Signal range 3m - 60m.
