@@ -10,6 +10,7 @@
   "repository": "https://github.com/AprilBrother/wiki.aprbrother.git",
   "scripts": {
     "dev": "vuepress dev src",
+    "deploy": "yarn build && yarn sync",
     "sync": "rsync -avz --delete --exclude=.travis src/.vuepress/dist/./ cn1.www:/var/www/wiki/_book/ && rsync -avz --delete --exclude=.travis  src/.vuepress/dist/./ wiki:/var/www/wiki/_book/",
     "build": "vuepress build src"
   },
