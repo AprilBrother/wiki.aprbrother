@@ -1,4 +1,4 @@
-### What's it
+## What's it
 
 A CP2104 3.3V USBToUART converter support 400mA+ current. Program
 ESP8266/ESP32 module just like NodeMCU. It has small size 
@@ -13,7 +13,7 @@ programming ESP32 without pushing flash button.
 
 ![ESP Flasher Rev4](https://i1.aprbrother.com/flasher-1.jpg-320.jpg)
 
-### Why did you make it?
+## Why did you make it?
 
 The converter supports 400mA+ current. It's good for programming ESP8266 and ESP32 module
 
@@ -21,7 +21,7 @@ For program with Arduino IDE, the circuit does the trick for auto reset.
 
 <img src="https://i1.aprbrother.com/auto-reset.png">
 
-### Features
+## Features
 
 - Based on CP2104
 - ESP8266 and ESP32 supported
@@ -32,7 +32,7 @@ For program with Arduino IDE, the circuit does the trick for auto reset.
 - System support：Windows 98SE/2000/XP/Vista/Window7/Windows 10/Mac OS/Mac OS X/Linux 2.40
 - Output current：400mA+ (a MIC5219 LDO)
 
-### Pinouts
+## Pinouts
 
 For programming other ESP8266 modules such as ESP-12 or ESP-07, wire the
 pins like these:
@@ -61,7 +61,7 @@ For ESP32
 | GPIO0       | GPIO0          |
 | CH_EN      | Not wire       |
 
-### Links
+## Links
 
 - [Schematic](https://github.com/AprilBrother/esp-flasher/tree/master/schematic)
 - [Setup Arduino IDE for programming ESP8266 / ESP32](ESP_Flasher_Setup_Arduino_IDE_For_Programming_ESP.md)
