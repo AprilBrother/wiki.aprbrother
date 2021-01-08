@@ -12,9 +12,11 @@ The project is modifying of the I2C Moisture Sensor project from Miceuz. Thanks 
 * Led x 1
 * temperature sensor x 1 (tmp112)
 * Soil moisture sensor x 1 (PCB sensor uses capacitive moisture probing)
-* Lithium Battery holder x 1
+* Lithium Battery connector x 1 (PH2.0-2P JST connector)
 * USB Type-C for programming and battery charge
 * PCB size: `28.15mm * 126mm`
+
+Recommend battery: 482833 lithium battery
 
 ## FAQ ##
 
