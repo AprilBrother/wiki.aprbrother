@@ -1,4 +1,4 @@
-## Firmware change logs for AB BLE Gateway V4 ##
+## Firmware change logs for AB BLE Gateway V4 
 
 ### v1.4.11 ###
 
