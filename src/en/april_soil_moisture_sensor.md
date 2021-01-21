@@ -22,7 +22,7 @@ Recommend battery: 482833 lithium battery
 
 ### Waterproofing ###
 
-The sensor comes coated with QIANXIN - a moisture resistant varnish for electronics. **It's ok for play around in a flower pot but not enough for outdoor use. You must add an additional protection to the whole sensor after soldering cable to it!**
+The sensor comes coated with QIANXIN - a moisture resistant varnish for electronics. **It's ok for play around in a flower pot but not enough for outdoor use. You must add an additional protection to the whole sensor!**
 
 ## FAQ ##
 
