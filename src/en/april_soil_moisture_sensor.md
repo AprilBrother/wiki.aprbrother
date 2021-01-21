@@ -1,6 +1,8 @@
+## April soil moisture sensor
+
 Soil moisture sensor Wi-Fi enabled. It's based on Espressif's ESP32 S2 SoC and uses capacitive moisture probing. Also provide temperature sensor.
 
-The project is modifying of the I2C Moisture Sensor project from Miceuz. Thanks for his source code
+The project is modifying of [the I2C Moisture Sensor project from Miceuz](https://github.com/Miceuz/i2c-moisture-sensor). Thanks for his source code
 
 ## Hardware ##
 
@@ -17,6 +19,10 @@ The project is modifying of the I2C Moisture Sensor project from Miceuz. Thanks 
 * PCB size: `28.15mm * 126mm`
 
 Recommend battery: 482833 lithium battery
+
+### Waterproofing ###
+
+The sensor comes coated with QIANXIN - a moisture resistant varnish for electronics. **It's ok for play around in a flower pot but not enough for outdoor use. You must add an additional protection to the whole sensor after soldering cable to it!**
 
 ## FAQ ##
 
