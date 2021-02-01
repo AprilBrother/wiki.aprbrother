@@ -9,7 +9,7 @@
 
 - [Gateway Configure Tool v1.2.2 for windows 64bit][config-tool-link]
 - [Gateway Configure Tool](https://i1.aprbrother.com/gw-config-tool-1.2.3_amd64.deb.zip) v1.2.3 For Linux/Ubuntu
-- [Gateway Configure Tool](https://i1.aprbrother.com/gw-config-tool-v1.0.5.apk) v1.0.5 For Android
+- [Gateway Configure Tool](https://i1.aprbrother.com/gw-config-tool-v1.0.6.apk) v1.0.6 For Android
 
 ## Test Tool
 
