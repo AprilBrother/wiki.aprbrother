@@ -9,7 +9,7 @@
 
 - [网关配置工具 V1.2.2 for windows 64位][config-tool-link]
 - [网关配置工具](https://i1.aprbrother.com/gw-config-tool-1.2.3_amd64.deb.zip) v1.2.3 For Linux/Ubuntu
-- [配置工具](https://i1.aprbrother.com/gw-config-tool-v1.0.6.apk) v1.0.6 For Android
+- [配置工具](https://i1.aprbrother.com/gw-config-tool-v1.0.7.apk) v1.0.7 For Android
 
 ## 测试工具
 
