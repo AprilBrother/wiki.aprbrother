@@ -33,6 +33,27 @@ A: The device supports only 2.4GHz WiFi. It can't connect to 5GHz network. Pleas
 
 A: Gateway V4 post data in [MessagePack](https://msgpack.org/) format. MessagePack is an efficient binary serialization format. You should decode it to get right data structure.
 
+### Q: How to configure gateway to work with Azure IoT Hub? ###
+
+A: We recommend update the firmware to `v1.4.13+`. It's much stable for save long length certificate from Azure IoT Hub. Here's an example for using X.509 self-signed certificates 
+
+* Update firmware to latest with our config tool
+* Open config tool and configure parameters
+  * MQTT Host: `{IOT-HUB-NAME}.azure-devices.net`. The string `{IOT-HUB-NAME}` should be change to your real server name
+  * MQTT wort:`8883`
+  * `Client ID Prefix`: `{DEVICE-ID}$$$`. Azure IoT force to use the device ID as MQTT's client ID. The suffix `$$$` tell BLE gateway don't append MAC address after the prefix. e.g. BLE gateway will use client ID `gtw123` if you input `gtw123$$$` for the `Client ID Prefix`
+  * MQTT topic: `devices/{DEVICE-ID}/messages/events`
+  * MQTT username: `devices/{DEVICE-ID}/messages/events`
+  * MQTT password: `{SAS-TOKEN-OF-THE-DEVICE}`
+  * Enable MQTTS
+  * Save all paramters
+* Configure certificates with config tool
+  * Generate self-signed certificates for devices with command `openssl`
+  * Follow Azure's document to generate fingerprint for certificates
+  * `Client Certificate`: the content of cert file
+  * `Client key`: the content of private key file
+* Now the gateway should work with Azure IoT Hub
+  
 ### Q: How to configure gateway to work with AWS IoT MQTTS? ###
 
 A: We recommend update the firmware to `v1.4.13+`. It's much stable for save long length certificate from AWS IoT.
