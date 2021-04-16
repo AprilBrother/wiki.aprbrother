@@ -1,5 +1,19 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.4.14 ###
+
+* Improve network connection
+* Blink the internal LED if smartconfig is enabled
+* Supports query config parameters via MQTT
+
+### v1.4.13 ###
+
+* Fixes an issue for save long length certificate
+
+### v1.4.12 ###
+
+* Improve 4G connection for 4G version
+
 ### v1.4.11 ###
 
 * Support MQTT QoS option
