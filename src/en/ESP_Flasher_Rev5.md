@@ -14,7 +14,6 @@ programming ESP32 without pushing flash button.
 * Add P1 pinout to support more GPIO
 * ESD and Overcurrent Protection for USB 
 * Add support for USB to RS485/RS232 convert
-* USB Type-C interface
 
 ![RS485 And RS232](https://i1.aprbrother.com/cp2014-rs485-rs232.png)
 
