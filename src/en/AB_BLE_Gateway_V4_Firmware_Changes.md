@@ -1,5 +1,9 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.4.15 ###
+
+* Fixes a bug for active scan
+
 ### v1.4.14 ###
 
 * Improve network connection
