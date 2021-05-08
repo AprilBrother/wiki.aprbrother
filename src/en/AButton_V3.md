@@ -48,6 +48,7 @@ If you have successfully installed the ESP32 core to your Arduino IDE, you shoul
 
 ![Arduino Option For Abutton V3](https://i1.aprbrother.com/esp32pic.png)
 
-## Hardware Files
+## Downloads
 
-* [AButton V3](https://github.com/AprilBrother/ab-hardware/tree/master/abutton-v3)
+* [Source code](https://github.com/AprilBrother/abutton-v3)
+* [Hardware Files](https://github.com/AprilBrother/ab-hardware/tree/master/abutton-v3)
