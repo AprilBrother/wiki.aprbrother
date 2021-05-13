@@ -1,3 +1,54 @@
+# BLE USB Dongle
+
+## April USB Dongle 52820
+
+A small and low-cost nRF52820 USB Dongle Form Factor with external antenna
+
+![USB Dongle nRF52820](https://i1.aprbrother.com/usb-nrf52.jpg-320.jpg)
+
+### Key Features For Dongle 52820
+
+* 64 MHz Arm Cortex-M4
+* 256KB Flash + 32KB RAM
+* Button and LEDs for user interaction
+* Super Small Form Factor
+* Onboard external antenna
+* USB support
+
+### Hardware Description For Dongle 52820
+
+The nRF52820 Dongle can be used as a development platform for the nRF52820 SoC. It features user
+configurable LEDs and a button. In addition to radio communication, the nRF52820 SoC can communicate with a computer through USB.
+
+#### Buttons And LEDs For Dongle 52820 
+
+The nRF528520 Dongle is equipped with two LEDs, two buttons (SW1 and SW2)
+
+The LEDs and button are connected to dedicated I/Os on the nRF52820 SoC.
+
+* SW1 - Reset
+* SW2 - P0.31
+* LED1 - P0.12
+* LED2 - P01.09
+
+#### SWD Interface For Dongle 52820
+
+On the front side of the nRF52820 Dongle, there are connection hole for the SWD interface.
+
+Pinouts P1 (from square soldering hole)
+
+* GND
+* VCC
+* SWDIO
+* SWDCLK 
+
+### Firmware For Dongle 52820
+
+The USB dongle nRF52820 is flashed with [AB Sniffer firmware](AT_Commands_For_ABSniffer_528.md).
+
+### Downloads for Dongle 52820
+
+* [Hardware Files](https://github.com/AprilBrother/ab-hardware/tree/master/april-usb-dongle-52820)
 
 ## April USB Dongle 52840
 
@@ -18,7 +69,7 @@ A small and low-cost nRF52840 USB Dongle Form Factor with external antenna
 
 The nRF52840 Dongle can be used as a development platform for the nRF52840 SoC. It features user
 configurable LEDs and a button. In addition to
-radio communication, the nRF5240 SoC can communicate with a computer through USB.
+radio communication, the nRF52840 SoC can communicate with a computer through USB.
 
 The USB dongle is very similar with Nordic's USB dongle PCA10059. But it has less pinouts and button.
 
