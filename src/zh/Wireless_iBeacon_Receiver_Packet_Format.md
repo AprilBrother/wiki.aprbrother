@@ -6,13 +6,11 @@ Page](Wireless_iBeacon_Receiver.md)
 The transport protocol is MQTT. Here's a sample data.
 
 <code>
-{
-
 "id":"ABCDEF123456",
 
 "raw_beacons_data":"F4B85ED84CB7123456781234123412341234123412347DAD33B1C6FF41;0117C538C0CF23A01AF0232A45189C0E323FB773F5EF00100020B3FFB2;"
 
-} </code>
+</code>
 
 It's a json data. The key "id" is the MAC address for the receiver. The
 key named "raw_beacons_data" contains the beacon datas. The iBeacon

@@ -1,9 +1,4 @@
-[← Wireless iBeacon Receiver Main
-Page](Wireless_iBeacon_Receiver.md)
-
-
-
-
+[← Wireless iBeacon Receiver Main Page](Wireless_iBeacon_Receiver.md)
 
 ## Introduction
 
@@ -17,23 +12,19 @@ iBeacon Receiver).
 
 ## Software and hardware preparation
 
-  - Install [Wi-Fi Starter
-    APP](https://itunes.apple.com/app/texas-instruments-simplelink/id884122493?mt=8)
+  - Install [Wi-Fi Starter APP](https://itunes.apple.com/app/texas-instruments-simplelink/id884122493?mt=8)
     in your cell phone for WIFI connection
   - WiFi-Sniffer devices (including power and data lines)
   - beacon device
-  - [mosquitto for
-    windows](http://mosquitto.org/files/binary/win32/mosquitto-1.3.5-install-win32.exe)
-    software
+  - [mosquitto for windows](http://mosquitto.org/files/binary/win32/mosquitto-1.3.5-install-win32.exe) software
 
 ## Let's go
 
 #### Install Wi-Fi Starter software
 
-`Install `[`Wi-Fi`` ``Starter``
-``software`](https://itunes.apple.com/app/texas-instruments-simplelink/id884122493?mt=8)`,  it shows as below after installation`
+Install [Wi-Fi Starter software](https://itunes.apple.com/app/texas-instruments-simplelink/id884122493?mt=8),  it shows as below after installation
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559ohqd60j306y080wep.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559ohqd60j306y080wep.jpg)
 
 Figure1 WiFi Starter App logo showed as above on your cell phone
 
@@ -45,8 +36,6 @@ connection, or change a USB connector. When the yellow led is on, the
 device prepare for connecting Wi-Fi AP. Configure the Wi-Fi SSID and
 password by app Wi-Fi Starter. The status is as follows
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559ohzbmej307g06pweg.jpg>
-
 Figure 2 The green led won’t blink, only red and yellow led blink when
 it is first powered
 on.
@@ -56,7 +45,7 @@ on.
   - Open app Wi-Fi Starter, type in SSID and password and tap
 Start.
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559oil49oj30cz0c73yx.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559oil49oj30cz0c73yx.jpg)
 
 `* Choose the smart config interface`
 `* Input your WiFi SSID(click the eye logo can show the input content)`
@@ -69,14 +58,14 @@ Figure 3
     discovering, now Wi-Fi config ok. (Note: Only work with 2.4G Wi-Fi
     AP)
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559oj1ci3j305m09m74a.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559oj1ci3j305m09m74a.jpg)
 
 Figure 4
 
   - The green LED start blink after configure is done. The device upload
     data to MQTT broker per 10 seconds (default setting)
 
-<http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f559ojtsu8j307b077q2x.jpg>
+![](http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f559ojtsu8j307b077q2x.jpg)
 
 Figure 5
 
@@ -89,7 +78,7 @@ Figure 5
 Eg. Click on the F4B85E03F1EE @ mysimplelink to enter the device
 configuration interface
 
-<http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f559okg53ej30ad09mjrj.jpg>
+![](http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f559okg53ej30ad09mjrj.jpg)
 
 Figure 6 The IP address will be showed on the top of the
 interface.(which is used for configuration by computer)
@@ -97,7 +86,7 @@ interface.(which is used for configuration by computer)
   - Tap F4B85E03F1EE@mysimplelink device name to enter the configure
     page for the device
 
-<http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f562o2jm65j308v08vaak.jpg>
+![](http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f562o2jm65j308v08vaak.jpg)
 
 Figure 7
 
@@ -113,7 +102,7 @@ Let’s explain how to configure Wifi sniffer by IP address on computer
   - Open the browser in the address bar to enter IP address obtained,
     you will enter the Overview page the same as Figure 6.
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f562o3o4ckj30fc05iwex.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f562o3o4ckj30fc05iwex.jpg)
 
 Figure 8
 
@@ -128,7 +117,7 @@ Figure 8
 
   - Go to the Profiles page to add a new WiFi connection
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559oowvcgj30ff0470sp.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559oowvcgj30ff0470sp.jpg)
 
 Figure 9
 
@@ -146,7 +135,7 @@ after sniffer restart. The WiFi-Sniffer can work in the wireless
 environment in the list and upload the beacon information to the MQTT
 server.You can also remove the wifi setting as you need.
 
-<http://ww3.sinaimg.cn/mw690/006kIg7Xjw1f559osigblj30f7063wei.jpg>
+![](http://ww3.sinaimg.cn/mw690/006kIg7Xjw1f559osigblj30f7063wei.jpg)
 
 Figure 10
 
@@ -154,7 +143,7 @@ You can also remove the wifi setting as you need.
 
   - Go to the Setup page for beacons data updating
 
-<http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f559oss0ocj30f9081wet.jpg>
+![](http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f559oss0ocj30f9081wet.jpg)
 
 Figure
 11
@@ -162,35 +151,35 @@ Figure
 `* In System section you can set beacon data update interval, filter beacon name and other parameters.`
 `* Auto Update  --- Automatic update firmware `
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559ot6rlfj30a9038glm.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559ot6rlfj30a9038glm.jpg)
 
 Figure
 12
 
 `* Work Mode  ---- upload beacon information format Full Mode / Simple Mode / RAW Mode`
 
-<http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f559owl1q1j30dm026gln.jpg>
+![](http://ww4.sinaimg.cn/mw690/006kIg7Xjw1f559owl1q1j30dm026gln.jpg)
 
 Figure
 13
 
 `*  Request Interval  ---- Scan interval is default 10s, it can be modified according to your needs 1-10s`
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559p03s0yj308505iq2y.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559p03s0yj308505iq2y.jpg)
 
 Figure
 14
 
 `* Min RSSI Filter --- Filter the beacon by RSSI value. the default is Default`
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559p0ggo3j30a803ngll.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559p0ggo3j30a803ngll.jpg)
 
 Figure
 15
 
 `* iBeacon UUID Filter --- Searches for beacon information for specified UUID and upload.`
 
-<http://ww3.sinaimg.cn/mw690/006kIg7Xjw1f559p0xql2j30fd016jr8.jpg>
+![](http://ww3.sinaimg.cn/mw690/006kIg7Xjw1f559p0xql2j30fd016jr8.jpg)
 
 Figure 16
 
@@ -198,7 +187,7 @@ After the above parameters are modified, click the submit button
 
 2、In the MQTT option you can set your own server
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559p11ddyj30ch04pjrf.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559p11ddyj30ch04pjrf.jpg)
 
 Figure 17
 
@@ -214,17 +203,15 @@ Click the submit button when the modification is complete.
 
 #### Read the uploaded beacon information from the MQTT server
 
-Install
-[mosquitto](http://mosquitto.org/files/binary/win32/mosquitto-1.3.5-install-win32.exe)
-software.
+Install [mosquitto](http://mosquitto.org/files/binary/win32/mosquitto-1.3.5-install-win32.exe) software.
 
   - Open command line mode by cmd
   - Change directory to the installation directory of mosquitto
   - Enter command to view beacon data
 
-\<code mosquitto_sub.exe -h mqtt.bconimg.com -t "/beacons" </code>
+`mosquitto_sub.exe -h mqtt.bconimg.com -t "/beacons"`
 
-<http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559p2hn47j30hu081di5.jpg>
+![](http://ww2.sinaimg.cn/mw690/006kIg7Xjw1f559p2hn47j30hu081di5.jpg)
 
 Figure 18
 

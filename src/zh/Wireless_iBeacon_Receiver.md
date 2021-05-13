@@ -11,7 +11,7 @@ station状态，可连接周边Wi-Fi热点接入互联网。
   - The fastest transport frequency is 1 second. Good for realtime scan
     requirement.
 
-<img src=https://i1.aprbrother.com/wifi4.jpg-320.jpg align=right>
+<img src=https://i1.aprbrother.com/wifi4.jpg-320.jpg align=right />
 
 ### Hardware
 
@@ -61,18 +61,18 @@ Please refer the "How To Config" Section for more information.
 
 The transport protocol is MQTT. Here's a sample data.
 
-<code>
-{
 
+```
+{
 "id":"ABCDEF123456",
 
 "raw_beacons_data":"F4B85ED84CB7123456781234123412341234123412347DAD33B1C6FF41;0117C538C0CF23A01AF0232A45189C0E323FB773F5EF00100020B3FFB2;"
-
-} </code>
+}
+```
 
 It's a json data. The key "id" is the MAC address for the receiver. The
-key named "raw_beacons_data" contains the beacon datas. The iBeacon
-datas are splitted by semicolon. The sample data
+key named "raw_beacons_data" contains the beacon datas. The iBeacon datas are splitted by semicolon. The sample data
+
 `F4B85ED84CB7123456781234123412341234123412347DAD33B1C6FF41`
 
 |               |                              |                                    |
