@@ -1,1 +1,1 @@
-<Content :page-key="$site.pages.find(p => p.path === '/en/cactus_whid.html').key"/>
+!!!include(en/cactus_whid.md)!!!

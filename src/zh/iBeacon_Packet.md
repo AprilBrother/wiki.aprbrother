@@ -1,1 +1,1 @@
-<Content :page-key="$site.pages.find(p => p.path === '/en/iBeacon_Packet.html').key"/>
+!!!include(en/iBeacon_Packet.md)!!!

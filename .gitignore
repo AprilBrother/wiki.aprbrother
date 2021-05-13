@@ -4,3 +4,5 @@ _book
 node_modules
 *.log
 src/.vuepress/dist
+.cache
+.temp
