@@ -1,4 +1,4 @@
-## Cactus WHID ##
+## Cactus WHID 
 
 Please check site whid.ninja for more details for Cactus WHID. Here're some Frequently Asked Questions
 
