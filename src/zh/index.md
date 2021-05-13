@@ -20,7 +20,6 @@
 ## Dev Board ##
 
 - [April soil moisture sensor](april_soil_moisture_sensor.md)
-- [Cactus WHID](cactus_whid.md)
 - [AButton V3](AButton_V3.md)
 - [RFID Field Detector](RFID_Field_Detector.md)
 - [BLE USB Dongle](BleUsbDongle.md)
@@ -30,6 +29,7 @@
 
 ## Arduino Compatible Shield ##
 
+- [Cactus WHID](cactus_whid.md)
 - [ESPea And Shields](ESPea_And_Shields.md)
 - [BLEPad](BLEPad.md) - A wearable arduino compatible dev board (new)
 - [Cactus Micro Rev2](Cactus_Micro_Rev2.md)
