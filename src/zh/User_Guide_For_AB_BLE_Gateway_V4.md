@@ -72,7 +72,7 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 
 ### PCB原理图以及布局
 
-* [PCB原理图](https://i1.aprbrother.com/ble-gateway-v4-schematic.pdf)
+* [PCB原理图](https://github.com/AprilBrother/ab-hardware/tree/master/ab-ble-gateway-v4)
 * Gateway V4的PCB布局. 这里采用了微处理器ESP32以及NRF52832.
 
 ![PCB Layout](https://i1.aprbrother.com/gw4-layout.png)
@@ -89,6 +89,15 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 | P4 | NRF52832模块的串口 |
 
 #### J3 引脚
+
+PCB v5.4
+
+* VCC
+* GND
+* GPIO16
+* GPIO04
+
+PCB v5.3
 
 * VCC
 * GND

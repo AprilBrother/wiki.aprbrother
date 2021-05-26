@@ -68,7 +68,7 @@ The ethernet port has a green LED and a yellow LED.
 
 ### Schematic And PCB Layout
 
-* [Schematic](https://i1.aprbrother.com/ble-gateway-v4-schematic.pdf)
+* [Schematic](https://github.com/AprilBrother/ab-hardware/tree/master/ab-ble-gateway-v4)
 * PCB Layout for Gateway V4. The microcontroller is ESP32 and NRF52832.
 
 ![PCB Layout](https://i1.aprbrother.com/gw4-layout.png)
@@ -85,6 +85,15 @@ The ethernet port has a green LED and a yellow LED.
 | P4 | UART ports for NRF52832 module |
 
 #### J3 pinouts
+
+PCB v5.4
+
+* VCC
+* GND
+* GPIO16
+* GPIO04
+
+PCB v5.3
 
 * VCC
 * GND
