@@ -51,7 +51,7 @@ Sensor模式下的广播包格式
 | 7       | Length                  | 0x17       | See Bluetooth 4.0 Core Specification                             |
 | 8       | Type                    | 0x16       | Manufacturer Specification data                                  |
 | 9, 10   | Service UUID            | 0x59, 0xFE | Service UUID for OTA service                                     |
-| 11, 12  | Compoany ID             | 0xAB, 0x01 | ID for April Brother                                             |
+| 11, 12  | Company ID             | 0xAB, 0x01 | ID for April Brother                                             |
 | 13      | Data Version            | 0x03       | \-                                                               |
 | 14 - 19 | Mac Address             | \-         | Reverse the order                                                |
 | 20, 21  | Temperature             | \-         | \-                                                               |
