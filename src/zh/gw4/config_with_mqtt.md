@@ -4,14 +4,23 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 
 ## 如何实现MQTT配置参数
 
-网关如果配置以MQTT Client方式工作，并且开启了`MQTT Config`功能，在联网之后会尝试订阅两个topic
+必须满足以下条件
 
-* `device-config`
-* `device-config-{网关的MAC地址}`，例如网关的mac地址是 `AB123456FDEC`，那么就会订阅 `device/config/AB123456FDEC`
+* 下载配置工具v1.3.4以上
+* 网关必须配置以MQTT Client方式工作
+* 开启`Config by MQTT`选项, 并配置了对应的Topic
 
-第一个topic用于批量配置参数，第二个用于配置特定的网关参数。往这两个topic之一publish配置信息，即可实现MQTT方式配置参数。这两个topic也可以通过最新的配置工具进行修改
+必须配置以下三个相关的Topic
 
-配置信息示例(json格式)
+* Config Topic 
+* Topic Prefix For Device Inbox
+* Device Outbox Topic
+
+### Config Topic
+
+如果配置了Config topic, 网关在联网后会subscribe这个topic，用于接收配置参数并实现远程修改配置. Config Topic一般用于批量配置网关的参数
+
+配置信息示例(JSON格式)
 
 ```
 {
@@ -39,6 +48,20 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 
 * version必须等于1
 * event必须是update
+
+### Topic Prefix For Device Inbox
+
+如果配置了`Topic Prefix For Device Inbox`, 网关会订阅带有MAC地址后缀的Topic，一般用于配置指定网关的参数
+
+* 假设配置了前缀为`device/config/`
+* 假定网关的MAC地址为`AB123456FDEC`
+* 网关在联网后会订阅的实际topic为`device/config/AB123456FDEC`
+
+配置信息格式见`Config Topic`
+
+### Device Outbox Topic
+
+
 
 ## 支持的配置参数
 
