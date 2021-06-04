@@ -101,4 +101,3 @@ PCB v5.3
 * GPIO07
 * GPIO06
 
-## [Firmware ChangeLog](AB_BLE_Gateway_V4_Firmware_Changes.md)

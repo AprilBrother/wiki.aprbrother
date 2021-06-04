@@ -2,12 +2,11 @@
 
 ## 配置工具
 
-* [源码](https://github.com/AprilBrother/gw4-config-tool)
-* [变更记录](https://github.com/AprilBrother/gw4-config-tool/wiki/ChangeLog)
-
 - 下载[网关配置工具 V1.2.2 for windows 64位][config-tool-link]
 - 下载[网关配置工具](https://i1.aprbrother.com/gw-config-tool-1.2.3_amd64.deb.zip) v1.2.3 For Linux/Ubuntu
 - 下载[配置工具](https://i1.aprbrother.com/gw-config-tool-v1.0.7.apk) v1.0.7 For Android
+- [源码](https://github.com/AprilBrother/gw4-config-tool)
+- [变更记录](https://github.com/AprilBrother/gw4-config-tool/wiki/ChangeLog)
 
 ## 测试工具
 
@@ -18,8 +17,9 @@
 ## 技术文档
 
 * [Configure parameters with MQTT](gw4/config_with_mqtt.md)
+* [Firmware ChangeLog](AB_BLE_Gateway_V4_Firmware_Changes.md)
 
-### 开发你自己的客户端工具
+## 开发你自己的客户端工具
 
 * [PHP示例](https://github.com/AprilBrother/ab-ble-gateway-sdk-php) - 查看readme文件获得更多信息
 * [Java示例](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/java)
