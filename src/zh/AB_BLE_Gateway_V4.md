@@ -67,9 +67,9 @@ User can configure the transmit period and server information through a simple H
 
 ## Documents And Links
 
-  - [快速上手](Quick_Start_For_AB_BLE_Gateway_V4.md)
-  - [使用手册](User_Guide_For_AB_BLE_Gateway_V4.md)
-  - [常见问题](FAQ_For_AB_BLE_Gateway_V4.md)
-  - [软件以及工具](Software_AB_BLE_Gateway_V4.md)
-  - [支持论坛](http://bbs.aprbrother.com/c/wifi)
+- [快速上手](Quick_Start_For_AB_BLE_Gateway_V4.md)
+- [使用手册](User_Guide_For_AB_BLE_Gateway_V4.md)
+- [软件和技术文档](Software_AB_BLE_Gateway_V4.md)
+- [支持论坛](http://bbs.aprbrother.com/c/wifi)
+- [常见问题](FAQ_For_AB_BLE_Gateway_V4.md)
 
