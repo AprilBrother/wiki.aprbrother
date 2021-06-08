@@ -29,7 +29,7 @@ The LEDs and button are connected to dedicated I/Os on the nRF52820 SoC.
 * SW1 - Reset
 * SW2 - P0.31
 * LED1 - P0.12
-* LED2 - P01.09
+* LED2 - P1.09
 
 #### SWD Interface For Dongle 52820
 
