@@ -36,19 +36,9 @@ devices数组中包含BLE广播的原始内容. 下面是一个数据帧的示�
 | byte 8     | RSSI, minus 256 for real value        | aa, 0xaa - 256 = -86 |
 | byte 9 -   | Advertisement data                    | 02 01 06 1a ff 4c 00 02 15 b5 b1 82 c7 ea b1 49 88 aa 99 b5 c1 51 70 08 d9 00 01 cf 64 c5 |
 
-### Advertising Type Code
+#### devices数组的一条数据的例子
 
-| Code | Description                              |
-| ---- | ---------------------------------------- |
-| 0    | Connectable undirected advertisement     |
-| 1    | Connectable directed advertisement       |
-| 2    | Scannable undirected advertisement       |
-| 3    | Non-Connectable undirected advertisement |
-| 4    | Scan Response                            |
-
-### Data Format For Key Devices
-
-这是devices数组的一个示例数据
+示例数据
 
 hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0`
 
@@ -58,6 +48,16 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 | C8FD1949A530 | mac address |
 |   CE | rssi |
 |   0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC0 | raw advertising data |
+
+### Advertising Type Code
+
+| Code | Description                              |
+| ---- | ---------------------------------------- |
+| 0    | Connectable undirected advertisement     |
+| 1    | Connectable directed advertisement       |
+| 2    | Scannable undirected advertisement       |
+| 3    | Non-Connectable undirected advertisement |
+| 4    | Scan Response                            |
 
 ## 硬件
 
@@ -104,4 +104,3 @@ PCB v5.3
 * GPIO07
 * GPIO06
 
-## [Firmware ChangeLog](AB_BLE_Gateway_V4_Firmware_Changes.md)
