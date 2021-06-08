@@ -27,9 +27,9 @@ The nRF528520 Dongle is equipped with two LEDs, two buttons (SW1 and SW2)
 The LEDs and button are connected to dedicated I/Os on the nRF52820 SoC.
 
 * SW1 - Reset
-* SW2 - P0.31
-* LED1 - P0.12
-* LED2 - P1.09
+* SW2 - P0.28
+* LED1 - P0.07
+* LED2 - P0.06
 
 #### SWD Interface For Dongle 52820
 
