@@ -1,5 +1,55 @@
 # BLE USB Dongle
 
+## April USB Dongle 52833
+
+A small and low-cost nRF52820 USB Dongle Form Factor with external antenna
+
+![USB Dongle nRF52833](https://i1.aprbrother.com/usb-nrf52.jpg-320.jpg)
+
+### Key Features For Dongle 52833
+
+* 64 MHz Arm Cortex-M4 32-bit processor with FPU
+* 512 KB Flash + 128 KB RAM
+* Button and LEDs for user interaction
+* Super Small Form Factor
+* Onboard external antenna
+* USB 2.0 support
+
+### Hardware Description For Dongle 52833
+
+The nRF52833 Dongle can be used as a development platform for the nRF52833 SoC. It features user
+configurable LEDs and a button. In addition to radio communication, the nRF52833 SoC can communicate with a computer through USB.
+
+#### Buttons And LEDs For Dongle 52833 
+
+The nRF528533 Dongle is equipped with two LEDs, two buttons (SW1 and SW2)
+
+The LEDs and button are connected to dedicated I/Os on the nRF52833 SoC.
+
+* SW1 - Reset
+* SW2 - P0.31
+* LED1 - P0.12
+* LED2 - P1.09
+
+#### SWD Interface For Dongle 52833
+
+On the front side of the nRF52833 Dongle, there are connection hole for the SWD interface.
+
+Pinouts P1 (from square soldering hole)
+
+* GND
+* VCC
+* SWDIO
+* SWDCLK 
+
+### Firmware For Dongle 52833
+
+The USB dongle nRF52833 is flashed with [AB Sniffer firmware](AT_Commands_For_ABSniffer_528.md).
+
+### Downloads for Dongle 52833
+
+* [Hardware Files](https://github.com/AprilBrother/ab-hardware/tree/master/april-usb-dongle-52833)
+
 ## April USB Dongle 52820
 
 A small and low-cost nRF52820 USB Dongle Form Factor with external antenna
