@@ -2,7 +2,7 @@
 
 ## April USB Dongle 52833
 
-A small and low-cost nRF52820 USB Dongle Form Factor with external antenna
+A small and low-cost nRF52833 USB Dongle Form Factor with external antenna
 
 ![USB Dongle nRF52833](https://i1.aprbrother.com/usb-nrf52.jpg-320.jpg)
 
