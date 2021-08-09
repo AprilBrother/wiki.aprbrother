@@ -38,6 +38,18 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 * One LED and one button
 * BLE micro controller NRF52810
 
+#### Button status
+
+For Firmware version &gt;= v4.0.6
+
+* Long push button 2 seconds and more
+  * Turn on/off advertising 
+  * Stop advertising if fast blink
+  * Start advertising if slow blink
+* Short press button
+  * blink once
+  * Advertise the 2nd UUID 30 seconds, then advertise the 1st UUID. (Default settings)
+
 ### [ABSensor N03](ABSensor.md#absensor-n03)
 
 ---
