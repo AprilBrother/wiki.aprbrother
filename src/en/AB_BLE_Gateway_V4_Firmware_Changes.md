@@ -1,5 +1,14 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.0 ###
+
+* Add sensor mode for advertising filter. Supports Xiaomi sensor only
+* Fix a bug for upload interval
+* Report the RSSI of WiFi connection when upload with WiFi
+* For 4G version Gateway
+  * Read IMEI, ICCID of SIM card. 
+  * Add APN option
+
 ### v1.4.15 ###
 
 * Fixes a bug for active scan
