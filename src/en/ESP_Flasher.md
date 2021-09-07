@@ -5,7 +5,9 @@ ESP8266/ESP32 module just like NodeMCU. It has small size
 and we make it breadboard friendly. You can also use the flasher to
 programming ESP32 without pushing flash button.
 
-[ESP Flasher Rev5](ESP_Flasher_Rev5.md) - USB Type-C
+[ESP Flasher Rev6](ESP_Flasher_Rev6.md) - USB Type-C and CH340
+
+[ESP Flasher Rev5](ESP_Flasher_Rev5.md) - USB Type-C and CP2104
 
 ![ESP Flasher Rev5](https://i1.aprbrother.com/ESP_Flasher_Rev5-03.jpg-320.jpg)
 
@@ -23,7 +25,6 @@ For program with Arduino IDE, the circuit does the trick for auto reset.
 
 ## Features
 
-- Based on CP2104
 - ESP8266 and ESP32 supported
 - Breadboard friendly
 - A Reset button and a flash button
