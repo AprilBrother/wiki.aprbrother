@@ -4,7 +4,9 @@
 
 The device has an ESP32-S2 module that allows it to be identified as a keyboard + USB disk. It also a microSD slot that can be identified as MSC SD Card.
 
-The new ESP32-S2 module from Espressif addresses the security flaws in the original ESP32. While the ESP32-S2 does include improved security features, it lacks the Bluetooth capabilities of the original ESP32 module. But it supports has native USB.
+The new ESP32-S2 module from Espressif addresses the security flaws in the original ESP32. While the ESP32-S2 does include improved security features, it lacks the Bluetooth capabilities of the original ESP32 module. But it supports native USB.
+
+[![WUD](https://i1.aprbrother.com/wud-1.jpg-640.jpg)](https://i1.aprbrother.com/wud-1.jpg)
 
 ### Features ### 
 
@@ -31,10 +33,12 @@ The new ESP32-S2 module from Espressif addresses the security flaws in the origi
 
 ### Hardware overview ### 
 
-* Board Dimensions
+* Board Dimensions 
+  * `17mm` x `50mm` (Without USB case)
+  * `19mm` x `62mm` (With USB case)
 * USB-A Connector
 * Micro SD slot
-* ESP32-S2 Module
+* ESP32-S2 mini Module
 * Buttons
   * Reset button
   * Hall sensor for control `GPIO 0` of ESP32
