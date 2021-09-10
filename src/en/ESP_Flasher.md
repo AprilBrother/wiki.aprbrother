@@ -7,6 +7,8 @@ programming ESP32 without pushing flash button.
 
 [ESP Flasher Rev6](ESP_Flasher_Rev6.md) - USB Type-C and CH340
 
+![ESP Flasher Rev6](https://i1.aprbrother.com/esp-flasher-rev6-1.png-320.jpg)
+
 [ESP Flasher Rev5](ESP_Flasher_Rev5.md) - USB Type-C and CP2104
 
 ![ESP Flasher Rev5](https://i1.aprbrother.com/ESP_Flasher_Rev5-03.jpg-320.jpg)
