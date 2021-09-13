@@ -7,7 +7,7 @@ ESP8266/ESP32 module just like NodeMCU. It has smaller size than rev2
 and we make it breadboard friendly. You can also use the flasher to
 programming ESP32 without pushing flash button.
 
-![ESP Flasher Rev6](https://i1.aprbrother.com/esp-flasher-rev6-1.png)
+![ESP Flasher Rev6](https://i1.aprbrother.com/esp-flasher-rev6-2.png)
 
 ### Downloads ###
 
