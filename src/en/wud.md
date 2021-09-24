@@ -44,6 +44,16 @@ The new ESP32-S2 module from Espressif addresses the security flaws in the origi
   * Hall sensor for control `GPIO 0` of ESP32
 * Status LED - This indicator is connected to `GPIO 21`
 
+### Device Firmware Upgrade through USB
+
+The ESP32-S2 chip needs to be in bootloader mode for the detection as a DFU device and flashing. This can be achieved by pulling GPIO0 down, pulsing RESET down for a moment and releasing GPIO0.
+
+How to make the ESP32-S2 go to bootloader mode
+
+1. Plug the WUD to laptop
+1. Make a magnet close to the hall sensor (`GPIO 0`)
+1. Press the reset button, WUD will go to bootloader mode now
+
 ### Software overview ###
 
 The pre-flashed firmware is "[wireless USB disk](https://github.com/volca/wireless_usb_disk)". It use ESP32-S2 as an USB Disk with Wireless accessibility. HTTP file server be used with both upload and download capability.
