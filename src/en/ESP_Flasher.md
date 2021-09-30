@@ -1,6 +1,6 @@
 ## What's it
 
-A CP2104 3.3V USBToUART converter support 400mA+ current. Program
+A 3.3V USBToUART converter support 400mA+ current. Program
 ESP8266/ESP32 module just like NodeMCU. It has small size 
 and we make it breadboard friendly. You can also use the flasher to
 programming ESP32 without pushing flash button.
