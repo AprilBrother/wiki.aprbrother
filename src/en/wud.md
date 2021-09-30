@@ -64,5 +64,9 @@ Note: It's a demo code. Don't use it in serious application.
 
 * [Schematic](https://github.com/AprilBrother/ab-hardware/blob/master/wud/wud.pdf)
 * [Datasheet for ESP32 S2 module](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)
+
+### Firmware ###
+
 * [Source code of wireless usb disk](https://github.com/volca/wireless_usb_disk) - written in Arduino 
 * [usb_msc_wireless_disk from espressif](https://github.com/espressif/esp-iot-solution/tree/usb/add_usb_solutions/examples/usb/device/usb_msc_wireless_disk)
+* [WUD-Ducky](https://github.com/tobozo/WUD-Ducky) Thanks tobozo for his great projects
