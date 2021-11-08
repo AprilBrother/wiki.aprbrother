@@ -33,6 +33,10 @@ A: The device supports only 2.4GHz WiFi. It can't connect to 5GHz network. Pleas
 
 A: Gateway V4 post data in [MessagePack](https://msgpack.org/) format. MessagePack is an efficient binary serialization format. You should decode it to get right data structure.
 
+### Q: How does it work in LAN network? ###
+
+A: BLE Gateway 4 can work in LAN network well. It pings the IP of LAN network's gateway and check the network connection periodly. It can also use the IP as DNS server for resolve domain.
+
 ### Q: How to configure gateway to work with Azure IoT Hub? ###
 
 A: We recommend update the firmware to `v1.4.13+`. It's much stable for save long length certificate from Azure IoT Hub. Here's an example for using X.509 self-signed certificates 

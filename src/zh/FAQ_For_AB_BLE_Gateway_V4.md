@@ -31,6 +31,10 @@ A: 设备只支持2.4G无线网络，请检查路由器是不是5G网络。此�
 
 A: 网关V4以[MessagePack](https://msgpack.org/)格式提交数据.  MessagePack是一个高效的二进制序列化格式. 你需要decode之后才能获取到正确的数据。
 
+### Q: How does it work in LAN network? ###
+
+A: BLE Gateway 4 can work in LAN network well. It pings the IP of LAN network's gateway and check the network connection periodly. It can also use the IP as DNS server for resolve domain.
+
 ### Q: 如何配置网关支持阿里云微消息队列MQTT版? ###
 
 A: 目前仅测试过阿里云微消息队列 MQTT 版的签名鉴权模式。配置方法
