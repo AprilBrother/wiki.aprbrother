@@ -4,6 +4,8 @@ Soil moisture sensor Wi-Fi enabled. It's based on Espressif's ESP32 S2 SoC and u
 
 The project is modifying of [the I2C Moisture Sensor project from Miceuz](https://github.com/Miceuz/i2c-moisture-sensor). Thanks for his source code
 
+The moisture value is changed with the voltage of battery also. But you can add a function to measuring moisture follow battery's voltage.
+
 ## Hardware ##
 
 * ESP32 S2 module x 1
@@ -37,4 +39,5 @@ RX & TX are still connected to UART0, and still used with the USB when in CDC (d
 ## Downloads ##
 
 * [Source code](https://github.com/volca/esp-soil)
+* [Example for esphome](https://github.com/volca/april-soil-esphome-module)
 * [Hardware files](https://github.com/AprilBrother/ab-hardware/tree/master/april-soil-moisture-sensor)
