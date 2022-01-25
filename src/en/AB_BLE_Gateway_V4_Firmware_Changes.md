@@ -1,5 +1,16 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.3 ###
+
+* Fix a bug for no device data if device soft restart
+* Support customize metadata if request format is JSON
+* Add `ICCID` data for 4G gateway
+
+### v1.5.2 ###
+
+* Can save WiFi SSID contains `&`
+* Add MNC and MCC options for 4G gateway
+
 ### v1.5.0 ###
 
 * Add sensor mode for advertising filter. Supports Xiaomi sensor only
