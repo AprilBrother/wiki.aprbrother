@@ -151,7 +151,7 @@ Example response message for event `query/net`
 | ntp1 |                 string | First ntp server
 | ntp2 |                 string | Second ntp server
 
-### 网络参数
+### Network parameters
 
 | Parameter      |  type        | Descripton         |
 | -------------- | ------------ | ------------ |
