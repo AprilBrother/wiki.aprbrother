@@ -15,7 +15,7 @@ jobs:
           persist-credentials: false
 
       - name: Build
-        run: npm cache clear --force && npm install && npm run build
+        run: npm install && npm run build
 
       - name: Deploy server CN 
         uses: easingthemes/ssh-deploy@v2.1.5
