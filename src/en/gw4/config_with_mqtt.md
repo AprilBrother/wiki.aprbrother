@@ -1,16 +1,15 @@
 ## Configure parameters with MQTT
 
-AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配置，支持更新单个网关或同时更新多个网关的参数，从而实现更便捷的部署以及维护网关。
 
-## 如何实现MQTT配置参数
+AB BLE Gateway V4 supports update parameters with MQTT from firmware `v1.4.14`. You can update parameters for one gateway or multiple gateways.
 
-必须满足以下条件
+## How to config parameters with MQTT
 
-* 下载配置工具v1.3.4以上
-* 网关必须配置以MQTT Client方式工作
-* 开启`Config by MQTT`选项, 并配置了对应的Topic
+* Download and install config tool `v1.3.4+`
+* BLE gateway must work as `MQTT Client`
+* Enable option `Config by MQTT` and set the `Config Topic`
 
-必须配置以下三个相关的Topic
+Here're the required topics
 
 * Config Topic 
 * Topic Prefix For Device Inbox
@@ -18,9 +17,9 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 
 ### Config Topic
 
-如果配置了Config topic, 网关在联网后会subscribe这个topic，用于接收配置参数并实现远程修改配置. Config Topic一般用于批量配置网关的参数
+BLE gateway will subscribe the `Config Topic` when it connected MQTT broker. It uses to get parameters and change parameters remotely. You can use `Config Topic` for batch configure parameters for gateways.
 
-配置信息示例(JSON格式)
+An example for configure message (JSON format)
 
 ```
 {
@@ -44,7 +43,7 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 }
 ```
 
-查询app配置示例
+Query application parameters
 
 ```
 {
@@ -53,7 +52,7 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 }
 ```
 
-查询网络配置示例
+Query network parameters
 
 ```
 {
@@ -62,7 +61,7 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 }
 ```
 
-重启设备示例
+Restart device
 
 ```
 {
@@ -71,26 +70,28 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 }
 ```
 
-注意：
+Note：
 
-* version必须等于1
-* event必须是update
+* version must equal 1
+* event must be `update` for change parameters
 
 ### Topic Prefix For Device Inbox
 
-如果配置了`Topic Prefix For Device Inbox`, 网关会订阅带有MAC地址后缀的Topic，一般用于配置指定网关的参数
+BLE gateway will subscribe the `Topic Prefix For Device Inbox` + MAC address when it connected MQTT broker. It uses to get parameters and change parameters for one gateway.
 
-* 假设配置了前缀为`device/config/`
-* 假定网关的MAC地址为`AB123456FDEC`
-* 网关在联网后会订阅的实际topic为`device/config/AB123456FDEC`
+e.g.
 
-配置信息格式见`Config Topic`
+* Let's say the prefix is `device/config/`
+* The MAC address for gateway is `AB123456FDEC`
+* BLE gateway will subscribe topic = `device/config/AB123456FDEC` when it connected MQTT broker
+
+See the example message in section `Config Topic`
 
 ### Device Outbox Topic
 
-如果配置了`Device Outbox Topic`, 网关如果收到查询请求，会将反馈信息publish到这个topic
+BLE gateway will publish response data to `Device Outbox Topic` if it get query message
 
-事件`query/app`的反馈信息示例
+An example response message for event `query/app`
 
 ```
 {
@@ -102,7 +103,7 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 }
 ```
 
-事件`query/net`的反馈信息示例
+Example response message for event `query/net`
 
 ```
 {
@@ -114,60 +115,60 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
 }
 ```
 
-## 支持的配置参数
+## Supported parameters
 
-### app参数
+### app parameters
 
-| 参数           |  类型        | 说明         |
+| Parameter           |  Type        | Description         |
 | -------------- | ------------ | ------------ |
-| conn-type      |       uint8  | 连接类型, 1=WebSocket, 2=HTTP, 3=MQTT |
-| req-int        |       uint16 | 上传间隔，单位为秒，范围是1 ~ 180秒
-| min-rssi       |       int8   | RSSI过滤值，默认为-127
-| adv-filter     |       uint8  | 广播过滤选项, 0=不过滤, 1=iBeacon only, 2=Eddystone UID only, 3=Eddystone URL only, 11=iBeacon+Eddystone TLM, 12=Eddystone UID+Eddystone TLM, 13=Eddystone URL+Eddystone TLM
-| dup-filter     |       uint8  | 是否开启排重过滤器, 默认为0
-| scan-act       |       uint8  | 是否开启主动扫描，默认为0 
-| mqtt-port |            uint32 | MQTT Broker的端口
-| http-port |            uint32 | HTTP server的端口 
-| ws-port |              uint32 | WebSocket Server的端口   
-| ota-url |              string | OTA更新的URL 
-| http-host |            string | HTTP server的主机名 
-| mqtt-host |            string | MQTT Broker的主机名
-| ws-host |              string | WebSocket server的主机名 
-| https |                uint8  | 是否开启HTTPS，默认为0 
-| mqtts |                uint8  | 是否开启MQTTS，默认为0
-| wss |                  uint8  | 是否开启WSS，默认为0  
+| conn-type      |       uint8  | Connection type, 1=WebSocket, 2=HTTP, 3=MQTT |
+| req-int        |       uint16 | Request interval，range is 1 ~ 180 second
+| min-rssi       |       int8   | RSSI filter，default value is `-127`
+| adv-filter     |       uint8  | Advertising filter, 0=no filter, 1=iBeacon only, 2=Eddystone UID only, 3=Eddystone URL only, 11=iBeacon+Eddystone TLM, 12=Eddystone UID+Eddystone TLM, 13=Eddystone URL+Eddystone TLM
+| dup-filter     |       uint8  | Duplication filter, default 0
+| scan-act       |       uint8  | Active scan, default 0
+| mqtt-port |            uint32 | MQTT Broker's port
+| http-port |            uint32 | HTTP server's port
+| ws-port |              uint32 | WebSocket Server's port
+| ota-url |              string | OTA URL 
+| http-host |            string | HTTP server's hostname
+| mqtt-host |            string | MQTT Broker's hostname
+| ws-host |              string | WebSocket server's hostname
+| https |                uint8  | Enable HTTPS，default 0 
+| mqtts |                uint8  | Enable MQTTS，default 0
+| wss |                  uint8  | Enable WSS，defautl 0  
 | mqtt-topic |           string | MQTT Topic 
-| mqtt-username |        string | MQTT用户名 
-| mqtt-password |        string | MQTT密码 
-| mqtt-id-prefix |       string | MQTT的Client ID前缀 
-| cfg-topic |            string | MQTT配置功能的topic
-| one-cfg-topic |            string | MQTT配置单个网关的topic前缀
-| mqtt-config |          uint8  | 是否开启MQTT的配置参数功能，默认为0
-| http-url |             string | HTTP server的URL 
-| filter-uuid |          string | 如果开启了iBeacon的广播过滤选项，可以通过iBeacon UUID过滤，每行一个
-| req-format |           uint8  | 请求格式，0=msgpack, 1=json
-| ntp-enabled |          uint8  | 是否启用NTP时间服务器，默认为0 
-| ntp1 |                 string | 首选ntp服务器 
-| ntp2 |                 string | 第二ntp服务器
+| mqtt-username |        string | MQTT username 
+| mqtt-password |        string | MQTT password 
+| mqtt-id-prefix |       string | MQTT Client ID prefix
+| cfg-topic |            string | MQTT config topic
+| one-cfg-topic |            string | Topic Prefix For Device Inbox
+| mqtt-config |          uint8  | Enalbe MQTT config, default 0
+| http-url |             string | HTTP server URI 
+| filter-uuid |          string | iBeacon UUID filter, one uuid one line.
+| req-format |           uint8  | Request format，0=msgpack, 1=json
+| ntp-enabled |          uint8  | enable ntp client, default 0 
+| ntp1 |                 string | First ntp server
+| ntp2 |                 string | Second ntp server
 
 ### 网络参数
 
-| 参数           |  类型        | 说明         |
+| Parameter      |  type        | Descripton         |
 | -------------- | ------------ | ------------ |
-| wifi-type |            uint8  | WiFi类型, 0=WAP, 1=WPA2 Enterprise   
-| ssid |                 string | WiFi的SSID
-| passcode |             string | WiFi的密码  
-| eap-identity |         string | EAP的identify  
-| eap-username |         string | EAP的username  
-| eap-passcode |         string | EAP的passcode  
-| eth-dhcp |             uint8  | 是否启用以太网络的DHCP，默认为1   
-| eth-ip |               uint32 | 静态IP地址，当eth-dhcp=0的时候生效  
-| eth-gateway |          uint32 | 静态IP时的网关IP  
-| eth-netmask |          uint32 | 静态IP时的子网掩码  
-| dns-main |             uint32 | 主DNS，仅当eth-dhcp=0时生效  
-| dns-backup |           uint32 | 备用DNS  
-| dns-fallback |         uint32 | 次DNS  
+| wifi-type |            uint8  | WiFi type, 0=WAP, 1=WPA2 Enterprise   
+| ssid |                 string | WiFi SSID
+| passcode |             string | WiFi password
+| eap-identity |         string | EAP identify  
+| eap-username |         string | EAP username  
+| eap-passcode |         string | EAP passcode  
+| eth-dhcp |             uint8  | Enable DHCP，default 1   
+| eth-ip |               uint32 | Static IP address, enable when eth-dhcp=0
+| eth-gateway |          uint32 | Network Gateway IP
+| eth-netmask |          uint32 | Netmask 
+| dns-main |             uint32 | Main DNS，enable when eth-dhcp=0
+| dns-backup |           uint32 | Backup DNS 
+| dns-fallback |         uint32 | Fallback DNS  
 
 ### mac address filter
 
-mac address filter在配置示例中使用了filter-mac这个key，它是一个数组类型。其中每一项都是一个mac address。
+Use key `filter-mac` to configure mac address filter. It's an array. Per item is a mac address.
