@@ -5,8 +5,7 @@ beacon](https://blog.aprbrother.com/product/aprilbeacon-eek)开发. ABTemp会以
 
 ## 特性
 
-  - ARM Cortex -M0 32-bit processor
-  - Dialog solution, 长电池寿命
+  - Nordic solution, 长电池寿命
   - 支持蓝牙4.0
   - Builtin 1 x CR2450 battery holder (battery not included)
   - Temperature sensor for environment monitoring
@@ -17,7 +16,7 @@ beacon](https://blog.aprbrother.com/product/aprilbeacon-eek)开发. ABTemp会以
 
 | Name                                             | Parameters                                       |
 | ------------------------------------------------ | ------------------------------------------------ |
-| Chip                                             | Dialog DA14580                                   |
+| Chip                                             | Nordic nRF52810                                  |
 | Dimensions                                       | Diameter 31mm, Thickness 9mm                     |
 | Protocol standard                                | Bluetooth® 4.0 Through the iBeacon certification |
 | System Requirements                              | iOS7.0 or above/ Android 4.3 or above            |
@@ -38,5 +37,4 @@ beacon](https://blog.aprbrother.com/product/aprilbeacon-eek)开发. ABTemp会以
 
 ## Documents And Links
 
-  - [Firmware For ABTemp](Firmware_For_ABTemp.md)
   - [ABTemp Payload Format](ABTemp_Payload_Format.md)

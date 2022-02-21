@@ -5,19 +5,17 @@ beacon](https://blog.aprbrother.com/product/aprilbeacon-eek). It advertises the 
 
 ## Feautres
 
-  - ARM Cortex -M0 32-bit processor
-  - Dialog solution, long battery life
-  - Support Bluetooth Smart 4.0
-  - Builtin 1 x CR2450 battery holder (battery not included)
-  - Temperature sensor for environment monitoring
-  - Configurable by App
-    [AprilBeacon](https://itunes.apple.com/app/aprilbeacon/id847517010?mt=8)
+- Nordic solution, long battery life
+- Support Bluetooth Smart 4.0
+- Builtin 1 x CR2450 battery holder (battery not included)
+- Temperature sensor for environment monitoring
+- Configurable by App [AprilBeacon](https://itunes.apple.com/app/aprilbeacon/id847517010?mt=8)
 
 ## Technology Specification
 
 | Name                                             | Parameters                                       |
 | ------------------------------------------------ | ------------------------------------------------ |
-| Chip                                             | Dialog DA14580                                   |
+| Chip                                             | Nordic nRF52810                                  |
 | Dimensions                                       | Diameter 31mm, Thickness 9mm                     |
 | Protocol standard                                | Bluetooth® 4.0 Through the iBeacon certification |
 | System Requirements                              | iOS7.0 or above/ Android 4.3 or above            |
@@ -38,5 +36,4 @@ beacon](https://blog.aprbrother.com/product/aprilbeacon-eek). It advertises the 
 
 ## Documents And Links
 
-  - [Firmware For ABTemp](Firmware_For_ABTemp.md)
   - [ABTemp Payload Format](ABTemp_Payload_Format.md)
