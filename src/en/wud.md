@@ -29,7 +29,7 @@ The new ESP32-S2 module from Espressif addresses the security flaws in the origi
     * Deep-Sleep: 20-235µA
 * USB-A Connector
 * Micro SD slot
-* Hall sensor for control `GPIO 0` of ESP32
+* `Reset` and `GPIO0` button of ESP32 S2. One of button is hall sensor
 
 ### Hardware overview ### 
 
@@ -41,8 +41,17 @@ The new ESP32-S2 module from Espressif addresses the security flaws in the origi
 * ESP32-S2 mini Module
 * Buttons
   * Reset button
-  * Hall sensor for control `GPIO 0` of ESP32
+  * `GPIO0` for program
 * Status LED - This indicator is connected to `GPIO 21`
+
+### PCB version changes ###
+
+* PCB v1.2
+  * Reset button - Hall sensor
+  * `GPIO0` - K1
+* PCB v1.1
+  * Reset button - K1
+  * `GPIO0` - Hall sensor
 
 ### Device Firmware Upgrade through USB
 
@@ -51,22 +60,26 @@ The ESP32-S2 chip needs to be in bootloader mode for the detection as a DFU devi
 How to make the ESP32-S2 go to bootloader mode
 
 1. Plug the WUD to laptop
-1. Make a magnet close to the hall sensor (`GPIO 0`)
+1. Pull down and hold the `GPIO0` button
 1. Press the reset button, WUD will go to bootloader mode now
 
 ### Software overview ###
 
-The pre-flashed firmware is "[wireless USB disk](https://github.com/volca/wireless_usb_disk)". It use ESP32-S2 as an USB Disk with Wireless accessibility. HTTP file server be used with both upload and download capability.
+The pre-flashed firmware is "[Wireless USB disk][wud-gh]". It use ESP32-S2 as an USB Disk with Wireless accessibility. HTTP file server be used with both upload and download capability.
 
 Note: It's a demo code. Don't use it in serious application.
 
 ### Resources ###
 
-* [Schematic](https://github.com/AprilBrother/ab-hardware/blob/master/wud/wud.pdf)
+* [Schematic for PCB v1.1](https://github.com/AprilBrother/ab-hardware/blob/master/wud/wud.pdf)
+* [Schematic for PCB v1.2](https://github.com/AprilBrother/ab-hardware/blob/master/wud/wud-v1.2.pdf)
 * [Datasheet for ESP32 S2 module](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf)
 
 ### Firmware ###
 
-* [Source code of wireless usb disk](https://github.com/volca/wireless_usb_disk) - written in Arduino 
+* [Source code of wireless usb disk][wud-gh] - written in Arduino 
 * [usb_msc_wireless_disk from espressif](https://github.com/espressif/esp-iot-solution/tree/usb/add_usb_solutions/examples/usb/device/usb_msc_wireless_disk)
-* [WUD-Ducky](https://github.com/tobozo/WUD-Ducky) Thanks tobozo for his great projects
+* [WUD-Ducky][wud-ducky] Thanks tobozo for his great projects
+
+[wud-gh]: https://github.com/volca/wireless_usb_disk
+[wud-ducky]: https://github.com/tobozo/WUD-Ducky
