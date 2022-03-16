@@ -2,7 +2,7 @@
 
 ## Configure Tool
 
-- Download [Gateway Configure Tool v1.2.2 for windows 64bit][config-tool-link]
+- Download [Gateway Configure Tool v1.3.8 for windows 64bit][config-tool-link]
 - Download [Gateway Configure Tool](https://i1.aprbrother.com/gw-config-tool-1.2.3_amd64.deb.zip) v1.2.3 For Linux/Ubuntu
 - Download [Gateway Configure Tool](https://i1.aprbrother.com/gw-config-tool-v1.0.7.apk) v1.0.7 For Android
 - Download [Gateway Configure Tool beta version][config-tool-beta] which supports beta features
@@ -28,5 +28,5 @@
 * [Examples Written in Python 3](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/python3)
 * [Examples Written in Python 2](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/python)
 
-[config-tool-link]: https://i1.aprbrother.com/gw4-config-tool-v1.2.2.zip "Gateway Configure Tool"
+[config-tool-link]: https://i1.aprbrother.com/gw4-config-tool-v1.3.8.zip "Gateway Configure Tool"
 [config-tool-beta]: https://github.com/AprilBrother/gw4-config-tool/releases "Latest Gateway config tool"
