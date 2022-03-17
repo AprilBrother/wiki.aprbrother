@@ -6,6 +6,10 @@ The device has an ESP32-S2 module that allows it to be identified as a keyboard 
 
 The new ESP32-S2 module from Espressif addresses the security flaws in the original ESP32. While the ESP32-S2 does include improved security features, it lacks the Bluetooth capabilities of the original ESP32 module. But it supports native USB.
 
+### For sale
+
+* [WUD v1.1 at Aliexpress](https://www.aliexpress.com/item/1005003262293211.html)
+
 [![WUD](https://i1.aprbrother.com/wud-1.jpg-640.jpg)](https://i1.aprbrother.com/wud-1.jpg)
 
 ### Features ### 
