@@ -2,6 +2,25 @@
 
 ## FAQ for AB BLE Gateway V4
 
+### Q: How to integrate gateway with home assistant? ###
+
+* See [the link](https://community.home-assistant.io/t/need-help-with-mqtt-sensor/330058/12). You can add these to `configuration.yaml` as sensor component. This will create an attribute per device. It's possible to add a custom component to show more information from gateway.
+```
+sensor:
+  - platform: mqtt
+    name: "BLEGATEWAY"
+    state_topic: "BLETRACKER"
+    value_template: "{{ value_json.time }}"
+    json_attributes_topic: "BLETRACKER"
+    json_attributes_template: >-
+      {
+        {% for dev in value_json["devices"] %}
+          "device_{{ dev[1] }}": "{{ dev[3] }}",
+        {% endfor %}
+        "device_count": "{{ value_json["devices"]|length }}"
+      }
+```
+
 ### Q: 如何升级网关的固件? ###
 
 A: 你需要安装我们的配置工具来升级固件.
