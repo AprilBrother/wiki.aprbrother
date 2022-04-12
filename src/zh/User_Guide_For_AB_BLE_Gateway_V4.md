@@ -22,6 +22,8 @@ MessagePack是一个高效的二进制序列化格式. 它让你像JSON一样可
   - mid - message ID
   - time - 启动时长，以秒计算
   - ip - gateway的IP
+  - rssi - gateway的WiFi连接信号强度RSSI. 仅当使用WiFi连接时才会出现，从固件v1.5.0开始加入
+  - iccid - 4G模块的ICCID. 仅当使用4G连接时才会出现，从固件v1.5.3开始加入
   - mac - gateway的mac address
   - devices - 一个由BLE广播包组成的数组, 这些广播包都是gateway收集到的
 

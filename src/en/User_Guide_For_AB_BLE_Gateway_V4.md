@@ -18,6 +18,8 @@ The data decoded is a dictionary with these keys:
   - mid - message ID
   - time - boot time
   - ip - the IP for gateway
+  - rssi - the RSSI of WiFi connection for gateway. It appears when using WiFi connection from firmware v1.5.0
+  - iccid - the ICCID of 4G module. It appears when using 4G connection from firmware v1.5.3
   - mac - the mac address for gateway
   - devices - an array for BLE advertising datas that gateway collected
 
