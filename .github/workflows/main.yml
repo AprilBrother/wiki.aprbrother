@@ -15,7 +15,7 @@ jobs:
           persist-credentials: false
 
       - name: Build
-        run: npm install && npm run build
+        run: yarn && yarn build
 
       - name: Deploy server CN 
         uses: easingthemes/ssh-deploy@v2.2.11
