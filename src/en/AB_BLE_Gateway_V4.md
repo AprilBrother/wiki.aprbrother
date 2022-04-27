@@ -1,8 +1,8 @@
 ## Description
 
-AB BLE Gateway V4 is a BLE to gateway and bridge. The gateway reads iBeacon and Eddystone like beacon or customized Tag format and sends to local TCP server or internet HTTP/MQTT server.
+AB BLE Gateway V4 is a BLE to network gateway and bridge. BLE gateway reads advertsiment data such as iBeacon, Eddystone or customized format data and sends to LAN/internet server.
 
-User can configure the transmit period and server information through a simple HTTP API.
+Gateway supports Ethernet and WiFi connection. User can configure the transmit period and server information through a simple HTTP API.
 
 <img src="https://i1.aprbrother.com/gateway41.jpg-640.jpg">
 
@@ -13,7 +13,7 @@ User can configure the transmit period and server information through a simple H
 - Operating temperature: -20'C to 60'C
 - Reads multiple BLE devices in the same time and upload to remote server
 - Support WebSocket/HTTP/MQTT protocol
-- External antenna for BLE  
+- External antenna for BLE
 
 ## Certifications
 
