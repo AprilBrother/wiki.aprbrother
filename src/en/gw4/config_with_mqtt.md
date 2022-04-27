@@ -29,7 +29,7 @@ An example for configure message (JSON format)
         "app": {
             "mqtt-host": "mqtt.bconimg.com",
             "mqtt-port": 1883,
-            "mqtt-topic": "new/topic",
+            "mqtt-topic": "new/topic"
         },
         "net": {
             "ssid": "hello",
