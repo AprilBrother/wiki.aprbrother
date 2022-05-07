@@ -95,8 +95,10 @@ For Firmware version &gt;= v4.0.6
 ---
 
 <img src="https://i1.aprbrother.com/302.jpg" width="120" align="right">
+
 * USB Powered
 * Supporting iBeacon + Eddystone 
+* BLE micro controller CC2540
 
 ### Others
 
