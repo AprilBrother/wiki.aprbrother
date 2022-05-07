@@ -82,6 +82,16 @@ For Firmware version &gt;= v4.0.6
 * One LED and one button (For factory reset)
 * BLE micro controller NRF52810
 
+### April Beacon N06
+
+---
+
+<img src="https://i1.aprbrother.com/prod/n06.jpg-320.jpg" width="120" align="right">
+
+* Power supply by CR2032 Battery 225~ mAh (replaceable).
+* Dimensions: `60mm x 35mm x 12mm`
+* One LED and one button
+* BLE micro controller NRF52810
 
 ### [USB Beacon 305](AprilBeacon_305.md)
 
