@@ -1,5 +1,11 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.7 ###
+
+* Supports MDNS. The name is `xbg-XXXXXX`. 
+* Supports work period
+* Supports clear MAC address filter with MQTT remote config
+
 ### v1.5.3 ###
 
 * Fix a bug for no device data if device soft restart
