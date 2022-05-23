@@ -1,5 +1,13 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.9 ###
+
+* Turn off LED default for old batch of gateway
+
+### v1.5.8 ###
+
+* Add options `sign-in type`, `username`, `password` for 4G gateway
+
 ### v1.5.7 ###
 
 * Supports MDNS. The name is `xbg-XXXXXX`. 
