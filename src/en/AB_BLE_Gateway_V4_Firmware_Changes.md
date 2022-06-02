@@ -1,5 +1,13 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.11 ###
+
+* Add MQTT query command `query/dev` for query device information
+
+### v1.5.10 ###
+
+* Add an option "enable/disable ping" for checking network connection
+
 ### v1.5.9 ###
 
 * Turn off LED default for old batch of gateway

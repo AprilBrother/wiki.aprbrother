@@ -70,6 +70,14 @@ Restart device
 }
 ```
 
+Query device information (Added from firmware `v1.5.11`)
+
+```
+{
+    "event": "query/dev",
+    "version": 1
+}
+```
 Note：
 
 * version must equal 1
