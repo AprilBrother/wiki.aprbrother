@@ -78,6 +78,16 @@ Query device information (Added from firmware `v1.5.11`)
     "version": 1
 }
 ```
+
+Request OTA update(Added from firmware `v1.5.12`)
+
+```
+{
+    "event": "ota",
+    "version": 1
+}
+```
+
 Note：
 
 * version must equal 1

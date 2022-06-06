@@ -1,5 +1,9 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.12 ###
+
+* Add MQTT OTA update command `ota`
+
 ### v1.5.11 ###
 
 * Add MQTT query command `query/dev` for query device information
