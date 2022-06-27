@@ -61,6 +61,32 @@ hex=`02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC9000D002AC
 | 3    | Non-Connectable undirected advertisement |
 | 4    | Scan Response                            |
 
+## Configuration options ##
+
+### Application options ###
+
+#### Advertising filter ####
+
+1. Allow All Advertising Data: scan all data, default
+2. iBeacon Only: scan iBeacon data only. Please search iBeacon protocol for more information
+3. Eddystone UID Only: scan Eddystone UID only
+4. Eddystone URL Only: scan Eddystone URL only
+5. Sensor mode, supports some Xiaomi sensor: Experimental feature, scan only xiaomi sensors such as temperature/humidity sensor
+6. iBeacon And Eddystone TLM Plain: scan iBeacon And Eddystone TLM Plain data only
+7. Eddystone UID And Eddystone TLM Plain: scan Eddystone UID And Eddystone TLM Plain only
+8. Eddystone URL And Eddystone TLM Plain: scan Eddystone URL And Eddystone TLM Plain only
+
+For more information about eddystone protocol, please check [the specification](https://github.com/google/eddystone/blob/master/protocol-specification.md)
+
+#### Manufacture Filter ####
+
+The general structure of advertising packets is described in Bluetooth Advertising Data Basics. 
+Manufacturer-specific data can be used to add any custom data into advertising packets in any format suitable for your application. For example, you could create a beacon that includes the reading of a temperature sensor in the advertising data.
+
+See the image below which contains company ID 02FF for company Silicon Labs. You can input "Manufacture Filter" = 02FF to scan the advertising data only
+
+![advdata](https://i1.aprbrother.com/advdataex1.png)
+
 ## 硬件
 
 ### LED指示灯状态
