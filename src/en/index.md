@@ -19,6 +19,7 @@
 
 ## Dev Board ##
 
+- [AB modbus gateway - convert Modbus/RS485 to WiFi](modbus-gateway.md)
 - [WUD - Wireless USB Disk](wud.md)
 - [April soil moisture sensor](april_soil_moisture_sensor.md)
 - [AButton V3](AButton_V3.md)
