@@ -1,6 +1,6 @@
 # AB modbus gateway #
 
-AB modbus gateway is based on ESP32 C3. This Device has built-in WiFi + BLE to send data wireless to other device like a server or computer for post-processing or controlling or monitoring. Rs485 have some standard protection on it. You can us this device in home automation too where you only have to provide WiFi in one device.
+AB modbus gateway is based on ESP32 C3. This Device has built-in WiFi + BLE to send data wireless to other device like a server or computer for post-processing or controlling or monitoring. RS485 have some standard protection on it. You can use this device in home automation too where you only have to provide WiFi in one device.
 
 | ![dtu-1](https://i1.aprbrother.com/DTU-1.jpg-320.jpg) | ![dtu-2](https://i1.aprbrother.com/DTUC-2.jpg-320.jpg) |
 |------|--------------|
