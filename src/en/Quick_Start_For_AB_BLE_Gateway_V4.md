@@ -3,7 +3,8 @@
 ## Usage
 
   - Prepare a power adapter 5V/2A. Please note the the current 2A is required
-  - Wire gateway with ethernet cable. Please use the micro USB cable as power cable. Wire the cable to power adapter. Don't wire the cable to Laptop directly. It may cause weak power. It means the gateway connected to LAN network if yellow LED around the ethernet port is on.
+  - Wire ethernet cable between gateway and your router. Don't wire the ethernet cable to your laptop directly. 
+  - Please use the micro USB cable as power cable. Wire the cable to power adapter. Don't wire the cable to Laptop directly. It may cause weak power. It means the gateway connected to LAN network if yellow LED around the ethernet port is on.
   - Install [configure tool](Software_AB_BLE_Gateway_V4.md) at your laptop
   - Click at application, you can see some configure options
 
