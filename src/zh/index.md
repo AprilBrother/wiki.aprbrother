@@ -14,7 +14,7 @@
 ## BLE Gateway ##
 
 - [Wireless iBeacon Receiver](Wireless_iBeacon_Receiver.md)
-- [AB BLE Gateway V2](AB_BLE_Gateway.md) - WiFi version
+- ~~[AB BLE Gateway V2](AB_BLE_Gateway.md) - WiFi version~~
 - [AB BLE Gateway V4](AB_BLE_Gateway_V4.md)
 
 ## Dev Board ##
@@ -25,14 +25,14 @@
 - [AButton V3](AButton_V3.md)
 - [RFID Field Detector](RFID_Field_Detector.md)
 - [BLE USB Dongle](BleUsbDongle.md)
-- [ESP Soil Moisture Sensor](ESP_Soil_Moisture_Sensor.md)
+- ~~[ESP Soil Moisture Sensor](ESP_Soil_Moisture_Sensor.md)~~
 - [APixel](APixel.md)
 - [ESP Flasher](ESP_Flasher.md) - programming ESP8266/ESP32 like NodeMCU
 - [Cactus WHID](cactus_whid.md)
 
 ## Arduino Compatible Shield ##
 
-- [ESPea And Shields](ESPea_And_Shields.md)
-- [BLEPad](BLEPad.md) - A wearable arduino compatible dev board (new)
+- ~~[ESPea And Shields](ESPea_And_Shields.md)~~
+- ~~[BLEPad](BLEPad.md) - A wearable arduino compatible dev board~~
 - [Cactus Micro Rev2](Cactus_Micro_Rev2.md)
 - [BlueDuino rev2](BlueDuino_rev2.md)
