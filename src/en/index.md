@@ -19,6 +19,7 @@
 
 ## Dev Board ##
 
+- [April logger - UART SD logger](april_logger.md)
 - [AB modbus gateway - convert Modbus/RS485 to WiFi](modbus_gateway.md)
 - [WUD - Wireless USB Disk](wud.md)
 - [April soil moisture sensor](april_soil_moisture_sensor.md)
