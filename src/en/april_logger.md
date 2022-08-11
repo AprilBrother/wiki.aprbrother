@@ -52,4 +52,4 @@ An example:
 
 ## Resources ##
 
-* Hardware files
+* [Hardware files](https://github.com/AprilBrother/ab-hardware/tree/master/april-logger)
