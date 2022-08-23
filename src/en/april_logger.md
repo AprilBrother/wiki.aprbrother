@@ -6,7 +6,8 @@ This board comes with a DS1302 RTC module provides real-time information. You ne
 
 The logger ships with basic serial text. Users can easily start with this firmware. It's a truly easy to use logger.
 
-`Placeholder for the photo`
+| ![uart-box-1](https://i1.aprbrother.com/sd_logger6.jpg-320.jpg) | ![uart-box-2](https://i1.aprbrother.com/sd_logger7.jpg-320.jpg) |
+|------|--------------|
 
 ## Hardware overview ##
 
