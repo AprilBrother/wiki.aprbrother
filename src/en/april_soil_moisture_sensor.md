@@ -39,5 +39,10 @@ RX & TX are still connected to UART0, and still used with the USB when in CDC (d
 ## Downloads ##
 
 * [Source code](https://github.com/volca/esp-soil)
-* [Example for esphome](https://github.com/volca/april-soil-esphome-module)
+* [ESPHome Example](https://github.com/volca/april-soil-esphome-module)
 * [Hardware files](https://github.com/AprilBrother/ab-hardware/tree/master/april-soil-moisture-sensor)
+
+## Third party software ##
+
+* [Improved ESPHome example](https://github.com/illuzn/esphome-april-soil-moisture-sensor) Thanks William
+
