@@ -67,6 +67,8 @@ How to make the ESP32-S2 go to bootloader mode
 1. Pull down and hold the `GPIO0` button
 1. Press the reset button, WUD will go to bootloader mode now
 
+See [Device Firmware Upgrade via USB](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/api-guides/dfu.html#device-firmware-upgrade-via-usb) for more information
+
 ### Software overview ###
 
 The pre-flashed firmware is "[Wireless USB disk][wud-gh]". It use ESP32-S2 as an USB Disk with Wireless accessibility. HTTP file server be used with both upload and download capability.
