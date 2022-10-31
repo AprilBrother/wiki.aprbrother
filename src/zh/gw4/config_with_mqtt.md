@@ -32,7 +32,7 @@ AB BLE Gateway V4从固件v1.4.14开始支持通过MQTT方式更新网关的配�
             "mqtt-port": 1883,
             "mqtt-topic": "new/topic",
         },
-        "net": {
+        "network": {
             "ssid": "hello",
             "passcode": "12345678"
         },

@@ -31,7 +31,7 @@ An example for configure message (JSON format)
             "mqtt-port": 1883,
             "mqtt-topic": "new/topic"
         },
-        "net": {
+        "network": {
             "ssid": "hello",
             "passcode": "12345678"
         },
