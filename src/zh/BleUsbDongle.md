@@ -1,1 +1,1 @@
-!!!include(en/BleUsbDongle.md)!!!
+@include(en/BleUsbDongle.md)

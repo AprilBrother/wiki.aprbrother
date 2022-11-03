@@ -1,1 +1,1 @@
-!!!include(en/modbus_gateway.md)!!!
+@include(en/modbus_gateway.md)
