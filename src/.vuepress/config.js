@@ -1,4 +1,5 @@
 const { description } = require('../../package')
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 module.exports = {
   locales: {
@@ -57,12 +58,10 @@ module.exports = {
       },
     ]
   },
-  extendsMarkdown: (md) => {
-    md.use(require('markdown-it-include'), 'src/')
-  },
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
-  plugins: []
+  plugins: [
+    mdEnhancePlugin({
+      // Enable include files
+      include: true,
+    }),
+  ],
 }
