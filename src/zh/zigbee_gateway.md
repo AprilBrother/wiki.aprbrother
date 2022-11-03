@@ -1,1 +1,1 @@
-@include(en/zigbee_gateway.md)
+@include(../en/zigbee_gateway.md)
