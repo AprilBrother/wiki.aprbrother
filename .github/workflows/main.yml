@@ -12,10 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           persist-credentials: false
 
       - name: Build
-        run: corepack enable && pnpm i && pnpm build
+        run: pnpm i && pnpm build
 
       - name: Deploy server CN 
         uses: easingthemes/ssh-deploy@v2.2.11
