@@ -7,12 +7,15 @@ It's a LAN ZigBee 3.x Coordinator based on CC2652P and ESP32. It can be used as 
 ## Features ##
 
 * Based on Zigbee modules CC2652P
+* Power Input: USB Type-C 5V/2000mA or Standard POE 48V.
 * WORKING MODE: LAN Coordinator
 * Two Buttons
 * 2 LED for indication Custom firmware
 * Communicates via LAN network or WiFi with Zigbee2MQTT and ZHA
 * Easy programming with [flash tool webpage](https://aprilbrother.github.io/esphome-zigbee-gateway/)
 * Pre-flashed ESP32 and CC2562P
+
+**Note: Don't power with USB and POE in same time**
 
 ## Example firmware ##
 
