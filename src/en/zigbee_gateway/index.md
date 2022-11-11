@@ -1,6 +1,6 @@
 # AB zigbee gateway #
 
-It's a LAN ZigBee 3.x Coordinator based on CC2652P and ESP32. It can be used as ZigBee Coordinator/Router in various Smart Home installations including the [Zigbee2MQTT](https://www.zigbee2mqtt.io/), Home Assistant ([ZHA][zha]).
+It's a LAN ZigBee 3.x coordinator based on CC2652P and ESP32. It can be used as ZigBee Coordinator/Router in various Smart Home installations including the [Zigbee2MQTT](https://www.zigbee2mqtt.io/), Home Assistant ([ZHA][zha]).
 
 ![zigbee gateway](https://i1.aprbrother.com/zigbee-gw.jpg-320.jpg)
 
