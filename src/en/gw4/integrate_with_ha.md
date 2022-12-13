@@ -1,3 +1,3 @@
 # Integrate BLE gateway with Home assistant #
 
-see [AB Gateway] component for HA
+see [AB Gateway](https://github.com/AprilBrother/component-ab-gateway) component for HA
