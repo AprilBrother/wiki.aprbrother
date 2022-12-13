@@ -19,18 +19,18 @@ jobs:
         run: corepack enable && pnpm i && pnpm build
 
       - name: Deploy server CN 
-        uses: easingthemes/ssh-deploy@v2.2.11
+        uses: easingthemes/ssh-deploy@v3.0.1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rltgoDzvO --delete"
           SOURCE: "src/.vuepress/dist/"
           REMOTE_HOST: ${{ secrets.SERVER_CN }}
-          REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
+          REMOTE_PORT: ${{ secrets.REMOTE_PORT }} -o PubkeyAcceptedKeyTypes=+ssh-rsa
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: "/var/www/wiki/_book/"
 
       - name: Deploy server global 
-        uses: easingthemes/ssh-deploy@v2.2.11
+        uses: easingthemes/ssh-deploy@v3.0.1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rltgoDzvO --delete"
