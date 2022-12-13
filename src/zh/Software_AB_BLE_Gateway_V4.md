@@ -17,6 +17,7 @@
 
 ## 技术文档
 
+* [Integrate BLE gateway with Home assistant](gw4/integrate_with_ha.md)
 * [Configure parameters with MQTT](gw4/config_with_mqtt.md)
 * [Firmware ChangeLog](AB_BLE_Gateway_V4_Firmware_Changes.md)
 

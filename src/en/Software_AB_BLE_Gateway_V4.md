@@ -1,5 +1,7 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
+# Software and technical documents #
+
 ## Configure Tool
 
 - Download [Gateway Configure Tool v1.3.8 for windows 64bit][config-tool-link]
@@ -17,6 +19,7 @@
 
 ## Technical documents
 
+* [Integrate BLE gateway with Home assistant](gw4/integrate_with_ha.md)
 * [Configure parameters with MQTT](gw4/config_with_mqtt.md)
 * [Firmware ChangeLog](AB_BLE_Gateway_V4_Firmware_Changes.md)
 
