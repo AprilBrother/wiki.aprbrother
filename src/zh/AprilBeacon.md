@@ -1,3 +1,5 @@
+# April Beacon #
+
 ## Introdution
 
 AprilBeacon is one of the most commonly used beacons. Supporting both iBeacon and Eddystone. Battery level can be shown in the advertising data or via a Bluetooth GATT connection.
