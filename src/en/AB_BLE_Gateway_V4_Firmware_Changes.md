@@ -1,5 +1,13 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.14 ###
+
+* Fix a bug for custom DNS not work if DHCP is disabled.
+
+### v1.5.13 ###
+
+* Change data structure to compatible with previous v1.4.x. Move the RSSI field to the end of data
+
 ### v1.5.12 ###
 
 * Add MQTT OTA update command `ota`
