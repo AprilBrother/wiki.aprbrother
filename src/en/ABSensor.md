@@ -130,7 +130,11 @@ N07 is a BLE (Bluetooth LE) beacon with temperature and humidity sensor. It adve
 
 BTHome is an open standard protocol for broadcasting sensor data. It is supported by popular home automation platforms, like Home Assistant, out of the box.
 
-* Nordic solution, long battery life. The BLE chip is NRF52820                                                   * Temperature and humidity sensor for environment monitoring
+* Nordic solution, long battery life. The BLE chip is NRF52820                                                   * Temperature and humidity sensor (GXHT30) for environment monitoring
 * Power supply by CR2450 Battery `500~` mAh (replaceable).
 * Dimensions: `40mm x 40mm x 13.5mm`
 * One LED and one button
+
+### N07 hardware files
+
+* [Schematic](https://github.com/AprilBrother/ab-hardware/blob/master/n07/schematic.pdf)
