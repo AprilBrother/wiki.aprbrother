@@ -92,6 +92,22 @@ For Firmware version &gt;= v4.0.6
 * One LED and one button
 * BLE micro controller NRF52810
 
+### [ABSensor N07](ABSensor.md#absensor-n07)
+
+---
+
+<img src="https://i1.aprbrother.com/p/n07.jpg-320.jpg" width="120" align="right">
+
+N07 is a BLE (Bluetooth LE) beacon with temperature and humidity sensor. It advertises the temperature/humidity data with BTHome protocol. 
+
+BTHome is an open standard protocol for broadcasting sensor data. It is supported by popular home automation platforms, like Home Assistant, out of the box.
+
+* Nordic solution, long battery life. The BLE chip is NRF52820
+* Temperature and humidity sensor for environment monitoring
+* Power supply by CR2450 Battery `500~` mAh (replaceable).
+* Dimensions: `40mm x 40mm x 13.5mm`
+* One LED and one button
+
 ### [USB Beacon 305](AprilBeacon_305.md)
 
 ---

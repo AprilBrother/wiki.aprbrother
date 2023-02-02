@@ -11,7 +11,7 @@ BLE Beacon with acceleration sensor. Small size and replacable battery.
 * Power supply by CR2032 Battery 230~ mAh (replaceable).
 * Dimensions: Height 33mm, Width 33mm, Depth 10mm
 * Signal range 3m - 60m.
-* Embedded acceleration sensor
+* Embedded acceleration sensor (LIS3DH)
 * One LED and one button
 * One hole for leash/strip
 * Advertise 1st UUID when still, advertise 2nd UUID when move
@@ -123,3 +123,14 @@ Pins for programing by jLink
 | 20,21      | Temperature    | 0xD400         | Reverse the value first. Divide 8 for real temperature value. Eg. 0x00D4 = 212, 212 / 8 = 26.5°C |
 | 22,23      | Humidity       | 0x6700 | Reverse the value first. Divide 2 for real humidity value. Eg. 0x0067 = 103, 103 / 2 = 51.5 |
 | 24,25      | Light          | 0x0700 | Reverse the value first. 0x0007 = 7 | 
+
+## ABSensor N07
+
+N07 is a BLE (Bluetooth LE) beacon with temperature and humidity sensor. It advertises the temperature/humidity data with BTHome protocol.
+
+BTHome is an open standard protocol for broadcasting sensor data. It is supported by popular home automation platforms, like Home Assistant, out of the box.
+
+* Nordic solution, long battery life. The BLE chip is NRF52820                                                   * Temperature and humidity sensor for environment monitoring
+* Power supply by CR2450 Battery `500~` mAh (replaceable).
+* Dimensions: `40mm x 40mm x 13.5mm`
+* One LED and one button
