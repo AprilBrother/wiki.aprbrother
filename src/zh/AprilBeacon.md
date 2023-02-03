@@ -8,7 +8,6 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ## Features
 
-* Support both iBeacon and Eddystone
 * Configurable including UUID, major, minor and TX power etc
 * Upgrade Over-The-Air supported.
 
