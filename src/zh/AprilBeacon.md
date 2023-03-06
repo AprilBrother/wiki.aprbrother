@@ -89,7 +89,7 @@ For Firmware version &gt;= v4.0.6
 * Power supply by CR2032 Battery 225~ mAh (replaceable).
 * Dimensions: `60mm x 35mm x 12mm`
 * One LED and one button
-* BLE micro controller NRF52810
+* BLE micro controller NRF52810 or NRF52820
 
 ### [ABSensor N07](ABSensor.md#absensor-n07)
 
