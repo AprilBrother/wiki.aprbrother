@@ -32,6 +32,10 @@ Note: The `RJ-45` connector is not designed for ethernet connection. It's used f
 | `GPIO 4` | RS485 TX pin |
 | `GPIO 5` | RS485 RX pin |
 
+Pinouts for RJ45 port
+
+![rj45](https://i1.aprbrother.com/rj45-rs485.jpg)
+
 ## Example firmware ##
 
 * [Firmware based on ESPHOME. You can integrate to home assistant easier](https://github.com/volca/esphome-modbus)

@@ -32,6 +32,10 @@ Note: The `RJ-45` connector is not designed for ethernet connection. It's used f
 | `GPIO 4` | RS485 TX引脚              |
 | `GPIO 5` | RS485 RX引脚              |
 
+RJ45引脚
+
+![rj45](https://i1.aprbrother.com/rj45-rs485.jpg)
+
 ## 示例代码 ##
 
 * [基于ESPHome的固件，方便集成到Home assistant](https://github.com/volca/esphome-modbus)
