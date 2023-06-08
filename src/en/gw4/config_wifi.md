@@ -2,7 +2,7 @@
 
 # WiFi settings #
 
-**Note: We recommend connect the gateway with ethernet cable. It's much stable and power saving. **
+**Note: We recommend connect the gateway with ethernet cable. It's much stable and power saving.**
 
 You can following the steps to configure WiFi for gateway with smartconfig feature
 
