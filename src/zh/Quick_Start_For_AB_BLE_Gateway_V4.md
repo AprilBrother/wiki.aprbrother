@@ -10,6 +10,13 @@
   - 在电脑上安装好[配置工具](Software_AB_BLE_Gateway_V4.md)并打开
   - 点击application，你可以看到一些配置项
 
+## Internet connection setting ##
+
+* We recommend connect the gateway with ethernet cable.
+* You can also configure the gateway uses WiFi with following ways
+  1. Use the configure tool to add `Network` parameters for WiFi if ethernet cable is enabled. Then remove the ethernet cable and the gateway will try to work with WiFi instead
+  1. You can also [configure WiFi parameters with smartconfig feature](gw4/config_wifi.md). The feature is adeed from firmware `v1.4.14`.
+
 ## How To Test
 
 如何测试

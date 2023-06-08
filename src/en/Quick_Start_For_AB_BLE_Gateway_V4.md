@@ -1,6 +1,6 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
-## Usage
+## Usage ##
 
   - Prepare a power adapter 5V/2A. Please note the the current 2A is required
   - Wire ethernet cable between gateway and your router. Don't wire the ethernet cable to your laptop directly. 
@@ -8,7 +8,14 @@
   - Install [configure tool](Software_AB_BLE_Gateway_V4.md) at your laptop
   - Click at application, you can see some configure options
 
-## How To Test
+## Internet connection setting ##
+
+* We recommend connect the gateway with ethernet cable.
+* You can also configure the gateway uses WiFi with following ways
+  1. Use the configure tool to add `Network` parameters for WiFi if ethernet cable is enabled. Then remove the ethernet cable and the gateway will try to work with WiFi instead
+  1. You can also [configure WiFi parameters with smartconfig feature](gw4/config_wifi.md). The feature is adeed from firmware `v1.4.14`.
+
+## How To Test ##
 
   - Change application settings for gateway and save
       - Application Type -\> MQTT Client
