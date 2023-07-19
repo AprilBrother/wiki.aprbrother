@@ -13,12 +13,13 @@
 
 ## BLE Gateway ##
 
-- [Wireless iBeacon Receiver](Wireless_iBeacon_Receiver.md)
-- ~~[AB BLE Gateway V2](AB_BLE_Gateway.md) - WiFi version~~
-- [AB BLE Gateway V4](AB_BLE_Gateway_V4.md)
+- [Gateway c3](gateway_c3.md)
+- [AB BLE Gateway v4](AB_BLE_Gateway_V4.md)
+- [Wireless iBeacon receiver](Wireless_iBeacon_Receiver.md)
 
 ## Dev Board ##
 
+- [AB zigbee gateway](zigbee_gateway/index.md)
 - [April logger - UART SD logger](april_logger.md)
 - [AB modbus gateway - convert Modbus/RS485 to WiFi](modbus_gateway.md)
 - [WUD - Wireless USB Disk](wud.md)
@@ -33,7 +34,5 @@
 
 ## Arduino Compatible Shield ##
 
-- ~~[ESPea And Shields](ESPea_And_Shields.md)~~
-- ~~[BLEPad](BLEPad.md) - A wearable arduino compatible dev board~~
 - [Cactus Micro Rev2](Cactus_Micro_Rev2.md)
 - [BlueDuino rev2](BlueDuino_rev2.md)
