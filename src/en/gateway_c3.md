@@ -4,7 +4,7 @@ Gateway c3 is a BLE / WiFi gateway and bridge. It reads advertsiment data such a
 
 It supports WiFi connection and easy to installation. User can configure the transmit period and server information through a simple configure tool.
 
-**Placeholder for photo**
+![Gateway c3](https://i1.aprbrother.com/gw-c3.jpg-640.jpg)
 
 ## Technical Data ##
 
