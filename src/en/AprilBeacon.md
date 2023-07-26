@@ -120,7 +120,3 @@ BTHome is an open standard protocol for broadcasting sensor data. It is supporte
 * Supporting iBeacon + Eddystone 
 * BLE micro controller CC2540
 
-### Others
-
-- [AprilBeacon based on DA14580 - not availble](AprilBeacon_based_on_DA14580.md)
-- [AprilBeacon based on TI CC254X - not availble](AprilBeacon_based_on_TI_CC254X.md)
