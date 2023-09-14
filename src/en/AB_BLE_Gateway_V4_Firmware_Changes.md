@@ -1,5 +1,9 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.15 ###
+
+* Static IP settings are also effective for WiFi connections
+
 ### v1.5.14 ###
 
 * Fix a bug for custom DNS not work if DHCP is disabled.
