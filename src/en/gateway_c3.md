@@ -20,5 +20,5 @@ It supports WiFi connection and easy to installation. User can configure the tra
 ## Documents And Links
 
 - Quick start
-- Software and technical documents
-- [Support Forum](http://bbs.aprbrother.com/c/wifi)
+- [Software and technical documents](gwc3/tech.md)
+- [Support Forum](https://bbs.aprbrother.com/c/wifi)
