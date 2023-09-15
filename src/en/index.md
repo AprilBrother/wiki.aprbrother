@@ -3,8 +3,8 @@
 ## Learning ##
  
 * [April Beacon FAQs](How_to_use_ApriliBeacon.md)
-* [微信摇一摇常见问题](WeChat_FAQ.md)
 * [Cactus Micro Tutorial](Cactus_Micro_R2_Tutorial.md)
+* [微信摇一摇常见问题](WeChat_FAQ.md)
 
 ## Beacon ##
 
@@ -13,6 +13,7 @@
 
 ## BLE Gateway ##
 
+- [AoA gateway evaluation kit device: gateway a1](gateway_a1.md)
 - [Gateway c3](gateway_c3.md)
 - [AB BLE Gateway v4](AB_BLE_Gateway_V4.md)
 - [Wireless iBeacon receiver](Wireless_iBeacon_Receiver.md)
@@ -30,9 +31,9 @@
 - ~~[ESP Soil Moisture Sensor](ESP_Soil_Moisture_Sensor.md)~~
 - [APixel](APixel.md)
 - [ESP Flasher](ESP_Flasher.md) - programming ESP8266/ESP32 like NodeMCU
-- [Cactus WHID](cactus_whid.md)
 
 ## Arduino Compatible Shield ##
 
+- [Cactus WHID](cactus_whid.md)
 - [Cactus Micro Rev2](Cactus_Micro_Rev2.md)
 - [BlueDuino rev2](BlueDuino_rev2.md)

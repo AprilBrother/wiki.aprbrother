@@ -44,7 +44,7 @@ Pinouts P1 (from square soldering hole)
 
 ### Firmware For Dongle 52833
 
-The USB dongle nRF52833 is flashed with [AB Sniffer firmware](AT_Commands_For_ABSniffer_528.md).
+The USB dongle nRF52833 is flashed with firmware [nRF Sniffer for Bluetooth LE](https://www.nordicsemi.com/Products/Development-tools/nrf-sniffer-for-bluetooth-le) from NORDIC.
 
 ### Downloads for Dongle 52833
 
