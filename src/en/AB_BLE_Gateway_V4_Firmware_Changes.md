@@ -1,5 +1,9 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.16 ###
+
+* Add heartbeat interval option
+
 ### v1.5.15 ###
 
 * Static IP settings are also effective for WiFi connections
