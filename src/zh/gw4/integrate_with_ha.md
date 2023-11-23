@@ -1,1 +1,1 @@
-<!-- @include: ../en/gw4/integrate_with_ha.md -->
+<!-- @include: ../../en/gw4/integrate_with_ha.md -->

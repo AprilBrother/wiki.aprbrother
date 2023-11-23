@@ -1,1 +1,1 @@
-<!-- @include: ../en/gwc3/tech.md -->
+<!-- @include: ../../en/gwc3/tech.md -->

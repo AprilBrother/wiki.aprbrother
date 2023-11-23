@@ -1,1 +1,1 @@
-<!-- @include: ../en/zigbee_gateway/index.md -->
+<!-- @include: ../../en/zigbee_gateway/index.md -->

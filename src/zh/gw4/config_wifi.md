@@ -1,2 +1,2 @@
-<!-- @include: ../en/config_wifi.md -->
+<!-- @include: ../../en/gw4/config_wifi.md -->
 
