@@ -18,7 +18,8 @@
   "devDependencies": {
     "vuepress": "^2.0.0-rc.0",
     "@vuepress/client": "^2.0.0-rc.0",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.0"
+    "vuepress-plugin-md-enhance": "2.0.0-rc.0",
+    "@types/js-yaml": "^4.0.9"
   },
   "packageManager": "pnpm@7.14.0"
 }
