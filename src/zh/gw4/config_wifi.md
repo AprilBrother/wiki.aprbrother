@@ -1,2 +1,2 @@
-@include(../en/config_wifi.md)
+<!-- @include: ../en/config_wifi.md -->
 

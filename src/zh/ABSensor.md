@@ -1,1 +1,1 @@
-@include(../en/ABSensor.md)
+<!-- @include: ../en/ABSensor.md -->
