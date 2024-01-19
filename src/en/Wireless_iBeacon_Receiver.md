@@ -1,6 +1,6 @@
 ## Wireless iBeacon Receiver
 
-The Wireless iBeacon Receiver can work as Bluetooth 4.0 receiver. It
+The Wireless iBeacon Receiver can work as  4.0 receiver. It
 will scan the iBeacon device nearby and post to the remote server side.
 The device work as Wi-Fi station status. It will connect the Wi-Fi AP
 and connect to internet.
@@ -22,10 +22,10 @@ and connect to internet.
 | Parameters              | Description                 | Remark                |
 | Work Voltage            | 5V DC / 2A                  |                       |
 | Power Interface         | MINI-USB                    |                       |
-| Bluetooth Protocol      | Bluetooth 4.0               |                       |
+|  Protocol      |  4.0               |                       |
 | Receiving Sensitivity   | \-93dBm                     | High gain mode        |
-| Bluetooth Antenna       | 50 Ohm                      | External 2dBm antenna |
-| Bluetooth Scan Duration | Configure as 1 - 10 seconds | 1 second default      |
+|  Antenna       | 50 Ohm                      | External 2dBm antenna |
+|  Scan Duration | Configure as 1 - 10 seconds | 1 second default      |
 | Wi-Fi Antenna           | 50 Ohm                      | PCB antenna           |
 | Work with Wi-Fi AP      | 2.4G Wi-Fi AP only          |                       |
 | Working Temperature(C)  | \-20 ~ 65                   |                       |

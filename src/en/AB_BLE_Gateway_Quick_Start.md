@@ -1,12 +1,8 @@
 [← AB BLE Gateway Main Page](AB_BLE_Gateway.md)
 
-
-
-
-
 ## Description
 
-AB BLE Gateway work as Bluetooth 4.0 receiver (central role) and scan
+AB BLE Gateway work as BLE receiver (central role) and scan
 BLE device nearby and post to the remote server side. It also need
 connect to Wi-Fi AP for network connection.
 

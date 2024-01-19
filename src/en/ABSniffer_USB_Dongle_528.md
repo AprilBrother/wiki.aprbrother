@@ -27,7 +27,7 @@ If you want to reprogram this devices you must use a J-Link.
   - 512KB flash and 64KB SRAM
   - Built in USB Serial converter
   - USB 2.0 full speed support
-  - Bluetooth Low Energy compatible 2.4GHz radio (Details available in
+  - BLE compatible 2.4GHz radio (Details available in
     the nRF52832 product specification)
   - 1.7v to 3.3v operation with internal linear and DC/DC voltage
     regulators

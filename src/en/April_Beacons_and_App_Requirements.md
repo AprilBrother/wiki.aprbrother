@@ -4,7 +4,7 @@
 must be met for the entire experience to work as expected.
 
   - An eligible app installed on a mobile device
-  - A mobile device's Bluetooth® Smart hardware must be switched on
+  - A mobile device's BLE hardware must be switched on
   - If content is not embedded into your app, a WIFI or a cellular
     connection for content delivery to a mobile device. The latter is
     recommended.

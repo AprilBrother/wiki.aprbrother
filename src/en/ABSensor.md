@@ -42,13 +42,13 @@ Advertising packet for sensor mode
 
 | Byte(s) | Name                    | Value      | Notes                                                            |
 | ------- | ----------------------- | ---------- | ---------------------------------------------------------------- |
-| 0       | Flags\[0\]              | 0x02       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
-| 1       | Flags\[1\]              | 0x01       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
-| 2       | Flags\[2\]              | 0x06       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
-| 3       | Length                  | 0x03       | See Bluetooth 4.0 Core Specification                             |
-| 4       | Type                    | 0x03       | See Bluetooth 4.0 Core Specification                             |
+| 0       | Flags\[0\]              | 0x02       | See BLE BLE Core Specification, Volume 3, Appendix C, 181. |
+| 1       | Flags\[1\]              | 0x01       | See BLE Core Specification, Volume 3, Appendix C, 181. |
+| 2       | Flags\[2\]              | 0x06       | See BLE Core Specification, Volume 3, Appendix C, 181. |
+| 3       | Length                  | 0x03       | See BLE Core Specification                             |
+| 4       | Type                    | 0x03       | See BLE Core Specification                             |
 | 5, 6    | Service UUID            | 0x59, 0xFE | Service UUID for OTA service                                     |
-| 7       | Length                  | 0x17       | See Bluetooth 4.0 Core Specification                             |
+| 7       | Length                  | 0x17       | See BLE Core Specification                             |
 | 8       | Type                    | 0x16       | Manufacturer Specification data                                  |
 | 9, 10   | Service UUID            | 0x59, 0xFE | Service UUID for OTA service                                     |
 | 11, 12  | Company ID             | 0xAB, 0x01 | ID for April Brother                                             |
@@ -107,11 +107,11 @@ Pins for programing by jLink
 
 | Byte(s) | Name | Value | Notes |
 | ------- | ------- | ---------- | ---------- |
-| 0       | Flags 0              | 0x02       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
-| 1       | Flags 1              | 0x01       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
-| 2       | Flags 2              | 0x06       | See Bluetooth 4.0 Core Specification, Volume 3, Appendix C, 181. |
-| 3       | Length                  | 0x03       | See Bluetooth 4.0 Core Specification                             |
-| 4       | Type                    | 0x03       | See Bluetooth 4.0 Core Specification                             |
+| 0       | Flags 0              | 0x02       | See BLE Core Specification, Volume 3, Appendix C, 181. |
+| 1       | Flags 1              | 0x01       | See BLE Core Specification, Volume 3, Appendix C, 181. |
+| 2       | Flags 2              | 0x06       | See BLE Core Specification, Volume 3, Appendix C, 181. |
+| 3       | Length                  | 0x03       | See BLE Core Specification                             |
+| 4       | Type                    | 0x03       | See BLE Core Specification                             |
 | 5, 6    | Service UUID            | 0x59, 0xFE | 16-bit Service UUID for OTA service                                     |
 | 7       | Length                  | 0x12       | Service Data. Ibid. § 1.11 |
 | 8       | Service Data data type value | 0x16  | |
@@ -126,7 +126,7 @@ Pins for programing by jLink
 
 ## ABSensor N07
 
-N07 is a BLE (Bluetooth LE) beacon with temperature and humidity sensor. It advertises the temperature/humidity data with BTHome protocol.
+N07 is a BLE beacon with temperature and humidity sensor. It advertises the temperature/humidity data with BTHome protocol.
 
 BTHome is an open standard protocol for broadcasting sensor data. It is supported by popular home automation platforms, like Home Assistant, out of the box.
 

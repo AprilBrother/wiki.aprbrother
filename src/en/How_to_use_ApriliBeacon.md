@@ -15,7 +15,7 @@ documentation; Android iOS 7
 ### How does it work?
 
 April beacon broadcast a signal which contain the UUID, major, and minor
-values. Bluetooth 4.0 LE enabled devices in the beacon's range are able
+values. BLE enabled devices in the beacon's range are able
 to pick up this signal, and businesses can choose what interaction to
 deliver to the device via their app.
 
@@ -120,11 +120,11 @@ and trigger different actions depending on the proximity of the beacon.
 The possibilities are endless - indoor navigation, proximity marketing,
 automatic check-ins.
 
-### Do the beacons need Bluetooth to be turned on?
+### Do the beacons need BLE to be turned on?
 
-Indeed\! We assume that most consumers always have both Bluetooth and
+Indeed\! We assume that most consumers always have both BLE and
 Wi-Fi on. If they don't want their phones to interact with the
-beacon-enabled apps, they could easily turn off the Bluetooth for all
+beacon-enabled apps, they could easily turn off the BLE for all
 the apps or for the annoying one.
 
 ### Do consumers need an app in order to interact with beacons?
@@ -142,9 +142,9 @@ location and geofencing.
 
 ### Which smartphones and tablets will interact with beacons?
 
-Technically, all Bluetooth 4.0-enabled devices could pick up the BLE
-signals. Bluetooth Special Interest Group maintains a list of all
-devices that support Bluetooth Low Energy. The most popular are iPhone
+Technically, all BLE devices could pick up the BLE
+signals. BLE Special Interest Group maintains a list of all
+devices that support BLE. The most popular are iPhone
 4S, iPhone 5 or later, iPad 3, Samsung Galaxy S III and Motorola RAZR.
 
 ### Can I get SDK for Android and iOS?

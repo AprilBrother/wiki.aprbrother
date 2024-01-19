@@ -4,7 +4,7 @@
 
 The ESPea32 is a comprehensive development platform for Espressif’s
 ESP32. The ESP32 is a WiFi-compatible microcontroller, but to that it
-adds support for Bluetooth low-energy, and more I/O pins.
+adds support for BLE, and more I/O pins.
 
 What's difference ESPea32 with other ESP32 development board? It can be
 cut down to smaller size if you need a smaller board. The board is also
@@ -24,7 +24,7 @@ communicate with the microcontroller.
   - Up to 240MHz clock frequency
   - 520kB internal SRAM
   - Integrated 802.11 BGN WiFi transceiver
-  - Integrated dual-mode Bluetooth (classic and BLE)
+  - Integrated dual-mode (classic and BLE)
   - 2.5 µA deep sleep current
   - 28 GPIO
   - 10-electrode capacitive touch support

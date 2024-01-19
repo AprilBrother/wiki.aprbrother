@@ -1,6 +1,6 @@
 ## Description
 
-An April Beacon 305 is a tiny USB device that runs on Bluetooth 4.0 Low Energy; It is an iBeacon licensed technology that functions as a proximity Bluetooth Beacon. With AprilBeacon 305, proximity marketing has never been easier. By knowing where your customers are you can instantly deliver to them the most relevant and timely interaction. 
+An April Beacon 305 is a tiny USB device that runs on BLE; It is an iBeacon licensed technology that functions as a proximity BLE Beacon. With AprilBeacon 305, proximity marketing has never been easier. By knowing where your customers are you can instantly deliver to them the most relevant and timely interaction. 
 
 The AprilBeacon 305 Can be configured by the mobile app AprilBeacon
 
@@ -8,9 +8,9 @@ The AprilBeacon 305 Can be configured by the mobile app AprilBeacon
 
 ## Specification
 
-| Bluetooth                   |                                   |
+| BLE |                                   |
 | --------------------------- | --------------------------------- |
-| Version                     | 4.0 (Bluetooth Low Energy)        |
+| Version                     | 4.0 (BLE)        |
 | Security                    | Secure Simple Pairing and AES-128 |
 | BR/EDR connections          | 0                                 |
 | Radio                       | Frequency 2.402GHz to 2480GHz     |

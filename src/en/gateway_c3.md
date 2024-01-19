@@ -14,7 +14,7 @@ It supports WiFi connection and easy to installation. User can configure the tra
 - Network connection: WiFi
 - Reads multiple BLE devices and send to remote server
 - Support WebSocket/HTTP/MQTT protocol
-- Bluetooth version: Bluetooh 4.2
+- BLE 4.2
 - Firmware upgrade: OTA
 
 ## Documents And Links

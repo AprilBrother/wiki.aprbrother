@@ -20,10 +20,10 @@ station状态，可连接周边Wi-Fi热点接入互联网。
 | Parameters              | Description                 | Remark                |
 | Work Voltage            | 5V DC / 2A                  |                       |
 | Power Interface         | MINI-USB                    |                       |
-| Bluetooth Protocol      | Bluetooth 4.0               |                       |
+|  Protocol      |  4.0               |                       |
 | Receiving Sensitivity   | \-93dBm                     | High gain mode        |
-| Bluetooth Antenna       | 50 Ohm                      | External 2dBm antenna |
-| Bluetooth Scan Duration | Configure as 1 - 10 seconds | 1 second default      |
+|  Antenna       | 50 Ohm                      | External 2dBm antenna |
+|  Scan Duration | Configure as 1 - 10 seconds | 1 second default      |
 | Wi-Fi Antenna           | 50 Ohm                      | PCB antenna           |
 | Work with Wi-Fi AP      | 2.4G Wi-Fi AP only          |                       |
 | Working Temperature(C)  | \-20 ~ 65                   |                       |

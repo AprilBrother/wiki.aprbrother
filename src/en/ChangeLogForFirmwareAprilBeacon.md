@@ -6,7 +6,7 @@
 
 ### 2.0.1 (04/21/2014)
 
-  - Important change\! Remove the original pair passcode for Bluetooth.
+  - Important change\! Remove the original pair passcode for BLE.
     Replace the passcode with AT command `AT+AUTH` .
   - Fix a bug for read battery level.
   - Fix a bug for change TX power.
@@ -18,6 +18,6 @@
       - AT+AUTH - Input the passcode for change the module to editable.
         The default passcode is `AprilBrother`. It can be modified by
         0xFFF6.
-  - Add mac address in the Bluetooth service `Device Information ->
+  - Add mac address in the BLE service `Device Information ->
     System ID` (0x180A -\> 0x2A23).
 

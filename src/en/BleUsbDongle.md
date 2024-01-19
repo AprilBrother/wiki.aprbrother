@@ -44,7 +44,7 @@ Pinouts P1 (from square soldering hole)
 
 ### Firmware For Dongle 52833
 
-The USB dongle nRF52833 is flashed with firmware [nRF Sniffer for Bluetooth LE](https://www.nordicsemi.com/Products/Development-tools/nrf-sniffer-for-bluetooth-le) from NORDIC.
+The USB dongle nRF52833 is flashed with firmware [nRF Sniffer for BLE](https://www.nordicsemi.com/Products/Development-tools/nrf-sniffer-for-bluetooth-le) from NORDIC.
 
 ### Downloads for Dongle 52833
 
@@ -108,7 +108,7 @@ A small and low-cost nRF52840 USB Dongle Form Factor with external antenna
 
 ### Key Features For Dongle 52840
 
-* nRF52840 flash-based ANT/ANT+™, Bluetooth Low Energy SoC solution
+* nRF52840 flash-based ANT/ANT+™, BLE SoC solution
 * Button and LEDs for user interaction
 * Super Small Form Factor
 * Onboard USB bootloader with buttonless support (Adafruit nRF52 Bootloader)
@@ -164,7 +164,7 @@ A small and low-cost nRF52832 USB Dongle Form Factor with external antenna
 
 ### Key Features
 
-* nRF52832 flash-based Bluetooth Low Energy SoC solution
+* nRF52832 flash-based BLE SoC solution
 * Button and LED for user interaction
 * Super Small Form Factor
 * Onboard external antenna

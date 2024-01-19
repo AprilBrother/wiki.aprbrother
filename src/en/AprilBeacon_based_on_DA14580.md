@@ -18,7 +18,7 @@
 | Name                                             | Parameters                                       |
 | Chip                                             | Dialog DA14580                                   |
 | Dimensions                                       | Diameter 31mm, Thickness 9mm                     |
-| Protocol standard                                | Bluetooth® 4.0 Through the iBeacon certification |
+| Protocol standard                                | BLE Through the iBeacon certification |
 | System Requirements                              | iOS7.0 or above/ Android 4.3 or above            |
 | Security                                         | Suport password for configure parameters         |
 | TX Power                                         | 0dBm                                             |

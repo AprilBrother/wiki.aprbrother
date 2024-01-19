@@ -24,7 +24,7 @@ local TCP server or internet HTTP/MQTT/WebSocket server.
   - BLE on chip antenna
   - Scan advertising data from BLE devices
   - 30m range in open space
-  - Bluetooth scan duration 1 second
+  - BLE scan duration 1 second
 
 ### WiFi
 

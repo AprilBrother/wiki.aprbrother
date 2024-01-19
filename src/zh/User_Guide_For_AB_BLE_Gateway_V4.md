@@ -80,7 +80,7 @@ For more information about eddystone protocol, please check [the specification](
 
 #### Manufacture Filter ####
 
-The general structure of advertising packets is described in Bluetooth Advertising Data Basics. 
+The general structure of advertising packets is described in BLE Advertising Data Basics. 
 Manufacturer-specific data can be used to add any custom data into advertising packets in any format suitable for your application. For example, you could create a beacon that includes the reading of a temperature sensor in the advertising data.
 
 See the image below which contains company ID 02FF for company Silicon Labs. You can input "Manufacture Filter" = 02FF to scan the advertising data only

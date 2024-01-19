@@ -9,7 +9,6 @@
 ## Beacon ##
 
 - [April Beacon](AprilBeacon.md)
-- [ABTemp](ABTemp.md)
 
 ## BLE Gateway ##
 

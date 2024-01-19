@@ -13,7 +13,7 @@ Additionally, the board includes a WS2812B RGB LED and buttons to aid in your de
   * 4 MB SPI flash
 * Wireless
   * 2.4 GHz Wi-Fi - 802.11b/g/n
-  * Bluetooth BLE 4.2
+  * BLE 4.2
   * PCB antenna
 * Power:
   * 300 mAH 3.3 V Lithium battery and LDO regulator
