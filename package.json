@@ -17,7 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "vue": "^3.3.8",
-    "vuepress": "^2.0.0-rc.24",
+    "vuepress": "^2.0.0-rc.8",
     "vuepress-plugin-md-enhance": "2.0.0-rc.24"
   },
   "packageManager": "pnpm@7.14.0"
