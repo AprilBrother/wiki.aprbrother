@@ -6,16 +6,20 @@
 * [Cactus Micro Tutorial](Cactus_Micro_R2_Tutorial.md)
 * [微信摇一摇常见问题](WeChat_FAQ.md)
 
+## New ##
+
+* [a1 remote](a1remote.md)
+
 ## Beacon ##
 
 - [April Beacon](AprilBeacon.md)
 
 ## BLE Gateway ##
 
-- [AoA gateway evaluation kit device: gateway a1](gateway_a1.md)
 - [Gateway c3](gateway_c3.md)
 - [AB BLE Gateway v4](AB_BLE_Gateway_V4.md)
 - [Wireless iBeacon receiver](Wireless_iBeacon_Receiver.md)
+- [AoA gateway evaluation kit device: gateway a1](gateway_a1.md)
 
 ## Dev Board ##
 
