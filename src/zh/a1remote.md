@@ -4,7 +4,8 @@ A1遥控器可以方便的在骑行途中操作你的手机，更便捷的是它
 
 ### Download ###
 
+iOS和安卓app均有提供
+
 [<img src="https://www.aprbrother.com/img/ios-store.png"/>](https://apps.apple.com/app/a1remote/id6478522373)
 
-
-
+[Android app](https://i1.aprbrother.com/apk/a1Remote-240108.apk)
