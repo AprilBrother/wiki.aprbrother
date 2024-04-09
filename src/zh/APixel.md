@@ -5,11 +5,10 @@ WS2812B (Addressable RGB) LED all in one.
 
 ### Pinouts
 
-The P1 pins are ready for [ESP8266
-Flasher](ESP8266_Flasher.md). Pinouts from the arrow label:
+The P1 pins are ready for [ESP Flasher](ESP_Flasher.md). Pinouts from the arrow label:
 
   - GND
-  - CH_EN
+  - `CH_EN`
   - RST
   - RX
   - TX
@@ -21,7 +20,6 @@ For programming APixel, just wire the flasher to the board.
 
 ### Documents
 
-  - [Tutorials And
-    Examples](APixel_Tutorial.md)
+  - [Tutorials And Examples](APixel_Tutorial.md)
   - [Schematic](https://github.com/AprilBrother/APixel/blob/master/hardware/schematic.pdf)
   - [GitHub](https://github.com/AprilBrother/APixel)
