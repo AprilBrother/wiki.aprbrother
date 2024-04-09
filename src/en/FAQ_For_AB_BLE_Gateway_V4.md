@@ -5,25 +5,9 @@
 
 ### Q: How to integrate gateway with home assistant? ###
 
-* See [the link](https://community.home-assistant.io/t/need-help-with-mqtt-sensor/330058/12). You can add these to `configuration.yaml` as sensor component. This will create an attribute per device. It's possible to add a custom component to show more information from gateway. Change settings for gateway:
-  1. Change to `MQTT Client`
-  1. Change request format to JSON
-  1. change MQTT topic to `BLETRACKER` which same with the `json_attributes_topic` in the yaml of bottom
-```
-sensor:
-  - platform: mqtt
-    name: "BLEGATEWAY"
-    state_topic: "BLETRACKER"
-    value_template: "{{ value_json.time }}"
-    json_attributes_topic: "BLETRACKER"
-    json_attributes_template: >-
-      {
-        {% for dev in value_json["devices"] %}
-          "device_{{ dev[1] }}": "{{ dev[3] }}",
-        {% endfor %}
-        "device_count": "{{ value_json["devices"]|length }}"
-      }
-```
+* See [the component ab_gateway](https://github.com/AprilBrother/component-ab-gateway). You can put the component to the `custom_components` directory and enable it in `configuration.yaml`. 
+* The component subscribe MQTT data from AB BLE gateway and send to the bluetooth component of Home assistant. The default prefix is `ab_gateway and component subscribe the topic ab_gateway/+`
+* BLE gateway works like an external BLE scanner for HA
 
 ### Q: How to update firmware for BLE Gateway? ###
 
