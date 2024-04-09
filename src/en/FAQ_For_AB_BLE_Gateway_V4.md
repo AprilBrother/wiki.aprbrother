@@ -6,7 +6,7 @@
 ### Q: How to integrate gateway with home assistant? ###
 
 * See [the component ab_gateway](https://github.com/AprilBrother/component-ab-gateway). You can put the component to the `custom_components` directory and enable it in `configuration.yaml`. 
-* The component subscribe MQTT data from AB BLE gateway and send to the bluetooth component of Home assistant. The default prefix is `ab_gateway and component subscribe the topic ab_gateway/+`
+* The component subscribe MQTT data from AB BLE gateway and send to the bluetooth component of Home assistant. The default prefix is `ab_gateway` and component subscribe the topic `ab_gateway/+`
 * BLE gateway works like an external BLE scanner for HA
 
 ### Q: How to update firmware for BLE Gateway? ###
