@@ -17,6 +17,10 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
 - Support WebSocket/HTTP/MQTT protocol
 - External antenna for BLE
 
+## How it works ##
+
+![How it works](https://i1.aprbrother.com/w/gw-works.png)
+
 ## Certifications
 
 * FCCID: `2ACAL-ABBG0004`

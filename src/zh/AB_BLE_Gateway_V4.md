@@ -17,6 +17,10 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
 - 支持WebSocket/HTTP/MQTT协议
 - BLE带有外置天线
 
+## 它是如何工作的? ##
+
+![How it works](https://i1.aprbrother.com/w/gw-works.png)
+
 ## 认证
 
 * FCCID: `2ACAL-ABBG0004`
