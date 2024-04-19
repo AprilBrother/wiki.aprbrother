@@ -12,6 +12,18 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
     ],
+    locales: {
+        '/': {
+            lang: 'en-US',
+            title: 'April Brother Wiki',
+            description: 'April Brother: document'
+        },
+        '/zh': {
+            lang: 'zh-CN',
+            title: 'April Brother Wiki',
+            description: 'April Brother: document'
+        }
+    },
     shouldPrefetch: () => false,
     plugins: [
         mdEnhancePlugin({
