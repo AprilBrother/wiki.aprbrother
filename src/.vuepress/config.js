@@ -13,6 +13,7 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
     ],
     locales: {
+        home: '/',
         '/': {
             lang: 'en-US',
             title: 'April Brother Wiki',
