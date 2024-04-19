@@ -73,8 +73,8 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
 
 ## Documents And Links
 
-- [Quick Start For AB BLE Gateway V4](Quick_Start_For_AB_BLE_Gateway_V4.md)
-- [User Guide For AB BLE Gateway V4](User_Guide_For_AB_BLE_Gateway_V4.md)
+- [Quick Start](Quick_Start_For_AB_BLE_Gateway_V4.md)
+- [User Guide](User_Guide_For_AB_BLE_Gateway_V4.md)
 - [Software and technical documents](Software_AB_BLE_Gateway_V4.md)
 - [Support Forum](http://bbs.aprbrother.com/c/wifi)
 - [FAQ](FAQ_For_AB_BLE_Gateway_V4.md)
