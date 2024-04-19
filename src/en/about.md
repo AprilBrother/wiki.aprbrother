@@ -2,7 +2,7 @@
 
 The April Brother Wiki contains technical documentation for our current solutions and technologies.
 
-For information on how to purchase our products, visit our [Shop](https://blog.aprbrother.com/shop) page.
+For information on how to purchase our products, visit our [online store](https://store.aprbrother.com).
 
 ## Documentation Updates
 

@@ -18,7 +18,7 @@ module.exports = {
             title: 'April Brother Wiki',
             description: 'April Brother: document'
         },
-        '/zh': {
+        '/zh/': {
             lang: 'zh-CN',
             title: 'April Brother Wiki',
             description: 'April Brother: document'
