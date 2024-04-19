@@ -1,12 +1,11 @@
 const { description } = require('../../package')
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance"
 import { defaultTheme } from '@vuepress/theme-default'
+import { webpackBundler } from '@vuepress/bundler-webpack';
 
 module.exports = {
-    /**
-     * Ref：https://v1.vuepress.vuejs.org/config/#title
-     */
     title: 'Vuepress Docs Boilerplate',
+    bundler: webpackBundler(),
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
