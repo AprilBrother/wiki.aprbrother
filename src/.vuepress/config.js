@@ -12,9 +12,9 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
     ],
+    home: '/',
     locales: {
-        home: '/',
-        '/': {
+        '/en/': {
             lang: 'en-US',
             title: 'April Brother Wiki',
             description: 'April Brother: document'
@@ -38,7 +38,7 @@ module.exports = {
         locales: {
             // The key is the path for the locale to be nested under.
             // As a special case, the default locale can use '/' as its path.
-            '/': {
+            '/en/': {
                 selectLanguageName: 'English',
                 navbar: [
                     {text: 'Home', link: 'index.md'},
