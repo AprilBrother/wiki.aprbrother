@@ -26,14 +26,16 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
 * FCCID: `2ACAL-ABBG0004`
 * CE No.: `ATSZAWW190102008`
 
-## BLE
+## 技术规格 ##
+
+### BLE
 
 - BLE is based on NRF52832 
 - 外置天线
 - Bi-direction: Reads message advertised from BLE devices 
 - 30M range in open space
 
-## Wi-Fi
+### Wi-Fi
 
   - WiFi is based on ESP32
   - Support 802.11 b/g/n/e/i (802.11n, Speed 150 Mbps)
@@ -47,13 +49,13 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
   - Connect to Cloud server or local server
   - 100M range in open space
 
-## Ethernet
+### Ethernet
 
   - full-duplex 10-BASE-T/100BASE-TX transceiver and supports 10Mbps
     (10BASE-T) and 100Mbps (100BASE-TX) operation.
   - 15W Power Over Ethernet Meets IEEE 802. 3 af Specifications
 
-## Applications
+## 应用场景
 
   - iBeacon/Eddystone/tag receiver for location tracking
   - BLE sensor reader for sensor network
