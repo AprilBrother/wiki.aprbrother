@@ -19,7 +19,24 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
 
 ## 它是如何工作的? ##
 
-![How it works](https://i1.aprbrother.com/w/gw-works.png)
+```mermaid
+flowchart LR
+B[AB网关]
+bleDevices["
+Beacon
+BLE device
+N20
+N02
+N06
+ABSensor
+"]
+cloud(("☁️: 云服务器
+HTTP/MQTT/Websocket
+"))
+bleDevices-. BLE广播 .->B
+B <-->|以太网|cloud
+B <-. WiFi .-> cloud
+```
 
 ## 认证
 

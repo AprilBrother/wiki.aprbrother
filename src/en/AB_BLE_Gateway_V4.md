@@ -19,7 +19,24 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
 
 ## How it works ##
 
-![How it works](https://i1.aprbrother.com/w/gw-works.png)
+```mermaid
+flowchart LR
+B[AB Gateway]
+bleDevices["
+Beacon
+BLE device
+N20
+N02
+N06
+ABSensor
+"]
+cloud(("☁️: Cloud
+HTTP/MQTT/Websocket
+"))
+bleDevices-. BLE boradcast .->B
+B <-->|Ethernet|cloud
+B <-. WiFi .-> cloud
+```
 
 ## Certifications
 
