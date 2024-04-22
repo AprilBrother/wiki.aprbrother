@@ -8,14 +8,15 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
 
 <img src="https://i1.aprbrother.com/gateway41.jpg-640.jpg">
 
+:::tabs
+
+@tab Features
+
 ## Features
 
-- Size: 72mmx74mmx20mm
-- Power Input: DC 5V/2000mA, micro-USB or Standard POE 48V
-- Operating temperature: -20'C to 60'C
-- Reads multiple BLE devices in the same time and upload to remote server
 - Support WebSocket/HTTP/MQTT protocol
 - External antenna for BLE
+- Reads multiple BLE devices in the same time and upload to remote server
 
 ## How it works ##
 
@@ -37,13 +38,37 @@ bleDevices-. BLE boradcast .->B
 B <-->|Ethernet|cloud
 B <-. WiFi .-> cloud
 ```
+## Applications
+
+  - iBeacon/Eddystone/tag receiver for location tracking
+  - BLE sensor reader for sensor network
+  - Building automation
+  - Health and wellness monitoring
+  - Cycling, biking
+  - Security
+  - Location tracking
+  - Access management
+  - Advertisement
+  - Industrial automation
+  - Indoor Location
+  - Meeting sign in
+  - Check in
+  - Parking & Checking in
+  - Home automation
+
 
 ## Certifications
 
 * FCCID: `2ACAL-ABBG0004`
 * CE No.: `ATSZAWW190102008`
 
+@tab Specifications
+
 ## Specifications ##
+
+- Size: 72mmx74mmx20mm
+- Power Input: DC 5V/2000mA, micro-USB or Standard POE 48V
+- Operating temperature: -20'C to 60'C
 
 ### BLE
 
@@ -72,23 +97,7 @@ B <-. WiFi .-> cloud
     (10BASE-T) and 100Mbps (100BASE-TX) operation.
   - 15W Power Over Ethernet Meets IEEE 802. 3 af Specifications
 
-## Applications
-
-  - iBeacon/Eddystone/tag receiver for location tracking
-  - BLE sensor reader for sensor network
-  - Building automation
-  - Health and wellness monitoring
-  - Cycling, biking
-  - Security
-  - Location tracking
-  - Access management
-  - Advertisement
-  - Industrial automation
-  - Indoor Location
-  - Meeting sign in
-  - Check in
-  - Parking & Checking in
-  - Home automation
+@tab Documents And Links
 
 ## Documents And Links
 
@@ -98,3 +107,4 @@ B <-. WiFi .-> cloud
 - [Support Forum](http://bbs.aprbrother.com/c/wifi)
 - [FAQ](FAQ_For_AB_BLE_Gateway_V4.md)
 
+:::
