@@ -10,9 +10,11 @@ AB BLE Gateway V4是专为监控BLE（低功耗蓝牙）广告而设计的，包
 
 :::tabs
 
+@tab 特点
+
 ## Features
 
-- 以太网和Wi-Fi连接
+- 支持以太网和Wi-Fi连接
 - 支持WebSocket/HTTP/MQTT协议
 - BLE的外部天线
 - 可同时读取多个BLE设备并上传到远程服务器
