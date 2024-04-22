@@ -1,14 +1,24 @@
 [← AB BLE Gateway V4 Main Page](AB_BLE_Gateway_V4.md)
 
-## Usage ##
+# Quick Start #
 
-  - Prepare a power adapter 5V/2A. Please note the the current 2A is required
-  - Wire ethernet cable between gateway and your router. Don't wire the ethernet cable to your laptop directly. 
-  - Please use the micro USB cable as power cable. Wire the cable to power adapter. Don't wire the cable to Laptop directly. It may cause weak power. It means the gateway connected to LAN network if yellow LED around the ethernet port is on.
-  - Install [configure tool](Software_AB_BLE_Gateway_V4.md) at your laptop
-  - Click at application, you can see some configure options
+Step-by-step guide to configure the gateway to forward data to remote server
 
-## Internet connection setting ##
+## Prerequisites ##
+
+- Prepare a power adapter 5V/2A. Please note the the current 2A is required
+- Wire ethernet cable between gateway and your router. Don't wire the ethernet cable to your laptop directly. 
+- Please use the micro USB cable as power cable. Wire the cable to power adapter. Don't wire the cable to Laptop directly. It may cause weak power. It means the gateway connected to LAN network if yellow LED around the ethernet port is on.
+- Install [gateway configure tool](Software_AB_BLE_Gateway_V4.md) at your laptop
+
+## Configure connectivity ##
+
+Connect to the AB gateway via WiFi or Ethernet cable and configure its WiFi/Ethernet connectivity.
+
+- **How to connect?**  - The AB gateway can connect with Ethernet cable. But requires [Gateway config tool 📱](Software_AB_BLE_Gateway_V4.md) mobile app for configuration if connect to WiFi fist time
+- **Internet required?** - The AB gateway can operate on both Internet-connected and LAN networks.
+
+### Steps ###
 
 * We recommend connect the gateway with ethernet cable.
 * You can also configure the gateway uses WiFi with following ways
@@ -17,14 +27,25 @@
 
 ## How To Test ##
 
-  - Change application settings for gateway and save
-      - Application Type -\> MQTT Client
-      - MQTT Host -\> `mqtt.bconimg.com`
-      - MQTT Port -\> 1883
-      - Publish Topic -\> your-topic
-  - Download and install [data viewer software](https://i1.aprbrother.com/ble-viewer-setup-1.0.2.zip)
-  - Fill the form with the parameters in first steps
-  - View the data from gateway
+Configure data capture and forwarding
+
+:::tabs
+
+@tab Forward data to MQTT broker
+
+- Change application settings for gateway and save
+  - Application Type -\> MQTT Client
+  - MQTT Host -\> `mqtt.bconimg.com`
+  - MQTT Port -\> 1883
+  - Publish Topic -\> your-topic
+- Download and install [data viewer software](https://i1.aprbrother.com/ble-viewer-setup-1.0.2.zip)
+- Fill the form with the parameters in first steps
+- View the data from gateway
 
 <img src="https://i1.aprbrother.com/ble-viewer.png" width="480">
 
+@tab Forward data to HTTP server
+
+TODO
+
+:::
