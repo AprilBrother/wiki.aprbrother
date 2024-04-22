@@ -1,21 +1,22 @@
 # AB BLE gateway v4 #
 
-## Description
+## 介绍
 
-AB BLE Gateway V4 is a BLE to gateway and bridge. The gateway reads iBeacon and Eddystone like beacon or customized Tag format and sends to local TCP server or internet HTTP/MQTT server.
+AB BLE Gateway V4是专为监控BLE（低功耗蓝牙）广告而设计的，包括iBeacon、Eddystone和自定义传感器数据等流行格式。该网关无缝地捕获这些广告数据并将其传输到局域网或互联网服务器，为各种应用场景实现高效的数据收集和监控。
 
-Gateway supports Ethernet and WiFi connection. User can configure the transmit period and server information through a simple HTTP API.
+该网关支持以太网和WiFi连接。用户可以通过简单的HTTP API配置传输周期和服务器信息。
 
 <img src="https://i1.aprbrother.com/gateway41.jpg-640.jpg">
 
+:::tabs
+
 ## Features
 
-- 尺寸: 72mmx74mmx20mm
-- 电源: DC 5V/2000mA, micro-USB 或者标准POE 48V
-- 工作温度: -20摄氏度 ~ 60摄氏度
-- 同时读取多个BLE设备的广播信息并上传到远程服务器Reads multiple BLE devices in the same time
+- 以太网和Wi-Fi连接
 - 支持WebSocket/HTTP/MQTT协议
-- BLE带有外置天线
+- BLE的外部天线
+- 可同时读取多个BLE设备并上传到远程服务器
+- 用户友好的配置工具: 该网关配备了用户友好的配置工具，提供图形界面，方便进行设置。
 
 ## 它是如何工作的? ##
 
@@ -37,13 +38,36 @@ bleDevices-. BLE广播 .->B
 B <-->|以太网|cloud
 B <-. WiFi .-> cloud
 ```
+## 应用场景
+
+  - iBeacon/Eddystone/tag receiver for location tracking
+  - BLE sensor reader for sensor network
+  - Building automation
+  - Health and wellness monitoring
+  - Cycling, biking
+  - Security
+  - Location tracking
+  - Access management
+  - Advertisement
+  - Industrial automation
+  - Indoor Location
+  - Meeting sign in
+  - Check in
+  - Parking & Checking in
+  - Home automation
 
 ## 认证
 
 * FCCID: `2ACAL-ABBG0004`
 * CE No.: `ATSZAWW190102008`
 
+@tab 技术规格
+
 ## 技术规格 ##
+
+- 尺寸: 72mmx74mmx20mm
+- 电源: DC 5V/2000mA, micro-USB 或者标准POE 48V
+- 工作温度: -20摄氏度 ~ 60摄氏度
 
 ### BLE
 
@@ -72,23 +96,7 @@ B <-. WiFi .-> cloud
     (10BASE-T) and 100Mbps (100BASE-TX) operation.
   - 15W Power Over Ethernet Meets IEEE 802. 3 af Specifications
 
-## 应用场景
-
-  - iBeacon/Eddystone/tag receiver for location tracking
-  - BLE sensor reader for sensor network
-  - Building automation
-  - Health and wellness monitoring
-  - Cycling, biking
-  - Security
-  - Location tracking
-  - Access management
-  - Advertisement
-  - Industrial automation
-  - Indoor Location
-  - Meeting sign in
-  - Check in
-  - Parking & Checking in
-  - Home automation
+:::
 
 ## Documents And Links
 
