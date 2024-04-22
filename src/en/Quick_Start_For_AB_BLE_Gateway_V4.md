@@ -20,10 +20,23 @@ Connect to the AB gateway via WiFi or Ethernet cable and configure its WiFi/Ethe
 
 ### Steps ###
 
-* We recommend connect the gateway with ethernet cable.
+:::tabs
+
+@tab Configure via Ethernet connectivity
+
+We recommend connect the gateway using ethernet cable.
+
+- Connect the AB gateway to the router using an Ethernet cable 
+- Open the Gateway configure tool on your laptop
+- Click "Scan" button to find the gateways on the LAN network
+
+@tab Configure via WiFi 
+
 * You can also configure the gateway uses WiFi with following ways
   1. Use the configure tool to add `Network` parameters for WiFi if ethernet cable is enabled. Then remove the ethernet cable and the gateway will try to work with WiFi instead
   1. You can also [configure WiFi parameters with smartconfig feature](gw4/config_wifi.md). The feature is adeed from firmware `v1.4.14`.
+
+:::
 
 ## How To Test ##
 
