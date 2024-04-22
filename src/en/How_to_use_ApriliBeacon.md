@@ -172,12 +172,6 @@ Aprilbeacon发射功率共有4挡，分别是 0dbm, 4dbm, -6dbm, -23dbm， 对�
 
 ## iOS
 
-### Issues with detecting iBeacons in iOS 7.1
-
-Please look [this
-link](Issues_with_detecting_iBeacons_in_iOS_7.1.md) if you have
-issues with detecting iBeacons in iOS 7.1.
-
 ### How to use AprilBeacon's SDK for iOS?
 
 Please refer to [SDK for iOS Blog](http://blog.aprbrother.com/p/100)
