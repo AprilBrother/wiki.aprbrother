@@ -69,7 +69,7 @@
 * Git和终端是必备的
 * 在终端中运行如下命令
 ```
-git clone https://github.com/aprilbrother/gw-http-box.git
+git clone https://gitee.com/aprbrother/gw-http-box.git
 npm install
 npm start
 ```
