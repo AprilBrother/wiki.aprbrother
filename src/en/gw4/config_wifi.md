@@ -20,7 +20,7 @@ You can following the steps to configure WiFi for gateway with smartconfig featu
 * Grant the Location permission so the app can fill the WiFi SSID your phone connected automatic
 * Fill the WiFi password for current WiFi SSID
 
-![Config WiFi](https://i1.aprbrother.com/gwc3/conf-wifi.jpg)
+<img src="https://i1.aprbrother.com/gwc3/conf-wifi.jpg" width="500">
 
 * Tap "start" button and wait minutes. It should display "Found a gateway" if successful
 * Configure the gateway with the tool
