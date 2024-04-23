@@ -32,10 +32,9 @@ We recommend connect the gateway using ethernet cable.
 
 @tab Configure via WiFi 
 
-You can also configure the gateway uses WiFi with following ways
+You can also configure the gateway uses WiFi with Gateway config tool📱 mobile app. Android only. 
 
-- Use the configure tool to add `Network` parameters for WiFi if ethernet cable is enabled. Then remove the ethernet cable and the gateway will try to work with WiFi instead
-- You can also [configure WiFi parameters with smartconfig feature](gw4/config_wifi.md). The feature is adeed from firmware `v1.4.14`.
+See [configure WiFi parameters with smartconfig feature](gw4/config_wifi.md).
 
 :::
 
