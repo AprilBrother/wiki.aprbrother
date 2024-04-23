@@ -18,8 +18,6 @@ Connect to the AB gateway via WiFi or Ethernet cable and configure its WiFi/Ethe
 - **How to connect?**  - The AB gateway can connect with Ethernet cable. But requires [Gateway config tool 📱](Software_AB_BLE_Gateway_V4.md) mobile app for configuration if connect to WiFi fist time
 - **Internet required?** - The AB gateway can operate on both Internet-connected and LAN networks.
 
-### Steps ###
-
 :::tabs
 
 @tab Configure via Ethernet connectivity
@@ -30,11 +28,14 @@ We recommend connect the gateway using ethernet cable.
 - Open the Gateway configure tool on your laptop
 - Click "Scan" button to find the gateways on the LAN network
 
+![config scan](https://i1.aprbrother.com/w/conf-scan.png)
+
 @tab Configure via WiFi 
 
-* You can also configure the gateway uses WiFi with following ways
-  1. Use the configure tool to add `Network` parameters for WiFi if ethernet cable is enabled. Then remove the ethernet cable and the gateway will try to work with WiFi instead
-  1. You can also [configure WiFi parameters with smartconfig feature](gw4/config_wifi.md). The feature is adeed from firmware `v1.4.14`.
+You can also configure the gateway uses WiFi with following ways
+
+- Use the configure tool to add `Network` parameters for WiFi if ethernet cable is enabled. Then remove the ethernet cable and the gateway will try to work with WiFi instead
+- You can also [configure WiFi parameters with smartconfig feature](gw4/config_wifi.md). The feature is adeed from firmware `v1.4.14`.
 
 :::
 
