@@ -8,21 +8,23 @@ You can following the steps to configure WiFi for gateway with smartconfig featu
 
 ## Prepare ##
 
-* An iPhone or Android phone. We recommend to use iPhone to do the step.
-* Download app [Esptouch from App store](https://apps.apple.com/app/espressif-esptouch/id1071176700) or [Esptouch for aAndroid](https://github.com/EspressifApp/EsptouchForAndroid/releases).
+* An Android phone.
+* Download mobile app [Gateway config tool📱][app-link].
+* **Make sure your phone connect the 2.4GHz WiFi. 5G WiFi is not supported yet.**
 * Power on the gateway with power adapter (5V / 2A)
-* Make sure your phone connect the 2.4GHz WiFi. 5G WiFi is not supported yet.
 
 ## Procedure for setting WiFi ##
 
 * There's a hole at the left side of the Ethernet port. Use a needle to fast press the button in the hole three times. The led near the hole will keep blinking if successful. It means the gateway enter `Smart Config` mode.
-* Open the Esptouch.app and select `Esptouch`. See the picture below
+* Open the GWTool app and select `Add a gateway`. 
+* Grant the Location permission so the app can fill the WiFi SSID your phone connected automatic
+* Fill the WiFi password for current WiFi SSID
 
-![Esptouch 1](https://i1.aprbrother.com/w/esptouch-1.jpg)
-* The app shows the WiFi SSID you connected. Fill the `Password` and tap the `Confirm` below. See the picture below.
+![Config WiFi](https://i1.aprbrother.com/gwc3/conf-wifi.jpg)
 
-![Esptouch 2](https://i1.aprbrother.com/w/esptouch-2.png)
-* The Esptouch app start broadcast the WiFi parameters to the gateway. The LED will stop blinking if the gateway got WiFi parameters
+* Tap "start" button and wait minutes. It should display "Found a gateway" if successful
+* Configure the gateway with the tool
+
 
 ## Troubleshooting ##
 
@@ -30,3 +32,5 @@ You can following the steps to configure WiFi for gateway with smartconfig featu
 * Double check the password
 * The power adapter must be 5V / 2A. It can provide enough power for WiFi connection
 * Repeat the steps if settings fail
+
+[app-link]: <https://i1.aprbrother.com/apk/gw-config-tool-v1.1.2.apk>
