@@ -46,11 +46,14 @@ Configure data capture and forwarding
 
 @tab Forward data to MQTT broker
 
+We provide testing MQTT broker `mqtt.bconimg.com` for your testing. Don't use it in your production environment.
+
 - Change application settings for gateway and save
-  - Application Type -\> MQTT Client
-  - MQTT Host -\> `mqtt.bconimg.com`
-  - MQTT Port -\> 1883
-  - Publish Topic -\> your-topic
+  - Application Type: `MQTT Client`
+  - MQTT Host: `mqtt.bconimg.com`
+  - MQTT Port: 1883
+  - Publish Topic: `your-topic`
+- Select `Save` to proceed
 - Download and install [data viewer software](https://i1.aprbrother.com/ble-viewer-setup-1.0.2.zip)
 - Fill the form with the parameters in first steps
 - View the data from gateway
@@ -59,6 +62,22 @@ Configure data capture and forwarding
 
 @tab Forward data to HTTP server
 
-TODO
+To quickly validate that data is correctly received on the target computer on the host network, it is possible to run `gw-http-box` standalone to listen for HTTP POSTs on port `8000` as follows:
 
+* Install Node.js
+* Git and console are required
+* Run command in the console
+```
+git clone https://github.com/aprilbrother/gw-http-box.git
+npm install
+npm start
+```
+- Change application settings for gateway and save
+  - Application Type: `HTTP Client`
+  - HTTP Host: The IP of your laptop, e.g. `192.168.1.123`
+  - HTTP Port: 8000
+  - URI: `/`
+- Select `Save` to proceed
+
+If the gateway is correctly configured and at least one BLE device is advertising in range, gateway data should appear in the console.
 :::

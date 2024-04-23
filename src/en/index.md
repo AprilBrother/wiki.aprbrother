@@ -14,18 +14,17 @@
 
 - [April Beacon](AprilBeacon.md)
 
-## BLE Gateway ##
+## IoT Gateway ##
 
 - [Gateway c3](gateway_c3.md)
 - [AB BLE Gateway v4](AB_BLE_Gateway_V4.md)
+- [AB zigbee gateway](zigbee_gateway/index.md)
+- [AB modbus gateway - convert Modbus/RS485 to WiFi](modbus_gateway.md)
 - [Wireless iBeacon receiver](Wireless_iBeacon_Receiver.md)
-- [AoA gateway evaluation kit device: gateway a1](gateway_a1.md)
 
 ## Dev Board ##
 
-- [AB zigbee gateway](zigbee_gateway/index.md)
 - [April logger - UART SD logger](april_logger.md)
-- [AB modbus gateway - convert Modbus/RS485 to WiFi](modbus_gateway.md)
 - [WUD - Wireless USB Disk](wud.md)
 - [April soil moisture sensor](april_soil_moisture_sensor.md)
 - [AButton V3](AButton_V3.md)

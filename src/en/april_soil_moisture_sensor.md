@@ -30,7 +30,9 @@ The sensor comes coated with QIANXIN - a moisture resistant varnish for electron
 
 ### How can I flash my sensor in Arduino or IDF? ###
 
-If you currently have CircuitPython installed and you would like to use your device in the Arduino IDE or with the ESP-IDF, the first time you flash your board you will need to put it into download mode by holding IO0, pressing EN and then releasing IO0. That will enable the CDC USB in ROM and you will be able to select the device to flash it.
+If you would like to use your device in the Arduino IDE or with the ESP-IDF, the first time you flash your board you will need to put it into download mode by holding IO0, pressing EN and then releasing IO0. That will enable the CDC USB in ROM and you will be able to select the device to flash it.
+
+**Note: You must remove the battery to put the device to download mode.**
 
 ### RX & TX pins are not coupled with the internal USB, what are they used for? ###
 
