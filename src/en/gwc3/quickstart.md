@@ -1,3 +1,5 @@
+[← Gateway c3 Main Page](../gateway_c3.md)
+
 ## Quick start ##
 
 Step-by-step guide to configure the gateway to forward data to remote server

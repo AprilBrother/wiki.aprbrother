@@ -1,3 +1,5 @@
+[← Gateway c3 Main Page](../gateway_c3.md)
+
 ## 快速上手 ##
 
 一步步介绍如何配置网关收集BLE广播并发送到远程服务器
