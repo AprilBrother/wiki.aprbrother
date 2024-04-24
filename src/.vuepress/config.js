@@ -38,17 +38,11 @@ module.exports = {
         locales: {
             '/en/': {
                 selectLanguageName: 'English',
-                navbar: [
-                    {text: 'Home', link: 'index.md'},
-                    {text: 'About', link: 'about.md'},
-                ]
+                navbar: []
             },
             '/zh/': {
                 selectLanguageName: '中文',
-                navbar: [
-                    {text: 'Home', link: 'index.md'},
-                    {text: 'About', link: 'about.md'},
-                ]
+                navbar: []
             }
         },
     }),
