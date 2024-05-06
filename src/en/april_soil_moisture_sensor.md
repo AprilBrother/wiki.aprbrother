@@ -37,7 +37,7 @@ With battery removed/unplugged
 * Plug USB cable. Wait seconds for boot
 * Release IO0
 
-That will enable the CDC USB in ROM and you will be able to select the device to flash it.
+That will enable the CDC USB in ROM and you will be able to select the device to flash it. You should remove the housing for the sensor if the usb cable wasn't fully engaging the connectors when the case was on.
 
 **Note: You must remove the battery to put the device to download mode.**
 
