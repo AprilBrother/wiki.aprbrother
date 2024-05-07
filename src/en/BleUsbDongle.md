@@ -149,7 +149,7 @@ Pinouts P1 (from square soldering hole)
 
 ### Firmware For Dongle 52840
 
-The USB dongle nRF52840 is flashed with Adafruit nRF52 Bootloader and "BLE Peripheral Blink" from nRF5 SDK examples default
+The USB dongle nRF52840 is flashed with firmware [nRF Sniffer for BLE](https://www.nordicsemi.com/Products/Development-tools/nrf-sniffer-for-bluetooth-le) from NORDIC.
 
 ### Downloadable Content For Dongle 52840
 
