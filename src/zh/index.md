@@ -2,14 +2,14 @@
 
 ## Learning ##
  
-* [April Beacon FAQs](How_to_use_ApriliBeacon.md)
-* [微信摇一摇常见问题](WeChat_FAQ.md)
-* [Cactus Micro Tutorial](Cactus_Micro_R2_Tutorial.md)
+- [April Beacon FAQs](How_to_use_ApriliBeacon.md)
+- [微信摇一摇常见问题](WeChat_FAQ.md)
+- [Cactus Micro Tutorial](Cactus_Micro_R2_Tutorial.md)
 
 ## New ##
 
 - [a4按键](a4-button.md)
-* [a1遥控器](a1remote.md)
+- [a1遥控器](a1remote.md)
 
 ## Beacon ##
 
