@@ -115,18 +115,20 @@ The ethernet port has a green LED and a yellow LED.
 
 #### J3 pinouts
 
-PCB v5.4
+:::tabs
+
+@tab PCB v5.4
 
 * VCC
 * GND
 * GPIO16
 * GPIO04
 
-PCB v5.3
+@tab PCB v5.3
 
 * VCC
 * GND
 * GPIO07
 * GPIO06
 
-
+:::

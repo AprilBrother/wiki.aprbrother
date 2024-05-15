@@ -118,17 +118,20 @@ See the image below which contains company ID 02FF for company Silicon Labs. You
 
 #### J3 引脚
 
-PCB v5.4
+:::tabs
+
+@tab PCB v5.4
 
 * VCC
 * GND
 * GPIO16
 * GPIO04
 
-PCB v5.3
+@tab PCB v5.3
 
 * VCC
 * GND
 * GPIO07
 * GPIO06
 
+:::
