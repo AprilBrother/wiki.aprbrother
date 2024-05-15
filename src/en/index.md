@@ -8,6 +8,7 @@
 
 ## New ##
 
+- [a4 button](a4-button.md)
 * [a1 remote](a1remote.md)
 
 ## Beacon ##
@@ -24,7 +25,6 @@
 
 ## Dev Board ##
 
-- [A4 Button](a4-button.md)
 - [April logger - UART SD logger](april_logger.md)
 - [WUD - Wireless USB Disk](wud.md)
 - [April soil moisture sensor](april_soil_moisture_sensor.md)
