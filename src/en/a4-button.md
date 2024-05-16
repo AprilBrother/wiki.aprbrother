@@ -48,3 +48,4 @@ Note: The firmware is written in esphome. ESPHome is a system to control your mi
 
 ## Documents and links ##
 
+* [Quick start](a4_button/quick_start.md)
