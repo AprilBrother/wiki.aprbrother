@@ -18,7 +18,7 @@
 ## Update firmware for a4 button ##
 
 1. The a4 button is sleep with factory firmware. Press the button to wakeup. You will see the LED is on a while. It means a4 button wake up and works as AP modete. 
-1. Connect the WiFi `a4 button`. The WiFi password is `12345678te. 
+1. Connect the WiFi `a4 button`. The WiFi password is `12345678`.
 1. Open the link `http://192.168.4.1` with browsete. 
 1. Scroll the page down to OTA update. 
 1. Choose the file `ota.bin` and click `Update`. Wait for firmware update
