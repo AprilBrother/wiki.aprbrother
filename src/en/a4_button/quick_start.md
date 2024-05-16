@@ -6,6 +6,7 @@
 
 1. Register a GitHub user if you do not have one
 1. Open the repo [a4-button](https://github.com/AprilBrother/a4-button) with browser
+![a4 button repo](https://i1.aprbrother.com/w/a4-repo.png)
 1. Use the repo template to generate your own repository.
 1. Browser to the file `secrets.yaml`, click `Edit this file`
    * Modify `wifi_ssid` and `wifi_pass` 
