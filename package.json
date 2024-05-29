@@ -18,7 +18,7 @@
   "devDependencies": {
     "@vuepress/bundler-webpack": "2.0.0-rc.9",
     "@vuepress/client": "2.0.0-rc.2",
-    "@vuepress/theme-default": "2.0.0-rc.24",
+    "@vuepress/theme-default": "2.0.0-rc.32",
     "mermaid": "^10.9.0",
     "sass-loader": "^14.2.1",
     "vue": "^3.4.21",
