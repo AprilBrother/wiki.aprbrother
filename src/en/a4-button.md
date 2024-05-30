@@ -12,6 +12,8 @@ Additionally, the board includes a WS2812B RGB LED and buttons to aid in your de
 
 ![a4 button](https://i1.aprbrother.com/w/a4-2.jpg-640.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tg-o6JCrOSQ?si=QyXw4U9prCqyv5Hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## About the default firmware ##
 
 The default firmware works as AP default. You can connect the AP and upload your own firmware which contains the your WiFi SSID / password and your MQTT broker address.
