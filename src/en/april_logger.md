@@ -27,11 +27,16 @@ The board can also be powered with USB port.
 
 The board has a button wires to `GPIO9`. Hold on the button and connect the board to a computer, it can be program mode. You can use the button and USB port together to program the board.
 
-## Logging configuration ##
+## How to start ##
 
-### Configuring config.json file ###
+* Prepare a microSD card and format with FAT32 file system
+* Create a file `config.txt` at the root folder. See the below for the file content
+* Insert the SD card and power on the board. The logger read the serial data from UART pins and saves to the SD card. 
+* It will publish the serial data to the MQTT server if you configured WiFi and MQTT broker
 
-The `config.json` allows you to control how the logger records data to the microSD card. Let's go over the different settings. It's written in JSON format.
+### Configuring config.txt file ###
+
+The `config.txt` allows you to control how the logger records data to the microSD card. Let's go over the different settings. It's written in JSON format.
 
 An example:
 
