@@ -82,8 +82,10 @@ A: We recommend update the firmware to `v1.4.13+`. It's much stable for save lon
 
 ### Q: 如何配置网关支持阿里云微消息队列MQTT版? ###
 
-A: 目前仅测试过阿里云微消息队列 MQTT 版的签名鉴权模式。配置方法
+A: 截至目前(2024/8/21)，阿里云更新了其MQTT鉴权的参数，需要按下面介绍配置。配置方法
 
-* 默认的Client ID Prefix是`XBG_`, 必须改成按照阿里云文档中说明改为GID开头.例如`GID_Test@@@`
-* 如果希望使用固定的Client ID而不加上MAC地址后缀, 那么在Client ID prefix后面加上 `$$$`即可. 举例Client ID为`GID_Test@@@00001`,那么设置Client ID Prefix为 `GID_Test@@@00001$$$`, 此时网关连接MQTT Broker的实际Client ID是`GID_Test@00001`
-* MQTT的Username和Password分别按照签名验证的方式计算获得.
+* 升级固件为`1.5.20i`，该固件增加了最新的阿里云支持
+* 在配置工具中，按照阿里云生成的参数填写`ClientID`，假设阿里云给出ClientID为`a1BmcT7XAtV.D200Ces|securemode=2,signmethod=hmacsha256,timestamp=1722912768193|`，那么在配置工具的`Client ID prefix`中填写`a1BmcT7XAtV.D200Ces|securemode=2,signmethod=hmacsha256,timestamp=1722912768193|$$$`。末尾的`$$$`是告诉网关，不要在这个前缀后面再添加网关的Mac地址了。
+* 按照阿里云生成的参数依次填写MQTT的Host, port, username以及passwd。
+* 设置`Request Format`为JSON格式，阿里云并不支持默认的`MessagePack`格式。
+* 保存生效。
