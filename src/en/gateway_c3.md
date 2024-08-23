@@ -6,17 +6,6 @@ It supports WiFi connection and easy to installation. User can configure the tra
 
 ![Gateway c3](https://i1.aprbrother.com/gw-c3.jpg-640.jpg)
 
-:::tabs
-
-@tab Features
-
-## Features
-
-- Wi-Fi Connectivity
-- Support WebSocket/HTTP/MQTT protocol
-- Reads multiple BLE devices in the same time and upload to remote server
-- User-Friendly Configuration Tool: The Gateway comes with a user-friendly configuration tool that provides a graphical interface for easy setup.
-
 ## Model comparison ##
 
 Gateway C3A can work withouth external power cord beacuse it has a builtin rechargeable 800mAH battery. C3A can save data even without network connection.
@@ -28,6 +17,17 @@ Comparison C3 and C3A
 | 2.4GHz WiFi & BLE              | *  | *    |
 | Rechargeable battery (800mAH)  | -  | *    |
 | Data saving even offline       | -  | *    |
+
+:::tabs
+
+@tab Features
+
+## Features
+
+- Wi-Fi Connectivity
+- Support WebSocket/HTTP/MQTT protocol
+- Reads multiple BLE devices in the same time and upload to remote server
+- User-Friendly Configuration Tool: The Gateway comes with a user-friendly configuration tool that provides a graphical interface for easy setup.
 
 ## How it works ##
 
