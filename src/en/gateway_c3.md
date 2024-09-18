@@ -12,11 +12,11 @@ Gateway C3A can work without external power cord beacuse it has a builtin rechar
 
 Comparison C3 and C3A
 
-| Features                       | C3 | C3A  |
-| ------------------------------ | -- | ---- |
-| 2.4GHz WiFi & BLE              | *  | *    |
-| Rechargeable battery (800mAH)  | -  | *    |
-| Data saving even offline       | -  | *    |
+| Features                       | C3  | C3A    |
+| ------------------------------ | --- | ------ |
+| 2.4GHz WiFi & BLE              | YES | YES    |
+| Rechargeable battery (800mAH)  | NO  | YES    |
+| Data saving even offline       | NO  | YES    |
 
 :::tabs
 
