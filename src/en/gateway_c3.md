@@ -18,13 +18,13 @@ Comparison C3 and C3A
 | Rechargeable battery (800mAH)  | x   | ✓      |
 | Data saving even offline       | x   | ✓      |
 
+## Features ##
+
 :::tabs
 
 @tab Features of Scanning Gateway
 
 The scanning gateway can scan nearby BLE broadcast packets, such as iBeacon, Eddystone, or custom broadcast data formats, and upload them to the server via HTTP or MQTT.
-
-## Features
 
 - Wi-Fi Connectivity
 - Support HTTP/MQTT protocol
@@ -71,8 +71,6 @@ B <-. WiFi .-> cloud
 @tab Features of Connection Gateway
 
 The connection gateway is a high-performance device specifically designed to connect with BLE low-energy sensors. It can connect with various BLE sensors via the GATT protocol to obtain real-time key health information, such as heart rate and cadence, and upload the data to the server via the MQTT protocol. It supports WiFi connectivity, ensuring stable and reliable data transmission.
-
-## Features ##
 
 * Supports simultaneous connection of up to 9 BLE devices
 * Effective connection radius of 15 meters without obstruction
