@@ -52,7 +52,7 @@
 - 点击`Save`保存参数
 - 下载并安装测试工具[data viewer software](https://i1.aprbrother.com/ble-viewer-setup-1.0.2.zip)
 - 在测试工具中填写第一步中提到的参数
-- 在测试工具中查看来自于蓝牙网关的数据
+- 在测试工具中查看来自于网关的数据
 
 <img src="https://i1.aprbrother.com/ble-viewer.png" width="480">
 

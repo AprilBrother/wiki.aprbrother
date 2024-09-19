@@ -14,9 +14,9 @@ Comparison C3 and C3A
 
 | Features                       | C3  | C3A    |
 | ------------------------------ | --- | ------ |
-| 2.4GHz WiFi & BLE              | YES | YES    |
-| Rechargeable battery (800mAH)  | NO  | YES    |
-| Data saving even offline       | NO  | YES    |
+| 2.4GHz WiFi & BLE              | ✓   | ✓      |
+| Rechargeable battery (800mAH)  | x   | ✓      |
+| Data saving even offline       | x   | ✓      |
 
 :::tabs
 
@@ -25,7 +25,7 @@ Comparison C3 and C3A
 ## Features
 
 - Wi-Fi Connectivity
-- Support WebSocket/HTTP/MQTT protocol
+- Support HTTP/MQTT protocol
 - Reads multiple BLE devices in the same time and upload to remote server
 - User-Friendly Configuration Tool: The Gateway comes with a user-friendly configuration tool that provides a graphical interface for easy setup.
 
@@ -71,7 +71,7 @@ B <-. WiFi .-> cloud
 
 - Size: 59mm * 59mm * 11mm
 - Power Input: DC 5V/2000mA, USB-C port
-- Operating temperature: -20'C to 55'C
+- Operating temperature: -20°C to 55°C
 - Network connection: WiFi
 - BLE 4.2
 - Firmware upgrade: OTA

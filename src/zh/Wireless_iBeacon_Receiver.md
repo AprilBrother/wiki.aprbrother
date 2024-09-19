@@ -1,6 +1,6 @@
 ## Wireless iBeacon Receiver
 
-四月兄弟科技有限公司提供的无线iBeacon接收器，可以作为蓝牙4.0的广播监听设备，收集附近的iBeacon广播信息并上传到远程服务器端。设备工作于Wi-Fi
+四月兄弟科技有限公司提供的无线iBeacon接收器，可以作为BLE的广播监听设备，收集附近的iBeacon广播信息并上传到远程服务器端。设备工作于Wi-Fi
 station状态，可连接周边Wi-Fi热点接入互联网。
 
 ### Specifications
