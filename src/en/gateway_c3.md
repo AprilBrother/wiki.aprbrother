@@ -95,7 +95,7 @@ Temperature & Humidity Sensor
 cloud(("☁️: Cloud
 HTTP/MQTT
 "))
-bleDevices-- BLE connection -->B
+B-- BLE connection -->bleDevices
 B <-. WiFi .-> cloud
 ```
 

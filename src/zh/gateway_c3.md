@@ -96,7 +96,7 @@ bleDevices["
 cloud(("☁️: Cloud
 HTTP/MQTT
 "))
-bleDevices-- BLE连接 -->B
+B-- BLE连接 -->bleDevices
 B <-. WiFi .-> cloud
 ```
 
