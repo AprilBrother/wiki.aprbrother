@@ -8,11 +8,22 @@ AB BLE Gateway V4是专为监控BLE广告而设计的，包括iBeacon、Eddyston
 
 <img src="https://i1.aprbrother.com/gateway41.jpg-640.jpg">
 
+## 型号对比 ##
+
+Gateway V4.1 replace BLE chip from nRF52832 to nRF52840. It supports the feature long range scan (Coded PHY).
+
+Comparison V4 and v4.1
+
+| Features                       | V4  | V4.1   |
+| ------------------------------ | --- | ------ |
+| Scan Long range (Coded PHY)    | x   | ✓      |
+| Scan 1M bps PHY (normal)       | ✓   | ✓      |
+
+## Features
+
 :::tabs
 
 @tab 特点
-
-## Features
 
 - 支持以太网和Wi-Fi连接
 - 支持WebSocket/HTTP/MQTT协议

@@ -8,11 +8,22 @@ Gateway supports Ethernet and WiFi connection. User can configure the transmit p
 
 <img src="https://i1.aprbrother.com/gateway41.jpg-640.jpg">
 
+## Model comparison ##
+
+Gateway V4.1 replace BLE chip from nRF52832 to nRF52840. It supports the feature long range scan (Coded PHY).
+
+Comparison V4 and v4.1
+
+| Features                       | V4  | V4.1   |
+| ------------------------------ | --- | ------ |
+| Scan Long range (Coded PHY)    | x   | ✓      |
+| Scan 1M bps PHY (normal)       | ✓   | ✓      |
+
+## Features ##
+
 :::tabs
 
 @tab Features
-
-## Features
 
 - Ethernet and Wi-Fi Connectivity
 - Support WebSocket/HTTP/MQTT protocol
