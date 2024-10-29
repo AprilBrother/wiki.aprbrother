@@ -69,22 +69,14 @@ hex data : `02C8FD1949A530CE0201061AFF4C000215EB6D469624BE4663B15230D46B0E9CC900
 3. Eddystone UID Only: scan Eddystone UID only
 4. Eddystone URL Only: scan Eddystone URL only
 5. Sensor mode, supports some Xiaomi sensor: Experimental feature, scan only xiaomi sensors such as temperature/humidity sensor
+1. Custom mode, supports custom format filter. see the description below
 6. iBeacon And Eddystone TLM Plain: scan iBeacon And Eddystone TLM Plain data only
 7. Eddystone UID And Eddystone TLM Plain: scan Eddystone UID And Eddystone TLM Plain only
 8. Eddystone URL And Eddystone TLM Plain: scan Eddystone URL And Eddystone TLM Plain only
 
 For more information about eddystone protocol, please check [the specification](https://github.com/google/eddystone/blob/master/protocol-specification.md)
 
-#### Manufacture Filter ####
-
-The general structure of advertising packets is described in BLE Advertising Data Basics. 
-Manufacturer-specific data can be used to add any custom data into advertising packets in any format suitable for your application. For example, you could create a beacon that includes the reading of a temperature sensor in the advertising data.
-
-See the image below which contains company ID 02FF for company Silicon Labs. You can input "Manufacture Filter" = 02FF to scan the advertising data only
-
-![advdata](https://i1.aprbrother.com/advdataex1.png)
-
-#### Custom filter ####
+##### Custom filter #####
 
 The format of custom filter is `<start byte>-<end byte>=<advertising data in hex format>`. **Note the index for first byte is 0 not 1**.
 
@@ -97,6 +89,15 @@ The filter allow the data which the 5th byte is `0xab` and the 6th byte is 0x1f
 It also supports the wildcard character `**` for firmware version greater than `v1.5.20`. e.g.
 
 `0-8=020106**FF**00**BC`
+
+#### Manufacture Filter ####
+
+The general structure of advertising packets is described in BLE Advertising Data Basics. 
+Manufacturer-specific data can be used to add any custom data into advertising packets in any format suitable for your application. For example, you could create a beacon that includes the reading of a temperature sensor in the advertising data.
+
+See the image below which contains company ID 02FF for company Silicon Labs. You can input "Manufacture Filter" = 02FF to scan the advertising data only
+
+![advdata](https://i1.aprbrother.com/advdataex1.png)
 
 ## Hardware
 
