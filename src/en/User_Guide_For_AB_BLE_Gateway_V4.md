@@ -84,6 +84,20 @@ See the image below which contains company ID 02FF for company Silicon Labs. You
 
 ![advdata](https://i1.aprbrother.com/advdataex1.png)
 
+#### Custom filter ####
+
+The format of custom filter is `<start byte>-<end byte>=<advertising data in hex format>`. **Note the index for first byte is 0 not 1**.
+
+Examples:
+
+`5-6=ab1f`
+
+The filter allow the data which the 5th byte is `0xab` and the 6th byte is 0x1f
+
+It also supports the wildcard character `**` for firmware version greater than `v1.5.20`. e.g.
+
+`0-8=020106**FF**00**BC`
+
 ## Hardware
 
 ### LED Status
