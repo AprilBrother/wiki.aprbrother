@@ -2,7 +2,7 @@
 
 ### v1.5.22i ###
 
-* Supports more custom filter
+* Supports more [custom filter](User_Guide_For_AB_BLE_Gateway_V4.md#custom-filter)
 * Supports TCP client
 
 ### v1.5.20i ###
