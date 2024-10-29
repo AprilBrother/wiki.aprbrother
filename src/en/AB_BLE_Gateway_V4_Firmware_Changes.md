@@ -1,5 +1,10 @@
 ## Firmware change logs for AB BLE Gateway V4 
 
+### v1.5.22i ###
+
+* Supports more custom filter
+* Supports TCP client
+
 ### v1.5.20i ###
 
 * Fixes a bug for connect Aliyun MQTT broker
