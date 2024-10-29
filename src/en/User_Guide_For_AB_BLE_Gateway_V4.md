@@ -78,7 +78,7 @@ For more information about eddystone protocol, please check [the specification](
 
 ##### Custom filter #####
 
-The format of custom filter is `<start byte>-<end byte>=<advertising data in hex format>`. **Note the index for first byte is 0 not 1**.
+The format of custom mode filter is `<start byte>-<end byte>=<advertising data in hex format>`. **Note the index for first byte is 0 not 1**.
 
 Examples:
 
