@@ -4,7 +4,7 @@
 
 - 下载[网关配置工具 windows 64位][config-tool-link]
 - 下载[网关配置工具](https://i1.aprbrother.com/gw-config-tool-1.2.3_amd64.deb.zip) v1.2.3 For Linux/Ubuntu
-- 下载[配置工具](https://i1.aprbrother.com/apk/gw-config-tool-v1.1.2.apk) For Android
+- 下载[配置工具](https://i1.aprbrother.com/apk/gw-config-tool-v1.1.3.apk) For Android
 - 下载[Gateway Configure Tool beta version][config-tool-beta] which supports beta features
 - [源码](https://github.com/AprilBrother/gw4-config-tool)
 - [变更记录](https://github.com/AprilBrother/gw4-config-tool/wiki/ChangeLog)
