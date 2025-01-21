@@ -152,8 +152,11 @@ Pinouts P1 (from square soldering hole)
 
 The USB dongle nRF52840 is flashed with firmware [nRF Sniffer for BLE](https://www.nordicsemi.com/Products/Development-tools/nrf-sniffer-for-bluetooth-le) from Nordic.
 
-### Downloadable Content For Dongle 52840
+**Note: The April USB dongle 52840 is shipped with the Adafruit nRF52 Bootloader after Jan 17 2025. The bootloader is a CDC/DFU/UF2 bootloader.**
 
+### Links For Dongle 52840 ###
+
+* [Quick Start](dongle_52840/quick_start.md)
 * [Hardware Files](https://github.com/AprilBrother/ab-hardware/tree/master/april-usb-dongle-52840)
 * [Bootloader](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases) - search bootloader for pca10059
 
