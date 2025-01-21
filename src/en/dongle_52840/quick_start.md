@@ -19,7 +19,7 @@ To update the application firmware, follow the steps:
 
 ### Pre-built uf2 file ###
 
-See [link for the firmware files](https://github.com/AprilBrother/april-usb-dongle-52840/tree/main/firmware). It includes firmware files:
+See [the firmware files](https://github.com/AprilBrother/april-usb-dongle-52840/tree/main/firmware). It includes firmware files:
 
 * `ble_connectivity`
 * nrf sniffer for 802.1.54
