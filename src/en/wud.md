@@ -8,7 +8,7 @@ The new ESP32-S2 module from Espressif addresses the security flaws in the origi
 
 ### For sale
 
-* [WUD v1.2 at Aliexpress](https://www.aliexpress.com/item/1005004043000694.html)
+* [WUD v1.2 at Tindie](https://www.tindie.com/products/aprbrother/wud-v12-wifi-usb-disk-original-manufacturer/)
 
 [![WUD](https://i1.aprbrother.com/wud-1.jpg-640.jpg)](https://i1.aprbrother.com/wud-1.jpg)
 
