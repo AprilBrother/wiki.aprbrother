@@ -16,7 +16,7 @@ jobs:
           persist-credentials: false
 
       - name: Build
-        run: corepack enable && pnpm i && pnpm build
+        run: npm i -g corepack@latest && corepack enable && pnpm i && pnpm build
 
       - name: Deploy server CN 
         uses: easingthemes/ssh-deploy@v3.0.1
