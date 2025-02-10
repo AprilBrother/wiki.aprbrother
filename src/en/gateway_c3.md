@@ -8,14 +8,14 @@ It supports WiFi connection and easy to installation. User can configure the tra
 
 ## Model comparison ##
 
-Gateway C3A can work without external power cord beacuse it has a builtin rechargeable 800mAH battery. C3A can save data even without network connection.
+Gateway C3A can work without external power cord beacuse it has a builtin rechargeable 600mAH battery. C3A can save data even without network connection.
 
 Comparison C3 and C3A
 
 | Features                       | C3  | C3A    |
 | ------------------------------ | --- | ------ |
 | 2.4GHz WiFi & BLE              | ✓   | ✓      |
-| Rechargeable battery (800mAH)  | x   | ✓      |
+| Rechargeable battery (600mAH)  | x   | ✓      |
 | Data saving even offline       | x   | ✓      |
 
 ## Features ##
