@@ -51,6 +51,11 @@ HTTP/MQTT
 bleDevices-. BLE boradcast .->B
 B <-. WiFi .-> cloud
 ```
+## Performance ##
+
+* Scan duration = 1 second
+* Upload maximum 170 ~ 180 advertsing data per second
+
 ## 应用场景
 
 - iBeacon/Eddystone/tag receiver for location tracking
