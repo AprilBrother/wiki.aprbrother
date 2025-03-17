@@ -84,7 +84,7 @@ Note: It's a demo code. Don't use it in serious application.
 ### Firmware ###
 
 * [Source code of wireless usb disk][wud-gh] - written in Arduino 
-* [usb_msc_wireless_disk from espressif](https://github.com/espressif/esp-iot-solution/tree/usb/add_usb_solutions/examples/usb/device/usb_msc_wireless_disk)
+* [usb_msc_wireless_disk from espressif](https://github.com/espressif/esp-iot-solution/tree/master/examples/usb/device/usb_msc_wireless_disk)
 * [WUD-Ducky][wud-ducky] Thanks tobozo for his great projects
 
 [wud-gh]: https://github.com/volca/wireless_usb_disk
