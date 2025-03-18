@@ -44,7 +44,7 @@ module.exports = {
     plugins: [
         mdEnhancePlugin({
             mermaid: true
-        })<
+        }),
         markdownIncludePlugin({}),
         markdownTabPlugin({
             tabs: true
