@@ -7,7 +7,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 module.exports = {
     title: 'Vuepress Docs Boilerplate',
-    bundler: webpackBundler(),
+    bundler: viteBundler(),
     description: description,
     head: [
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
