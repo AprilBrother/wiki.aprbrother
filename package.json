@@ -19,6 +19,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/client": "2.0.0-rc.20",
     "@vuepress/plugin-markdown-include": "2.0.0-rc.85",
+    "@vuepress/plugin-markdown-tab": "2.0.0-rc.85",
     "@vuepress/theme-default": "2.0.0-rc.85",
     "mermaid": "^11.2.0",
     "sass-loader": "^16.0.5",
