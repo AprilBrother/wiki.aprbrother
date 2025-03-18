@@ -26,16 +26,6 @@ module.exports = {
         }
     },
     shouldPrefetch: () => false,
-    plugins: [
-        [
-            "md-enhance",
-            {
-                include: true,
-                tabs: true,
-                mermaid: true
-            }
-        ]
-    ],
     theme: defaultTheme({
         sidebar: 'auto',
         locales: {
@@ -49,4 +39,11 @@ module.exports = {
             }
         },
     }),
+    plugins: [
+        mdEnhancePlugin({
+            include: true,
+            tabs: true,
+            mermaid: true
+        })
+    ],
 }
