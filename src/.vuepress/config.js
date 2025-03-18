@@ -43,11 +43,11 @@ module.exports = {
     }),
     plugins: [
         mdEnhancePlugin({
-            include: true,
-            tabs: true,
             mermaid: true
         })<
         markdownIncludePlugin({}),
-        markdownTabPlugin({}),
+        markdownTabPlugin({
+            tabs: true
+        }),
     ],
 }
