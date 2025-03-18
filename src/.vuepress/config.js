@@ -44,6 +44,8 @@ module.exports = {
             include: true,
             tabs: true,
             mermaid: true
-        })
+        })<
+        markdownIncludePlugin({}),
+        markdownTabPlugin({}),
     ],
 }

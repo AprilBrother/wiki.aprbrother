@@ -19,6 +19,8 @@
     "@vuepress/bundler-webpack": "2.0.0-rc.12",
     "@vuepress/client": "2.0.0-rc.20",
     "@vuepress/theme-default": "2.0.0-rc.85",
+    "@vuepress/plugin-markdown-include": "2.0.0-rc.85",
+    "@vuepress/plugin-markdown-tab": "2.0.0-rc.85",
     "mermaid": "^10.9.0",
     "sass-loader": "^14.2.1",
     "vue": "^3.4.21",
