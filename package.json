@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/bundler-webpack": "2.0.0-rc.20",
+    "@vuepress/bundler-vite@next": "next",
     "@vuepress/client": "2.0.0-rc.20",
     "@vuepress/theme-default": "2.0.0-rc.85",
     "@vuepress/plugin-markdown-include": "2.0.0-rc.85",

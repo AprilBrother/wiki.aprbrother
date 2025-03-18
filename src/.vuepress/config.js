@@ -3,7 +3,7 @@ import { mdEnhancePlugin } from "vuepress-plugin-md-enhance"
 import { markdownIncludePlugin } from "@vuepress/plugin-markdown-include"
 import { markdownTabPlugin } from "@vuepress/plugin-markdown-tab"
 import { defaultTheme } from '@vuepress/theme-default'
-import { webpackBundler } from '@vuepress/bundler-webpack';
+import { viteBundler } from '@vuepress/bundler-vite'
 
 module.exports = {
     title: 'Vuepress Docs Boilerplate',
