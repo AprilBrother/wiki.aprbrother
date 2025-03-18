@@ -27,11 +27,14 @@ module.exports = {
     },
     shouldPrefetch: () => false,
     plugins: [
-        mdEnhancePlugin({
-            include: true,
-            tabs: true,
-            mermaid: true
-        }),
+        [
+            "md-enhance",
+            {
+                include: true,
+                tabs: true,
+                mermaid: true
+            }
+        ]
     ],
     theme: defaultTheme({
         sidebar: 'auto',
