@@ -21,7 +21,7 @@
     "@vuepress/theme-default": "2.0.0-rc.85",
     "@vuepress/plugin-markdown-include": "2.0.0-rc.85",
     "@vuepress/plugin-markdown-tab": "2.0.0-rc.85",
-    "mermaid": "^10.9.0",
+    "mermaid": "^11.2.0",
     "sass-loader": "^16.0.5",
     "vue": "^3.4.21",
     "vuepress": "2.0.0-rc.20",
