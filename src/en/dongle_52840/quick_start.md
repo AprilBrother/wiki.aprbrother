@@ -39,7 +39,7 @@ See [the firmware files](https://github.com/AprilBrother/april-usb-dongle-52840/
 Pack hex to uf2 file for nRF52840
 
 ```
-uf2conv.py nrf52840_xxaa.hex -family 0xADA52840 --convert --output nrf52840_xxaa.uf2
+uf2conv.py nrf52840_xxaa.hex --family 0xADA52840 --convert --output nrf52840_xxaa.uf2
 ```
 
 If using a .bin file with the conversion script you must specify application address with the -b switch, this address depend on the SoftDevice size/version e.g S140 v6 is 0x26000, v7 is 0x27000
