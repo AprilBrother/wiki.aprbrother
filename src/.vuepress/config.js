@@ -29,7 +29,7 @@ module.exports = {
     },
     shouldPrefetch: () => false,
     theme: defaultTheme({
-        sidebar: 'auto',
+        sidebar: 'heading',
         locales: {
             '/en/': {
                 selectLanguageName: 'English',
