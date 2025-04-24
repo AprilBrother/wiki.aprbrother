@@ -1,1 +1,1 @@
-See online version for [wiki.aprbrother.com](https://wiki.aprbrother.com)
+Document for April Brother's products [wiki.aprbrother.com](https://wiki.aprbrother.com)
