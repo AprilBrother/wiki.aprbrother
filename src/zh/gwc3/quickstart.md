@@ -36,7 +36,7 @@
 - 点击"start"按键并等待.如果配置成功会显示"Found a gateway"
 - 此后用工具正常配置网关即可
 
-@tab Connect to the gateway c3 via USB cable
+@tab 通过USB数据线配置网关的联网方式
 
 Note: **必须使用安卓手机数据线将网关连接到你的电脑，然后确认网关处于WiFi配置模式**
 
