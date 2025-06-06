@@ -38,12 +38,15 @@
 
 @tab Connect to the gateway c3 via USB cable
 
-Note: **Wire the gateway to your laptop with USB-C cable first. The USB cable for Android phone is a good choice. **
+Note: **必须使用安卓手机数据线将网关连接到你的电脑，然后确认网关处于WiFi配置模式**
 
-- Download and install the [Gateway config tool for PC](tech.md) 
-- Open the config tool and click "More" -&gt; "Setup WiFi with cable" -&gt; "Connect gateway with cable"
-- Fill the WiFi SSID and WiFi password. Click "Submit"
-- The gateway will connect to WiFi if the SSID and password are ok. 
+- 下载并安装[PC版网关配置工具](tech.md) 
+- 打开配置工具并点击"More" -&gt; "Setup WiFi with cable" -&gt; "Connect gateway with cable"
+
+<img src="https://i1.aprbrother.com/w/gw-wifi.png">
+
+- 在页面中填写WiFi的SSID以及密码，并按下按键"Submit"
+- 如果填写正确，网关将会成功连WiFi
 
 :::
 

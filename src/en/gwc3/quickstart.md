@@ -38,12 +38,16 @@ Steps
 
 @tab Connect to the gateway c3 via USB cable
 
-Note: **Wire the gateway to your laptop with USB-C cable first. The USB cable for Android phone is a good choice. **
+Note: **Wire the gateway to your laptop with USB-C cable first. The USB cable for Android phone is a good choice.**
 
 - Download and install the [Gateway config tool for PC](tech.md) 
 - Open the config tool and click "More" -&gt; "Setup WiFi with cable" -&gt; "Connect gateway with cable"
+
+<img src="https://i1.aprbrother.com/w/gw-wifi.png">
+
 - Fill the WiFi SSID and WiFi password. Click "Submit"
 - The gateway will connect to WiFi if the SSID and password are ok. 
+
 
 :::
 
