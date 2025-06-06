@@ -13,10 +13,7 @@ Step-by-step guide to configure the gateway to forward data to remote server
 
 ## Configure connectivity ##
 
-Connect to the gateway c3 via WiFi connectivity.
-
-- **How to connect?**  - The gateway c3 requires [Gateway config tool📱](tech.md) mobile app for connect to WiFi fist time. The app is android only right now
-- **Internet required?** - The gateway c3 can operate on both Internet-connected and LAN networks.
+- **How to connect?**  - The gateway c3 requires [Gateway config tool](tech.md) for connect to WiFi fist time. The app is available for Android and PC right now.
 
 Steps
 
@@ -25,6 +22,11 @@ Steps
 
 ![Button and led](https://i1.aprbrother.com/gwc3/gwc3-btn-led.jpg)
 
+:::tabs
+
+@tab Connect to the gateway c3 via WiFi connectivity.
+
+- Download and install the [Gateway config tool for Android](tech.md) 
 - Open the app and tap on "Add a gateway"
 - Grant the Location permission so the app can fill the WiFi SSID your phone connected automatic
 - Fill the WiFi password for current WiFi SSID
@@ -33,6 +35,17 @@ Steps
 
 - Tap "start" button and wait minutes. It should display "Found a gateway" if successful
 - Configure the gateway with the tool
+
+@tab Connect to the gateway c3 via USB cable
+
+Note: **Wire the gateway to your laptop with USB-C cable first. The USB cable for Android phone is a good choice. **
+
+- Download and install the [Gateway config tool for PC](tech.md) 
+- Open the config tool and click "More" -&gt; "Setup WiFi with cable" -&gt; "Connect gateway with cable"
+- Fill the WiFi SSID and WiFi password. Click "Submit"
+- The gateway will connect to WiFi if the SSID and password are ok. 
+
+:::
 
 ## How To Test ##
 

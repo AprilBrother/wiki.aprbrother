@@ -13,9 +13,7 @@
 
 ## 配置连接 ##
 
-可通过WiFi配置网关的联网方式
-
-- **如何连接?**  - 在第一次使用时，网关c3需要安卓应用[网关配置工具GWTool📱](tech.md)来连接WiFI。
+- **如何连接?**  - 在第一次使用时，网关c3需要[网关配置工具GWTool](tech.md)来连接WiFI。
 - **必须要公网连接吗?** - 网关在公网或者局域网环境下均可以使用。
 
 步骤
@@ -24,6 +22,10 @@
 - 快速按3下按键。如果成功LED灯会开始快速闪烁，这表明网关已经进入WiFi配置模式
 
 ![Button and led](https://i1.aprbrother.com/gwc3/gwc3-btn-led.jpg)
+
+:::tabs
+
+@tab 通过WiFi配置网关的联网方式
 
 - 打开配置工具app，并点击"Add A GATEWAY"
 - 同意app获取定位权限，这样配置工具才可以自动获取已经连接的WiFi SSID并填写
@@ -34,7 +36,18 @@
 - 点击"start"按键并等待.如果配置成功会显示"Found a gateway"
 - 此后用工具正常配置网关即可
 
-## 如何测试
+@tab Connect to the gateway c3 via USB cable
+
+Note: **Wire the gateway to your laptop with USB-C cable first. The USB cable for Android phone is a good choice. **
+
+- Download and install the [Gateway config tool for PC](tech.md) 
+- Open the config tool and click "More" -&gt; "Setup WiFi with cable" -&gt; "Connect gateway with cable"
+- Fill the WiFi SSID and WiFi password. Click "Submit"
+- The gateway will connect to WiFi if the SSID and password are ok. 
+
+:::
+
+## 如何测试 ##
 
 配置BLE广播数据收集与转发
 
