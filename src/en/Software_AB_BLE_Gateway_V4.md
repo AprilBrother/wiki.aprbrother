@@ -27,5 +27,5 @@
 
 * Example codes written in [PHP](https://github.com/AprilBrother/ab-ble-gateway-sdk-php) / [Java](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/java) / [NodeJS](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/nodejs) / [Python 3](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/python3) / [Python 2](https://github.com/AprilBrother/ab-ble-gateway-sdk/tree/master/gateway-v4/examples/python)
 
-[config-tool-link]: https://i1.aprbrother.com/gw4-config-tool-v1.3.14.zip "Gateway Configure Tool"
+[config-tool-link]: https://i1.aprbrother.com/soft/gw4-config-tool-v1.3.23.zip "Gateway Configure Tool"
 [config-tool-beta]: https://github.com/AprilBrother/gw4-config-tool/releases "Latest Gateway config tool"

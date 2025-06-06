@@ -1,7 +1,7 @@
 ## Configure tool ##
 
 * [Download configure tool for Android](https://i1.aprbrother.com/apk/gw-config-tool-v1.1.5.apk)
-* [Download configure tool for PC](https://github.com/AprilBrother/gw4-config-tool/releases)
+* [Download configure tool for PC](https://i1.aprbrother.com/soft/gw4-config-tool-v1.3.23.zip)
 
 ## Schematic ##
 
