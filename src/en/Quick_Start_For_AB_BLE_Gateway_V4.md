@@ -15,12 +15,9 @@ Step-by-step guide to configure the gateway to forward data to remote server
 
 Connect to the AB gateway via WiFi or Ethernet cable and configure its WiFi/Ethernet connectivity.
 
-- **How to connect?**  - The AB gateway can connect with Ethernet cable. But requires [Gateway config tool 📱](Software_AB_BLE_Gateway_V4.md) mobile app for configuration if connect to WiFi fist time
 - **Internet required?** - The AB gateway can operate on both Internet-connected and LAN networks.
 
-:::tabs
-
-@tab Configure via Ethernet connectivity
+### Configure via Ethernet connectivity ###
 
 We recommend connect the gateway using ethernet cable.
 
@@ -29,14 +26,6 @@ We recommend connect the gateway using ethernet cable.
 - Click "Scan" button to find the gateways on the LAN network
 
 ![config scan](https://i1.aprbrother.com/w/conf-scan.png)
-
-@tab Configure via WiFi 
-
-You can also configure the gateway uses WiFi with Gateway config tool📱 mobile app. Android only. 
-
-See [configure WiFi parameters with smartconfig feature](gw4/config_wifi.md).
-
-:::
 
 ## How To Test ##
 

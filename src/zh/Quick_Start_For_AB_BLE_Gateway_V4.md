@@ -16,12 +16,9 @@
 
 可通过以太网或者WiFi配置网关的联网方式
 
-- **如何连接?**  - AB网关可以通过网线直接联网. 但是如果是第一次使用网关并希望使用WiFi连接，那么安卓应用[网关配置工具GWTool📱](Software_AB_BLE_Gateway_V4.md) 是必须的。
 - **必须要公网连接吗?** - AB网关在公网或者局域网环境下均可以使用。
 
-:::tabs
-
-@tab 通过以太网连接
+### 通过以太网连接 ###
 
 我们推荐通过以太网连接网关到网络
 
@@ -30,14 +27,6 @@
 - 点击`Scan`按键，此时开始在局域网中搜寻网关
 
 ![config scan](https://i1.aprbrother.com/w/conf-scan.png)
-
-@tab 通过WiFi配置网关
-
-在使用手机应用GWTool的情况下，你也可以通过WiFi连接配置网关，目前仅提供了安卓版本
-
-见[用Smartconfig特性来配置WiFi连接](gw4/config_wifi.md).
-
-:::
 
 ## 如何测试
 
