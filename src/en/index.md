@@ -37,4 +37,3 @@
 
 - [Cactus WHID](cactus_whid.md)
 - [Cactus Micro Rev2](Cactus_Micro_Rev2.md)
-- [BlueDuino rev2](BlueDuino_rev2.md)

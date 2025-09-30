@@ -456,9 +456,3 @@ But you can still use orginal AT setup command to setup digital value:
   - Fix a bug for configure iBeacon proximityUUID
   - Add AT commands for scan iBeacon
 
-## Related Products
-
-  - [Raspberry PI BLE Module](PI305.md)
-  - [BlueDuino](BlueDuino.md)
-  - [AprilBeacon 301](ZeroBeacon301.md)
-  - [BLEShield](BLEShield.md)
