@@ -6,7 +6,7 @@
 
 - Download [Gateway Configure Tool for windows 64bit][config-tool-link]
 - Download [Gateway Configure Tool](https://i1.aprbrother.com/gw-config-tool-1.2.3_amd64.deb.zip) v1.2.3 For Linux/Ubuntu
-- Download [Gateway Configure Tool](https://i1.aprbrother.com/apk/gw-config-tool-v1.1.5.apk) for Android
+- Download [Gateway Configure Tool](https://i1.aprbrother.com/apk/gw-config-tool-v1.1.6.apk) for Android
 - Download [Gateway Configure Tool beta version][config-tool-beta] which supports beta features
 - [Source Code](https://github.com/AprilBrother/gw4-config-tool)
 - [ChangeLog](https://github.com/AprilBrother/gw4-config-tool/wiki/ChangeLog)
