@@ -23,9 +23,9 @@
 
 ### Q:如何配置设备ID？
 
-请下载四月兄弟提供的[摇一摇助手](http://aprbrother.com/service.htm). 使用说明请参考
-[iOS](http://blog.aprbrother.com/p/312) /
-[Android](http://blog.aprbrother.com/p/316).
+请下载四月兄弟提供的[摇一摇助手](https://aprbrother.com/service.htm). 使用说明请参考
+[iOS](https://blog.aprbrother.com/p/312) /
+[Android](https://blog.aprbrother.com/p/316).
 
 ### Q:什么是激活？
 
@@ -37,14 +37,14 @@
   - 一个设备ID可以用在多个设备上，但这些设备将会被看作是一个设备，只能指向同样的URL。
   - 但是，平台不建议多个设备使用同一个设备ID。原因一，不同位置的设备设置不同的设备ID，能够清晰获取用户和活动在不同位置的数据，有利于追踪数据分析；原因二，平台规则要求设备必须在固定场所使用。多个设备一个ID会造成平台运营监控预警，可能会导致ID失效，影响商户的正常运营活动。
 
-### Q:不同设备可配置同一个活动页面（URL）吗？
-
-可以。具体编辑参考“摇一摇周边”[商户后台](https://zb.weixin.qq.com)
-
 ### Q:用户在“周边”tab里，为什么摇到“未能识别周围有效信息”？
 
   - 可能是设备ID配置问题。该设备UUID配置有效，但Major或Minor配置有误；
   - 可能在“页面信息“设置了时间或地域限制。在设定时间或地域之外，用户收不到有效信息。
+
+### BLE 中 16-bit 和 128-bit UUID 的区别是什么？
+
+请参考 [16-bit和128bit UUID的对比](ble-uuid.md)
 
 ## iBeacon
 
