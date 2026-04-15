@@ -23,14 +23,13 @@
 
 ### Q:如何配置设备ID？
 
-请下载四月兄弟提供的[摇一摇助手](http://aprbrother.com/service.htm). 使用说明请参考
-[iOS](http://blog.aprbrother.com/p/312) /
-[Android](http://blog.aprbrother.com/p/316).
+请下载四月兄弟提供的[摇一摇助手](https://aprbrother.com/service.htm). 使用说明请参考
+[iOS](https://blog.aprbrother.com/p/312) /
+[Android](https://blog.aprbrother.com/p/316).
 
 ### Q:什么是激活？
 
-首次使用该设备，体验“摇一摇周边”,且点击摇到的页面,
-    即定义为激活。
+首次使用该设备，体验“摇一摇周边”,且点击摇到的页面, 即定义为激活。
 
 ### Q:多个设备可以用同一个设备ID吗？
 
@@ -42,6 +41,10 @@
   - 可能是设备ID配置问题。该设备UUID配置有效，但Major或Minor配置有误；
   - 可能在“页面信息“设置了时间或地域限制。在设定时间或地域之外，用户收不到有效信息。
 
+### Q: BLE 中 16-bit 和 128-bit UUID 的区别是什么？
+
+请参考 [16-bit和128bit UUID的对比](ble-uuid.md)
+
 ## iBeacon
 
 ### Q: 什么是iBeacon协议？
@@ -49,10 +52,6 @@
 iBeacon协议是苹果公司推出的基于低功耗蓝牙硬件的广播协议。此协议是公开和开放的。iOS 7.0和Android
 4.3.3以上的操作系统版本均支持此协议。其工作方式是，配备有低功耗蓝牙通信功能的设备向周围发送自己特有的iBeacon
 ID，接收到该ID的应用软件会根据该ID触发行动。
-
-### BLE 中 16-bit 和 128-bit UUID 的区别是什么？
-
-请参考 [16-bit和128bit UUID的对比](ble-uuid.md)
 
 ### Q:什么是iBeacon设备？
 
