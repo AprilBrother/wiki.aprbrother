@@ -13,6 +13,19 @@ While this beacon has both iOS and Android configuration apps, the iOS app is ea
 
 ## Models
 
+### April Beacon 303
+
+---
+
+<img src="https://i1.aprbrother.com/usb-nrf52.jpg-320.jpg" width="120" align="right">
+
+* Connector: USB2.0 Type-A, driver-free
+* Onboard external antenna
+* Form Factor: Compact dongle design for easy installation and portability
+* Power Supply: 5V from USB bus, no extra power needed
+* iBeacon Protocol Supported, parameters app-configurable via APP
+* Supports multiple adjustable transmit power `4dBm` ~ `-25dBm`
+
 ### April Beacon N02
 
 ---
