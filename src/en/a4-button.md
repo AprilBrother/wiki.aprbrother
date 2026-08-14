@@ -36,7 +36,7 @@ Note: The firmware is written in esphome. ESPHome is a system to control your mi
   * BLE 5.0 controller
   * PCB antenna
 * Power:
-  * 600 mAH 3.3 V Lithium battery and LDO regulator
+  * 500 mAH 3.3 V Lithium battery and LDO regulator
   * Optimized power path for low-power battery usage
 * Form-factor
   * ABS Enclouse, size 57mm x 18mm
