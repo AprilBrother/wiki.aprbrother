@@ -110,6 +110,6 @@ B <-. WiFi .-> cloud
 
 ## Documents And Links ##
 
-- [Quick start](gwc3/quickstart.md)
-- [Software and technical documents](gwc3/tech.md)
+- [Quick start](gwc5/quickstart.md)
+- [Software and technical documents](gwc5/tech.md)
 - [Support Forum](https://bbs.aprbrother.com/c/wifi)

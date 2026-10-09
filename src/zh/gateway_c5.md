@@ -110,6 +110,6 @@ B <-. WiFi .-> cloud
 
 ## 文档和相关链接 ##
 
-- [快速上手](gwc3/quickstart.md)
-- [软件和技术文档](gwc3/tech.md)
+- [快速上手](gwc5/quickstart.md)
+- [软件和技术文档](gwc5/tech.md)
 - [支持论坛](https://bbs.aprbrother.com/c/wifi)
