@@ -17,6 +17,7 @@
 
 ## IoT Gateway ##
 
+- [Gateway c5](gateway_c5.md)
 - [Gateway c3](gateway_c3.md)
 - [AB BLE Gateway v4](AB_BLE_Gateway_V4.md)
 - [AB zigbee gateway](zigbee_gateway/index.md)
