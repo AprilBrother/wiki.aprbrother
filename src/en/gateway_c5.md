@@ -6,20 +6,21 @@ Gateway C5 is a versatile BLE gateway that supports two working modes: **Scannin
 The gateway supports both Scanning and Connection functionality, but it can only work in **one mode at a time**. You need to choose the mode that fits your use case.
 :::
 
-It supports WiFi connection (both 2.4GHz and 5GHz) and easy to installation. User can configure the transmit period and server information through a simple configure tool.
+The gateway is easy to install and shares the following features across both modes:
+
+- Wi-Fi connectivity (2.4GHz / 5GHz)
+- Supports HTTP/MQTT protocol
+- Reads multiple BLE devices at the same time and uploads them to a remote server
+- User-friendly configuration tool: provides a graphical interface for easy setup
+- Configurable transmit period and server information
 
 ## Features ##
 
 :::tabs
 
-@tab Features of Scanning Gateway
+@tab Scanning Mode
 
-The scanning gateway can scan nearby BLE broadcast packets, such as iBeacon, Eddystone, or custom broadcast data formats, and upload them to the server via HTTP or MQTT.
-
-- Wi-Fi Connectivity (2.4GHz / 5GHz)
-- Support HTTP/MQTT protocol
-- Reads multiple BLE devices in the same time and upload to remote server
-- User-Friendly Configuration Tool: The Gateway comes with a user-friendly configuration tool that provides a graphical interface for easy setup.
+In Scanning mode, the gateway scans nearby BLE broadcast packets, such as iBeacon, Eddystone, or custom broadcast data formats, and uploads them to the server via HTTP or MQTT.
 
 ## How it works ##
 
@@ -63,17 +64,13 @@ B <-. WiFi .-> cloud
 - Parking & Checking in
 - Home automation
 
-@tab Features of Connection Gateway
+@tab Connection Mode
 
-The connection gateway is a high-performance device specifically designed to connect with BLE low-energy sensors. It can connect with various BLE sensors via the GATT protocol to obtain real-time key health information, such as heart rate and cadence, and upload the data to the server via the MQTT protocol. It supports WiFi connectivity (2.4GHz and 5GHz), ensuring stable and reliable data transmission.
+In Connection mode, the gateway connects to BLE low-energy sensors via the GATT protocol to obtain real-time health information such as heart rate and cadence, and uploads the data to the server via MQTT.
 
-* Supports simultaneous connection of up to 9 BLE devices
+* Supports simultaneous connection of up to 12 BLE devices
 * Effective connection radius of 15 meters without obstruction
 * Connects with various BLE sensors via the GATT protocol to obtain real-time physiological data such as heart rate and cadence
-* Supports Wi-Fi connectivity (2.4GHz / 5GHz)
-* Supports HTTP/MQTT protocols
-* Can simultaneously read multiple BLE devices and upload data to a remote server
-* User-friendly configuration tool: The gateway comes with a user-friendly configuration tool that provides a graphical interface for easy setup.
 * Suitable for various environments such as gyms and homes, meeting different user needs.
 
 ## How it works ##
