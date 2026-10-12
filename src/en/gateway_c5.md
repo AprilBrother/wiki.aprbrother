@@ -2,6 +2,8 @@
 
 Gateway C5 is a versatile BLE gateway that supports two working modes: **Scanning** and **Connection**. It seamlessly captures the BLE data and transmits it to a local area network or internet server, enabling efficient data collection and monitoring for various application scenarios.
 
+![Gateway c5](https://i1.aprbrother.com/gwc5/gwc5-2.jpg)
+
 ::: warning
 The gateway supports both Scanning and Connection functionality, but it can only work in **one mode at a time**. You need to choose the mode that fits your use case.
 :::
