@@ -33,4 +33,4 @@ You can following the steps to configure WiFi for gateway with smartconfig featu
 * The power adapter must be 5V / 2A. It can provide enough power for WiFi connection
 * Repeat the steps if settings fail
 
-[app-link]: <https://i1.aprbrother.com/apk/gw-config-tool-v1.1.2.apk>
+[app-link]: <https://i1.aprbrother.com/apk/gw-config-tool-v1.1.7.apk>

@@ -33,4 +33,4 @@
 * 电源适配器必须是5V / 2A，以提供足够的电力供WiFi连接使用。
 * 如果设置失败，请重复上述步骤。
 
-[app-link]: <https://i1.aprbrother.com/apk/gw-config-tool-v1.1.2.apk>
+[app-link]: <https://i1.aprbrother.com/apk/gw-config-tool-v1.1.7.apk>
